@@ -14,4 +14,6 @@ contentType: page
 
 This is a **test** page. This is Markdown. The metadata above is frontmatter in YAML format. Our Content API expects to to have at least these fields: uuid, locale, date, title, description, slug, published, project, contentType.
 
+When you push this file to the content branch, a Gitlab job will be triggered and the file is available at https://api.ttc.io/for/
+
 
