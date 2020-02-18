@@ -1,0 +1,14 @@
+variables:
+  GIT_DEPTH: "3"
+  # CI_DEBUG_TRACE: "true"
+
+stages:
+ - transform
+ - deploy
+
+include:
+  - project: 'ttc/gitlab-ci-templates'
+    file: 'ttc-json-data-transform-tpl.yml'
+
+  - project: 'ttc/gitlab-ci-templates'
+    file: 'ttc-json-data-deploy-tpl.yml'
