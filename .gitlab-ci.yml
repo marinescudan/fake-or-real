@@ -4,7 +4,22 @@ variables:
 
 stages:
  - transform
+ - build
  - deploy
+
+ build:
+  stage: build
+  script:
+    - ls -l
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - $DEPLOY_SRC
+  only:
+    refs:
+      - master
+      - staging
 
 include:
   - project: 'ttc/gitlab-ci-templates'
