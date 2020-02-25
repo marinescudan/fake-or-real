@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.ee6d6133af40e396a53f8e355a1a7c08.js"
+  "/precache-manifest.b3d6d5f73931d71f7bbaebab2f3353b1.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "frne"});
