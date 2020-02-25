@@ -4,6 +4,7 @@ stages:
  - deploy
 
 build:
+  image: registry.ttc.io/ttc/gitlab-ci-templates/python-nodejs
   stage: build
   script:
     - ls -l
