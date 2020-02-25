@@ -3,7 +3,7 @@ stages:
  - build
  - deploy
 
- variables:
+variables:
   GIT_DEPTH: "3"
   DEPLOY_SRC: "./_site"  ## path where static files end up
 
