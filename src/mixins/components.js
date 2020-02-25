@@ -7,7 +7,7 @@ export const page = {
         cPage,
         cHeader,
         cMain,
-        cFooter
+        cFooter,
     }
 };
 
@@ -18,16 +18,16 @@ export const layout = {
     components: {
         cRow,
         cCol,
-        cCard
+        cCard,
     },
 };
 
 import cFigure from '@/components/media/cFigure';
-import cVideo from '@/components/media/cVideo';
+import cVimeo from '@/components/media/cVimeo';
 export const media = {
     components: {
         cFigure,
-        cVideo
+        cVimeo,
     },
 };
 
@@ -38,10 +38,18 @@ export const form = {
     components: {
         cButton,
         cLink,
-        cInputLocale
+        cInputLocale,
     },
 };
 
-
-
+import cNewsStats from '@/components/content/news/cNewsStats';
+import cAddsStats from '@/components/content/adds/cAddsStats';
+import cVideosStats from '@/components/content/videos/cVideosStats';
+export const contentTypes = {
+    components: {
+        cNewsStats,
+        cAddsStats,
+        cVideosStats,
+    },
+};
 

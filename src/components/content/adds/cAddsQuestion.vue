@@ -2,7 +2,7 @@
   <div class="c-adds-question pt3">
     <c-row>
       <c-col class="c-w-12">
-        <h2 class="pb4">{{ $t("QUESTION.SUB_TITLE")}}</h2>
+        <h2 class="pb4">{{ $t("QUESTION.SUBTITLE")}}</h2>
       </c-col>
     </c-row>
     <c-row>
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import {layout, media, form} from '@/mixin/components';
+import {layout, media, form} from '@/mixins/components';
 import cAddsQuestionItem from '@/components/content/adds/cAddsQuestionItem';
 
 export default {

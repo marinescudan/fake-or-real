@@ -9,9 +9,16 @@
       <c-videos-question v-if="$store.state.quiz.contentType === 'video'"></c-videos-question>
     </c-main>
     <c-footer>
-      <c-row>
+      <!-- todo: set submited state , hide button-->
+      <c-row v-if="$store.state.quiz.isSubmited !== true">
         <c-col class="c-w-4">
           <c-link :location="'/response'">{{ $t("QUESTION.CTA")}}</c-link>
+        </c-col>
+      </c-row>
+      <!-- todo: set submited state , show text, redirect after 5000~ ms -->
+      <c-row v-if="$store.state.quiz.isSubmited === true">
+        <c-col class="c-w-12">
+          <h2 class="pb4">{{ $t("QUESTION.TITLE_SUBMITED")}}</h2>
         </c-col>
       </c-row>
     </c-footer>
@@ -19,7 +26,7 @@
 </template>
 
 <script>
-import {page, layout, form} from '@/mixin/components.js';
+import {page, layout, form} from '@/mixins/components.js';
 import cNewsQuestion from '@/components/content/news/cNewsQuestion';
 import cAddsQuestion from '@/components/content/adds/cAddsQuestion';
 import cVideosQuestion from '@/components/content/videos/cVideosQuestion';
@@ -32,30 +39,15 @@ export default {
       contentWidth: 90,
     }
   },
-  beforeCreate: function () {
-    },
-  created: function () {
-    
-    },
-  beforeMount: function () {
-    // this.$store.dispatch('setRandomQuiz')
-
-  },
+  beforeCreate: function () { },
+  created: function () { },
+  beforeMount: function () { },
   mounted: function () {
-
+    // todo: set quiz from quizz list
+    // this.$store.dispatch('setRandomQuiz')
   },
-  beforeUpdate: function () {
-
-  },
-  updated: function () {
-
-  },
-  beforeDestroy: function () {
-
-  },
-  destroyed: function () {
-
-  },
+  beforeUpdate: function () { },
+  destroyed: function () { },
 }
 </script>
 

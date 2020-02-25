@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import languages from '@/constant/languages';
+import languages from '@/constants/languages';
 
 export default {
   name:'cInputLocale',

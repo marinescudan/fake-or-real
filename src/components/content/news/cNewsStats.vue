@@ -2,7 +2,7 @@
   <div class="c-news-stats pt3">
     <c-row>
       <c-col class="c-w-12">
-        <h2 class="pb4">{{ $t("STATS.SUB_TITLE")}}</h2>
+        <h2 class="pb4">{{ $t("STATS.SUBTITLE")}}</h2>
       </c-col>
     </c-row>
     <c-row>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import {layout, media, form} from '@/mixin/components';
+import {layout, media, form} from '@/mixins/components';
 import cNewsStatsItem from '@/components/content/news/cNewsStatsItem';
 
 export default {

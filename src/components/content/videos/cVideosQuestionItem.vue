@@ -2,8 +2,7 @@
   <c-card class="c-videos-question-item">
     <c-row class="">
       <c-col class="c-w-8">
-        <!-- <c-figure :src="'https://picsum.photos/800/600'"></c-figure> -->
-        <c-video :src="'https://picsum.photos/800/600'"></c-video>
+        <c-vimeo :video-id="'391952856'"></c-vimeo>
       </c-col>
       <c-col class="c-w-4">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque?</p>
@@ -13,7 +12,7 @@
 </template>
 
 <script>
-import {layout, media, form} from '@/mixin/components';
+import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cVideosQuestionItem',

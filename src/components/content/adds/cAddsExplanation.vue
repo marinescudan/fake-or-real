@@ -4,7 +4,7 @@
       <c-col class="c-w-8">
         <c-row>
           <c-col class="c-w-6">
-            <h3 class="pb2">{{ $t("QUESTION.SUB_TITLE")}}</h3>
+            <h3 class="pb2">{{ $t("QUESTION.SUBTITLE")}}</h3>
           </c-col>
           <c-col class="c-w-6">
           </c-col>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import {layout, media, form} from '@/mixin/components';
+import {layout, media, form} from '@/mixins/components';
 import cAddsExplanationItem from '@/components/content/adds/cAddsExplanationItem';
 
 export default {

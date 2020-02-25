@@ -8,13 +8,14 @@
     <c-main :width="contentWidth">
       <c-row class="pt4">
         <c-col class="c-w-4">
-          <c-figure :src="'https://picsum.photos/800/420'"></c-figure>
+          <!-- todo: get images from cdn -->
+          <c-figure :src="'https://picsum.photos/960/580'"></c-figure>
         </c-col>
         <c-col class="c-w-4">
-          <c-figure :src="'https://picsum.photos/800/420'"></c-figure>
+          <c-figure :src="'https://picsum.photos/960/580'"></c-figure>
         </c-col>
         <c-col class="c-w-4">
-          <c-figure :src="'https://picsum.photos/800/420'"></c-figure>
+          <c-figure :src="'https://picsum.photos/960/580'"></c-figure>
         </c-col>
       </c-row>
       <c-row>
@@ -29,17 +30,18 @@
       </c-row>
     </c-main>
     <c-footer>
-      <c-row>
+      <!-- todo: add localized files for other languages -->
+      <!-- <c-row>
         <c-col class="c-w-12">
           <c-input-locale></c-input-locale>
         </c-col>
-      </c-row>
+      </c-row> -->
     </c-footer>
   </c-page>
 </template>
 
 <script>
-import {page, layout, media, form} from '@/mixin/components.js';
+import {page, layout, media, form} from '@/mixins/components.js';
 
 export default {
   name: 'start',

@@ -1,18 +1,16 @@
 <template>
-  <c-card class="c-news-explanation-item">
-    <c-row class="">
-      <c-col class="c-w-5">
-        <c-figure :src="'https://picsum.photos/800/400'"></c-figure>
-      </c-col>
-      <c-col class="c-w-7">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi?</p>
-      </c-col>
-    </c-row>
-  </c-card>
+  <c-row class="c-news-explanation-item pb4">
+    <c-col class="c-w-6">
+      <c-figure :src="'https://picsum.photos/275/155'"></c-figure>
+    </c-col>
+    <c-col class="c-w-6">
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</h3>
+    </c-col>
+  </c-row>
 </template>
 
 <script>
-import {layout, media, form} from '@/mixin/components';
+import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cNewsExplanationItem',
