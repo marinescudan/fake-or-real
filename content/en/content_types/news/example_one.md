@@ -5,7 +5,7 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 contentType: "news"
-slug: "/test"
+slug: "question"
 title: "Exemple one"
 description: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
