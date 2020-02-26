@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import {layout, media, form} from '@/mixin/components';
+import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cAddsQuestionItem',

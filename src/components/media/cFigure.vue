@@ -1,5 +1,5 @@
 <template>
-    <figure class="c-figure">
+    <figure class="c-figure aspect-ratio aspect-ratio--16x9">
         <img :src="src" :alt="alt" :title="title" :width="width" :height="height"/>
     </figure>
 </template>
@@ -34,9 +34,20 @@ export default {
 
 <style scoped lang="sass">
 @import "@/styles/_variables.sass";
+@import "@/styles/_mixins.sass";
 
 .c-figure
   display: block
   margin: 0
+  position: relative
+  @include imageBackground
+  img
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
 
 </style>

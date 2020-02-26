@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import api from '@/service/api'
+import api from '@/http/api'
 
 Vue.use(Vuex)
 
@@ -8,7 +8,7 @@ export default new Vuex.Store({
   state: {
     quizList: [],
     quiz: {
-      contentType: 'news',
+      contentType: 'video',
     },
     err: {}
   },

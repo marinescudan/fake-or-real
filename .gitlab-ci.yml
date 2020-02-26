@@ -1,12 +1,36 @@
-variables:
-  GIT_DEPTH: "3"
-  # CI_DEBUG_TRACE: "true"
-
 stages:
  - transform
+ - build
  - deploy
 
+variables:
+  GIT_DEPTH: "3"
+  DEPLOY_SRC: "./_site"  ## path where static files end up
+
+build:
+  image: registry.ttc.io/ttc/gitlab-ci-templates/python-nodejs
+  stage: build
+  script:
+    - ls -l
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - $DEPLOY_SRC
+  only:
+    refs:
+      - master
+      - staging
+
+pages:
+  only:
+    refs:
+      - staging
+
 include:
+  - project: 'ttc/gitlab-ci-templates'
+    file: 'ttc-web-deploy-tpl.yml'
+
   - project: 'ttc/gitlab-ci-templates'
     file: 'ttc-json-data-transform-tpl.yml'
 
