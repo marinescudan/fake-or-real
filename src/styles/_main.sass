@@ -1,0 +1,35 @@
+@import "_variables.sass"
+@import "_mixins.sass"
+@import "_typography.sass"
+
+// @import "_debug.sass"
+// @import "_templates.sass"
+
+html
+  height: 100%
+
+body
+  height: 100%
+  margin: 0
+
+.frameLight
+  @include frameLight
+  &:hover
+    @include frameLightHover
+
+.frameDark
+  @include frameDark
+  &:hover
+    @include frameDarkHover
+
+.divider
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    left: 35vw
+    bottom: 0px
+    width: 30vw
+    height: 2px
+    background: #a1a1a1
+    z-index: 1

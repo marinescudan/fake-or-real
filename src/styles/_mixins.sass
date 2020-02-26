@@ -1,0 +1,103 @@
+@mixin flex-row
+  // display: -ms-flexbox
+  // display: -webkit-flex
+  display: flex
+  // -webkit-flex-direction: row
+  // -ms-flex-direction: row
+  flex-direction: row
+  // -webkit-flex-wrap: nowrap
+  // -ms-flex-wrap: nowrap
+  flex-wrap: nowrap
+  // -webkit-justify-content: center
+  // -ms-flex-pack: center
+  justify-content: center
+  // -webkit-align-content: stretch
+  // -ms-flex-line-pack: stretch
+  align-content: stretch
+  // -webkit-align-items: stretch
+  // -ms-flex-align: stretch
+  align-items: stretch
+
+@mixin flex-row-item
+  // -webkit-order: 0
+  // -ms-flex-order: 0
+  order: 0
+  // -webkit-flex: 0 1 auto
+  // -ms-flex: 0 1 auto
+  flex: 0 1 auto
+  // -webkit-align-self: stretch
+  // -ms-flex-item-align: stretch
+  align-self: stretch
+
+@mixin flex-col
+  // display: -ms-flexbox
+  // display: -webkit-flex
+  display: flex
+  // -webkit-flex-direction: column
+  // -ms-flex-direction: column
+  flex-direction: column
+  // -webkit-flex-wrap: nowrap
+  // -ms-flex-wrap: nowrap
+  flex-wrap: nowrap
+  // -webkit-justify-content: flex-start
+  // -ms-flex-pack: flex-start
+  justify-content: flex-start
+  // -webkit-align-content: stretch
+  // -ms-flex-line-pack: stretch
+  align-content: stretch
+  // -webkit-align-items: stretch
+  // -ms-flex-align: stretch
+  align-items: stretch
+
+@mixin flex-col-item
+  // -webkit-order: 0
+  // -ms-flex-order: 0
+  order: 0
+  // -webkit-flex: 0 1 auto
+  // -ms-flex: 0 1 auto
+  flex: 0 1 auto
+  // -webkit-align-self: auto
+  // -ms-flex-item-align: auto
+  align-self: auto
+
+@mixin frameLight
+  background-color: #ffffff
+  border: 10px solid transparent
+  // font-size: 1.3em
+  font-weight: 400   !important
+  margin-bottom: 15px
+  padding: 10px !important
+  text-align: center
+  border-image: url('~@/assets/img/frame.svg') 40% round
+  // -o-border-image: url('~@/assets/frame.svg') 40% round /* Opera 11-12.1 */
+  // -webkit-border-image: url('~@/assets/frame.svg') 40% round /* Safari 3.1-5 */
+
+@mixin frameLightHover
+  border: 3px double
+  border-bottom-color: #999999
+  border-left-color: #ec1c2c
+  border-right-color: #2e3191
+  border-top-color: #339a47
+  color: #000000
+  padding: 17px !important
+
+@mixin frameDark
+  background-color: #000000
+  border: 10px solid transparent
+  // font-size: 1.3em
+  font-weight: 400   !important
+  margin-bottom: 15px
+  padding: 10px !important
+  text-align: center
+  // border-image: url('~@/assets/frame.svg') 40% round
+  // -o-border-image: url('~@/assets/frame.svg') 40% round /* Opera 11-12.1 */
+  // -webkit-border-image: url('~@/assets/frame.svg') 40% round /* Safari 3.1-5 */
+
+@mixin frameDarkHover
+  border: 3px double
+  border-bottom-color: #999999
+  border-left-color: #ec1c2c
+  border-right-color: #2e3191
+  border-top-color: #339a47
+  color: #ffffff
+  padding: 17px !important
