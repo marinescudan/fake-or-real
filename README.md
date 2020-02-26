@@ -7,12 +7,15 @@ https://api.ttc.io/for/
 
 Please add all application code to the `src` directory.
 
+<<<<<<< README.md
 <<<<<<< HEAD
 All content images must be uploaded to our CDN server in the directory `fake-or-real-news-edition` and are served like this:
 https://cdn.ttc.io/src/fake-or-real-news-edition/test.jpg
 
 Please do not add content images to GIT!
 =======
+=======
+>>>>>>> README.md
 --------------
 
 # fake or real news edition
@@ -43,5 +46,7 @@ npm run lint
 ```
 
 ### Customize configuration
+```
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> a95ec26ad9fa8895f370e4480da1fb24f628eea1
+```
+
