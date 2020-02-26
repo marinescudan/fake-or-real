@@ -1,4 +1,4 @@
-export default news = {
+const news = {
     uuid: '',
     locale: 'en',
     date: '',
@@ -25,3 +25,4 @@ export default news = {
         counter: 0
     }]
 };
+export default news;
