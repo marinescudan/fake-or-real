@@ -2,7 +2,7 @@
 
 ## Software architecture
 
-- We accept static sites consisting of HTML or Javascript single page applications if there is an additional `lite` version which works with JS disabled in the browser.
+- We accept static sites consisting of HTML or Javascript single page applications.
 
 - Content is preferably served and pushed to our Content API.
 
