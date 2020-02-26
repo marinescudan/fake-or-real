@@ -1,10 +1,22 @@
-variables:
-  GIT_DEPTH: "3"
-  # CI_DEBUG_TRACE: "true"
-
 stages:
  - transform
+ - build
  - deploy
+
+build:
+  image: registry.ttc.io/ttc/gitlab-ci-templates/python-nodejs
+  stage: build
+  script:
+    - ls -l
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - $DEPLOY_SRC
+  only:
+    refs:
+      - master
+      - staging
 
 include:
   - project: 'ttc/gitlab-ci-templates'

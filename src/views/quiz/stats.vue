@@ -11,9 +11,11 @@
     <c-footer>
       <c-row>
         <c-col class="c-w-2">
+          <!-- todo: pop quiz from quizz list -->
           <c-link :location="'/question'">{{ $t("STATS.CTA_REPEAT")}}</c-link>
         </c-col>
         <c-col class="c-w-2">
+          <!-- todo: reset quiz list from http or memory -->
           <c-link :location="'/finish'">{{ $t("STATS.CTA_FINISH")}}</c-link>
         </c-col>
       </c-row>
@@ -22,7 +24,7 @@
 </template>
 
 <script>
-import {page, layout, media, form} from '@/mixin/components.js';
+import {page, layout, media, form} from '@/mixins/components.js';
 import cNewsStats from '@/components/content/news/cNewsStats';
 import cAddsStats from '@/components/content/adds/cAddsStats';
 import cVideosStats from '@/components/content/videos/cVideosStats';

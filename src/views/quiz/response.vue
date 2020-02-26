@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import {page, layout, media, form} from '@/mixin/components.js';
+import {page, layout, media, form} from '@/mixins/components.js';
 import cNewsExplanation from '@/components/content/news/cNewsExplanation';
 import cVideosExplanation from '@/components/content/videos/cVideosExplanation';
 import cAddsExplanation from '@/components/content/adds/cAddsExplanation';
