@@ -8,7 +8,7 @@ export default new Vuex.Store({
   state: {
     quizList: [],
     quiz: {
-      contentType: 'video',
+      contentType: 'news',
     },
     err: {}
   },

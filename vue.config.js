@@ -1,4 +1,4 @@
-const path = require('path');
+// const path = require('path');
 
 const app = {
   name: 'Fake or Real - News Edition',
