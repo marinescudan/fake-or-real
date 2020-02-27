@@ -1,3 +1,4 @@
+---
 date: 2016-03-12T00:00:00.000Z
 uuid: f4938728-4b21-47a1-819b-7d50jeo8m62c
 published: true
@@ -51,3 +52,4 @@ FINISH:
   - image_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
     title: "The title text for image 2"
     alt: "The alt text for image 2"
+---
