@@ -21,12 +21,12 @@ items:
     image_url: "https://picsum.photos/406/228"
     title: "The title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    false_count: 0
-    true_count: 0
+    false_count: 37
+    true_count: 35
   - fake: true
     image_url: "https://picsum.photos/406/228"
     title: "The title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    false_count: 0
-    true_count: 0
+    false_count: 66
+    true_count: 73
 ---
