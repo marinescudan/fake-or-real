@@ -39,7 +39,7 @@ export default new Vuex.Store({
     },
     getQuizList: (context) => {
       context.commit('SET_STATE', { key: 'isLoading', value: true });
-      let url = `https://api.ttc.io/for?slug=${'question'}&locale=${context.state.i18n_locale}`;
+      let url = `https://api.ttc.io/for?slug=${'question'}&locale=${context.state.i18n_locale}&contentType=${'news'}`;
       return api.get(url).then((response) => {
         context.commit('SET_STATE', { key: 'isLoading', value: false });
         context.commit('SET_STATE', { key: 'quizListBackup', value: response.data });

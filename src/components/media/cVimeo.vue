@@ -1,5 +1,5 @@
 <template>
-  <!-- todo: add all the props supported by the plugin -->
+  <!-- TODO: add all the props supported by the plugin -->
   <vue-vimeo-player
     ref="player"
     :video-id='videoId'

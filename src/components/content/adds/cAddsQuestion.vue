@@ -1,13 +1,13 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <!-- todo: add adds question title variable -->
+      <!-- TODO: add adds question title variable -->
       <h1 class="pt5">{{ $t("QUESTION.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row>
         <c-col class="c-w-12">
-          <!-- todo: add adds question subtitle variable -->
+          <!-- TODO: add adds question subtitle variable -->
           <h2 class="pb4" v-if="!submited">{{ $t("QUESTION.SUBTITLE")}}</h2>
           <h2 class="pb4" v-if="submited">
             {{ $t("QUESTION.SUBTITLE_SUBMITED", {selectedFakeNumber: selectedFakeNumber})}}

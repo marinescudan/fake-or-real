@@ -1,13 +1,13 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <!-- todo: add news STATS title variable -->
+      <!-- TODO: add news STATS title variable -->
       <h1 class="pt5">{{ $t("STATS.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row>
         <c-col class="c-w-12">
-          <!-- todo: add video explanation subtitle variable -->
+          <!-- TODO: add video explanation subtitle variable -->
           <h2 class="pb4">{{ $t("STATS.SUBTITLE")}}</h2>
         </c-col>
       </c-row>

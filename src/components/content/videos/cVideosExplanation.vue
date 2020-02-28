@@ -1,7 +1,7 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <!-- todo: add news explanation title variable -->
+      <!-- TODO: add news explanation title variable -->
       <h1 class="pt5">{{ $t("EXPLANATION.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
@@ -9,7 +9,7 @@
         <c-col class="c-w-8">
           <c-row>
             <c-col class="c-w-6">
-              <!-- todo: add video explanation subtitle variable -->
+              <!-- TODO: add video explanation subtitle variable -->
               <h3 class="pb2">{{ $t("EXPLANATION.SUBTITLE")}}</h3>
             </c-col>
             <c-col class="c-w-6">

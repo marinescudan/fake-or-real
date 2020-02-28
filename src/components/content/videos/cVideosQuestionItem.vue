@@ -1,7 +1,7 @@
 <template>
   <c-row class="c-videos-question-item">
     <c-col class="c-w-8">
-      <!-- todo: add video id in the content data json -->
+      <!-- TODO: add video id in the content data json -->
       <!-- <c-vimeo :video-id="quizItem.video_id"></c-vimeo> -->
       <c-vimeo
         :videoId="'391952856'"
@@ -28,7 +28,7 @@
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1>{{ $t("QUESTION.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
+          <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">{{ $t("QUESTION.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
         </c-col>
       </c-row>
     </c-col>
@@ -46,17 +46,17 @@ export default {
   },
   data: function () {
     return {
-      submited: false
+      submited: false,
+      correctQuess: null
     };
   },
   methods: {
     submitQuiz: function (choice) {
       this.submited = true;
-      // todo: add class success or danger if user gueses to the response title
-      console.log(choice);
+      this.correctQuess = this.quizItem.fake === choice? true: false;
       setTimeout(()=>{
         this.$router.push({ path: 'explanation' });
-      }, 2000);
+      }, 1000);
     }
   }
 }
