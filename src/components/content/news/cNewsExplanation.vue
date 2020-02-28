@@ -1,69 +1,64 @@
 <template>
-  <div class="c-news-explanation pt3">
-    <c-row>
-      <c-col class="c-w-8">
-        <c-row>
-          <c-col class="c-w-6">
-            <h3 class="pb2">{{ $t("QUESTION.SUBTITLE")}}</h3>
-          </c-col>
-          <c-col class="c-w-6">
-          </c-col>
-        </c-row>
-        <c-row>
-          <c-col class="c-w-12">
-            <!-- <p class="two-columns" v-html="$t('START.MESSAGE', {'h': 'hello'})"></p> -->
-            <p class="two-columns" v-html="newsItem.text"></p>
-          </c-col>
-        </c-row>
-      </c-col>
-      <c-col class="c-w-4">
-        <c-news-explanation-item :newsItem="newsItem"></c-news-explanation-item>
-        <c-news-explanation-item :newsItem="newsItem"></c-news-explanation-item>
-        <c-news-explanation-item :newsItem="newsItem"></c-news-explanation-item>
-        <c-news-explanation-item :newsItem="newsItem"></c-news-explanation-item>
-      </c-col>
-    </c-row>
-  </div>
+  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+    <c-header class="divider">
+      <!-- todo: add news explanation title variable -->
+      <h1 class="pt5">{{ $t("EXPLANATION.TITLE")}}</h1>
+    </c-header>
+    <c-main :width="contentWidth">
+      <c-row>
+        <c-col class="c-w-8">
+          <c-row>
+            <c-col class="c-w-6">
+              <!-- todo: add news explanation subtitle variable -->
+              <h3 class="pb2">{{ $t("EXPLANATION.SUBTITLE")}}</h3>
+            </c-col>
+            <c-col class="c-w-6">
+            </c-col>
+          </c-row>
+          <c-row>
+            <c-col class="c-w-12">
+              <p class="two-columns" v-html="quiz.description"></p>
+            </c-col>
+          </c-row>
+        </c-col>
+        <c-col class="c-w-4">
+          <c-news-explanation-item :quizItem="quiz.items[0]"></c-news-explanation-item>
+          <c-news-explanation-item :quizItem="quiz.items[1]"></c-news-explanation-item>
+          <c-news-explanation-item :quizItem="quiz.items[2]"></c-news-explanation-item>
+          <c-news-explanation-item :quizItem="quiz.items[3]"></c-news-explanation-item>
+        </c-col>
+      </c-row>
+    </c-main>
+    <c-footer>
+      <c-row class="pt4">
+        <c-col class="c-w-4">
+          <c-link :location="'/stats'">{{ $t("EXPLANATION.CTA_GO_STATS")}}</c-link>
+        </c-col>
+      </c-row>
+    </c-footer>
+  </c-page>
 </template>
 
 <script>
-import {layout, media, form} from '@/mixins/components';
+import {page, layout, media, form} from '@/mixins/components';
 import cNewsExplanationItem from '@/components/content/news/cNewsExplanationItem';
 
 export default {
   name:'cNewsExplanation',
-  mixins: [layout, media, form],
+  mixins: [page, layout, media, form],
   components: { cNewsExplanationItem },
   props: {
-    newsData: { type: Object, required: false },
+    quiz: { type: Object, required: false },
   },
   data: function () {
     return {
-      newsItem: {
-        num: 1,
-        text: `
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adip isicing elit. Sed distinct isicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipio modi maiores quasi sunt totam vosunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi luptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum do adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam vo veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur ad luptatum mollitia corrupti ipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>`
-      },
-    }
-  },
-  computed: { }
+      contentWidth: 90
+    };
+  }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-news-explanation
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

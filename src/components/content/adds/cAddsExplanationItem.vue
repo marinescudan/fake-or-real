@@ -1,10 +1,10 @@
 <template>
   <c-row class="c-adds-explanation-item">
     <c-col class="c-w-5">
-      <c-figure :src="'https://picsum.photos/800/400'"></c-figure>
+      <c-figure :src="quizItem.image_url"></c-figure>
     </c-col>
     <c-col class="c-w-7">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi?</p>
+      <h3 v-html="quizItem.title"></h3>
     </c-col>
   </c-row>
 </template>
@@ -16,16 +16,12 @@ export default {
   name:'cAddsExplanationItem',
   mixins: [layout, media, form],
   props: {
-    addsItem: { type: Object, required: true },
-  },
-  computed: { }
+    quizItem: { type: Object, required: true },
+  }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-adds-question-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

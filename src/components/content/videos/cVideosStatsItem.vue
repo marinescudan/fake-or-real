@@ -1,15 +1,18 @@
 <template>
-  <c-card class="c-videos-stats-item">
-    <c-row>
-      <c-col class="c-w-6">
-        <c-figure :src="'https://picsum.photos/800/400'"></c-figure>
-      </c-col>
-      <c-col class="c-w-6">
-        <p>Lorem ipsum dolorsicing elit. Sed distinctio modi maiores quasi sunt totam.</p>
-        <p class="f2">123</p>
-      </c-col>
-    </c-row>
-  </c-card>
+  <c-row>
+    <c-col class="c-w-8">
+      <c-vimeo
+        :videoId="'391952856'"
+        :playerWidth="380"
+        :playerHeight="190"
+      ></c-vimeo>
+      <!-- <c-vimeo :video-id="quizItem.video_id"></c-vimeo> -->
+    </c-col>
+    <c-col class="c-w-4">
+      <h3 v-html="quizItem.title"></h3>
+      <p class="f2" v-html="quizItem.false_count"></p>
+    </c-col>
+  </c-row>
 </template>
 
 <script>
@@ -19,16 +22,12 @@ export default {
   name:'cVideosStatsItem',
   mixins: [layout, media, form],
   props: {
-    videosItem: { type: Object, required: true },
+    quizItem: { type: Object, required: true },
   },
-  computed: { }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-videos-stats-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

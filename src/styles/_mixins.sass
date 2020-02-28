@@ -63,44 +63,14 @@
 @mixin frameLight
   background-color: #ffffff
   border: 10px solid transparent
-  // font-size: 1.3em
-  font-weight: 400   !important
-  margin-bottom: 15px
-  padding: 10px !important
-  text-align: center
   border-image: url('~@/assets/img/frame.svg') 40% round
-  // -o-border-image: url('~@/assets/frame.svg') 40% round /* Opera 11-12.1 */
-  // -webkit-border-image: url('~@/assets/frame.svg') 40% round /* Safari 3.1-5 */
+  cursor: pointer
 
-@mixin frameLightHover
-  border: 3px double
-  border-bottom-color: #999999
-  border-left-color: #ec1c2c
-  border-right-color: #2e3191
-  border-top-color: #339a47
-  color: #000000
-  padding: 17px !important
-
-@mixin frameDark
-  background-color: #000000
+@mixin frameLightSelected
+  background-color: #ffffff
   border: 10px solid transparent
-  // font-size: 1.3em
-  font-weight: 400   !important
-  margin-bottom: 15px
-  padding: 10px !important
-  text-align: center
-  // border-image: url('~@/assets/frame.svg') 40% round
-  // -o-border-image: url('~@/assets/frame.svg') 40% round /* Opera 11-12.1 */
-  // -webkit-border-image: url('~@/assets/frame.svg') 40% round /* Safari 3.1-5 */
-
-@mixin frameDarkHover
-  border: 3px double
-  border-bottom-color: #999999
-  border-left-color: #ec1c2c
-  border-right-color: #2e3191
-  border-top-color: #339a47
-  color: #ffffff
-  padding: 17px !important
+  border-image: url('~@/assets/img/frame_selected.svg') 40% round
+  cursor: pointer
 
 @mixin imageBackground
   background: #ffffff url('~@/assets/img/image_background.svg') top center no-repeat

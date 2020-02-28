@@ -1,6 +1,12 @@
 <template>
   <!-- todo: add all the props supported by the plugin -->
-  <vue-vimeo-player ref="player" :video-id='videoId' @ready="onReady" :player-height="height" ></vue-vimeo-player>
+  <vue-vimeo-player
+    ref="player"
+    :video-id='videoId'
+    :player-height="playerHeight"
+    :player-width="playerWidth"
+    @ready="onReady"
+  ></vue-vimeo-player>
 </template>
 
 <script>
@@ -10,27 +16,25 @@ export default {
   components: { vueVimeoPlayer },
   data() {
       return {
-          videoID: 'some-id',
-          height: 500,
           playerReady: false
       }
   },
   props: {
-    'video-id': {
+    videoId: {
       type: String,
       required: true
     },
-    'autoplay': {
+    autoplay: {
       type: Boolean,
       default: function () { return false },
       required:  false
     },
-    'player-width': {
+    playerWidth: {
       type: [String, Number],
       default: function () { return 640 },
       required:  false
     },
-    'player-height': {
+    playerHeight: {
       type: [String, Number],
       default: function () { return 320 },
       required:  false
@@ -80,5 +84,6 @@ export default {
 </script>
 
 <style scoped lang="sass">
-@import "@/styles/_variables.sass";
+// @import "@/styles/_variables.sass";
+// @import "@/styles/_mixins.sass";
 </style>
