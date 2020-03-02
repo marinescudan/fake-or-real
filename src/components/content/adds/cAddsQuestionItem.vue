@@ -1,15 +1,19 @@
 <template>
-  <c-card class="c-adds-question-item">
-    <c-row class="">
-      <c-col class="c-w-6">
-        <c-figure :src="quizItem.image_url"></c-figure>
-      </c-col>
-      <c-col class="c-w-6">
-        <h3 v-html="quizItem.title"></h3>
-        <p v-html="quizItem.text"></p>
-      </c-col>
-    </c-row>
-  </c-card>
+  <div
+    class="c-adds-question-item frameLight pt2 pr2 pb2 pl2"
+    v-if="quizData"
+    v-bind:class="{ 'selected' : selected, 'fake': quizData.items[quizIndex].fake === true }"
+    v-on:click="selected =!selected; $emit('itemSelected', quizIndex, selected)">
+      <c-row>
+        <c-col class="c-w-6">
+          <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
+        </c-col>
+        <c-col class="c-w-6">
+          <h3 v-html="quizData.items[quizIndex].title"></h3>
+          <p v-html="quizData.items[quizIndex].text"></p>
+        </c-col>
+      </c-row>
+  </div>
 </template>
 
 <script>
@@ -18,8 +22,14 @@ import {layout, media, form} from '@/mixins/components';
 export default {
   name:'cAddsQuestionItem',
   mixins: [layout, media, form],
+  data: function () {
+    return {
+      selected: false
+    };
+  },
   props: {
-    quizItem: { type: Object, required: true },
+    quizIndex: { type: Number, required: true },
+    quizData: { type: Object, required: true },
   },
 }
 </script>

@@ -1,25 +1,29 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'" v-bind:class="{ 'submited' : submited}">
     <c-header class="divider">
-      <!-- TODO: add adds question title variable -->
-      <h1 class="pt5">{{ $t("QUESTION.TITLE")}}</h1>
+      <h1 class="pt5">{{ $t("QUESTION.ADDS.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row>
+      <c-row class="pt4">
         <c-col class="c-w-12">
-          <!-- TODO: add adds question subtitle variable -->
-          <h2 class="pb4" v-if="!submited">{{ $t("QUESTION.SUBTITLE")}}</h2>
+          <h2 class="pb4" v-if="!submited">{{ $t("QUESTION.ADDS.SUBTITLE")}}</h2>
           <h2 class="pb4" v-if="submited">
-            {{ $t("QUESTION.SUBTITLE_SUBMITED", {selectedFakeNumber: selectedFakeNumber})}}
+            {{ $t("QUESTION.ADDS.SUBTITLE_SUBMITED", {selectedFakeNumber: selectedFakeNumber})}}
           </h2>
         </c-col>
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-adds-question-item :quizItem="quiz.items[0]"></c-adds-question-item>
+          <c-adds-question-item
+          :quizIndex="0" :quizData="quiz"
+          v-on:itemSelected="saveSelection"
+          ></c-adds-question-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-adds-question-item :quizItem="quiz.items[0]"></c-adds-question-item>
+          <c-adds-question-item
+          :quizIndex="0" :quizData="quiz"
+          v-on:itemSelected="saveSelection"
+          ></c-adds-question-item>
         </c-col>
       </c-row>
     </c-main>
@@ -33,7 +37,7 @@
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1>{{ $t("QUESTION.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
+          <h1>{{ $t("QUESTION.ADDS.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
         </c-col>
       </c-row>
     </c-footer>

@@ -1,8 +1,11 @@
 <template>
   <div id="app" class="app vh-100">
-    <router-view v-if="!isLoading && localisationLoaded && dataLoaded"/>
+    <router-view v-if="!isLoading && dataLoaded"/>
     <div class="pt7" v-if="isLoading">
       <h1>Loading, please wait...</h1>
+    </div>
+    <div class="pt7" v-if="!isLoading && err">
+      <h1>{{err}}</h1>
     </div>
   </div>
 </template>
@@ -19,14 +22,10 @@ export default {
       err: state => state.err,
     })
   },
-  created () {
-    this.$store.dispatch('getLocalisationKeys').then(()=>{
-      this.$store.dispatch('getQuizList').then(()=>{
-        this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
-          this.$store.dispatch('setQuiz', { loseCurrent: false }).then(()=>{
-            if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
-          });
-        });
+  mounted () {
+    this.$store.dispatch('getQuizList').then(()=>{
+      this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
+        if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
       });
     });
   }
@@ -34,5 +33,5 @@ export default {
 </script>
 
 <style lang="sass">
-  @import "@/styles/_main.sass";
+  @import "@/styles/_main.sass"
 </style>
