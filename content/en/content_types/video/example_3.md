@@ -20,7 +20,7 @@ items:
   - fake: false
     image_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
     vimeo_id: "295309302"
-    title: "The title of the item is maximum 64 characters long"
+    title: "The 3 title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
     click_count: 456
 ---

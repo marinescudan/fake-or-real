@@ -19,7 +19,7 @@ description: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed di
 items:
   - fake: true
     image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    title: "The title of the item is maximum 64 characters long"
+    title: "The 4 title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
     click_count: 43
   - fake: false
