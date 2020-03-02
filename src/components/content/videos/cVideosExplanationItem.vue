@@ -1,10 +1,15 @@
 <template>
     <c-row class="c-videos-explanation-item">
       <c-col class="c-w-6">
-        <c-figure :src="'https://picsum.photos/275/155'"></c-figure>
+        <c-vimeo
+          :videoId="'391952856'"
+          :playerWidth="160"
+          :playerHeight="80"
+        ></c-vimeo>
+        <!-- <c-vimeo :video-id="quizItem.video_id"></c-vimeo> -->
       </c-col>
       <c-col class="c-w-6">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi?</p>
+        <h3 v-html="quizItem.title"></h3>
       </c-col>
     </c-row>
 </template>
@@ -16,16 +21,12 @@ export default {
   name:'cVideosExplanationItem',
   mixins: [layout, media, form],
   props: {
-    videosItem: { type: Object, required: true },
-  },
-  computed: { }
+    quizItem: { type: Object, required: true },
+  }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-videos-question-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

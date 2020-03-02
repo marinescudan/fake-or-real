@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+// TODO: use require() to load resources directly iife
 import start from '../views/start.vue'
 import question from '../views/quiz/question.vue'
-import response from '../views/quiz/response.vue'
+import explanation from '../views/quiz/explanation.vue'
 import stats from '../views/quiz/stats.vue'
 import finish from '../views/finish.vue'
 
@@ -20,9 +21,9 @@ const routes = [
     component: question,
   },
   {
-    path: '/response',
-    name: 'response',
-    component: response,
+    path: '/explanation',
+    name: 'explanation',
+    component: explanation,
   },
   {
     path: '/stats',
@@ -36,8 +37,13 @@ const routes = [
   },
 ]
 
+
+
 const router = new VueRouter({
   routes
-})
+});
 
+router.beforeEach((to, from, next) => {
+  next();
+});
 export default router

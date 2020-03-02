@@ -2,11 +2,11 @@
   <c-card class="c-adds-stats-item">
     <c-row>
       <c-col class="c-w-6">
-        <c-figure :src="'https://picsum.photos/800/400'"></c-figure>
+        <c-figure :src="quizItem.image_url"></c-figure>
       </c-col>
       <c-col class="c-w-6">
-        <p>Lorem ipsum dolorsicing elit. Sed distinctio modi maiores quasi sunt totam.</p>
-        <p class="f2">123</p>
+        <h3 v-html="quizItem.title"></h3>
+        <p class="f2" v-html="quizItem.false_count"></p>
       </c-col>
     </c-row>
   </c-card>
@@ -19,16 +19,12 @@ export default {
   name:'cAddsStatsItem',
   mixins: [layout, media, form],
   props: {
-    addsItem: { type: Object, required: true },
+    quizItem: { type: Object, required: true },
   },
-  computed: { }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-adds-stats-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

@@ -19,6 +19,15 @@ module.exports = {
 
   outputDir: '_site',
 
+  configureWebpack: {
+    // resolve: {
+    //   extensions: ['.js', '.vue', '.json'],
+    //   alias: {
+    //     '@': path.resolve('src'),
+    //   }
+    // },
+  },
+
   pwa: {
     name: app.name,
     themeColor: app.themeColor,

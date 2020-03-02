@@ -1,22 +1,3 @@
-<!--------------
-
-Custom Button Component
-*************
-
-Template snippet:
-  <c-button :action="method" data="{}">lable</c-button>
-
-Script snippet:
-  import buttonDefault from '@/components/input/buttonDefault';
-
-  methods: {
-    method function (data) {
-      console.log(data);
-    }
-  }
-
----------------->
-
 <template>
     <button @click="action(data)" class="c-button" type="button">
         <slot></slot>
@@ -25,7 +6,7 @@ Script snippet:
 
 <script>
 export default {
-  name:'buttonDefault',
+  name:'cButton',
   props: {
     action: {
       type: Function,
@@ -33,16 +14,18 @@ export default {
     },
     data: {
       type: Object,
-      required: false
+      required: false,
+      default: function(){return {}}
     }
   }
 }
 </script>
 
-<style scoped lang="scss">
-// @import "@/style/_main.sass";
+<style scoped lang="sass">
+@import "@/styles/_mixins.sass";
+@import "@/styles/_variables.sass";
 
-// .c-button {
-//   display: inline-block;
-// }
+.c-button
+  @include frameLight
+
 </style>

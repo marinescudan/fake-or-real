@@ -18,15 +18,13 @@ description: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed di
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>"
 items:
   - fake: true
-    image_url: "https://picsum.photos/406/228"
+    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     title: "The title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    false_count: 43
-    true_count: 254
-  - fake: true
-    image_url: "https://picsum.photos/406/228"
+    click_count: 43
+  - fake: false
+    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/1.jpg"
     title: "The title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    false_count: 123
-    true_count: 32
+    click_count: 12
 ---
