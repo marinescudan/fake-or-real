@@ -1,34 +1,31 @@
 <template>
   <c-row class="c-videos-question-item">
     <c-col class="c-w-8">
-      <!-- TODO: add video id in the content data json -->
-      <!-- <c-vimeo :video-id="quizItem.video_id"></c-vimeo> -->
-      <c-vimeo
-        :videoId="'391952856'"
-        :playerWidth="600"
-        :playerHeight="300"
-      ></c-vimeo>
+      <c-vimeo :videoId="quizData.items[this.itemIndex].vimeo_id"></c-vimeo>
     </c-col>
-    <c-col class="c-w-4">
+    <c-col class="c-w-4" style="justify-content: space-between;">
       <c-row>
         <c-col>
-          <h3>{{quizItem.title}}</h3>
-          <p>{{quizItem.text}}</p>
+          <h3>{{quizData.items[this.itemIndex].title}}</h3>
+          <p>{{quizData.items[this.itemIndex].text}}</p>
         </c-col>
       </c-row>
       <c-row v-if="!submited" class="pt4">
         <c-col class="c-w-6">
           <button type="button" class="frameLight pt2 pb2"
-            @click="submitQuiz(false)">{{ $t("Fake?")}}</button>
+            @click="submitQuiz(true)">{{ $t("QUESTION.CTA_FAKE")}}</button>
         </c-col>
         <c-col class="c-w-6">
           <button type="button" class="frameLight pt2 pb2"
-            @click="submitQuiz(true)">{{ $t("Real?")}}</button>
+            @click="submitQuiz(false)">{{ $t("QUESTION.CTA_REAL")}}</button>
         </c-col>
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">{{ $t("QUESTION.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
+          <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
+            <span v-if="!quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_REAL")}}</span>
+            <span v-if="quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_FAKE")}}</span>
+          </h1>
         </c-col>
       </c-row>
     </c-col>
@@ -42,7 +39,8 @@ export default {
   name:'cVideosQuestionItem',
   mixins: [layout, media, form],
   props: {
-    quizItem: { type: Object, required: true },
+    quizData: { type: Object, required: true },
+    itemIndex: { type: Number, required: true }
   },
   data: function () {
     return {
@@ -53,7 +51,7 @@ export default {
   methods: {
     submitQuiz: function (choice) {
       this.submited = true;
-      this.correctQuess = this.quizItem.fake === choice? true: false;
+      this.correctQuess = this.quizData.items[this.itemIndex].fake === choice;
       setTimeout(()=>{
         this.$router.push({ path: 'explanation' });
       }, 1000);

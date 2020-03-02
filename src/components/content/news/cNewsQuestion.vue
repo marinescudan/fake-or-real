@@ -1,16 +1,14 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'" v-bind:class="{ 'submited' : submited}">
     <c-header class="divider">
-      <!-- TODO: add news question title variable -->
-      <h1 class="pt5">{{ $t("QUESTION.TITLE")}}</h1>
+      <h1 class="pt5">{{ $t("QUESTION.NEWS.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row>
+      <c-row class="pt4">
         <c-col class="c-w-12">
-          <!-- TODO: add news question subtitle variable -->
-          <h2 class="pb4" v-if="!submited">{{ $t("QUESTION.SUBTITLE")}}</h2>
+          <h2 class="pb4" v-if="!submited">{{ $t("QUESTION.NEWS.SUBTITLE")}}</h2>
           <h2 class="pb4" v-if="submited">
-            {{ $t("QUESTION.SUBTITLE_SUBMITED", {selectedFakeNumber: selectedFakeNumber})}}
+            {{ $t("QUESTION.NEWS.SUBTITLE_SUBMITED", {selectedFakeNumber: selectedFakeNumber})}}
           </h2>
         </c-col>
       </c-row>
@@ -53,7 +51,7 @@
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1>{{ $t("QUESTION.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
+          <h1>{{ $t("QUESTION.NEWS.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
         </c-col>
       </c-row>
     </c-footer>

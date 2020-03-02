@@ -24,7 +24,7 @@
     <c-footer>
       <c-row>
         <c-col class="c-w-3">
-          <c-link :location="'/'">{{ $t('FINISH.CTA_GO_START')}}</c-link>
+          <c-link :location="'/'">{{ $t('FINISH.CTA_GO_FINISH')}}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -32,7 +32,6 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components.js';
 export default {
   name: 'finish',
@@ -43,13 +42,15 @@ export default {
     }
   },
   computed: {
-    ...mapState({
-      i18n_keys: state => state.i18n_keys,
-    })
+    image_left_url: function(){return this.$t('FINISH.image_left_url')},
+    image_center_url: function(){return this.$t('FINISH.image_center_url')},
+    image_right_url: function(){return this.$t('FINISH.image_right_url')},
   },
-  image_left_url: function(){return this.$t('FINISH.image_left_url')},
-  image_center_url: function(){return this.$t('FINISH.image_center_url')},
-  image_right_url: function(){return this.$t('FINISH.image_right_url')},
+  created () {
+    this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
+      this.$store.dispatch('setQuiz', { loseCurrent: false });
+    });
+  },
 }
 </script>
 

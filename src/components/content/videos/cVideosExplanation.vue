@@ -1,16 +1,14 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <!-- TODO: add news explanation title variable -->
-      <h1 class="pt5">{{ $t("EXPLANATION.TITLE")}}</h1>
+      <h1 class="pt5">{{ $t("EXPLANATION.VIDEO.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row>
+      <c-row class="pt4">
         <c-col class="c-w-8">
           <c-row>
             <c-col class="c-w-6">
-              <!-- TODO: add video explanation subtitle variable -->
-              <h3 class="pb2">{{ $t("EXPLANATION.SUBTITLE")}}</h3>
+              <h3 class="pb2">{{ $t("EXPLANATION.VIDEO.SUBTITLE")}}</h3>
             </c-col>
             <c-col class="c-w-6">
             </c-col>
@@ -22,15 +20,14 @@
           </c-row>
         </c-col>
         <c-col class="c-w-4">
-          <c-videos-explanation-item :quizItem="quiz.items[0]"></c-videos-explanation-item>
-          <c-videos-explanation-item :quizItem="quiz.items[1]"></c-videos-explanation-item>
+          <c-videos-explanation-item :quizData="quiz" :itemIndex="0"></c-videos-explanation-item>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
       <c-row class="pt4">
         <c-col class="c-w-4">
-          <c-link :location="'/stats'">{{ $t("EXPLANATION.CTA_GO_STATS")}}</c-link>
+          <c-link :location="'stats'">{{ $t("EXPLANATION.CTA_GO_STATS")}}</c-link>
         </c-col>
       </c-row>
     </c-footer>

@@ -1,10 +1,11 @@
 <template>
-  <c-row class="c-adds-explanation-item">
+  <c-row class="c-news-explanation-item pb4"
+    v-bind:class="{ 'fake': quizData.items[quizIndex].fake === true }">
     <c-col class="c-w-5">
-      <c-figure :src="quizItem.image_url"></c-figure>
+      <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
     </c-col>
     <c-col class="c-w-7">
-      <h3 v-html="quizItem.title"></h3>
+      <h3 v-html="quizData.items[quizIndex].title"></h3>
     </c-col>
   </c-row>
 </template>
@@ -16,8 +17,9 @@ export default {
   name:'cAddsExplanationItem',
   mixins: [layout, media, form],
   props: {
-    quizItem: { type: Object, required: true },
-  }
+    quizIndex: { type: Number, required: true },
+    quizData: { type: Object, required: true },
+  },
 }
 </script>
 

@@ -5,6 +5,7 @@
     :video-id='videoId'
     :player-height="playerHeight"
     :player-width="playerWidth"
+    :options="{ responsive: true }"
     @ready="onReady"
   ></vue-vimeo-player>
 </template>

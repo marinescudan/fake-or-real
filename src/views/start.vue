@@ -19,13 +19,13 @@
       </c-row>
       <c-row>
         <c-col class="c-w-4 pt4">
-          <p v-html="$t('START.WELCOME_MESSAGE')"></p>
+          <div class="welcome-message"  v-html="$t('START.WELCOME_MESSAGE')"></div>
         </c-col>
       </c-row>
       <c-row class="pt3">
         <c-col class="c-w-4">
           <button type="button" class="frameLight"
-            :disabled="!$store.state.quiz"
+            :disabled="!$store.state.quizList"
             @click="startQuiz">{{ $t('START.CTA_GO_QUESTION') }}</button>
         </c-col>
       </c-row>
@@ -54,16 +54,11 @@ export default {
   },
   computed: {
     ...mapState({
-      i18n_keys: state => state.i18n_keys,
+      quiz: state => state.quiz,
     }),
     image_left_url: function(){return this.$t('START.image_left_url')},
     image_center_url: function(){return this.$t('START.image_center_url')},
     image_right_url: function(){return this.$t('START.image_right_url')},
-  },
-  created () {
-    this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
-      this.$store.dispatch('setQuiz', { loseCurrent: false });
-    });
   },
   methods: {
     startQuiz: function () {

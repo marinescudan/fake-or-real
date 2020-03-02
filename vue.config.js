@@ -2,9 +2,9 @@
 
 const app = {
   name: 'Fake or Real - News Edition',
-  short_name: 'FoR',
-  themeColor: '#FFFFFF',
-  splash_background_color: '#444'
+  short_name: 'Fake or Real',
+  themeColor: '#FF0000',
+  splash_background_color: '#FFF'
 }
 
 module.exports = {
@@ -18,15 +18,6 @@ module.exports = {
   },
 
   outputDir: '_site',
-
-  configureWebpack: {
-    // resolve: {
-    //   extensions: ['.js', '.vue', '.json'],
-    //   alias: {
-    //     '@': path.resolve('src'),
-    //   }
-    // },
-  },
 
   pwa: {
     name: app.name,
