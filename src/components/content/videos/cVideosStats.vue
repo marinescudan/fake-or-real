@@ -1,55 +1,64 @@
 <template>
-  <div class="c-videos-stats pt3">
-    <c-row>
-      <c-col class="c-w-12">
-        <h2 class="pb4">{{ $t("STATS.SUBTITLE")}}</h2>
-      </c-col>
-    </c-row>
-    <c-row>
-      <c-col class="c-w-6">
-        <c-videos-stats-item :videosItem="videosItem"></c-videos-stats-item>
-      </c-col>
-      <c-col class="c-w-6">
-        <c-videos-stats-item :videosItem="videosItem"></c-videos-stats-item>
-      </c-col>
-    </c-row>
-    <c-row>
-      <c-col class="c-w-6">
-        <c-videos-stats-item :videosItem="videosItem"></c-videos-stats-item>
-      </c-col>
-      <c-col class="c-w-6">
-        <c-videos-stats-item :videosItem="videosItem"></c-videos-stats-item>
-      </c-col>
-    </c-row>
-  </div>
+  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+    <c-header class="divider">
+      <!-- TODO: add news STATS title variable -->
+      <h1 class="pt5">{{ $t("STATS.TITLE")}}</h1>
+    </c-header>
+    <c-main :width="contentWidth">
+      <c-row>
+        <c-col class="c-w-12">
+          <!-- TODO: add video explanation subtitle variable -->
+          <h2 class="pb4">{{ $t("STATS.SUBTITLE")}}</h2>
+        </c-col>
+      </c-row>
+      <c-row>
+        <c-col class="c-w-8">
+          <c-videos-stats-item :quizItem="quiz.items[0]"></c-videos-stats-item>
+        </c-col>
+      </c-row>
+    </c-main>
+    <c-footer>
+      <c-row>
+        <c-col class="c-w-2">
+          <button type="button" class="frameLight"
+            :disabled="!$store.state.quizList.length"
+            @click="startQuiz">{{ $t("STATS.CTA_GO_AGAIN")}}</button>
+        </c-col>
+        <c-col class="c-w-2">
+          <c-link :location="'/finish'">{{ $t("STATS.CTA_GO_FINISH")}}</c-link>
+        </c-col>
+      </c-row>
+    </c-footer>
+  </c-page>
 </template>
 
 <script>
-import {layout, media, form} from '@/mixins/components';
+import {page, layout, media, form} from '@/mixins/components';
 import cVideosStatsItem from '@/components/content/videos/cVideosStatsItem';
 
 export default {
   name:'cVideosStats',
-  mixins: [layout, media, form],
+  mixins: [page, layout, media, form],
   components: { cVideosStatsItem },
   props: {
-    videosData: { type: Object, required: false },
+    quiz: { type: Object, required: false },
   },
   data: function () {
     return {
-      videosItem: {
-        num: 1
-      }
-    }
+      contentWidth: 90
+    };
   },
-  computed: { }
+  methods: {
+    startQuiz: function () {
+      this.$store.dispatch('setQuiz', {loseCurrent: true}).then(()=>{
+        this.$router.push({ path: 'question' });
+      });
+    }
+  }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-videos-stats
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

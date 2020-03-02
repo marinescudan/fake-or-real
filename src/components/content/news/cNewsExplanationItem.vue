@@ -1,10 +1,11 @@
 <template>
-  <c-row class="c-news-explanation-item pb4">
+  <c-row class="c-news-explanation-item pb4"
+    v-bind:class="{ 'selected' : quizItem.fake }">
     <c-col class="c-w-6">
-      <c-figure :src="'https://picsum.photos/275/155'"></c-figure>
+      <c-figure :src="quizItem.image_url"></c-figure>
     </c-col>
     <c-col class="c-w-6">
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</h3>
+      <h3 v-html="quizItem.title"></h3>
     </c-col>
   </c-row>
 </template>
@@ -16,16 +17,12 @@ export default {
   name:'cNewsExplanationItem',
   mixins: [layout, media, form],
   props: {
-    newsItem: { type: Object, required: true },
+    quizItem: { type: Object, required: true },
   },
-  computed: { }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-news-question-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

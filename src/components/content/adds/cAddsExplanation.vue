@@ -1,63 +1,62 @@
 <template>
-  <div class="c-adds-explanation pt3">
-    <c-row>
-      <c-col class="c-w-8">
-        <c-row>
-          <c-col class="c-w-6">
-            <h3 class="pb2">{{ $t("QUESTION.SUBTITLE")}}</h3>
-          </c-col>
-          <c-col class="c-w-6">
-          </c-col>
-        </c-row>
-        <c-row>
-          <c-col class="c-w-12">
-            <p class="two-columns">{{addsItem.text}}</p>
-          </c-col>
-        </c-row>
-      </c-col>
-      <c-col class="c-w-4">
-        <c-adds-explanation-item :addsItem="addsItem"></c-adds-explanation-item>
-        <c-adds-explanation-item :addsItem="addsItem"></c-adds-explanation-item>
-      </c-col>
-    </c-row>
-  </div>
+  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+    <c-header class="divider">
+      <!-- TODO: add adds question title variable -->
+      <h1 class="pt5">{{ $t("EXPLANATION.TITLE")}}</h1>
+    </c-header>
+    <c-main :width="contentWidth">
+      <c-row>
+        <c-col class="c-w-8">
+          <c-row>
+            <c-col class="c-w-6">
+              <!-- TODO: add news explanation subtitle variable -->
+              <h3 class="pb2">{{ $t("EXPLANATION.SUBTITLE")}}</h3>
+            </c-col>
+            <c-col class="c-w-6">
+            </c-col>
+          </c-row>
+          <c-row>
+            <c-col class="c-w-12">
+              <p class="two-columns">{{quiz.description}}</p>
+            </c-col>
+          </c-row>
+        </c-col>
+        <c-col class="c-w-4">
+          <c-adds-explanation-item :quizItem="quiz.items[0]"></c-adds-explanation-item>
+          <c-adds-explanation-item :quizItem="quiz.items[1]"></c-adds-explanation-item>
+        </c-col>
+      </c-row>
+    </c-main>
+    <c-footer>
+      <c-row class="pt4">
+        <c-col class="c-w-4">
+          <c-link :location="'/stats'">{{ $t("EXPLANATION.CTA_GO_STATS")}}</c-link>
+        </c-col>
+      </c-row>
+    </c-footer>
+  </c-page>
 </template>
 
 <script>
-import {layout, media, form} from '@/mixins/components';
+import {page, layout, media, form} from '@/mixins/components';
 import cAddsExplanationItem from '@/components/content/adds/cAddsExplanationItem';
 
 export default {
   name:'cAddsExplanation',
-  mixins: [layout, media, form],
+  mixins: [page, layout, media, form],
   components: { cAddsExplanationItem },
   props: {
-    addsData: { type: Object, required: false },
+    quiz: { type: Object, required: true },
   },
   data: function () {
     return {
-      addsItem: {
-        num: 1,
-        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.`
-      },
-    }
-  },
-  computed: { }
+      contentWidth: 90
+    };
+  }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-adds-explanation
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

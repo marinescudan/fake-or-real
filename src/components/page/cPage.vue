@@ -23,7 +23,8 @@ export default {
 </script>
 
 <style scoped lang="sass">
-@import "@/styles/_variables.sass";
+// @import "@/styles/_variables.sass";
+// @import "@/styles/_mixins.sass";
 
 .c-page
   height: 100vh

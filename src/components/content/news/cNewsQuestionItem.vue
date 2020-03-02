@@ -1,34 +1,42 @@
 <template>
-  <c-card class="c-news-question-item">
-    <c-row class="">
+  <div
+    class="c-news-question-item frameLight pt2 pr2 pb2 pl2 mb4"
+    v-if="quizData"
+    v-bind:class="{ 'selected' : selected }"
+    v-on:click="selected =!selected; $emit('itemSelected', quizIndex, selected)">
+    <c-row>
       <c-col class="c-w-6">
-        <c-figure :src="'https://picsum.photos/406/228'"></c-figure>
+        <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
       </c-col>
       <c-col class="c-w-6">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum molli totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?</p>
+        <h3>{{quizData.items[quizIndex].title}}</h3>
+        <p>{{quizData.items[quizIndex].text}}</p>
       </c-col>
     </c-row>
-  </c-card>
+  </div>
 </template>
 
 <script>
+
+// import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cNewsQuestionItem',
   mixins: [layout, media, form],
-  props: {
-    newsItem: { type: Object, required: true },
+  data: function () {
+    return {
+      selected: false
+    };
   },
-  computed: { }
+  props: {
+    quizIndex: { type: Number, required: true },
+    quizData: { type: Object, required: true },
+  },
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-news-question-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>
