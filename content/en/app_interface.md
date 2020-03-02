@@ -1,4 +1,5 @@
 ---
+uuid: f4938728-4b21-47a1-819b-7d505b2e062c
 locale: en
 contentType: "app_interface"
 slug: "localisation"
