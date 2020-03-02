@@ -1,19 +1,17 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 80vh'">
     <c-header class="divider">
-      <!-- TODO: add video question title variable -->
-      <h1 class="pt5">{{ $t("QUESTION.TITLE")}}</h1>
+      <h1 class="pt5">{{ $t("QUESTION.VIDEO.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row>
+      <c-row class="pt4">
         <c-col class="c-w-12">
-          <!-- TODO: add video question subtitle variable -->
-          <h2 class="pb4">{{ $t("QUESTION.SUBTITLE")}}</h2>
+          <h2 class="pb4">{{ $t("QUESTION.VIDEO.SUBTITLE")}}</h2>
         </c-col>
       </c-row>
       <c-row>
         <c-col class="c-w-12">
-          <c-videos-question-item :quizItem="quiz.items[0]"></c-videos-question-item>
+          <c-videos-question-item :quizData="quiz" :itemIndex="0"></c-videos-question-item>
         </c-col>
       </c-row>
     </c-main>
@@ -33,7 +31,7 @@ export default {
   },
   data: function () {
     return {
-      contentWidth: 90
+      contentWidth: 80
     };
   },
 }

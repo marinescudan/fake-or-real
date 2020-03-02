@@ -1,15 +1,11 @@
 <template>
     <c-row class="c-videos-explanation-item">
-      <c-col class="c-w-6">
-        <c-vimeo
-          :videoId="'391952856'"
-          :playerWidth="160"
-          :playerHeight="80"
-        ></c-vimeo>
-        <!-- <c-vimeo :video-id="quizItem.video_id"></c-vimeo> -->
+      <c-col class="c-w-5">
+        <c-vimeo :videoId="quizData.items[this.itemIndex].vimeo_id"></c-vimeo>
+        <!-- <c-vimeo :video-id="quizData.vimeo_id"></c-vimeo> -->
       </c-col>
-      <c-col class="c-w-6">
-        <h3 v-html="quizItem.title"></h3>
+      <c-col class="c-w-7">
+        <h3 v-html="quizData.items[this.itemIndex].title"></h3>
       </c-col>
     </c-row>
 </template>
@@ -21,7 +17,8 @@ export default {
   name:'cVideosExplanationItem',
   mixins: [layout, media, form],
   props: {
-    quizItem: { type: Object, required: true },
+    quizData: { type: Object, required: true },
+    itemIndex: { type: Number, required: true }
   }
 }
 </script>

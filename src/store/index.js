@@ -4,16 +4,15 @@ import api from '@/http/api'
 Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
-    quiz: {},
+    quiz: null,
     quizIndex: null,
-    quizList: [],
-    quizListBackup: [],
+    quizList: null,
+    quizListBackup: null,
     i18n_locale: 'en',
-    i18n_keys: [],
     isLoading:  false,
     localisationLoaded: false,
     dataLoaded: false,
-    err: {}
+    err: null
   },
   mutations: {
     SET_STATE (state, config) {
@@ -27,39 +26,30 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    // TODO: this localisations are not used in templates, remove this and use i18n service to load lang messages
-    getLocalisationKeys: (context) => {
-      context.commit('SET_STATE', { key: 'isLoading', value: true });
-      let url = `https://api.ttc.io/for?slug=${'localisation'}&locale=${context.state.i18n_locale}`;
-      return api.get(url).then((response) => {
-        context.commit('SET_STATE', { key: 'isLoading', value: false });
-        context.commit('SET_STATE', {  key: 'i18n_keys', value: response.data[0] });
-        context.commit('SET_STATE', { key: 'localisationLoaded', value: true });
-      }).catch((error) => context.commit('API_FAILURE', error));
-    },
     getQuizList: (context) => {
-      context.commit('SET_STATE', { key: 'isLoading', value: true });
-      let url = `https://api.ttc.io/for?slug=${'question'}&locale=${context.state.i18n_locale}&contentType=${'news'}`;
-      return api.get(url).then((response) => {
-        context.commit('SET_STATE', { key: 'isLoading', value: false });
-        context.commit('SET_STATE', { key: 'quizListBackup', value: response.data });
-        context.commit('SET_STATE', { key: 'dataLoaded', value: true });
-      }).catch((error) => context.commit('API_FAILURE', error));
+      return new Promise((resolve, reject) => {
+        context.commit('SET_STATE', { key: 'isLoading', value: true });
+        let url = `https://api.ttc.io/for?slug=${'question'}&locale=${context.state.i18n_locale}`;
+        api.get(url).then((response) => {
+          context.commit('SET_STATE', { key: 'isLoading', value: false });
+          context.commit('SET_STATE', { key: 'quizListBackup', value: response.data });
+          context.commit('SET_STATE', { key: 'dataLoaded', value: true });
+          resolve(response.data);
+        }).catch((error) => {
+          context.commit('API_FAILURE', error)
+          reject(error);
+        });
+      });
     },
     setQuiz: (context, config={}) => {
-      let tempArray = context.state.quizList.slice();
-      if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
-      let newQuizIndex = Math.floor(Math.random() * (tempArray.length + 1));
       return new Promise((resolve) => {
-        context.commit('SET_STATE', {
-          key: 'quizList',
-          value: tempArray
-        });
-        context.commit('SET_STATE', {
-          key: 'quiz',
-          value: tempArray[newQuizIndex]
-        });
-        resolve();
+        // debugger;
+        let tempArray = context.state.quizList.slice();
+        if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
+        let newQuizIndex = Math.floor(Math.random() * (tempArray.length));
+        context.commit('SET_STATE', { key: 'quiz', value: tempArray[newQuizIndex] });
+        context.commit('SET_STATE', { key: 'quizList', value: tempArray });
+        resolve(context.state.quiz);
       });
     },
     setState: (context, config) => {
@@ -67,7 +57,6 @@ export default new Vuex.Store({
         context.commit('SET_STATE', { key: config.key, value: config.value});
         resolve();
       });
-
     },
     setStateParram: (context, config) => {
       return new Promise((resolve) => {

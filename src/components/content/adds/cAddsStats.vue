@@ -1,33 +1,31 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <!-- TODO: add news explanation title variable -->
-      <h1 class="pt5">{{ $t("EXPLANATION.TITLE")}}</h1>
+      <h1 class="pt5">{{ $t("STATS.ADDS.TITLE")}}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row>
+      <c-row class="pt4">
         <c-col class="c-w-12">
-          <!-- TODO: add video explanation subtitle variable -->
-          <h2 class="pb4">{{ $t("STATS.SUBTITLE")}}</h2>
+          <h2 class="pb4">{{ $t("STATS.ADDS.SUBTITLE")}}</h2>
         </c-col>
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-adds-stats-item :quizItem="quiz.items[0]"></c-adds-stats-item>
+          <c-adds-stats-item :quizData="quiz" :itemIndex="0"></c-adds-stats-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-adds-stats-item :quizItem="quiz.items[1]"></c-adds-stats-item>
+          <c-adds-stats-item :quizData="quiz" :itemIndex="1"></c-adds-stats-item>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
       <c-row>
-        <c-col class="c-w-2">
+        <c-col class="c-w-2" v-if="this.$store.state.quizList.length >= 2">
           <button type="button" class="frameLight"
             :disabled="!$store.state.quizList.length"
             @click="startQuiz">{{ $t("STATS.CTA_GO_AGAIN")}}</button>
         </c-col>
-        <c-col class="c-w-2">
+        <c-col v-bind:class="{ 'c-w-2': this.$store.state.quizList.length > 1, 'c-w-4': this.$store.state.quizList.length === 1 }">
           <c-link :location="'/finish'">{{ $t("STATS.CTA_GO_FINISH")}}</c-link>
         </c-col>
       </c-row>
@@ -53,9 +51,13 @@ export default {
   },
   methods: {
     startQuiz: function () {
-      this.$store.dispatch('setQuiz', {loseCurrent: true}).then(()=>{
+      if (this.$store.state.quizList.length > 1) {
+        this.$store.dispatch('setQuiz', {loseCurrent: true}).then(()=>{
+          this.$router.push({ path: 'question' });
+        });
+      } else {
         this.$router.push({ path: 'question' });
-      });
+      }
     }
   }
 }

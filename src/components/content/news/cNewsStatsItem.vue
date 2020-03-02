@@ -1,15 +1,13 @@
 <template>
-  <c-card class="c-news-stats-item">
-    <c-row>
+    <c-row class="c-news-stats-item pt2 pr2 pb2 pl2 mb3">
       <c-col class="c-w-6">
-        <c-figure :src="quizItem.image_url"></c-figure>
+        <c-figure :src="quizData.items[itemIndex].image_url"></c-figure>
       </c-col>
       <c-col class="c-w-6">
-        <h3 v-html="quizItem.title"></h3>
-        <p class="f2" v-html="quizItem.false_count"></p>
+        <h3 v-html="quizData.items[itemIndex].title"></h3>
+        <p class="f2" v-html="quizData.items[itemIndex].click_count"></p>
       </c-col>
     </c-row>
-  </c-card>
 </template>
 
 <script>
@@ -19,7 +17,8 @@ export default {
   name:'cNewsStatsItem',
   mixins: [layout, media, form],
   props: {
-    quizItem: { type: Object, required: true },
+    quizData: { type: Object, required: true },
+    itemIndex: { type: Number, required: true },
   },
 }
 </script>

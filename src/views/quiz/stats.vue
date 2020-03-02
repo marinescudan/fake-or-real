@@ -18,13 +18,6 @@
       ...mapState({
         quiz: state => state.quiz
       })
-    },
-    created() {
-      this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup.slice()})
-      .then(()=>{
-        this.$store.commit('SET_STATE', { key: 'loaded', value: true });
-        this.$router.push('/');
-      });
     }
   }
 </script>
