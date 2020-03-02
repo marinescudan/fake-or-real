@@ -1,44 +1,43 @@
 <template>
-  <div class="c-videos-question pt3">
-    <c-row>
-      <c-col class="c-w-12">
-        <h2 class="pb4">{{ $t("QUESTION.SUBTITLE")}}</h2>
-      </c-col>
-    </c-row>
-    <c-row>
-      <c-col class="c-w-8">
-        <c-videos-question-item :videosItem="videosItem"></c-videos-question-item>
-      </c-col>
-    </c-row>
-  </div>
+  <c-page class="vh-100 pt3" :rows="'20vh 80vh'">
+    <c-header class="divider">
+      <h1 class="pt5">{{ $t("QUESTION.VIDEO.TITLE")}}</h1>
+    </c-header>
+    <c-main :width="contentWidth">
+      <c-row class="pt4">
+        <c-col class="c-w-12">
+          <h2 class="pb4">{{ $t("QUESTION.VIDEO.SUBTITLE")}}</h2>
+        </c-col>
+      </c-row>
+      <c-row>
+        <c-col class="c-w-12">
+          <c-videos-question-item :quizData="quiz" :itemIndex="0"></c-videos-question-item>
+        </c-col>
+      </c-row>
+    </c-main>
+  </c-page>
 </template>
 
 <script>
-import {layout, media, form} from '@/mixins/components';
+import {page, layout, media, form} from '@/mixins/components';
 import cVideosQuestionItem from '@/components/content/videos/cVideosQuestionItem';
 
 export default {
   name:'cVideosQuestion',
-  mixins: [layout, media, form],
+  mixins: [page, layout, media, form],
   components: { cVideosQuestionItem },
   props: {
-    videosData: { type: Object, required: false },
+    quiz: { type: Object, required: false },
   },
   data: function () {
     return {
-      videosItem: {
-        num: 1
-      }
-    }
+      contentWidth: 80
+    };
   },
-  computed: { }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-videos-question
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

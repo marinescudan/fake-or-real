@@ -1,4 +1,4 @@
-export default videos = {
+const videos = {
     uuid: '',
     locale: 'en',
     date: '',
@@ -14,7 +14,7 @@ export default videos = {
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>
     `, //2048ch
-    slug: '/test', //what is this for
+    slug: '/test', //what is this for?
     published: true,
     project: 'for',
     contentType: 'news',
@@ -25,3 +25,5 @@ export default videos = {
         counter: 0
     }]
 };
+
+export default videos;

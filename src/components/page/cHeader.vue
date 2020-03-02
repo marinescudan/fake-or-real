@@ -12,7 +12,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-@import "@/styles/_variables.sass";
+// @import "@/styles/_variables.sass";
+// @import "@/styles/_mixins.sass";
 
 .c-header
   display: -ms-flexbox

@@ -1,14 +1,35 @@
 <template>
-  <c-card class="c-videos-question-item">
-    <c-row class="">
-      <c-col class="c-w-8">
-        <c-vimeo :video-id="'391952856'"></c-vimeo>
-      </c-col>
-      <c-col class="c-w-4">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque?</p>
-      </c-col>
-    </c-row>
-  </c-card>
+  <c-row class="c-videos-question-item">
+    <c-col class="c-w-8">
+      <c-vimeo :videoId="quizData.items[this.itemIndex].vimeo_id"></c-vimeo>
+    </c-col>
+    <c-col class="c-w-4" style="justify-content: space-between;">
+      <c-row>
+        <c-col>
+          <h3>{{quizData.items[this.itemIndex].title}}</h3>
+          <p>{{quizData.items[this.itemIndex].text}}</p>
+        </c-col>
+      </c-row>
+      <c-row v-if="!submited" class="pt4">
+        <c-col class="c-w-6">
+          <button type="button" class="frameLight pt2 pb2"
+            @click="submitQuiz(true)">{{ $t("QUESTION.CTA_FAKE")}}</button>
+        </c-col>
+        <c-col class="c-w-6">
+          <button type="button" class="frameLight pt2 pb2"
+            @click="submitQuiz(false)">{{ $t("QUESTION.CTA_REAL")}}</button>
+        </c-col>
+      </c-row>
+      <c-row v-if="submited" class="pt4">
+        <c-col class="c-w-12">
+          <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
+            <span v-if="!quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_REAL")}}</span>
+            <span v-if="quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_FAKE")}}</span>
+          </h1>
+        </c-col>
+      </c-row>
+    </c-col>
+  </c-row>
 </template>
 
 <script>
@@ -18,16 +39,28 @@ export default {
   name:'cVideosQuestionItem',
   mixins: [layout, media, form],
   props: {
-    videosItem: { type: Object, required: true },
+    quizData: { type: Object, required: true },
+    itemIndex: { type: Number, required: true }
   },
-  computed: { }
+  data: function () {
+    return {
+      submited: false,
+      correctQuess: null
+    };
+  },
+  methods: {
+    submitQuiz: function (choice) {
+      this.submited = true;
+      this.correctQuess = this.quizData.items[this.itemIndex].fake === choice;
+      setTimeout(()=>{
+        this.$router.push({ path: 'explanation' });
+      }, 1000);
+    }
+  }
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-videos-question-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

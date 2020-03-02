@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name:'buttonDefault',
+  name:'cLink',
   props: {
     location: {
       type: String,
@@ -16,10 +16,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-// @import "@/style/_main.sass";
-
-// .c-link {
-//   display: inline-block;
-// }
+<style scoped lang="sass">
+// @import "@/styles/_variables.sass";
+// @import "@/styles/_mixins.sass";
 </style>

@@ -1,14 +1,19 @@
 <template>
-  <c-card class="c-adds-question-item">
-    <c-row class="">
-      <c-col class="c-w-6">
-        <c-figure :src="'https://picsum.photos/800/400'"></c-figure>
-      </c-col>
-      <c-col class="c-w-6">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque?</p>
-      </c-col>
-    </c-row>
-  </c-card>
+  <div
+    class="c-adds-question-item frameLight pt2 pr2 pb2 pl2"
+    v-if="quizData"
+    v-bind:class="{ 'selected' : selected, 'fake': quizData.items[quizIndex].fake === true }"
+    v-on:click="selected =!selected; $emit('itemSelected', quizIndex, selected)">
+      <c-row>
+        <c-col class="c-w-6">
+          <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
+        </c-col>
+        <c-col class="c-w-6">
+          <h3 v-html="quizData.items[quizIndex].title"></h3>
+          <p v-html="quizData.items[quizIndex].text"></p>
+        </c-col>
+      </c-row>
+  </div>
 </template>
 
 <script>
@@ -17,17 +22,19 @@ import {layout, media, form} from '@/mixins/components';
 export default {
   name:'cAddsQuestionItem',
   mixins: [layout, media, form],
-  props: {
-    addsItem: { type: Object, required: true },
+  data: function () {
+    return {
+      selected: false
+    };
   },
-  computed: { }
+  props: {
+    quizIndex: { type: Number, required: true },
+    quizData: { type: Object, required: true },
+  },
 }
 </script>
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-
-.c-adds-question-item
-  display: block
-
+// @import "@/styles/_mixins.sass";
 </style>

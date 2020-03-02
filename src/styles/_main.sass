@@ -2,9 +2,6 @@
 @import "_mixins.sass"
 @import "_typography.sass"
 
-// @import "_debug.sass"
-// @import "_templates.sass"
-
 html
   height: 100%
 
@@ -12,15 +9,10 @@ body
   height: 100%
   margin: 0
 
-.frameLight
-  @include frameLight
-  &:hover
-    @include frameLightHover
-
-.frameDark
-  @include frameDark
-  &:hover
-    @include frameDarkHover
+.app
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
 
 .divider
   position: relative
@@ -30,6 +22,17 @@ body
     left: 36vw
     bottom: 0px
     width: 28vw
-    height: 2px
+    height: 1px
     background: #000000
     z-index: 1
+
+//todo: clean this logic
+a, button
+  padding: .5rem 0
+  @include frameLight
+
+.frameLight
+  @include frameLight
+
+.submited .fake
+  @include frameLightSelected
