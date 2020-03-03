@@ -1,11 +1,11 @@
 ---
 uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: en
+locale: it
 contentType: "app_interface"
 slug: "localisation"
 START:
   WELCOME_TITLE: "Welcome to"
-  APP_NAME: "FAKE or REAL?"
+  APP_NAME: "FALSO e REALE?"
   APP_VERSION: "News Edition"
   WELCOME_MESSAGE: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt.</p><p> Quia laudantium quae et officia saepe sunt assumenda.</p><p> Ohh ohhh"
   CTA_GO_QUESTION: "Ready to play?"
