@@ -7,18 +7,10 @@ https://api.ttc.io/for/
 
 Please add all application code to the `src` directory.
 
-<<<<<<< README.md
-<<<<<<< HEAD
 All content images must be uploaded to our CDN server in the directory `fake-or-real-news-edition` and are served like this:
 https://cdn.ttc.io/src/fake-or-real-news-edition/test.jpg
 
 Please do not add content images to GIT!
-=======
-=======
->>>>>>> README.md
---------------
-
-# fake or real news edition
 
 ## Project setup
 ```
