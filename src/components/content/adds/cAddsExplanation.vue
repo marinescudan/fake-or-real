@@ -15,7 +15,7 @@
           </c-row>
           <c-row>
             <c-col class="c-w-12">
-              <p class="two-columns">{{quiz.description}}</p>
+              <div class="two-columns" v-html="quiz.description"></div>
             </c-col>
           </c-row>
         </c-col>
