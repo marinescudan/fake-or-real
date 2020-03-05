@@ -1,18 +1,18 @@
 <template>
-  <c-page class="setup-page vh-100" :rows="'23vh 67vh 10vh'">
-    <c-header class="divider" v-if="locale">
-      <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
-      <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
-    </c-header>
+  <c-page class="setup-page vh-100" :rows="'100vh'" v-if="locale">
     <c-main :width="contentWidth">
+      <c-row class="divider">
+        <c-col class="c-w-12">
+          <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
+          <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
+        </c-col>
+      </c-row>
       <c-row>
         <c-col class="c-w-12">
           <c-input-locale></c-input-locale>
         </c-col>
       </c-row>
     </c-main>
-    <c-footer>
-    </c-footer>
   </c-page>
 </template>
 

@@ -24,7 +24,7 @@
     <c-footer>
       <c-row>
         <c-col class="c-w-3">
-          <c-link :location="start">{{ locale.FINISH.CTA_GO_FINISH }}</c-link>
+          <c-link :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_FINISH }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
