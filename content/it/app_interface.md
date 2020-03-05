@@ -20,12 +20,9 @@ FINISH:
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 QUESTION:
-  NEWS:
-    SUBTITLE_SUBMITED: "You thought {selectedFakeNumber} of them is not what it appears to be."
-    RESULT_MESSAGE: "{realFakeNumber} of these is not what it appears to be!"
-  ADDS:
-    SUBTITLE_SUBMITED: "You thought {selectedFakeNumber} of them is not what it appears to be."
-    RESULT_MESSAGE: "{realFakeNumber} of these is not what it appears to be!"
+  SUBMIT_MESSAGE_HEADING: "You selected"
+  SUBMIT_MESSAGE_CORRECT: "Correct"
+  SUBMIT_MESSAGE_WRONG: "Wrong"
   VIDEO:
     RESULT_MESSAGE_REAL: "It is real"
     RESULT_MESSAGE_FAKE: "It is fake"

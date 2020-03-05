@@ -3,7 +3,7 @@
 const app = {
   name: 'Fake or Real - News Edition',
   short_name: 'Fake or Real',
-  themeColor: '#FF0000',
+  themeColor: '#FFFFFF',
   splash_background_color: '#FFF'
 }
 
