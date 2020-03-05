@@ -9,7 +9,7 @@ export default {
   name:'cLink',
   props: {
     location: {
-      type: String,
+      type: [String, Object],
       required: true
     }
   }

@@ -1,15 +1,12 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'" v-bind:class="{ 'submited' : submited}">
     <c-header class="divider">
-      <h1 class="pt5">{{ $t("QUESTION.NEWS.TITLE")}}</h1>
+      <h1 class="pt5">{{ quiz.question_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt4">
         <c-col class="c-w-12">
-          <h2 class="pb4" v-if="!submited">{{ $t("QUESTION.NEWS.SUBTITLE")}}</h2>
-          <h2 class="pb4" v-if="submited">
-            {{ $t("QUESTION.NEWS.SUBTITLE_SUBMITED", {selectedFakeNumber: selectedFakeNumber})}}
-          </h2>
+          <h2 class="pb4">{{ quiz.question_subtitle }}</h2>
         </c-col>
       </c-row>
       <c-row>
@@ -46,19 +43,19 @@
         <c-col class="c-w-4">
           <button type="button" class="frameLight pt2 pb2"
             :disabled="!$store.state.quizList.length"
-            @click="submitQuiz">{{ $t("QUESTION.CTA_GO_EXPLANATION")}}</button>
+            @click="submitQuiz">{{ locale.QUESTION.CTA_GO_EXPLANATION }}</button>
         </c-col>
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1>{{ $t("QUESTION.NEWS.RESULT_MESSAGE", {realFakeNumber: realFakeNumber})}}</h1>
+          <h1>{{ locale.QUESTION.SUBMIT_MESSAGE_HEADING}} {{selectedFakeNumber}}</h1>
         </c-col>
       </c-row>
     </c-footer>
   </c-page>
 </template>
 
-<script>
+<script>import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cNewsQuestionItem from '@/components/content/news/cNewsQuestionItem';
 
@@ -74,13 +71,16 @@ export default {
     };
   },
   computed: {
-      realFakeNumber: function () {
-        let fakeNumber = 0;
-        this.quiz.items.forEach(element => {
-          if (element.fake) fakeNumber++;
-        });
-        return fakeNumber;
-      }
+    ...mapState({
+      locale: state => state.locale,
+    }),
+    // realFakeNumber: function () {
+    //   let fakeNumber = 0;
+    //   this.quiz.items.forEach(element => {
+    //     if (element.fake) fakeNumber++;
+    //   });
+    //   return fakeNumber;
+    // }
   },
   props: {
     quiz: { type: Object, required: true }

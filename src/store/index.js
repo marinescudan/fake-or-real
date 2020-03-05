@@ -31,7 +31,7 @@ export default new Vuex.Store({
     getMessages: (context) => {
       return new Promise((resolve, reject) => {
         context.commit('SET_STATE', { key: 'isLoading', value: true });
-        let url = `https://api.ttc.io/for?slug=${'localisation'}&locale=${i18n.locale}`;
+        let url = `https://api.ttc.io/for?slug=${'localisation'}&contentType=${'app_interface'}`;
         api.get(url).then((response) => {
           context.commit('SET_STATE', { key: 'isLoading', value: false });
           let messages = mapMessages(response.data);
@@ -48,7 +48,7 @@ export default new Vuex.Store({
     getQuizList: (context) => {
       return new Promise((resolve, reject) => {
         context.commit('SET_STATE', { key: 'isLoading', value: true });
-        let url = `https://api.ttc.io/for?slug=${'question'}`;
+        let url = `https://api.ttc.io/for?slug=${'question'}&locale=${i18n.locale}`;
         api.get(url).then((response) => {
           context.commit('SET_STATE', { key: 'isLoading', value: false });
           context.commit('SET_STATE', { key: 'quizListBackup', value: response.data });
@@ -62,7 +62,6 @@ export default new Vuex.Store({
     },
     setQuiz: (context, config={}) => {
       return new Promise((resolve) => {
-        // debugger;
         let tempArray = context.state.quizList.slice();
         if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
         let newQuizIndex = Math.floor(Math.random() * (tempArray.length));
@@ -90,7 +89,6 @@ function mapMessages (data) {
 
   data.forEach(locale => {
     let name = locale.locale;
-    delete locale.uuid, locale.contentType, delete locale.slug, locale.locale;
     messages[name] = locale;
   });
 

@@ -1,12 +1,12 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <h1 class="pt5">{{ $t("STATS.NEWS.TITLE")}}</h1>
+      <h1 class="pt5">{{ quiz.stats_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt4">
         <c-col class="c-w-12">
-          <h2 class="pb4">{{ $t("STATS.NEWS.SUBTITLE")}}</h2>
+          <h2 class="pb4">{{ quiz.stats_subtitle }}</h2>
         </c-col>
       </c-row>
       <c-row>
@@ -31,18 +31,18 @@
         <c-col class="c-w-2" v-if="this.$store.state.quizList.length >= 2">
           <button type="button" class="frameLight"
             :disabled="!$store.state.quizList.length"
-            @click="startQuiz">{{ $t("STATS.CTA_GO_AGAIN")}}</button>
+            @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
         </c-col>
         <!-- <c-col v-bind:class="{ 'c-w-2': this.$store.state.quizList.length > 1, 'c-w-4': this.$store.state.quizList.length === 1 }">> -->
         <c-col v-bind:class="dinamicClass">
-          <c-link :location="'/finish'">{{ $t("STATS.CTA_GO_FINISH")}}</c-link>
+          <c-link :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
   </c-page>
 </template>
 
-<script>
+<script>import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cNewsStatsItem from '@/components/content/news/cNewsStatsItem';
 
@@ -59,6 +59,9 @@ export default {
     };
   },
   computed: {
+    ...mapState({
+      locale: state => state.locale,
+    }),
     dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-2':'c-w-4';},
   },
   methods: {
