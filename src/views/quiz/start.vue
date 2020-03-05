@@ -1,9 +1,9 @@
 <template>
-  <c-page class="start-page vh-100" :rows="'23vh 67vh 10vh'">
+  <c-page class="start-page vh-100" :rows="'23vh 67vh 10vh'" v-if="locale">
     <c-header class="divider">
-      <h2 class="pt3">{{ $t('START.WELCOME_TITLE') }}</h2>
-      <h1 class="pt3">{{ $t('START.APP_NAME') }}</h1>
-      <h2 class="pt3">{{ $t('START.APP_VERSION') }}</h2>
+      <h2 class="pt3">{{ locale.START.WELCOME_TITLE }}</h2>
+      <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
+      <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt4">
@@ -19,24 +19,18 @@
       </c-row>
       <c-row>
         <c-col class="c-w-4 pt4">
-          <div class="welcome-message"  v-html="$t('START.WELCOME_MESSAGE')"></div>
+          <div class="welcome-message"  v-html="locale.START.WELCOME_MESSAGE"></div>
         </c-col>
       </c-row>
       <c-row class="pt3">
         <c-col class="c-w-4">
           <button type="button" class="frameLight"
             :disabled="!$store.state.quizList"
-            @click="startQuiz">{{ $t('START.CTA_GO_QUESTION') }}</button>
+            @click="startQuiz">{{ locale.START.CTA_GO_QUESTION }}</button>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
-      <!-- TODO: add localized files for other languages -->
-      <c-row>
-        <c-col class="c-w-12">
-          <c-input-locale></c-input-locale>
-        </c-col>
-      </c-row>
     </c-footer>
   </c-page>
 </template>
@@ -55,10 +49,11 @@ export default {
   computed: {
     ...mapState({
       quiz: state => state.quiz,
+      locale: state => state.locale,
     }),
-    image_left_url: function(){return this.$t('START.image_left_url')},
-    image_center_url: function(){return this.$t('START.image_center_url')},
-    image_right_url: function(){return this.$t('START.image_right_url')},
+    image_left_url: function(){return this.locale.START.image_left_url},
+    image_center_url: function(){return this.locale.START.image_center_url},
+    image_right_url: function(){return this.locale.START.image_right_url},
   },
   methods: {
     startQuiz: function () {

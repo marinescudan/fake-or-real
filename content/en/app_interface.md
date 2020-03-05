@@ -21,33 +21,30 @@ FINISH:
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 QUESTION:
   NEWS:
-    TITLE: "Which of these adverts is not what it appears to be?"
-    SUBTITLE: "Choose which of these campaigns adverts you think should be treated with caution!"
     SUBTITLE_SUBMITED: "You thought {selectedFakeNumber} of them is not what it appears to be."
     RESULT_MESSAGE: "{realFakeNumber} of these is not what it appears to be!"
   ADDS:
-    TITLE: "Which of these adverts is not what it appears to be?,"
-    SUBTITLE: "Choose which of these campaigns adverts you think should be treated with caution!"
     SUBTITLE_SUBMITED: "You thought {selectedFakeNumber} of them is not what it appears to be."
     RESULT_MESSAGE: "{realFakeNumber} of these is not what it appears to be!"
   VIDEO:
-    TITLE: "Is this video fake or real?"
-    SUBTITLE: "Decide whether this video is trustworthy or not"
     RESULT_MESSAGE_REAL: "It is real"
     RESULT_MESSAGE_FAKE: "It is fake"
-  CTA_GO_EXPLANATION: "Find out the answer"
+  CTA_GO_EXPLANATION: "Check"
   CTA_FAKE: "Fake?"
   CTA_REAL: "Real?"
 EXPLANATION:
-  NEWS:
-    TITLE: "Which of these adverts is not what it appears to be?"
-    SUBTITLE: "Choose which of these campaigns adverts you think should be treated with caution!"
-  ADDS:
-    TITLE: "Which of these adverts is not what it appears to be?"
-    SUBTITLE: "Choose which of these campaigns adverts you think should be treated with caution!"
-  VIDEO:
-    TITLE: "Is this video fake or real?"
-    SUBTITLE: "Decide whether this video is trustworthy or not"
+  SINGLE:
+    TITLE: "Is this item fake or real?"
+    SUBTITLE: "Decide whether this item is trustworthy or not"
+  DOUBLE:
+    TITLE: "Guess the fake item"
+    SUBTITLE: "Choose  wich item of these two is fake!"
+  THERDS:
+    TITLE: "Find the fake items"
+    SUBTITLE: "Choose which of these items you think should be treated with caution!"
+  QARTERS:
+    TITLE: "Find the fake items"
+    SUBTITLE: "Choose which of these items you think should be treated with caution!"
   RESULT_MESSAGE: "(3) of these is not what it appears to be!"
   CTA_GO_STATS: "See what other people thought"
 STATS:
