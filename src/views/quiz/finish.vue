@@ -1,7 +1,7 @@
 <template>
-  <c-page class="finish-page vh-100"  :rows="'27vh 63vh 10vh'">
+  <c-page class="finish-page vh-100"  :rows="'27vh 63vh 10vh'" v-if="locale">
     <c-header>
-      <h1>{{ $t('FINISH.GOODBYE_TITLE')}}</h1>
+      <h1>{{ locale.FINISH.GOODBYE_TITLE }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row>
@@ -17,14 +17,14 @@
       </c-row>
       <c-row class="pt4">
         <c-col class="c-w-4">
-          <h2>{{ $t('FINISH.GOODBYE_MESSAGE')}}</h2>
+          <h2>{{ locale.FINISH.GOODBYE_MESSAGE }}</h2>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
       <c-row>
         <c-col class="c-w-3">
-          <c-link :location="'/'">{{ $t('FINISH.CTA_GO_FINISH')}}</c-link>
+          <c-link :location="start">{{ locale.FINISH.CTA_GO_FINISH }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -32,6 +32,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components.js';
 export default {
   name: 'finish',
@@ -42,9 +43,13 @@ export default {
     }
   },
   computed: {
-    image_left_url: function(){return this.$t('FINISH.image_left_url')},
-    image_center_url: function(){return this.$t('FINISH.image_center_url')},
-    image_right_url: function(){return this.$t('FINISH.image_right_url')},
+    ...mapState({
+      quiz: state => state.quiz,
+      locale: state => state.locale,
+    }),
+    image_left_url: function(){ return this.locale.FINISH.image_left_url },
+    image_center_url: function(){ return this.locale.FINISH.image_center_url },
+    image_right_url: function(){ return this.locale.FINISH.image_right_url },
   },
   created () {
     this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
