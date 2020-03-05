@@ -19,20 +19,14 @@
   },
   "QUESTION": {
     "NEWS": {
-      "TITLE": "Which of these adverts is not what it appears to be?",
-      "SUBTITLE": "Choose which of these campaigns adverts you think should be treated with caution!",
       "SUBTITLE_SUBMITED": "You thought {selectedFakeNumber} of them is not what it appears to be.",
       "RESULT_MESSAGE": "{realFakeNumber} of these is not what it appears to be!"
     },
     "ADDS": {
-      "TITLE": "Which of these adverts is not what it appears to be?",
-      "SUBTITLE": "Choose which of these campaigns adverts you think should be treated with caution!",
       "SUBTITLE_SUBMITED": "You thought {selectedFakeNumber} of them is not what it appears to be.",
       "RESULT_MESSAGE": "{realFakeNumber} of these is not what it appears to be!"
     },
     "VIDEO": {
-      "TITLE": "Is this video fake or real?",
-      "SUBTITLE": "Decide whether this video is trustworthy or not",
       "RESULT_MESSAGE_REAL": "It is real",
       "RESULT_MESSAGE_FAKE": "It is fake"
     },
@@ -41,34 +35,10 @@
     "CTA_REAL": "Real?"
   },
   "EXPLANATION": {
-    "NEWS": {
-      "TITLE": "Which of these adverts is not what it appears to be?",
-      "SUBTITLE": "Choose which of these campaigns adverts you think should be treated with caution!"
-    },
-    "ADDS": {
-      "TITLE": "Which of these adverts is not what it appears to be?",
-      "SUBTITLE": "Choose which of these campaigns adverts you think should be treated with caution!"
-    },
-    "VIDEO": {
-      "TITLE": "Is this video fake or real?",
-      "SUBTITLE": "Decide whether this video is trustworthy or not"
-    },
     "RESULT_MESSAGE": "(3) of these is not what it appears to be!",
     "CTA_GO_STATS": "See what other people thought"
   },
   "STATS": {
-    "NEWS":{
-      "TITLE": "Which of these adverts is not what it appears to be?",
-      "SUBTITLE": "Other people thought that these adverts are not what they appeard to be:"
-    },
-    "ADDS":{
-      "TITLE": "Which of these adverts is not what it appears to be?",
-      "SUBTITLE": "Other people thought that these adverts are not what they appeard to be:"
-    },
-    "VIDEO":{
-      "TITLE": "Is this video fake or real?",
-      "SUBTITLE": "So many other people agreed, that this video is fake"
-    },
     "CTA_GO_AGAIN": "Give me another",
     "CTA_GO_FINISH": "I'm done with this"
   }
