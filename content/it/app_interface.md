@@ -1,59 +1,38 @@
 ---
 uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: it
+locale: Italian
+shortCode: it-IT
 contentType: "app_interface"
 slug: "localisation"
 START:
-  WELCOME_TITLE: "Welcome to"
-  APP_NAME: "FAKE or REAL?"
-  APP_VERSION: "News Edition"
+  WELCOME_TITLE: "Benvenuto a"
+  APP_NAME: "FALSO o REALE?"
+  APP_VERSION: "Edizione di notizie"
   WELCOME_MESSAGE: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt.</p><p> Quia audantium quae et officia saepe sunt assumenda.</p><p> Ohh ohhh"
-  CTA_GO_QUESTION: "Ready to play?"
+  CTA_GO_QUESTION: "Pronto a giocare?"
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 FINISH:
-  GOODBYE_TITLE: "Thanks"
-  GOODBYE_MESSAGE: "It's been brief But special"
-  CTA_GO_FINISH: "Go to start"
+  GOODBYE_TITLE: "Grazie"
+  GOODBYE_MESSAGE: "È stato breve ma speciale"
+  CTA_GO_FINISH: "Vai per iniziare"
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 QUESTION:
-  SUBMIT_MESSAGE_HEADING: "You selected"
-  SUBMIT_MESSAGE_CORRECT: "Correct"
-  SUBMIT_MESSAGE_WRONG: "Wrong"
+  SUBMIT_MESSAGE_HEADING: "Hai selezionato"
+  SUBMIT_MESSAGE_CORRECT: "Corretto"
+  SUBMIT_MESSAGE_WRONG: "Sbagliato"
   VIDEO:
-    RESULT_MESSAGE_REAL: "It is real"
-    RESULT_MESSAGE_FAKE: "It is fake"
-  CTA_GO_EXPLANATION: "Check"
-  CTA_FAKE: "Fake?"
-  CTA_REAL: "Real?"
+    RESULT_MESSAGE_REAL: "È reale"
+    RESULT_MESSAGE_FAKE: "È falso"
+  CTA_GO_EXPLANATION: "Verificare"
+  CTA_FAKE: "Falso?"
+  CTA_REAL: "Vero?"
 EXPLANATION:
-  SINGLE:
-    TITLE: "Is this item fake or real?"
-    SUBTITLE: "Decide whether this item is trustworthy or not"
-  DOUBLE:
-    TITLE: "Guess the fake item"
-    SUBTITLE: "Choose  wich item of these two is fake!"
-  THERDS:
-    TITLE: "Find the fake items"
-    SUBTITLE: "Choose which of these items you think should be treated with caution!"
-  QARTERS:
-    TITLE: "Find the fake items"
-    SUBTITLE: "Choose which of these items you think should be treated with caution!"
-  RESULT_MESSAGE: "(3) of these is not what it appears to be!"
-  CTA_GO_STATS: "See what other people thought"
+  CTA_GO_STATS: "Guarda cosa pensano le altre persone"
 STATS:
-  NEWS:
-    TITLE: "Which of these adverts is not what it appears to be?"
-    SUBTITLE: "Other people thought that these adverts are not what they appeard to be:"
-  ADDS:
-    TITLE: "Which of these adverts is not what it appears to be?"
-    SUBTITLE: "Other people thought that these adverts are not what they appeard to be:"
-  VIDEO:
-    TITLE: "Is this video fake or real?"
-    SUBTITLE: "So many other people agreed, that this video is fake"
-  CTA_GO_AGAIN: "Give me another"
-  CTA_GO_FINISH: "I'm done with this"
+  CTA_GO_AGAIN: "Dammi un altro"
+  CTA_GO_FINISH: "Ho finito con questo"
 ---

@@ -1,8 +1,8 @@
 <template>
     <c-row class="c-videos-explanation-item">
       <c-col class="c-w-5">
-        <c-vimeo :videoId="quizData.items[this.itemIndex].vimeo_id"></c-vimeo>
-        <!-- <c-vimeo :video-id="quizData.vimeo_id"></c-vimeo> -->
+        <c-vimeo v-if="vimeoId" :videoId="vimeoId"></c-vimeo>
+        <c-figure v-if="!vimeoId" :src="quizData.items[this.itemIndex].image_url"></c-figure>
       </c-col>
       <c-col class="c-w-7">
         <h3 v-html="quizData.items[this.itemIndex].title"></h3>
@@ -19,6 +19,16 @@ export default {
   props: {
     quizData: { type: Object, required: true },
     itemIndex: { type: Number, required: true }
+  },
+  computed: {
+    vimeoId (){
+      let url = this.quizData.items[this.itemIndex].video_url;
+      if (url.includes('vimeo')) {
+        return url.split('://')[1].split('/')[1];
+      } else {
+        return false;
+      }
+    }
   }
 }
 </script>
