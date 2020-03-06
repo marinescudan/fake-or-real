@@ -1,12 +1,10 @@
 <template>
-  <c-page class="setup-page vh-100" :rows="'100vh'" v-if="locale">
+  <c-page class="setup-page vh-100" :rows="'30vh 70vh'" v-if="locale">
+    <c-header class="divider">
+      <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
+      <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
+    </c-header>
     <c-main :width="contentWidth">
-      <c-row class="pt6 pb3 divider">
-        <c-col class="c-w-12">
-          <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
-          <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
-        </c-col>
-      </c-row>
       <c-row class="pt5">
         <c-col class="c-w-4">
           <h2>{{ locale.SETUP.CHOOSE_LANGUAGE }}</h2>

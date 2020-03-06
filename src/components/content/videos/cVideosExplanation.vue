@@ -1,5 +1,5 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+  <c-page class="vh-100 pt3" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
       <h1 class="pt5">{{ quiz.explanation_title }}</h1>
     </c-header>

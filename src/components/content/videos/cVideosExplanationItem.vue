@@ -5,7 +5,7 @@
         <c-figure v-if="!vimeoId" :src="quizData.items[this.itemIndex].image_url"></c-figure>
       </c-col>
       <c-col class="c-w-7">
-        <h3 v-html="quizData.items[this.itemIndex].title"></h3>
+        <h3>{{quizData.items[this.itemIndex].title}}</h3>
       </c-col>
     </c-row>
 </template>

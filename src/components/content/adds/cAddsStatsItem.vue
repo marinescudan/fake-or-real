@@ -4,8 +4,8 @@
         <c-figure :src="quizData.items[itemIndex].image_url"></c-figure>
       </c-col>
       <c-col class="c-w-6">
-        <h3 v-html="quizData.items[itemIndex].title"></h3>
-        <p class="f2" v-html="quizData.items[itemIndex].click_count"></p>
+        <h3>{{quizData.items[itemIndex].title}}</h3>
+        <p class="f2 user-input" v-html="quizData.items[itemIndex].click_count"></p>
       </c-col>
     </c-row>
 </template>
