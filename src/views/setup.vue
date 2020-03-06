@@ -9,7 +9,9 @@
       </c-row>
       <c-row class="pt4">
         <c-col class="c-w-12">
+          <h2 class="pt3">{{ locale.SETUP.CHOOSE_LANGUAGE }}</h2>
           <c-input-locale></c-input-locale>
+          <c-link :location="{name: 'start'}">{{ locale.SETUP.START_QUIZ }}</c-link>
         </c-col>
       </c-row>
     </c-main>
