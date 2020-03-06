@@ -30,30 +30,8 @@ QUESTION:
   CTA_FAKE: "Fake?"
   CTA_REAL: "Real?"
 EXPLANATION:
-  SINGLE:
-    TITLE: "Is this item fake or real?"
-    SUBTITLE: "Decide whether this item is trustworthy or not"
-  DOUBLE:
-    TITLE: "Guess the fake item"
-    SUBTITLE: "Choose  wich item of these two is fake!"
-  THERDS:
-    TITLE: "Find the fake items"
-    SUBTITLE: "Choose which of these items you think should be treated with caution!"
-  QARTERS:
-    TITLE: "Find the fake items"
-    SUBTITLE: "Choose which of these items you think should be treated with caution!"
-  RESULT_MESSAGE: "(3) of these is not what it appears to be!"
   CTA_GO_STATS: "See what other people thought"
 STATS:
-  NEWS:
-    TITLE: "Which of these adverts is not what it appears to be?"
-    SUBTITLE: "Other people thought that these adverts are not what they appeard to be:"
-  ADDS:
-    TITLE: "Which of these adverts is not what it appears to be?"
-    SUBTITLE: "Other people thought that these adverts are not what they appeard to be:"
-  VIDEO:
-    TITLE: "Is this video fake or real?"
-    SUBTITLE: "So many other people agreed, that this video is fake"
   CTA_GO_AGAIN: "Give me another"
   CTA_GO_FINISH: "I'm done with this"
 ---
