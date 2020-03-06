@@ -29,9 +29,7 @@ export default {
     setLanguage: function (key) {
       localStorage.setItem('locale', JSON.stringify(key));
       this.$i18n.locale = key;
-      this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(()=>{
-         this.$router.push({name: 'start'});
-      });
+      this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}) 
     }
   }
 }
