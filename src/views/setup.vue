@@ -6,13 +6,13 @@
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt5">
-        <c-col class="c-w-4">
+        <c-col class="c-w-12">
           <h2>{{ locale.SETUP.CHOOSE_LANGUAGE }}</h2>
           <c-input-locale class="pt3"></c-input-locale>
         </c-col>
       </c-row>
       <c-row class="pt5">
-        <c-col class="c-w-4">
+        <c-col class="c-w-6">
           <c-link :location="{name: 'start'}">{{ locale.SETUP.START_QUIZ }}</c-link>
         </c-col>
       </c-row>

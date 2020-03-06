@@ -27,7 +27,7 @@
     <c-footer>
       <c-row v-if="!submited" class="pt1">
         <c-col class="c-w-4">
-          <button type="button" class="frameLight pt2 pb2"
+          <button type="button" class="frame pt2 pb2"
             :disabled="!$store.state.quizList.length"
             @click="submitQuiz">{{ locale.QUESTION.CTA_GO_EXPLANATION }}</button>
         </c-col>
@@ -61,13 +61,6 @@ export default {
       ...mapState({
         locale: state => state.locale,
       }),
-      // realFakeNumber: function () {
-      //   let fakeNumber = 0;
-      //   this.quiz.items.forEach(element => {
-      //     if (element.fake) fakeNumber++;
-      //   });
-      //   return fakeNumber;
-      // }
   },
   props: {
     quiz: { type: Object, required: true }
@@ -86,7 +79,7 @@ export default {
       .then(()=>{
         setTimeout(()=>{
           this.$router.push({ path: 'explanation' });
-        }, 2000);
+        }, 3000);
       });
     }
   }

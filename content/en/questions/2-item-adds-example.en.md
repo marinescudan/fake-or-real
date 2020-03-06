@@ -22,7 +22,7 @@ items:
     title: "The 1 title of the item is max 36 ch"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum?"
     click_count: 37
-  - fake: true
+  - fake: false
     web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
     video_url: "https://vimeo.com/386102796"
     image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"

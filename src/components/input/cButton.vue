@@ -26,6 +26,6 @@ export default {
 @import "@/styles/_variables.sass";
 
 .c-button
-  @include frameLight
+  // @include frameLight
 
 </style>

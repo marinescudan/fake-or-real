@@ -1,5 +1,5 @@
 <template>
-    <div class="c-card">
+    <div class="c-card frame">
         <slot></slot>
     </div>
 </template>
@@ -16,6 +16,6 @@ export default {
 
 .c-card
   height: 100%
-  @include frameLight
+  // @include frameLight
 
 </style>

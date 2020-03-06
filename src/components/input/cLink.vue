@@ -1,5 +1,5 @@
 <template>
-    <router-link class="frameLight" :to="location">
+    <router-link class="frame" :to="location">
         <slot></slot>
     </router-link>
 </template>

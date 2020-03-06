@@ -34,7 +34,7 @@ QUESTION:
   CTA_FAKE: "Falso?"
   CTA_REAL: "Vero?"
 EXPLANATION:
-  CTA_GO_STATS: "Guarda cosa pensano le altre persone"
+  CTA_GO_STATS: "Quali altri scelgono"
 STATS:
   CTA_GO_AGAIN: "Dammi un altro"
   CTA_GO_FINISH: "Ho finito con questo"
