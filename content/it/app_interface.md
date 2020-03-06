@@ -4,6 +4,9 @@ locale: it-IT
 locale_for_humans: Italian (IT)
 contentType: "app_interface"
 slug: "localisation"
+SETUP:
+  CHOOSE_LANGUAGE: "Imposta la lingua del quiz"
+  START_QUIZ: "Inizia il quiz"
 START:
   WELCOME_TITLE: "Benvenuto a"
   APP_NAME: "FALSO o REALE?"

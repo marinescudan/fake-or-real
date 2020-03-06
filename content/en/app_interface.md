@@ -4,6 +4,9 @@ locale: en-GB
 locale_for_humans: English (GB)
 contentType: "app_interface"
 slug: "localisation"
+SETUP:
+  CHOOSE_LANGUAGE: "Set quiz language"
+  START_QUIZ: "Start quiz"
 START:
   WELCOME_TITLE: "Welcome to"
   APP_NAME: "FAKE or REAL?"
