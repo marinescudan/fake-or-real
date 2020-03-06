@@ -23,13 +23,18 @@ export default {
     })
   },
   mounted () {
-    console.log('app, mounted');
     this.$store.dispatch('getMessages').then(()=>{
-      console.log('getMessages then');
       this.$store.dispatch('getQuizList').then(()=>{
-        console.log('getQuizList then');
         this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
-          if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
+          if (!JSON.parse(localStorage.getItem('locale'))) {
+            if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
+          } else {
+            let key = JSON.parse(localStorage.getItem('locale'));
+            this.$i18n.locale = key;
+            this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(()=>{
+              if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
+            });
+          }
         });
       });
     });
