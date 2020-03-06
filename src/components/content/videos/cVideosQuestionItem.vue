@@ -41,7 +41,6 @@ export default {
   name:'cVideosQuestionItem',
   mixins: [layout, media, form],
   props: {
-    // quizData: { type: Object, required: true },
     itemIndex: { type: Number, required: true }
   },
   data: function () {

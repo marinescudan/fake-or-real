@@ -27,9 +27,6 @@ export default {
   name:'cVideosQuestion',
   mixins: [page, layout, media, form],
   components: { cVideosQuestionItem },
-  props: {
-    quiz: { type: Object, required: false },
-  },
   data: function () {
     return {
       contentWidth: 80
@@ -38,6 +35,7 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
   },
 }

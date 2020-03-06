@@ -29,7 +29,7 @@ START:
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 FINISH:
   GOODBYE_TITLE: "Thanks"
-  GOODBYE_MESSAGE: "
+  GOODBYE_MESSAGE_HTML: "
     It's been brief but <b>special</b>
   "
   CTA_GO_START: "Go to start"

@@ -51,7 +51,8 @@
   </c-page>
 </template>
 
-<script>import { mapState } from 'vuex';
+<script>
+import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cNewsQuestionItem from '@/components/content/news/cNewsQuestionItem';
 

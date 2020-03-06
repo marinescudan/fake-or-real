@@ -12,16 +12,19 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cVideosStatsItem',
   mixins: [layout, media, form],
   props: {
-    quizData: { type: Object, required: true },
     itemIndex: { type: Number, required: true }
   },
   computed: {
+    ...mapState({
+      quizData: state => state.quiz,
+    }),
     vimeoId (){
       let url = this.quizData.items[this.itemIndex].video_url;
       if (url.includes('vimeo')) {

@@ -1,5 +1,5 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 66vh 14vh'">
+  <c-page class="explanation-page vh-100 pt3" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
       <h1 class="pt5">{{  quiz.explanation_title }}</h1>
     </c-header>
@@ -19,16 +19,16 @@
         </c-col>
         <c-col class="c-w-4">
           <c-news-explanation-item
-            :quizIndex="0" :quizData="quiz"
+            :itemIndex="0" :quizData="quiz"
           ></c-news-explanation-item>
           <c-news-explanation-item
-            :quizIndex="1" :quizData="quiz"
+            :itemIndex="1" :quizData="quiz"
           ></c-news-explanation-item>
           <c-news-explanation-item
-            :quizIndex="2" :quizData="quiz"
+            :itemIndex="2" :quizData="quiz"
           ></c-news-explanation-item>
           <c-news-explanation-item
-            :quizIndex="3" :quizData="quiz"
+            :itemIndex="3" :quizData="quiz"
           ></c-news-explanation-item>
         </c-col>
       </c-row>
@@ -52,18 +52,16 @@ export default {
   name:'cNewsExplanation',
   mixins: [page, layout, media, form],
   components: { cNewsExplanationItem },
-  props: {
-    quiz: { type: Object, required: false },
-  },
-  computed: {
-    ...mapState({
-      locale: state => state.locale,
-    }),
-  },
   data: function () {
     return {
       contentWidth: 90
     };
+  },
+  computed: {
+    ...mapState({
+      locale: state => state.locale,
+      quiz: state => state.quiz,
+    }),
   }
 }
 </script>

@@ -42,7 +42,8 @@
   </c-page>
 </template>
 
-<script>import { mapState } from 'vuex';
+<script>
+import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cNewsStatsItem from '@/components/content/news/cNewsStatsItem';
 
@@ -61,6 +62,7 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
     dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-4';},
   },

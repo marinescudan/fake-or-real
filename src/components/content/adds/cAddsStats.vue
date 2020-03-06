@@ -42,10 +42,6 @@ export default {
   name:'cAddsStats',
   mixins: [page, layout, media, form],
   components: { cAddsStatsItem },
-  props: {
-    quiz: { type: Object, required: true },
-  },
-
   data: function () {
     return {
       contentWidth: 90
@@ -54,6 +50,7 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
     dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-4';},
   },

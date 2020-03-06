@@ -17,14 +17,14 @@
       </c-row>
       <c-row class="pt4">
         <c-col class="c-w-4">
-          <h2>{{ locale.FINISH.GOODBYE_MESSAGE }}</h2>
+          <div class="finish-message user-input" v-html="locale.FINISH.GOODBYE_MESSAGE_HTML"></div>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
       <c-row>
         <c-col class="c-w-4">
-          <c-link class="frame" :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_START }}</c-link>
+          <c-link class="frame mr3 ml3" :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_START }}</c-link>
         </c-col>
       </c-row>
     </c-footer>

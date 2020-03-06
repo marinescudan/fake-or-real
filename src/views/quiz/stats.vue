@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper vh-100" v-if="quiz">
-    <c-news-stats v-if="quiz.contentType === 'news'" :quiz="quiz"></c-news-stats>
-    <c-adds-stats v-if="quiz.contentType === 'adds'" :quiz="quiz"></c-adds-stats>
-    <c-videos-stats v-if="quiz.contentType === 'video'" :quiz="quiz"></c-videos-stats>
+    <c-news-stats v-if="quiz.contentType === 'news'"></c-news-stats>
+    <c-adds-stats v-if="quiz.contentType === 'adds'"></c-adds-stats>
+    <c-videos-stats v-if="quiz.contentType === 'video'"></c-videos-stats>
   </div>
 </template>
 
