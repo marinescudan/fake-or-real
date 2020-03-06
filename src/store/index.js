@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import i18n from '@/i18n'
 import api from '@/http/api'
 Vue.use(Vuex)
 export default new Vuex.Store({
@@ -7,8 +8,9 @@ export default new Vuex.Store({
     quiz: null,
     quizIndex: null,
     quizList: null,
+    i18n_messages: null,
+    locale: null,
     quizListBackup: null,
-    i18n_locale: 'en',
     isLoading:  false,
     localisationLoaded: false,
     dataLoaded: false,
@@ -26,10 +28,27 @@ export default new Vuex.Store({
     }
   },
   actions: {
+    getMessages: (context) => {
+      return new Promise((resolve, reject) => {
+        context.commit('SET_STATE', { key: 'isLoading', value: true });
+        let url = `https://api.ttc.io/for?slug=${'localisation'}&contentType=${'app_interface'}`;
+        api.get(url).then((response) => {
+          context.commit('SET_STATE', { key: 'isLoading', value: false });
+          let messages = mapMessages(response.data);
+          context.commit('SET_STATE', { key: 'i18n_messages', value: messages});
+          context.commit('SET_STATE', { key: 'locale', value: messages[i18n.locale]});
+          context.commit('SET_STATE', { key: 'localisationLoaded', value: true });
+          resolve(messages);
+        }).catch((error) => {
+          context.commit('API_FAILURE', error)
+          reject(error);
+        });
+      });
+    },
     getQuizList: (context) => {
       return new Promise((resolve, reject) => {
         context.commit('SET_STATE', { key: 'isLoading', value: true });
-        let url = `https://api.ttc.io/for?slug=${'question'}&locale=${context.state.i18n_locale}`;
+        let url = `https://api.ttc.io/for?slug=${'question'}&locale=${i18n.locale}`;
         api.get(url).then((response) => {
           context.commit('SET_STATE', { key: 'isLoading', value: false });
           context.commit('SET_STATE', { key: 'quizListBackup', value: response.data });
@@ -43,7 +62,6 @@ export default new Vuex.Store({
     },
     setQuiz: (context, config={}) => {
       return new Promise((resolve) => {
-        // debugger;
         let tempArray = context.state.quizList.slice();
         if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
         let newQuizIndex = Math.floor(Math.random() * (tempArray.length));
@@ -66,3 +84,13 @@ export default new Vuex.Store({
     }
   }
 })
+function mapMessages (data) {
+  let messages = {};
+
+  data.forEach(locale => {
+    let name = locale.locale;
+    messages[name] = locale;
+  });
+
+  return messages;
+}

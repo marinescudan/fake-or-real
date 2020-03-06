@@ -1,13 +1,14 @@
 <template>
-  <!-- TODO: add all the props supported by the plugin -->
-  <vue-vimeo-player
-    ref="player"
-    :video-id='videoId'
-    :player-height="playerHeight"
-    :player-width="playerWidth"
-    :options="{ responsive: true }"
-    @ready="onReady"
-  ></vue-vimeo-player>
+  <div class="c-vimeo aspect-ratio aspect-ratio--16x9">
+    <vue-vimeo-player
+      ref="player"
+      :video-id='videoId'
+      :player-height="playerHeight"
+      :player-width="playerWidth"
+      :options="{ responsive: true }"
+      @ready="onReady"
+    ></vue-vimeo-player>
+  </div>
 </template>
 
 <script>
@@ -86,5 +87,7 @@ export default {
 
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
+@import "@/styles/_mixins.sass";
+.c-vimeo
+   @include videoBackground
 </style>

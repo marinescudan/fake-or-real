@@ -3,15 +3,15 @@
 const app = {
   name: 'Fake or Real - News Edition',
   short_name: 'Fake or Real',
-  themeColor: '#FF0000',
+  themeColor: '#FFFFFF',
   splash_background_color: '#FFF'
 }
 
 module.exports = {
   pluginOptions: {
     i18n: {
-      locale: 'en',
-      fallbackLocale: 'en',
+      locale: 'en-GB',
+      fallbackLocale: 'en-GB',
       localeDir: 'locales',
       enableInSFC: true
     },

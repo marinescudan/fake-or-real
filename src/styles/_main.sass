@@ -26,8 +26,28 @@ body
     background: #000000
     z-index: 1
 
-//todo: clean this logic
-a, button
+a,
+button
+  @include text
+  display: inline-block
+  text-decoration: none
+  color: $forground
+  min-width: 60px
+  padding: inherit 10px
+
+a.btn-link,
+button.btn-link
+  text-decoration: underline !important
+  color: $brand-blue !important
+
+a.btn-link.selected,
+button.btn-link.selected
+  text-decoration: none !important
+  color: $brand-grey !important
+  font-weight: bold !important
+
+a.frameLight,
+button.frameLight
   padding: .5rem 0
   @include frameLight
 

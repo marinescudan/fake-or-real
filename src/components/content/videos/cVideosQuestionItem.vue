@@ -1,30 +1,31 @@
 <template>
   <c-row class="c-videos-question-item">
     <c-col class="c-w-8">
-      <c-vimeo :videoId="quizData.items[this.itemIndex].vimeo_id"></c-vimeo>
+      <c-vimeo v-if="vimeoId" :videoId="vimeoId"></c-vimeo>
+      <c-figure v-if="!vimeoId" :src="quizData.items[itemIndex].image_url"></c-figure>
     </c-col>
     <c-col class="c-w-4" style="justify-content: space-between;">
       <c-row>
         <c-col>
-          <h3>{{quizData.items[this.itemIndex].title}}</h3>
-          <p>{{quizData.items[this.itemIndex].text}}</p>
+          <h3>{{quizData.items[itemIndex].title}}</h3>
+          <p>{{quizData.items[itemIndex].text}}</p>
         </c-col>
       </c-row>
       <c-row v-if="!submited" class="pt4">
         <c-col class="c-w-6">
           <button type="button" class="frameLight pt2 pb2"
-            @click="submitQuiz(true)">{{ $t("QUESTION.CTA_FAKE")}}</button>
+            @click="submitQuiz(true)">{{ locale.QUESTION.CTA_FAKE }}</button>
         </c-col>
         <c-col class="c-w-6">
           <button type="button" class="frameLight pt2 pb2"
-            @click="submitQuiz(false)">{{ $t("QUESTION.CTA_REAL")}}</button>
+            @click="submitQuiz(false)">{{ locale.QUESTION.CTA_REAL }}</button>
         </c-col>
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
           <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
-            <span v-if="!quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_REAL")}}</span>
-            <span v-if="quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_FAKE")}}</span>
+            <span v-if="!quizData.items[itemIndex].fake">{{ locale.QUESTION.VIDEO.RESULT_MESSAGE_REAL }}</span>
+            <span v-if="quizData.items[itemIndex].fake">{{ locale.QUESTION.VIDEO.RESULT_MESSAGE_FAKE }}</span>
           </h1>
         </c-col>
       </c-row>
@@ -33,6 +34,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
@@ -47,6 +49,19 @@ export default {
       submited: false,
       correctQuess: null
     };
+  },
+  computed: {
+    vimeoId (){
+      let url = this.quizData.items[this.itemIndex].video_url;
+      if (url.includes('vimeo')) {
+        return url.split('://')[1].split('/')[1];
+      } else {
+        return false;
+      }
+    },
+    ...mapState({
+      locale: state => state.locale,
+    }),
   },
   methods: {
     submitQuiz: function (choice) {

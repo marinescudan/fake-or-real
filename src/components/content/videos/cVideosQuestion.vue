@@ -1,12 +1,12 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 80vh'">
     <c-header class="divider">
-      <h1 class="pt5">{{ $t("QUESTION.VIDEO.TITLE")}}</h1>
+      <h1 class="pt5">{{ quiz.question_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt4">
         <c-col class="c-w-12">
-          <h2 class="pb4">{{ $t("QUESTION.VIDEO.SUBTITLE")}}</h2>
+          <h2 class="pb4">{{ quiz.question_subtitle }}</h2>
         </c-col>
       </c-row>
       <c-row>
@@ -19,6 +19,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cVideosQuestionItem from '@/components/content/videos/cVideosQuestionItem';
 
@@ -33,6 +34,11 @@ export default {
     return {
       contentWidth: 80
     };
+  },
+  computed: {
+    ...mapState({
+      locale: state => state.locale,
+    }),
   },
 }
 </script>

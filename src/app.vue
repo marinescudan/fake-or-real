@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="app vh-100">
-    <router-view v-if="!isLoading && dataLoaded"/>
+    <router-view v-if="!isLoading && dataLoaded && localisationLoaded"/>
     <div class="pt7" v-if="isLoading">
-      <h1>Loading, please wait...</h1>
+      <h1>...</h1>
     </div>
     <div class="pt7" v-if="!isLoading && err">
       <h1>{{err}}</h1>
@@ -23,9 +23,19 @@ export default {
     })
   },
   mounted () {
-    this.$store.dispatch('getQuizList').then(()=>{
-      this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
-        if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
+    this.$store.dispatch('getMessages').then(()=>{
+      this.$store.dispatch('getQuizList').then(()=>{
+        this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
+          if (!JSON.parse(localStorage.getItem('locale'))) {
+            if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
+          } else {
+            let key = JSON.parse(localStorage.getItem('locale'));
+            this.$i18n.locale = key;
+            this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(()=>{
+              if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
+            });
+          }
+        });
       });
     });
   }

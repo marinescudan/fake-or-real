@@ -1,12 +1,12 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <h1 class="pt5">{{ $t("STATS.VIDEO.TITLE")}}</h1>
+      <h1 class="pt5">{{ quiz.stats_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt4">
         <c-col class="c-w-12">
-          <h2 class="pb4">{{ $t("STATS.VIDEO.SUBTITLE")}}</h2>
+          <h2 class="pb4">{{ quiz.stats_subtitle }}</h2>
         </c-col>
       </c-row>
       <c-row>
@@ -31,6 +31,8 @@
 </template>
 
 <script>
+
+import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cVideosStatsItem from '@/components/content/videos/cVideosStatsItem';
 
@@ -47,6 +49,9 @@ export default {
     };
   },
   computed: {
+    ...mapState({
+      locale: state => state.locale,
+    }),
     dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-2':'c-w-4';},
   },
   methods: {

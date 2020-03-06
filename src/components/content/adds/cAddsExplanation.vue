@@ -1,14 +1,14 @@
 <template>
   <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
     <c-header class="divider">
-      <h1 class="pt5">{{ $t("EXPLANATION.ADDS.TITLE")}}</h1>
+      <h1 class="pt5">{{ quiz.explanation_title}}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt4">
         <c-col class="c-w-8">
           <c-row>
             <c-col class="c-w-6">
-              <h3 class="pb2">{{ $t("EXPLANATION.ADDS.SUBTITLE")}}</h3>
+              <h3 class="pb2">{{ quiz.explanation_subtitle }}</h3>
             </c-col>
             <c-col class="c-w-6">
             </c-col>
@@ -32,7 +32,7 @@
     <c-footer>
       <c-row class="pt4">
         <c-col class="c-w-4">
-          <c-link :location="'stats'">{{ $t("EXPLANATION.CTA_GO_STATS")}}</c-link>
+          <c-link :location="'stats'">{{ locale.EXPLANATION.CTA_GO_STATS }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -40,6 +40,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cAddsExplanationItem from '@/components/content/adds/cAddsExplanationItem';
 
@@ -47,6 +48,11 @@ export default {
   name:'cAddsExplanation',
   mixins: [page, layout, media, form],
   components: { cAddsExplanationItem },
+  computed: {
+    ...mapState({
+      locale: state => state.locale,
+    }),
+  },
   props: {
     quiz: { type: Object, required: true },
   },
