@@ -4,12 +4,12 @@
       <h1 class="pt5">{{  quiz.explanation_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row>
+      <c-row class="pt3 pb3">
         <c-col class="c-w-12">
-          <h3 class="pb2">{{  quiz.explanation_subtitle  }}</h3>
+          <h2>{{  quiz.explanation_subtitle  }}</h2>
         </c-col>
       </c-row>
-      <c-row class="pt4">
+      <c-row>
         <c-col class="c-w-8">
           <c-row>
             <c-col class="c-w-12">
