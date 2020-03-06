@@ -31,7 +31,6 @@
 </template>
 
 <script>
-
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cVideosStatsItem from '@/components/content/videos/cVideosStatsItem';
@@ -51,6 +50,7 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
     dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-4';},
   },

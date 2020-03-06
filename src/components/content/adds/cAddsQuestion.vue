@@ -32,8 +32,8 @@
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1 v-if="correct">{{ locale.QUESTION.SUBMIT_MESSAGE_CORRECT}}</h1>
-          <h1 v-if="!correct">{{ locale.QUESTION.SUBMIT_MESSAGE_WRONG}}</h1>
+          <h1 class="dark-green" v-if="correct">{{ locale.QUESTION.SUBMIT_MESSAGE_CORRECT}}</h1>
+          <h1 class="dark-red" v-if="!correct">{{ locale.QUESTION.SUBMIT_MESSAGE_WRONG}}</h1>
         </c-col>
       </c-row>
     </c-footer>
@@ -62,25 +62,17 @@ export default {
       locale: state => state.locale,
     }),
   },
-  props: {
-    // quiz: { type: Object, required: true }
-  },
   methods: {
     saveSelection (itemIndex, selected) {
-
-
-
       let newQuiz = Object.assign({}, this.quiz);
-
+      this.correct = newQuiz.items[itemIndex].fake && selected;
       newQuiz.items.forEach( (each, i) => {
         if (itemIndex === i) {
           each.selected = selected;
         } else {
           each.selected = false;
         }
-        this.correct = itemIndex === i && selected;
       });
-
       this.$store.dispatch('setState', {
         key: 'quiz',
         value: newQuiz

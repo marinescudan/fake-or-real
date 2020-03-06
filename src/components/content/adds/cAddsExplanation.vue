@@ -1,5 +1,5 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 66vh 14vh'">
+  <c-page class="explanation-page vh-100 pt3" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
       <h1 class="pt5">{{ quiz.explanation_title}}</h1>
     </c-header>
@@ -19,10 +19,10 @@
         </c-col>
         <c-col class="c-w-4">
           <c-adds-explanation-item
-            :quizIndex="0" :quizData="quiz"
+            :itemIndex="0" :quizData="quiz"
           ></c-adds-explanation-item>
           <c-adds-explanation-item
-            :quizIndex="1" :quizData="quiz"
+            :itemIndex="1" :quizData="quiz"
           ></c-adds-explanation-item>
         </c-col>
       </c-row>
@@ -49,10 +49,8 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
-  },
-  props: {
-    quiz: { type: Object, required: true },
   },
   data: function () {
     return {

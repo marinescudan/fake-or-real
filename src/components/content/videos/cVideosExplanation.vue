@@ -1,5 +1,5 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 66vh 14vh'">
+  <c-page class="explanation-page vh-100 pt3" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
       <h1 class="pt5">{{ quiz.explanation_title }}</h1>
     </c-header>
@@ -13,7 +13,7 @@
         <c-col class="c-w-8">
           <c-row>
             <c-col class="c-w-12">
-              <div class="two-columns" v-html="quiz.explanation_description_html"></div>
+              <div class="two-columns  user-input" v-html="quiz.explanation_description_html"></div>
             </c-col>
           </c-row>
         </c-col>
@@ -41,9 +41,6 @@ export default {
   name:'cVideosExplanation',
   mixins: [layout, media, form],
   components: { cVideosExplanationItem },
-  props: {
-    quiz: { type: Object, required: false },
-  },
   data: function () {
     return {
       contentWidth: 90
@@ -52,6 +49,7 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
   },
 }

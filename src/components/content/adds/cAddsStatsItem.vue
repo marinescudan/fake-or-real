@@ -11,15 +11,20 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cAddsStatsItem',
   mixins: [layout, media, form],
   props: {
-    quizData: { type: Object, required: true },
     itemIndex: { type: Number, required: true },
   },
+  computed: {
+    ...mapState({
+      quizData: state => state.quiz,
+    }),
+  }
 }
 </script>
 
