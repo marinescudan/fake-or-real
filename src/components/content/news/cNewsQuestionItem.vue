@@ -1,9 +1,9 @@
 <template>
   <div
-    class="c-news-question-item frameLight pt2 pr2 pb2 pl2 mb3"
+    class="c-news-question-item frame pt2 pr2 pb2 pl2 mb3"
     v-if="quizData"
-    v-bind:class="{ 'selected' : selected, 'fake': quizData.items[quizIndex].fake === true }"
-    v-on:click="selected =!selected; $emit('itemSelected', quizIndex, selected)">
+    v-bind:class="[quizData.items[quizIndex].selected?'selected':'', quizData.items[quizIndex].fake?'fake':'real']"
+    v-on:click="$emit('itemSelected', quizIndex, !quizData.items[quizIndex].selected)">
     <c-row>
       <c-col class="c-w-6">
         <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
@@ -17,22 +17,20 @@
 </template>
 
 <script>
-
-// import { mapState } from 'vuex';
+import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cNewsQuestionItem',
   mixins: [layout, media, form],
-  data: function () {
-    return {
-      selected: false
-    };
-  },
   props: {
     quizIndex: { type: Number, required: true },
-    quizData: { type: Object, required: true },
   },
+  computed: {
+    ...mapState({
+      quizData: state => state.quiz,
+    }),
+  }
 }
 </script>
 

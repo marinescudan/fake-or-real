@@ -1,15 +1,19 @@
 <template>
-  <c-page class="setup-page vh-100" :rows="'100vh'" v-if="locale">
+  <c-page class="setup-page vh-100" :rows="'30vh 70vh'" v-if="locale">
+    <c-header class="divider">
+      <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
+      <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
+    </c-header>
     <c-main :width="contentWidth">
-      <c-row class="pt7">
+      <c-row class="pt5">
         <c-col class="c-w-12">
-          <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
-          <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
+          <h2>{{ locale.SETUP.CHOOSE_LANGUAGE }}</h2>
+          <c-input-locale class="pt3"></c-input-locale>
         </c-col>
       </c-row>
-      <c-row class="pt4">
-        <c-col class="c-w-12">
-          <c-input-locale></c-input-locale>
+      <c-row class="pt5">
+        <c-col class="c-w-6">
+          <c-link :location="{name: 'start'}">{{ locale.SETUP.START_QUIZ }}</c-link>
         </c-col>
       </c-row>
     </c-main>

@@ -1,21 +1,19 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+  <c-page class="explanation-page vh-100 pt3" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
       <h1 class="pt5">{{ quiz.explanation_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
+      <c-row>
+        <c-col class="c-w-12">
+          <h3 class="pb2">{{  quiz.explanation_subtitle  }}</h3>
+        </c-col>
+      </c-row>
       <c-row class="pt4">
         <c-col class="c-w-8">
           <c-row>
-            <c-col class="c-w-6">
-              <h3 class="pb2">{{  quiz.exlanation_subtitle  }}</h3>
-            </c-col>
-            <c-col class="c-w-6">
-            </c-col>
-          </c-row>
-          <c-row>
             <c-col class="c-w-12">
-              <div class="two-columns" v-html="quiz.description"></div>
+              <div class="two-columns  user-input" v-html="quiz.explanation_description_html"></div>
             </c-col>
           </c-row>
         </c-col>
@@ -25,9 +23,9 @@
       </c-row>
     </c-main>
     <c-footer>
-      <c-row class="pt4">
+      <c-row>
         <c-col class="c-w-4">
-          <c-link :location="'stats'">{{ locale.EXPLANATION.CTA_GO_STATS }}</c-link>
+          <c-link class="frame" :location="'stats'">{{ locale.EXPLANATION.CTA_GO_STATS }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -43,9 +41,6 @@ export default {
   name:'cVideosExplanation',
   mixins: [layout, media, form],
   components: { cVideosExplanationItem },
-  props: {
-    quiz: { type: Object, required: false },
-  },
   data: function () {
     return {
       contentWidth: 90
@@ -54,6 +49,7 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
   },
 }

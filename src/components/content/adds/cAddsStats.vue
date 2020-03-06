@@ -1,5 +1,5 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 67vh 13vh'">
+  <c-page class="vh-100 pt3" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
       <h1 class="pt5">{{ quiz.stats_title }}</h1>
     </c-header>
@@ -20,13 +20,13 @@
     </c-main>
     <c-footer>
       <c-row>
-        <c-col class="c-w-2" v-if="this.$store.state.quizList.length >= 2">
-          <button type="button" class="frameLight"
+        <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
+          <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
             @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
         </c-col>
-        <c-col v-bind:class="{ 'c-w-2': this.$store.state.quizList.length > 1, 'c-w-4': this.$store.state.quizList.length === 1 }">
-          <c-link :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
+        <c-col v-bind:class="dinamicClass">
+          <c-link class="frame" :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -42,10 +42,6 @@ export default {
   name:'cAddsStats',
   mixins: [page, layout, media, form],
   components: { cAddsStatsItem },
-  props: {
-    quiz: { type: Object, required: true },
-  },
-
   data: function () {
     return {
       contentWidth: 90
@@ -54,7 +50,9 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
+    dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-4';},
   },
   methods: {
     startQuiz: function () {

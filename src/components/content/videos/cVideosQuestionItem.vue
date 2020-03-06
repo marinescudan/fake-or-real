@@ -13,11 +13,11 @@
       </c-row>
       <c-row v-if="!submited" class="pt4">
         <c-col class="c-w-6">
-          <button type="button" class="frameLight pt2 pb2"
+          <button type="button" class="frame pt2 pb2"
             @click="submitQuiz(true)">{{ locale.QUESTION.CTA_FAKE }}</button>
         </c-col>
         <c-col class="c-w-6">
-          <button type="button" class="frameLight pt2 pb2"
+          <button type="button" class="frame pt2 pb2"
             @click="submitQuiz(false)">{{ locale.QUESTION.CTA_REAL }}</button>
         </c-col>
       </c-row>
@@ -41,7 +41,6 @@ export default {
   name:'cVideosQuestionItem',
   mixins: [layout, media, form],
   props: {
-    quizData: { type: Object, required: true },
     itemIndex: { type: Number, required: true }
   },
   data: function () {
@@ -61,6 +60,7 @@ export default {
     },
     ...mapState({
       locale: state => state.locale,
+      quizData: state => state.quiz,
     }),
   },
   methods: {

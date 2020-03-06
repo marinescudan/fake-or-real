@@ -32,7 +32,7 @@ module.exports = {
       name: app.name,
       short_name: app.short_name,
       start_url: '.',
-      display: 'standalone',
+      display: 'fullscreen',
       theme_color: app.themeColor
     },
     iconPaths: {

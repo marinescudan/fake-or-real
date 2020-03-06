@@ -1,5 +1,5 @@
 <template>
-  <c-page class="finish-page vh-100"  :rows="'27vh 63vh 10vh'" v-if="locale">
+  <c-page class="finish-page vh-100"  :rows="'27vh 59vh 14vh'" v-if="locale">
     <c-header>
       <h1>{{ locale.FINISH.GOODBYE_TITLE }}</h1>
     </c-header>
@@ -17,14 +17,14 @@
       </c-row>
       <c-row class="pt4">
         <c-col class="c-w-4">
-          <h2>{{ locale.FINISH.GOODBYE_MESSAGE }}</h2>
+          <div class="finish-message user-input" v-html="locale.FINISH.GOODBYE_MESSAGE_HTML"></div>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
       <c-row>
-        <c-col class="c-w-3">
-          <c-link :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_FINISH }}</c-link>
+        <c-col class="c-w-4">
+          <c-link class="frame mr3 ml3" :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_START }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -52,7 +52,8 @@ export default {
     image_right_url: function(){ return this.locale.FINISH.image_right_url },
   },
   created () {
-    this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
+    let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
+    this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
       this.$store.dispatch('setQuiz', { loseCurrent: false });
     });
   },

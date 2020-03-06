@@ -62,10 +62,12 @@ export default new Vuex.Store({
     },
     setQuiz: (context, config={}) => {
       return new Promise((resolve) => {
-        let tempArray = context.state.quizList.slice();
+        let tempArray = JSON.parse(JSON.stringify(context.state.quizList));
+        // let tempArray = context.state.quizList.slice();
         if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
         let newQuizIndex = Math.floor(Math.random() * (tempArray.length));
         context.commit('SET_STATE', { key: 'quiz', value: tempArray[newQuizIndex] });
+        context.commit('SET_STATE', { key: 'quizIndex', value: newQuizIndex });
         context.commit('SET_STATE', { key: 'quizList', value: tempArray });
         resolve(context.state.quiz);
       });

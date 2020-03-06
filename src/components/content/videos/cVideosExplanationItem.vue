@@ -1,26 +1,35 @@
 <template>
-    <c-row class="c-videos-explanation-item">
-      <c-col class="c-w-5">
+  <div class="frame mb2 pa2"
+    v-bind:class="[quizData.items[itemIndex].fake?'fake':'real']">
+    <c-row>
+      <c-col class="c-w-12">
         <c-vimeo v-if="vimeoId" :videoId="vimeoId"></c-vimeo>
         <c-figure v-if="!vimeoId" :src="quizData.items[this.itemIndex].image_url"></c-figure>
       </c-col>
-      <c-col class="c-w-7">
-        <h3 v-html="quizData.items[this.itemIndex].title"></h3>
+    </c-row>
+    <c-row class="pt2">
+      <c-col class="c-w-12">
+        <p>{{quizData.items[this.itemIndex].title}}</p>
       </c-col>
     </c-row>
+  </div>
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cVideosExplanationItem',
   mixins: [layout, media, form],
   props: {
-    quizData: { type: Object, required: true },
     itemIndex: { type: Number, required: true }
   },
   computed: {
+    ...mapState({
+      locale: state => state.locale,
+      quizData: state => state.quiz,
+    }),
     vimeoId (){
       let url = this.quizData.items[this.itemIndex].video_url;
       if (url.includes('vimeo')) {

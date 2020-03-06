@@ -1,86 +1,66 @@
 @mixin flex-row
-  // display: -ms-flexbox
-  // display: -webkit-flex
   display: flex
-  // -webkit-flex-direction: row
-  // -ms-flex-direction: row
   flex-direction: row
-  // -webkit-flex-wrap: nowrap
-  // -ms-flex-wrap: nowrap
   flex-wrap: nowrap
-  // -webkit-justify-content: center
-  // -ms-flex-pack: center
   justify-content: center
-  // -webkit-align-content: stretch
-  // -ms-flex-line-pack: stretch
   align-content: stretch
-  // -webkit-align-items: stretch
-  // -ms-flex-align: stretch
   align-items: stretch
 
 @mixin flex-row-item
-  // -webkit-order: 0
-  // -ms-flex-order: 0
   order: 0
-  // -webkit-flex: 0 1 auto
-  // -ms-flex: 0 1 auto
   flex: 0 1 auto
-  // -webkit-align-self: stretch
-  // -ms-flex-item-align: stretch
   align-self: stretch
 
 @mixin flex-col
-  // display: -ms-flexbox
-  // display: -webkit-flex
   display: flex
-  // -webkit-flex-direction: column
-  // -ms-flex-direction: column
   flex-direction: column
-  // -webkit-flex-wrap: nowrap
-  // -ms-flex-wrap: nowrap
   flex-wrap: nowrap
-  // -webkit-justify-content: flex-start
-  // -ms-flex-pack: flex-start
   justify-content: flex-start
-  // -webkit-align-content: stretch
-  // -ms-flex-line-pack: stretch
   align-content: stretch
-  // -webkit-align-items: stretch
-  // -ms-flex-align: stretch
   align-items: stretch
 
 @mixin flex-col-item
-  // -webkit-order: 0
-  // -ms-flex-order: 0
   order: 0
-  // -webkit-flex: 0 1 auto
-  // -ms-flex: 0 1 auto
   flex: 0 1 auto
-  // -webkit-align-self: auto
-  // -ms-flex-item-align: auto
   align-self: auto
 
-@mixin frameLight
-  background-color: #ffffff
-  border: 10px solid transparent
-  border-image: url('~@/assets/img/frame.svg') 40% round
-  cursor: pointer
-
-@mixin frameLightSelected
-  background-color: #ffffff
-  border: 10px solid transparent
-  border-image: url('~@/assets/img/frame_selected.svg') 40% round
-  cursor: pointer
-
-@mixin imageBackground
-  background: #ffffff url('~@/assets/img/image_background.svg') top center no-repeat
-  background-size: 100% 100%
-
-@mixin videoBackground
-  background: #ffffff url('~@/assets/img/video_background.svg') top center no-repeat
-  background-size: 100% 100%
 
 @mixin text
   background: none
   border: none
   outline: none
+
+@mixin frame
+  border: 10px solid transparent
+  border-image: url('~@/assets/img/frame.svg') 40% round
+  cursor: pointer
+  outline: none
+  -webkit-tap-highlight-color: transparent;
+
+@mixin frameFake
+  background: rgba(255, 0, 0,.1)
+  border: 10px solid red
+  border-image: url('~@/assets/img/frame_fake.svg') 40% round
+  cursor: pointer
+
+@mixin frameReal
+  background: rgba(0, 255, 0,.1)
+  border-image: url('~@/assets/img/frame_real.svg') 40% round
+  cursor: pointer
+
+@mixin frameSelected
+  background: rgba(255, 255, 2550,1)
+  border-image: url('~@/assets/img/frame_selected.svg') 40% round
+  cursor: pointer
+
+@mixin imageBackground
+  background: #221100 url('~@/assets/img/image_background.svg') top center no-repeat
+  background-size: 100% 100%
+
+@mixin videoBackground
+  background: #221100 url('~@/assets/img/video_background.svg') top center no-repeat
+  background-size: 100% 100%
+
+@mixin selectedBackground
+  background: rgba(0, 0, 0, 0.7) url('~@/assets/img/check-mark.svg') center center no-repeat
+  background-size: 25% 25%

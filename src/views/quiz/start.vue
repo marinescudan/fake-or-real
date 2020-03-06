@@ -1,5 +1,5 @@
 <template>
-  <c-page class="start-page vh-100" :rows="'23vh 67vh 10vh'" v-if="locale">
+  <c-page class="start-page vh-100" :rows="'23vh 63vh 14vh'" v-if="locale">
     <c-header class="divider">
       <h2 class="pt3">{{ locale.START.WELCOME_TITLE }}</h2>
       <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
@@ -19,18 +19,18 @@
       </c-row>
       <c-row>
         <c-col class="c-w-4 pt4">
-          <div class="welcome-message"  v-html="locale.START.WELCOME_MESSAGE"></div>
-        </c-col>
-      </c-row>
-      <c-row class="pt3">
-        <c-col class="c-w-4">
-          <button type="button" class="frameLight"
-            :disabled="!$store.state.quizList"
-            @click="startQuiz">{{ locale.START.CTA_GO_QUESTION }}</button>
+          <div class="welcome-message user-input" v-html="locale.START.WELCOME_MESSAGE_HTML"></div>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
+      <c-row class="pt3">
+        <c-col class="c-w-4">
+          <button type="button" class="frame mr3 ml3"
+            :disabled="!$store.state.quizList"
+            @click="startQuiz">{{ locale.START.CTA_GO_QUESTION }}</button>
+        </c-col>
+      </c-row>
     </c-footer>
   </c-page>
 </template>

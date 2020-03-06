@@ -4,9 +4,9 @@
       <h1 class="pt5">{{ quiz.question_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row class="pt4">
+      <c-row class="pt3 pb3">
         <c-col class="c-w-12">
-          <h2 class="pb4">{{ quiz.question_subtitle }}</h2>
+          <h2>{{ quiz.question_subtitle }}</h2>
         </c-col>
       </c-row>
       <c-row>
@@ -27,9 +27,6 @@ export default {
   name:'cVideosQuestion',
   mixins: [page, layout, media, form],
   components: { cVideosQuestionItem },
-  props: {
-    quiz: { type: Object, required: false },
-  },
   data: function () {
     return {
       contentWidth: 80
@@ -38,6 +35,7 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
+      quiz: state => state.quiz,
     }),
   },
 }

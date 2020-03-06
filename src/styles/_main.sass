@@ -13,17 +13,18 @@ body
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-align: center
+  background: $light
 
 .divider
   position: relative
   &::after
     content: ""
     position: absolute
-    left: 36vw
+    left: 36%
     bottom: 0px
-    width: 28vw
+    width: 28%
     height: 1px
-    background: #000000
+    background: $dark
     z-index: 1
 
 a,
@@ -32,8 +33,7 @@ button
   display: inline-block
   text-decoration: none
   color: $forground
-  min-width: 60px
-  padding: inherit 10px
+  min-width: 120px
 
 a.btn-link,
 button.btn-link
@@ -44,15 +44,23 @@ a.btn-link.selected,
 button.btn-link.selected
   text-decoration: none !important
   color: $brand-grey !important
-  font-weight: bold !important
+  // font-weight: bold !important
 
-a.frameLight,
-button.frameLight
-  padding: .5rem 0
-  @include frameLight
+a.frame,
+button.frame
+  padding: 1rem
+  @include frame
 
-.frameLight
-  @include frameLight
+.frame
+  @include frame
 
-.submited .fake
-  @include frameLightSelected
+.frame.selected
+  @include frameSelected
+
+.explanation-page .frame.fake,
+.submited .frame.fake
+  @include frameFake
+
+.explanation-page .frame.real,
+.submited .frame.real
+  @include frameReal
