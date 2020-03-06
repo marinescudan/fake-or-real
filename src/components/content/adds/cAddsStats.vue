@@ -4,9 +4,9 @@
       <h1 class="pt5">{{ quiz.stats_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row class="pt4">
+      <c-row class="pt3 pb3">
         <c-col class="c-w-12">
-          <h2 class="pb4">{{ quiz.stats_subtitle }}</h2>
+          <h2>{{ quiz.stats_subtitle }}</h2>
         </c-col>
       </c-row>
       <c-row>
