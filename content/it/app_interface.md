@@ -1,7 +1,7 @@
 ---
 uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: Italian
-shortCode: it-IT
+locale: it-IT
+locale_for_humans: Italian (IT)
 contentType: "app_interface"
 slug: "localisation"
 START:

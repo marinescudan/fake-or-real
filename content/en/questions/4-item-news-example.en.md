@@ -1,14 +1,14 @@
 ---
 uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: it
+locale: en-GB
 date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
-contentType: "ternary"
+contentType: "news"
 slug: "question"
 title: "Exemple 1"
-question_title: "Is this item fake or real?"
-question_subtitle: "Decide whether this item is trustworthy or not"
+question_title: "Which of these adverts is not what it appears to be?"
+question_subtitle: "Choose which of these campaigns adverts you think should be treated with caution!"
 explanation_title: "Which of these adverts is not what it appears to be?"
 exlanation_subtitle: "Choose which of these campaigns adverts you think should be treated with caution!"
 stats_title: "Which of these adverts is not what it appears to be?"
@@ -18,10 +18,17 @@ items:
   - fake: true
     web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
     video_url: "https://vimeo.com/386102796"
-    image_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
+    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/1.jpg"
     title: "The 1 title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    click_count: 234
+    click_count: 123
+  - fake: false
+    web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
+    video_url: "https://vimeo.com/386102796"
+    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    title: "The title of the item is maximum 64 characters long"
+    text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
+    click_count: 753
   - fake: true
     web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
     video_url: "https://vimeo.com/386102796"

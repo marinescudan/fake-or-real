@@ -1,7 +1,7 @@
 ---
 uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: English
-shortCode: en-GB
+locale: en-GB
+locale_for_humans: English (GB)
 contentType: "app_interface"
 slug: "localisation"
 START:
