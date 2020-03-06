@@ -19,7 +19,7 @@ START:
 FINISH:
   GOODBYE_TITLE: "Thanks"
   GOODBYE_MESSAGE: "It's been brief But special"
-  CTA_GO_FINISH: "Go to start"
+  CTA_GO_START: "Go to start"
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"

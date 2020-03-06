@@ -9,8 +9,8 @@
           <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
         </c-col>
         <c-col class="c-w-6">
-          <h3 v-html="quizData.items[quizIndex].title"></h3>
-          <p v-html="quizData.items[quizIndex].text"></p>
+          <h3>{{quizData.items[quizIndex].title}}</h3>
+          <p class="user-input" v-html="quizData.items[quizIndex].text"></p>
         </c-col>
       </c-row>
   </div>

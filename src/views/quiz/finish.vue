@@ -1,5 +1,5 @@
 <template>
-  <c-page class="finish-page vh-100"  :rows="'27vh 63vh 10vh'" v-if="locale">
+  <c-page class="finish-page vh-100"  :rows="'27vh 59vh 14vh'" v-if="locale">
     <c-header>
       <h1>{{ locale.FINISH.GOODBYE_TITLE }}</h1>
     </c-header>
@@ -24,7 +24,7 @@
     <c-footer>
       <c-row>
         <c-col class="c-w-3">
-          <c-link :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_FINISH }}</c-link>
+          <c-link :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_START }}</c-link>
         </c-col>
       </c-row>
     </c-footer>

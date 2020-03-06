@@ -5,7 +5,7 @@
       <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
     </c-col>
     <c-col class="c-w-7">
-      <h3 v-html="quizData.items[quizIndex].title"></h3>
+      <h3>{{quizData.items[quizIndex].title}}</h3>
     </c-col>
   </c-row>
 </template>
