@@ -31,32 +31,34 @@
   outline: none
 
 @mixin frame
-  background-color: #ffffff
   border: 10px solid transparent
   border-image: url('~@/assets/img/frame.svg') 40% round
   cursor: pointer
+  outline: none
+  -webkit-tap-highlight-color: transparent;
 
 @mixin frameFake
-  border: 10px solid transparent
+  background: rgba(255, 0, 0,.1)
+  border: 10px solid red
   border-image: url('~@/assets/img/frame_fake.svg') 40% round
   cursor: pointer
 
 @mixin frameReal
-  border: 10px solid transparent
+  background: rgba(0, 255, 0,.1)
   border-image: url('~@/assets/img/frame_real.svg') 40% round
   cursor: pointer
 
 @mixin frameSelected
-  border: 10px solid transparent
+  background: rgba(255, 255, 2550,1)
   border-image: url('~@/assets/img/frame_selected.svg') 40% round
   cursor: pointer
 
 @mixin imageBackground
-  background: #ffffff url('~@/assets/img/image_background.svg') top center no-repeat
+  background: #221100 url('~@/assets/img/image_background.svg') top center no-repeat
   background-size: 100% 100%
 
 @mixin videoBackground
-  background: #ffffff url('~@/assets/img/video_background.svg') top center no-repeat
+  background: #221100 url('~@/assets/img/video_background.svg') top center no-repeat
   background-size: 100% 100%
 
 @mixin selectedBackground

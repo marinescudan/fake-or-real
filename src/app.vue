@@ -25,7 +25,8 @@ export default {
   mounted () {
     this.$store.dispatch('getMessages').then(()=>{
       this.$store.dispatch('getQuizList').then(()=>{
-        this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
+        let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
+        this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
           if (!JSON.parse(localStorage.getItem('locale'))) {
             if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
           } else {

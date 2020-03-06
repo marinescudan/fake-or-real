@@ -19,7 +19,7 @@
       </c-row>
       <c-row>
         <c-col class="c-w-4 pt4">
-          <div class="welcome-message user-input" v-html="locale.START.WELCOME_MESSAGE"></div>
+          <div class="welcome-message user-input" v-html="locale.START.WELCOME_MESSAGE_HTML"></div>
         </c-col>
       </c-row>
     </c-main>

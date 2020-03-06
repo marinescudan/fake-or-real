@@ -12,14 +12,12 @@
       <c-row>
         <c-col class="c-w-6">
           <c-adds-question-item
-          :quizIndex="0" :quizData="quiz"
-          v-on:itemSelected="saveSelection"
+          :quizIndex="0" v-on:itemSelected="saveSelection"
           ></c-adds-question-item>
         </c-col>
         <c-col class="c-w-6">
           <c-adds-question-item
-          :quizIndex="0" :quizData="quiz"
-          v-on:itemSelected="saveSelection"
+          :quizIndex="1" v-on:itemSelected="saveSelection"
           ></c-adds-question-item>
         </c-col>
       </c-row>
@@ -27,14 +25,15 @@
     <c-footer>
       <c-row v-if="!submited" class="pt1">
         <c-col class="c-w-4">
-          <button type="button" class="frame pt2 pb2"
+          <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
             @click="submitQuiz">{{ locale.QUESTION.CTA_GO_EXPLANATION }}</button>
         </c-col>
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1>{{ locale.QUESTION.SUBMIT_MESSAGE_HEADING}} {{selectedFakeNumber}}</h1>
+          <h1 v-if="correct">{{ locale.QUESTION.SUBMIT_MESSAGE_CORRECT}}</h1>
+          <h1 v-if="!correct">{{ locale.QUESTION.SUBMIT_MESSAGE_WRONG}}</h1>
         </c-col>
       </c-row>
     </c-footer>
@@ -53,29 +52,43 @@ export default {
   data: function () {
     return {
       submited: false,
-      selectedFakeNumber: 0,
+      correct: false,
       contentWidth: 90
     };
   },
   computed: {
-      ...mapState({
-        locale: state => state.locale,
-      }),
+    ...mapState({
+      quiz: state => state.quiz,
+      locale: state => state.locale,
+    }),
   },
   props: {
-    quiz: { type: Object, required: true }
+    // quiz: { type: Object, required: true }
   },
   methods: {
-    saveSelection: function (itemIndex, selected) {
-      this.selectedFakeNumber = selected ? this.selectedFakeNumber + 1 : this.selectedFakeNumber - 1;
-      this.quiz.items[itemIndex].selected = selected;
+    saveSelection (itemIndex, selected) {
+
+
+
+      let newQuiz = Object.assign({}, this.quiz);
+
+      newQuiz.items.forEach( (each, i) => {
+        if (itemIndex === i) {
+          each.selected = selected;
+        } else {
+          each.selected = false;
+        }
+        this.correct = itemIndex === i && selected;
+      });
+
+      this.$store.dispatch('setState', {
+        key: 'quiz',
+        value: newQuiz
+      })
     },
     submitQuiz: function () {
       this.submited = true;
-      this.$store.dispatch('setState', {
-        key: 'quiz',
-        value: this.quiz
-      })
+      this.$store.dispatch('setState', { key: 'quiz', value: this.quiz})
       .then(()=>{
         setTimeout(()=>{
           this.$router.push({ path: 'explanation' });

@@ -11,7 +11,18 @@ START:
   WELCOME_TITLE: "Benvenuto a"
   APP_NAME: "FALSO o REALE?"
   APP_VERSION: "Edizione di notizie"
-  WELCOME_MESSAGE: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt.</p><p> Quia audantium quae et officia saepe sunt assumenda.</p><p> Ohh ohhh"
+  WELCOME_MESSAGE_HTML: "
+    <p>
+      <b>Lorem ipsum dolor sit amet</b> consectetur adipisicing elit.
+      Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt.
+    </p>
+    <p>
+      Quia audantium quae et officia saepe sunt assumenda.
+    </p>
+    <p>
+      Oh ohh ohhh!
+    </p>
+  "
   CTA_GO_QUESTION: "Pronto a giocare?"
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
