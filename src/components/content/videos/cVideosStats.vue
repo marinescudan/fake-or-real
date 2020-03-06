@@ -18,12 +18,12 @@
     <c-footer>
       <c-row>
         <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
-          <button type="button" class="frameLight"
+          <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
-            @click="startQuiz">{{ $t("STATS.CTA_GO_AGAIN")}}</button>
+            @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
         </c-col>
         <c-col v-bind:class="dinamicClass">
-          <c-link :location="'/finish'">{{ $t("STATS.CTA_GO_FINISH")}}</c-link>
+          <c-link :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
         </c-col>
       </c-row>
     </c-footer>

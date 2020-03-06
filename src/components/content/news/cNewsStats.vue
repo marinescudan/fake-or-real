@@ -29,7 +29,7 @@
     <c-footer>
       <c-row>
         <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
-          <button type="button" class="frameLight"
+          <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
             @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
         </c-col>

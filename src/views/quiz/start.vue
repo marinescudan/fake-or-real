@@ -26,7 +26,7 @@
     <c-footer>
       <c-row class="pt3">
         <c-col class="c-w-4">
-          <button type="button" class="frameLight"
+          <button type="button" class="frame"
             :disabled="!$store.state.quizList"
             @click="startQuiz">{{ locale.START.CTA_GO_QUESTION }}</button>
         </c-col>

@@ -33,7 +33,7 @@ button
   display: inline-block
   text-decoration: none
   color: $forground
-  min-width: 60px
+  min-width: 120px
 
 a.btn-link,
 button.btn-link
@@ -44,15 +44,18 @@ a.btn-link.selected,
 button.btn-link.selected
   text-decoration: none !important
   color: $brand-grey !important
-  font-weight: bold !important
+  // font-weight: bold !important
 
-a.frameLight,
-button.frameLight
+a.frame,
+button.frame
   padding: 1rem
-  @include frameLight
+  @include frame
 
-.frameLight
-  @include frameLight
-
-.submited .fake
-  @include frameLightSelected
+.frame
+  @include frame
+  &.selected
+  @include frameSelected
+  &.fake
+  @include frameFake
+  &.real
+  @include frameReal

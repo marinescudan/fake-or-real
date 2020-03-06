@@ -4,15 +4,13 @@
       <h1 class="pt5">{{  quiz.explanation_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
+      <c-row>
+        <c-col class="c-w-12">
+          <h3 class="pb2">{{  quiz.explanation_subtitle  }}</h3>
+        </c-col>
+      </c-row>
       <c-row class="pt4">
         <c-col class="c-w-8">
-          <c-row>
-            <c-col class="c-w-6">
-              <h3 class="pb2">{{  quiz.explanation_subtitle  }}</h3>
-            </c-col>
-            <c-col class="c-w-6">
-            </c-col>
-          </c-row>
           <c-row>
             <c-col class="c-w-12">
               <div class="two-columns user-input" v-html="quiz.description"></div>
