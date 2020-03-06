@@ -1,10 +1,10 @@
 ---
 uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: en
-date: 2016-03-12T00:00:00.000Z
+locale: it-IT
+date: 2020-05-12T00:00:00.000Z
 published: true
 project: "for"
-contentType: "news"
+contentType: "adds"
 slug: "question"
 title: "Exemple 1"
 question_title: "Which of these adverts is not what it appears to be?"
@@ -18,29 +18,15 @@ items:
   - fake: true
     web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
     video_url: "https://vimeo.com/386102796"
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/1.jpg"
+    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     title: "The 1 title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    click_count: 123
-  - fake: false
-    web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
-    video_url: "https://vimeo.com/386102796"
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    title: "The title of the item is maximum 64 characters long"
-    text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    click_count: 753
+    click_count: 37
   - fake: true
     web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
     video_url: "https://vimeo.com/386102796"
     image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"
     title: "The title of the item is maximum 64 characters long"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    click_count: 654
-  - fake: false
-    web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"
-    video_url: "https://vimeo.com/386102796"
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/1.jpg"
-    title: "The title of the item is maximum 64 characters long"
-    text: "The title of the item is ***maximum*** 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi?"
-    click_count: 123
+    click_count: 66
 ---
