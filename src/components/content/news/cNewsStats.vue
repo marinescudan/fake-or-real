@@ -28,7 +28,7 @@
     </c-main>
     <c-footer>
       <c-row>
-        <c-col class="c-w-2" v-if="this.$store.state.quizList.length >= 2">
+        <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
           <button type="button" class="frameLight"
             :disabled="!$store.state.quizList.length"
             @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
@@ -62,7 +62,7 @@ export default {
     ...mapState({
       locale: state => state.locale,
     }),
-    dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-2':'c-w-4';},
+    dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-6';},
   },
   methods: {
     startQuiz: function () {
