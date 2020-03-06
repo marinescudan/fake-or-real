@@ -14,18 +14,18 @@
       <c-row v-if="!submited" class="pt4">
         <c-col class="c-w-6">
           <button type="button" class="frameLight pt2 pb2"
-            @click="submitQuiz(true)">{{ $t("QUESTION.CTA_FAKE")}}</button>
+            @click="submitQuiz(true)">{{ locale.QUESTION.CTA_FAKE }}</button>
         </c-col>
         <c-col class="c-w-6">
           <button type="button" class="frameLight pt2 pb2"
-            @click="submitQuiz(false)">{{ $t("QUESTION.CTA_REAL")}}</button>
+            @click="submitQuiz(false)">{{ locale.QUESTION.CTA_REAL }}</button>
         </c-col>
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
           <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
-            <span v-if="!quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_REAL")}}</span>
-            <span v-if="quizData.items[itemIndex].fake">{{ $t("QUESTION.VIDEO.RESULT_MESSAGE_FAKE")}}</span>
+            <span v-if="!quizData.items[itemIndex].fake">{{ locale.QUESTION.VIDEO.RESULT_MESSAGE_REAL }}</span>
+            <span v-if="quizData.items[itemIndex].fake">{{ locale.QUESTION.VIDEO.RESULT_MESSAGE_FAKE }}</span>
           </h1>
         </c-col>
       </c-row>
