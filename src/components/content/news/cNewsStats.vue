@@ -35,7 +35,7 @@
         </c-col>
         <!-- <c-col v-bind:class="{ 'c-w-2': this.$store.state.quizList.length > 1, 'c-w-4': this.$store.state.quizList.length === 1 }">> -->
         <c-col v-bind:class="dinamicClass">
-          <c-link :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
+          <c-link class="frame" :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -62,7 +62,7 @@ export default {
     ...mapState({
       locale: state => state.locale,
     }),
-    dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-6';},
+    dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-4';},
   },
   methods: {
     startQuiz: function () {

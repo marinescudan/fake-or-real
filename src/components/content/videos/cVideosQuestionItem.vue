@@ -41,7 +41,7 @@ export default {
   name:'cVideosQuestionItem',
   mixins: [layout, media, form],
   props: {
-    quizData: { type: Object, required: true },
+    // quizData: { type: Object, required: true },
     itemIndex: { type: Number, required: true }
   },
   data: function () {
@@ -61,6 +61,7 @@ export default {
     },
     ...mapState({
       locale: state => state.locale,
+      quizData: state => state.quiz,
     }),
   },
   methods: {

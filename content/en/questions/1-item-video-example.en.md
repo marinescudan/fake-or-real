@@ -12,8 +12,33 @@ question_subtitle: "Decide whether this item is trustworthy or not"
 explanation_title: "Which of these adverts is not what it appears to be?"
 exlanation_subtitle: "Choose which of these campaigns adverts you think should be treated with caution!"
 stats_title: "Which of these adverts is not what it appears to be?"
-stats_subtitle: "Other people thought that these adverts are not what they appeard to be:"
-description: "<h2>THe title of explanation goes in markdown</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.</p>"
+stats_subtitle: "Other people thought that these adverts are not what they appeared to be:"
+explanation_description_html: "
+  <h2>
+    The title of explanation goes in markdown
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus,
+    excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum
+    mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam
+    voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt
+    totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores
+    quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi
+    accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+  </p>"
 items:
   - fake: true
     web_url: "https://densitydesign.github.io/teaching-dd15/course-results/es03/group01/"

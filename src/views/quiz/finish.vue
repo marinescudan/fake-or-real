@@ -24,7 +24,7 @@
     <c-footer>
       <c-row>
         <c-col class="c-w-4">
-          <c-link :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_START }}</c-link>
+          <c-link class="frame" :location="{name: 'start'}">{{ locale.FINISH.CTA_GO_START }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -52,7 +52,8 @@ export default {
     image_right_url: function(){ return this.locale.FINISH.image_right_url },
   },
   created () {
-    this.$store.dispatch('setState', { key: 'quizList', value: this.$store.state.quizListBackup}).then(()=>{
+    let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
+    this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
       this.$store.dispatch('setQuiz', { loseCurrent: false });
     });
   },
