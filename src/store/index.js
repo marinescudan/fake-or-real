@@ -8,7 +8,7 @@ export default new Vuex.Store({
     quiz: null,
     quizIndex: null,
     quizList: null,
-    messages: null,
+    i18n_messages: null,
     locale: null,
     quizListBackup: null,
     isLoading:  false,
@@ -35,7 +35,7 @@ export default new Vuex.Store({
         api.get(url).then((response) => {
           context.commit('SET_STATE', { key: 'isLoading', value: false });
           let messages = mapMessages(response.data);
-          context.commit('SET_STATE', { key: 'messages', value: messages});
+          context.commit('SET_STATE', { key: 'i18n_messages', value: messages});
           context.commit('SET_STATE', { key: 'locale', value: messages[i18n.locale]});
           context.commit('SET_STATE', { key: 'localisationLoaded', value: true });
           resolve(messages);
