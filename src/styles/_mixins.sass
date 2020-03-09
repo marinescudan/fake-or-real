@@ -38,7 +38,7 @@
   -webkit-tap-highlight-color: transparent;
 
 @mixin frameFake
-  background: rgba(255, 0, 0,.1)
+  // background: rgba(255, 0, 0,.1)
   border: 10px solid red
   border-image: url('~@/assets/img/frame_fake.svg') 40% round
   cursor: pointer
@@ -64,3 +64,10 @@
 @mixin selectedBackground
   background: rgba(0, 0, 0, 0.7) url('~@/assets/img/check-mark.svg') center center no-repeat
   background-size: 25% 25%
+
+@mixin h1  
+  font-size: 6vh
+  letter-spacing: 0.21vh
+  line-height: 1
+  font-family: 'Jost400Book'
+  font-weight: 400

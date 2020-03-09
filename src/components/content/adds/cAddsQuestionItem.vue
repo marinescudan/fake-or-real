@@ -2,15 +2,15 @@
   <div
     class="c-adds-question-item frame pt2 pr2 pb2 pl2"
     v-if="quizData"
-    v-bind:class="[quizData.items[quizIndex].selected?'selected':'', quizData.items[quizIndex].fake?'fake':'real']"
-    v-on:click="$emit('itemSelected', quizIndex, !quizData.items[quizIndex].selected)">
+    v-bind:class="[quizData.items[itemIndex].selected?'selected':'', quizData.items[itemIndex].fake?'fake':'real']"
+    v-on:click="$emit('itemSelected', itemIndex, !quizData.items[itemIndex].selected)">
       <c-row>
         <c-col class="c-w-6">
-          <c-figure :src="quizData.items[quizIndex].image_url"></c-figure>
+          <c-figure :src="quizData.items[itemIndex].image_url"></c-figure>
         </c-col>
         <c-col class="c-w-6">
-          <h3>{{quizData.items[quizIndex].title}}</h3>
-          <p class="user-input" v-html="quizData.items[quizIndex].text"></p>
+          <h3>{{quizData.items[itemIndex].title}}</h3>
+          <p>{{quizData.items[itemIndex].text}}</p>
         </c-col>
       </c-row>
   </div>
@@ -24,7 +24,7 @@ export default {
   name:'cAddsQuestionItem',
   mixins: [layout, media, form],
   props: {
-    quizIndex: { type: Number, required: true },
+    itemIndex: { type: Number, required: true },
   },
   computed: {
     ...mapState({
