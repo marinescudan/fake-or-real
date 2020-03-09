@@ -20,20 +20,20 @@ module.exports = {
   outputDir: '_site',
 
   pwa: {
-    name: app.name,
-    themeColor: app.themeColor,
-    msTileColor: app.themeColor,
+    name: 'Fake or Real - News Edition',
+    themeColor: '#FFFFFF',
+    msTileColor: '#FFFFFF',
     appleMobileWebAppCapable: 'yes',
-    appleMobileWebAppStatusBarStyle: 'black',
+    appleMobileWebAppStatusBarStyle: 'white',
     assetsVersion: '',
     manifestPath: 'manifest.json',
     manifestOptions: {
-      background_color: app.splash_background_color,
-      name: app.name,
-      short_name: app.short_name,
+      background_color: '#FFF',
+      name: 'Fake or Real - News Edition',
+      short_name: 'Fake or Real',
       start_url: '.',
       display: 'fullscreen',
-      theme_color: app.themeColor
+      theme_color: '#FFFFFF'
     },
     iconPaths: {
       favicon32: 'img/icons/favicon-32x32.png',
@@ -42,10 +42,7 @@ module.exports = {
       maskIcon: 'img/icons/safari-pinned-tab.svg',
       msTileImage: 'img/icons/msapplication-icon-144x144.png'
     },
-    // workboxOptions: {
-    //   // swSrc is required in InjectManifest mode.
-    //   swSrc: 'dev/sw.js',
-    //   // ...other Workbox options...
-    // }
+    workboxPluginMode: 'InjectManifest',
+    manifestCrossorigin: 'anonymous'
   }
 }
