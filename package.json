@@ -1,7 +1,13 @@
 {
-  "name": "frne",
+  "name": "fake-or-real",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Dan Marinescu",
+    "email": "info@marinescudan.com"
+  },
+  "homepage": "",
+  "license": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
