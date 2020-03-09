@@ -41,7 +41,6 @@ explanation_description_html: "
   </p>"
 items:
   - fake: true
-    web_url: ""
     video_url: ""
     image_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
     title: "This item has not video url of the item is max 36 ch"
