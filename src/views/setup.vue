@@ -12,7 +12,7 @@
         </c-col>
       </c-row>
       <c-row class="pt5">
-        <c-col class="c-w-6">
+        <c-col class="c-w-4">
           <c-link class="frame" :location="{name: 'start'}">{{ locale.SETUP.START_QUIZ }}</c-link>
         </c-col>
       </c-row>
