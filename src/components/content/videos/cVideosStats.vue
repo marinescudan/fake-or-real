@@ -39,9 +39,6 @@ export default {
   name:'cVideosStats',
   mixins: [page, layout, media, form],
   components: { cVideosStatsItem },
-  props: {
-    quiz: { type: Object, required: false },
-  },
   data: function () {
     return {
       contentWidth: 90
