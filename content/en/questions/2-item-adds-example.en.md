@@ -41,7 +41,6 @@ explanation_description_html: "
   </p>"
 items:
   - fake: true
-    web_url: ""
     video_url: ""
     image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     title: "The 1 title of the item is max 36 ch"
