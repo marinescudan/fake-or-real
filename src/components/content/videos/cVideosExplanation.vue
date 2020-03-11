@@ -13,7 +13,7 @@
         <c-col class="c-w-8">
           <c-row>
             <c-col class="c-w-12">
-              <div class="two-columns  user-input" v-html="quiz.explanation_description_html"></div>
+              <div class="two-columns  user-input" v-html="quiz.contents"></div>
             </c-col>
           </c-row>
         </c-col>

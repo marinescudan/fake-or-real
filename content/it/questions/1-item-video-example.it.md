@@ -13,32 +13,6 @@ explanation_title: "Which of these adverts is not what it appears to be?"
 explanation_subtitle: "Choose which of these campaigns adverts you think should be treated with caution!"
 stats_title: "Which of these adverts is not what it appears to be?"
 stats_subtitle: "Other people thought that these adverts are not what they appeard to be:"
-explanation_description_html: "
-  <h2>
-    The title of explanation goes in markdown
-  </h2>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus,
-    excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum
-    mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam
-    voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt
-    totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores
-    quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi
-    accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>"
 items:
   - fake: false
     web_url: ""
@@ -48,3 +22,14 @@ items:
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quas imaximum 160 characters long. Sed distinctio modi maiores quasimaximum 160 characters long. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
     click_count: 234
 ---
+##The title of explanation goes in markdown
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit.  Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus,  excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
