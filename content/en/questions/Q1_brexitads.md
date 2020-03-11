@@ -1,6 +1,6 @@
 ---
 uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: en-GB
+locale: en
 date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
@@ -22,7 +22,7 @@ explanation_description_html: "All four of these adverts are suspicious"
 <p> In fact all these adverts were secretly funded by one company, CTF Partners, run by Lynton Crosby, a prominent political consultant often used by Great Britain’s Conservative Party. </p>
 
 <p>All of the organisations named – Mainstream Network, Britain’s Future and We Are the 52% - claim to be grassroots campaigns, but were all set up by CTF Partners, all aimed at putting pressure on British MPs to support an uncompromising approach to Britain’s negotiating position with the EU. </p>
- 
+
 items:
   - fake: false
     video_url: ""
