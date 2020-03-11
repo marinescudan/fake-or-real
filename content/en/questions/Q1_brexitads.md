@@ -13,7 +13,7 @@ explanation_title: "Find the fake adverts"
 explanation_subtitle: "Choose one or more of the adverts that you think are suspicious"
 stats_title: "Find the fake adverts"
 stats_subtitle: "Other people decided that these adverts are not trustworthy"
-explanation_description_html: "All four of these adverts are suspicious"
+explanation_description_html: "
   <h2>
     All four of these adverts are suspicious
   </h2>
@@ -21,8 +21,7 @@ explanation_description_html: "All four of these adverts are suspicious"
 
 <p> In fact all these adverts were secretly funded by one company, CTF Partners, run by Lynton Crosby, a prominent political consultant often used by Great Britain’s Conservative Party. </p>
 
-<p>All of the organisations named – Mainstream Network, Britain’s Future and We Are the 52% - claim to be grassroots campaigns, but were all set up by CTF Partners, all aimed at putting pressure on British MPs to support an uncompromising approach to Britain’s negotiating position with the EU. </p>
-
+<p>All of the organisations named – Mainstream Network, Britain’s Future and We Are the 52% - claim to be grassroots campaigns, but were all set up by CTF Partners, all aimed at putting pressure on British MPs to support an uncompromising approach to Britain’s negotiating position with the EU. </p>"
 items:
   - fake: false
     video_url: ""

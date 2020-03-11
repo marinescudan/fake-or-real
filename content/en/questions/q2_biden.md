@@ -24,7 +24,6 @@ This is a genuine video of US Presidential candidate – and well known Trump cr
 Although this is actual footage, Joe Biden makes a mistake – which he later corrects but is edited out of the video. </p>
  <p>
 “Deep fake” videos, where advanced software is used to generate lifelike videos of people, are now increasingly common. But genuine videos can also be edited to be just as misleading.  </p>"
-
 items:
   - fake: true
     video_url: "https://youtu.be/l1-6cwetV5k?t=878"
