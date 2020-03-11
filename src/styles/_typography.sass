@@ -1,14 +1,13 @@
+@import "_variables.sass"
+@import "_mixins.sass"
+
 h1, h2, h3
   margin: 0
   padding: 0
   color: $forground
 
 h1
-  font-size: 6vh
-  letter-spacing: 0.21vh
-  line-height: 1
-  font-family: 'Jost400Book'
-  font-weight: 400
+  @include h1
 
 h2
   font-size: 4vh
@@ -34,7 +33,15 @@ h3
   font-family: 'Jost400Book'
   font-weight: 400
 
-p, .user-input
+a, button
+  font-size: 3vh
+  letter-spacing: 0vh
+  line-height: 1
+  font-family: 'Jost400Book'
+  font-weight: 400
+
+p,
+.user-input
   font-size: 2vh
   margin: 0 0 1vh 0
   letter-spacing: 0vh
@@ -44,12 +51,9 @@ p, .user-input
   font-weight: 400
   color: $forground
 
-a, button
-  font-size: 3vh
-  letter-spacing: 0vh
-  line-height: 1
-  font-family: 'Jost400Book'
-  font-weight: 400
+p.h1
+  @include h1
+  text-align: left
 
 .user-input h1, .user-input h2, .user-input  h3
   text-align: left

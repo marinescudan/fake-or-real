@@ -51,9 +51,6 @@ export default {
   name:'cNewsStats',
   mixins: [page, layout, media, form],
   components: { cNewsStatsItem },
-  props: {
-    quiz: { type: Object, required: false },
-  },
   data: function () {
     return {
       contentWidth: 90

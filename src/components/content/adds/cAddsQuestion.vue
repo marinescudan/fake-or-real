@@ -12,12 +12,12 @@
       <c-row>
         <c-col class="c-w-6">
           <c-adds-question-item
-          :quizIndex="0" v-on:itemSelected="saveSelection"
+          :itemIndex="0" v-on:itemSelected="saveSelection"
           ></c-adds-question-item>
         </c-col>
         <c-col class="c-w-6">
           <c-adds-question-item
-          :quizIndex="1" v-on:itemSelected="saveSelection"
+          :itemIndex="1" v-on:itemSelected="saveSelection"
           ></c-adds-question-item>
         </c-col>
       </c-row>

@@ -21,7 +21,6 @@ export default {
   mixins: [layout, media, form],
   props: {
     itemIndex: { type: Number, required: true },
-    quizData: { type: Object, required: true },
   },
   computed: {
     ...mapState({
