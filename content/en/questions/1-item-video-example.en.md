@@ -13,32 +13,6 @@ explanation_title: "Is This Item Fake Or Real"
 explanation_subtitle: "Decide whether this item is trustworthy or not"
 stats_title: "Is This Item Fake Or Real"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
-explanation_description_html: "
-  <h2>
-    The title of explanation goes in markdown
-  </h2>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus,
-    excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum
-    mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam
-    voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt
-    totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores
-    quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi
-    accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-  </p>"
 items:
   - fake: true
     video_url: "https://vimeo.com/386102796"
@@ -47,3 +21,21 @@ items:
     text: "The title of the item is maximum 160 characters long. Sed distin maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum Sed distinctio modi maiores quasi sunt totam voluptatum?"
     click_count: 234
 ---
+## The title of explanation goes in markdown
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus,
+excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum
+mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam
+voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt
+totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores
+quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi
+accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
