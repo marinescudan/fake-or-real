@@ -26,10 +26,12 @@ export const layout = Vue.mixin({
 
 import cFigure from '@/components/media/cFigure';
 import cVimeo from '@/components/media/cVimeo';
+import cYoutube from "@/components/media/cYoutube";
 export const media = Vue.mixin({
     components: {
         cFigure,
         cVimeo,
+        cYoutube,
     }
 });
 
