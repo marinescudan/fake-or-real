@@ -18,11 +18,9 @@ export default {
   },
   computed: {
     isVimeo (){
-      console.log('isVimeo', this.quizData.items[this.itemIndex].video_url);
       return this.quizData.items[this.itemIndex].video_url.includes('vimeo');
     },
     isYoutube (){
-      console.log('youtu.be', this.quizData.items[this.itemIndex].video_url);
       if (this.quizData.items[this.itemIndex].video_url.includes('youtube')) return true;
       else if (this.quizData.items[this.itemIndex].video_url.includes('youtu.be')) return true;
       else return false;
