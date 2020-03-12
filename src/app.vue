@@ -18,6 +18,7 @@ export default {
     ...mapState({
       isLoading: state => state.isLoading,
       localisationLoaded: state => state.localisationLoaded,
+      i18n_messages: state => state.i18n_messages,
       dataLoaded: state => state.dataLoaded,
       err: state => state.err,
     })
@@ -25,16 +26,19 @@ export default {
   mounted () {
     this.$store.dispatch('getMessages').then(()=>{
       this.$store.dispatch('getQuizList').then(()=>{
+
         let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
+
         this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
-          if (!JSON.parse(localStorage.getItem('locale'))) {
-            if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
-          } else {
+           if ( JSON.parse( localStorage.getItem('locale')) in this.i18n_messages ) {
             let key = JSON.parse(localStorage.getItem('locale'));
             this.$i18n.locale = key;
             this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(()=>{
               if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
             });
+          } else {
+            localStorage.setItem('locale', null);
+            if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
           }
         });
       });

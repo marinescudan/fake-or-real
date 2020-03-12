@@ -1,8 +1,7 @@
 <template>
   <c-row>
     <c-col class="c-w-8">
-      <c-vimeo v-if="vimeoId" :videoId="vimeoId"></c-vimeo>
-      <c-figure v-if="!vimeoId" :src="quizData.items[itemIndex].image_url"></c-figure>
+      <c-media-viewer :itemIndex="itemIndex"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4">
       <h3>{{quizData.items[itemIndex].title}}</h3>
@@ -14,10 +13,12 @@
 <script>
 import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
+import cMediaViewer from '@/components/media/cMediaViewer';
 
 export default {
   name:'cVideosStatsItem',
   mixins: [layout, media, form],
+  components: { cMediaViewer },
   props: {
     itemIndex: { type: Number, required: true }
   },
