@@ -6,7 +6,9 @@ import store from './store';
 import i18n from './i18n';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
+import VueYoutube from "vue-youtube";
 
+Vue.use(VueYoutube);
 Vue.use(VueAxios, axios);
 
 Vue.config.productionTip = false;

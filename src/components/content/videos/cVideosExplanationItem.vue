@@ -3,8 +3,7 @@
     v-bind:class="[quizData.items[itemIndex].fake?'fake':'real']">
     <c-row>
       <c-col class="c-w-12">
-        <c-vimeo v-if="vimeoId" :videoId="vimeoId"></c-vimeo>
-        <c-figure v-if="!vimeoId" :src="quizData.items[this.itemIndex].image_url"></c-figure>
+        <c-media-viewer :itemIndex="itemIndex"></c-media-viewer>
       </c-col>
     </c-row>
     <c-row class="pt2">
@@ -18,10 +17,12 @@
 <script>
 import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
+import cMediaViewer from '@/components/media/cMediaViewer';
 
 export default {
   name:'cVideosExplanationItem',
   mixins: [layout, media, form],
+  components: { cMediaViewer },
   props: {
     itemIndex: { type: Number, required: true }
   },
