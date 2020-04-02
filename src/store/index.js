@@ -7,6 +7,7 @@ export default new Vuex.Store({
   state: {
     quiz: null,
     quizIndex: null,
+    loadRandomQuizFlag:  false,
     quizList: null,
     i18n_messages: null,
     locale: null,
@@ -63,9 +64,8 @@ export default new Vuex.Store({
     setQuiz: (context, config={}) => {
       return new Promise((resolve) => {
         let tempArray = JSON.parse(JSON.stringify(context.state.quizList));
-        // let tempArray = context.state.quizList.slice();
         if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
-        let newQuizIndex = Math.floor(Math.random() * (tempArray.length));
+        let newQuizIndex = context.state.loadRandomQuestionFlag ? Math.floor(Math.random() * (tempArray.length)) : 0;
         context.commit('SET_STATE', { key: 'quiz', value: tempArray[newQuizIndex] });
         context.commit('SET_STATE', { key: 'quizIndex', value: newQuizIndex });
         context.commit('SET_STATE', { key: 'quizList', value: tempArray });
