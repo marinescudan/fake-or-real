@@ -6,7 +6,7 @@ published: true
 project: "for"
 contentType: "news"
 slug: "question"
-title: "Not visible"
+title: "this is Not displayed"
 question_title: "This is the big title on the question page"
 question_subtitle: "This is the big subtitle on the question page"
 explanation_title: "This is the big title on the explanation page"
