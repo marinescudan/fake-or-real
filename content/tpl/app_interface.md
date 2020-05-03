@@ -4,6 +4,8 @@ locale: tpl
 locale_for_humans: Template
 contentType: "app_interface"
 slug: "localisation"
+published: true
+project: "for"
 SETUP:
   CHOOSE_LANGUAGE: "SETUP.CHOOSE_LANGUAGE"
   START_QUIZ: "SETUP.START_QUIZ"

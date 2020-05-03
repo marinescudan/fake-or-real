@@ -4,6 +4,8 @@ locale: en
 locale_for_humans: English
 contentType: "app_interface"
 slug: "localisation"
+published: true
+project: "for"
 SETUP:
   CHOOSE_LANGUAGE: "Set quiz language"
   START_QUIZ: "Start quiz"
