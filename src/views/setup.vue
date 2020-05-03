@@ -13,6 +13,13 @@
       </c-row>
       <c-row class="pt5">
         <c-col class="c-w-4">
+          <label>
+            <input type="checkbox" @change="setupRandomQuiz($event)" v-model="loadRandomQuestionFlag" > Load questions randomly.
+          </label>
+        </c-col>
+      </c-row>
+      <c-row class="pt5">
+        <c-col class="c-w-4">
           <c-link class="frame" :location="{name: 'start'}">{{ locale.SETUP.START_QUIZ }}</c-link>
         </c-col>
       </c-row>
@@ -35,6 +42,7 @@ export default {
     ...mapState({
       quiz: state => state.quiz,
       locale: state => state.locale,
+      loadRandomQuestionFlag: state => state.loadRandomQuestionFlag,
     }),
     image_left_url: function(){return this.locale.START.image_left_url},
     image_center_url: function(){return this.locale.START.image_center_url},
@@ -45,6 +53,9 @@ export default {
       this.$store.dispatch('setQuiz', {loseCurrent: false}).then(()=>{
         this.$router.push({ path: 'question' });
       });
+    },
+    setupRandomQuiz: function () {
+      this.$store.dispatch('setState', { key: 'loadRandomQuestionFlag', value: !this.loadRandomQuestionFlag});
     }
   }
 }

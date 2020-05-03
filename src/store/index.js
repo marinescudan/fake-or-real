@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     quiz: null,
     quizIndex: null,
-    loadRandomQuizFlag:  false,
+    loadRandomQuestionFlag:  false,
     quizList: null,
     i18n_messages: null,
     locale: null,
