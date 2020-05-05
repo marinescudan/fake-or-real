@@ -15,7 +15,7 @@ import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
-  name:'cNewsStatsItem',
+  name:'cQuadsStatsItem',
   mixins: [layout, media, form],
   props: {
     itemIndex: { type: Number, required: true },

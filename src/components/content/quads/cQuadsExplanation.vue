@@ -46,12 +46,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cNewsExplanationItem from '@/components/content/quads/cNewsExplanationItem';
+import cQuadsExplanationItem from '@/components/content/quads/cQuadsExplanationItem';
 
 export default {
-  name:'cNewsExplanation',
+  name:'cQuadsExplanation',
   mixins: [page, layout, media, form],
-  components: { cNewsExplanationItem },
+  components: { cQuadsExplanationItem },
   data: function () {
     return {
       contentWidth: 90

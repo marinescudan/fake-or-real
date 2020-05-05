@@ -54,12 +54,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cNewsQuestionItem from '@/components/content/quads/cNewsQuestionItem';
+import cQuadsQuestionItem from '@/components/content/quads/cQuadsQuestionItem';
 
 export default {
-  name:'cNewsQuestion',
+  name:'cQuadsQuestion',
   mixins: [page, layout, media, form],
-  components: { cNewsQuestionItem },
+  components: { cQuadsQuestionItem },
   data: function () {
     return {
       submited: false,

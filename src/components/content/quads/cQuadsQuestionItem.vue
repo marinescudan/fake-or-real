@@ -21,7 +21,7 @@ import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
-  name:'cNewsQuestionItem',
+  name:'cQuadsQuestionItem',
   mixins: [layout, media, form],
   props: {
     quizIndex: { type: Number, required: true },

@@ -8,12 +8,12 @@
 
 <script>
   import { mapState } from 'vuex';
-  import cNewsStats from '@/components/content/quads/cNewsStats';
+  import cQuadsStats from '@/components/content/quads/cQuadsStats';
   import cSinglesStats from '@/components/content/singles/cSinglesStats';
   import cDoublesStats from '@/components/content/doubles/cDoublesStats';
   export default {
     name: 'question',
-    components: { cNewsStats, cDoublesStats, cSinglesStats },
+    components: { cQuadsStats, cDoublesStats, cSinglesStats },
     computed: {
       ...mapState({
         quiz: state => state.quiz
