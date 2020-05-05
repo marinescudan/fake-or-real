@@ -9,6 +9,7 @@ project: "for"
 SETUP:
   CHOOSE_LANGUAGE: "Set quiz language"
   START_QUIZ: "Start quiz"
+  RANDOM_CHECKBOX_LABLE: "Load questions randomly."
 START:
   WELCOME_TITLE: "Welcome to"
   APP_NAME: "FAKE or REAL?"

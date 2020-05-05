@@ -14,7 +14,7 @@
       <c-row class="pt5">
         <c-col class="c-w-4">
           <label>
-            <input type="checkbox" @change="setupRandomQuiz($event)" v-model="loadRandomQuestionFlag" > Load questions randomly.
+            <input type="checkbox" @change="setupRandomQuiz($event)" v-model="loadRandomQuestionFlag" > {{ locale.SETUP.RANDOM_CHECKBOX_LABLE }}
           </label>
         </c-col>
       </c-row>
