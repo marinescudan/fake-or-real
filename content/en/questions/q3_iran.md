@@ -4,15 +4,27 @@ locale: en
 date: 2020-05-12T00:00:00.000Z
 published: true
 project: "for"
-contentType: "adds"
+contentType: "doubles"
 slug: "question"
 title: "Exemple 1"
 question_title: "Which Of These Photis Is Fake"
 question_subtitle: "Images reported as showing Iran's missile attacck on a US base in Iraq on 7 Jan 2020 "
+question_submit_message_heading: "You selected"
+question_submit_message_correct: "Correct"
+question_submit_message_wrong: "Wrong"
+question_single:
+question_single_result_message_real: "It is real"
+question_single_result_message_fake: "It is fake"
+question_cta_go_explanation: "Check"
+question_cta_fake: "Fake?"
+question_cta_real: "Real?"
 explanation_title: "Which Of These Adverts Is Fake"
 explanation_subtitle: "Images reported as showing Iran's missile attacck on a US base in Iraq on 7 Jan 2020 "
+explanation_cta_go_stats: "See what other people thought"
 stats_title: "Which Of These Adverts Is Fake"
 stats_subtitle: "Other people decided that the adverts are not trustworthy"
+stats_cta_go_again: "Give me another"
+stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
     video_url: ""

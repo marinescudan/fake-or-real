@@ -11,7 +11,7 @@
       </c-row>
       <c-row>
         <c-col class="c-w-12">
-          <c-videos-question-item :quizData="quiz" :itemIndex="0"></c-videos-question-item>
+          <c-singles-question-item :quizData="quiz" :itemIndex="0"></c-singles-question-item>
         </c-col>
       </c-row>
     </c-main>
@@ -21,12 +21,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cVideosQuestionItem from '@/components/content/videos/cVideosQuestionItem';
+import cSinglesQuestionItem from '@/components/content/singles/cSinglesQuestionItem';
 
 export default {
-  name:'cVideosQuestion',
+  name:'cSinglesQuestion',
   mixins: [page, layout, media, form],
-  components: { cVideosQuestionItem },
+  components: { cSinglesQuestionItem },
   data: function () {
     return {
       contentWidth: 80

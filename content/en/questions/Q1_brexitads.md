@@ -4,15 +4,26 @@ locale: en
 date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
-contentType: "news"
+contentType: "quads"
 slug: "question"
 title: "Exemple 1"
 question_title: "Find the fake adverts"
 question_subtitle: "Choose one or more of the adverts that you think are suspicious"
+question_submit_message_heading: "You selected"
+question_submit_message_correct: "Correct"
+question_submit_message_wrong: "Wrong"
+question_single_result_message_real: "It is real"
+question_single_result_message_fake: "It is fake"
+question_cta_go_explanation: "Check"
+question_cta_fake: "Fake?"
+question_cta_real: "Real?"
 explanation_title: "Find the fake adverts"
 explanation_subtitle: "Choose one or more of the adverts that you think are suspicious"
+explanation_cta_go_stats: "See what other people thought"
 stats_title: "Find the fake adverts"
 stats_subtitle: "Other people decided that these adverts are not trustworthy"
+stats_cta_go_again: "Give me another"
+stats_cta_go_finish: "I'm done with this"
 items:
   - fake: false
     video_url: ""

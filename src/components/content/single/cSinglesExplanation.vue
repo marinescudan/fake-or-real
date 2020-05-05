@@ -1,36 +1,31 @@
 <template>
   <c-page class="explanation-page vh-100 pt3" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
-      <h1 class="pt5">{{ quiz.explanation_title}}</h1>
+      <h1 class="pt5">{{ quiz.explanation_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt3 pb3">
         <c-col class="c-w-12">
-          <h2>{{ quiz.explanation_subtitle }}</h2>
+          <h2>{{  quiz.explanation_subtitle  }}</h2>
         </c-col>
       </c-row>
       <c-row>
         <c-col class="c-w-8">
           <c-row>
             <c-col class="c-w-12">
-              <div class="two-columns user-input" v-html="quiz.contents"></div>
+              <div class="two-columns  user-input" v-html="quiz.contents"></div>
             </c-col>
           </c-row>
         </c-col>
         <c-col class="c-w-4">
-          <c-adds-explanation-item
-            :itemIndex="0" :quizData="quiz"
-          ></c-adds-explanation-item>
-          <c-adds-explanation-item
-            :itemIndex="1" :quizData="quiz"
-          ></c-adds-explanation-item>
+          <c-singles-explanation-item :quizData="quiz" :itemIndex="0"></c-singles-explanation-item>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
       <c-row>
         <c-col class="c-w-4">
-          <c-link class="frame" :location="'stats'">{{ locale.EXPLANATION.CTA_GO_STATS }}</c-link>
+          <c-link class="frame" :location="'stats'">{{ quiz.explanation_cta_go_stats }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -39,24 +34,24 @@
 
 <script>
 import { mapState } from 'vuex';
-import {page, layout, media, form} from '@/mixins/components';
-import cAddsExplanationItem from '@/components/content/adds/cAddsExplanationItem';
+import {layout, media, form} from '@/mixins/components';
+import cSinglesExplanationItem from '@/components/content/singles/cSinglesExplanationItem';
 
 export default {
-  name:'cAddsExplanation',
-  mixins: [page, layout, media, form],
-  components: { cAddsExplanationItem },
+  name:'cSinglesExplanation',
+  mixins: [layout, media, form],
+  components: { cSinglesExplanationItem },
+  data: function () {
+    return {
+      contentWidth: 90
+    };
+  },
   computed: {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
     }),
   },
-  data: function () {
-    return {
-      contentWidth: 90
-    };
-  }
 }
 </script>
 

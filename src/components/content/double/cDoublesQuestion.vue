@@ -11,14 +11,14 @@
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-adds-question-item
+          <c-doubles-question-item
           :itemIndex="0" v-on:itemSelected="saveSelection"
-          ></c-adds-question-item>
+          ></c-doubles-question-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-adds-question-item
+          <c-doubles-question-item
           :itemIndex="1" v-on:itemSelected="saveSelection"
-          ></c-adds-question-item>
+          ></c-doubles-question-item>
         </c-col>
       </c-row>
     </c-main>
@@ -27,13 +27,13 @@
         <c-col class="c-w-4">
           <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
-            @click="submitQuiz">{{ locale.QUESTION.CTA_GO_EXPLANATION }}</button>
+            @click="submitQuiz">{{ quiz.question_cta_go_explanation }}</button>
         </c-col>
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
-          <h1 class="dark-green" v-if="correct">{{ locale.QUESTION.SUBMIT_MESSAGE_CORRECT}}</h1>
-          <h1 class="dark-red" v-if="!correct">{{ locale.QUESTION.SUBMIT_MESSAGE_WRONG}}</h1>
+          <h1 class="dark-green" v-if="correct">{{ quiz.question_submit_message_correct}}</h1>
+          <h1 class="dark-red" v-if="!correct">{{ quiz.question_submit_message_wrong}}</h1>
         </c-col>
       </c-row>
     </c-footer>
@@ -43,12 +43,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cAddsQuestionItem from '@/components/content/adds/cAddsQuestionItem';
+import cDoublesQuestionItem from '@/components/content/doubles/cDoublesQuestionItem';
 
 export default {
-  name:'cAddsQuestion',
+  name:'cDoublesQuestion',
   mixins: [page, layout, media, form],
-  components: { cAddsQuestionItem },
+  components: { cDoublesQuestionItem },
   data: function () {
     return {
       submited: false,

@@ -1,19 +1,19 @@
 <template>
   <div class="wrapper vh-100" v-if="quiz">
-    <c-news-question v-if="quiz.contentType === 'news'"></c-news-question>
-    <c-adds-question v-if="quiz.contentType === 'adds'"></c-adds-question>
-    <c-videos-question v-if="quiz.contentType === 'video'"></c-videos-question>
+    <c-quads-question v-if="quiz.contentType === 'quads'"></c-quads-question>
+    <c-doubles-question v-if="quiz.contentType === 'doubles'"></c-doubles-question>
+    <c-singles-question v-if="quiz.contentType === 'single'"></c-singles-question>
   </div>
 </template>
 
 <script>
   import { mapState } from 'vuex';
-  import cNewsQuestion from '@/components/content/news/cNewsQuestion';
-  import cAddsQuestion from '@/components/content/adds/cAddsQuestion';
-  import cVideosQuestion from '@/components/content/videos/cVideosQuestion';
+  import cNewsQuestion from '@/components/content/quads/cNewsQuestion';
+  import cDoublesQuestion from '@/components/content/doubles/cDoublesQuestion';
+  import cSinglesQuestion from '@/components/content/singles/cSinglesQuestion';
   export default {
     name: 'question',
-    components: { cNewsQuestion, cAddsQuestion, cVideosQuestion },
+    components: { cNewsQuestion, cDoublesQuestion, cSinglesQuestion },
     computed: {
       ...mapState({
         quiz: state => state.quiz

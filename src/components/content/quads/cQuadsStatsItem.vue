@@ -1,15 +1,13 @@
 <template>
-  <div class="frame mb2 pa2"
-    v-bind:class="[quizData.items[itemIndex].fake?'fake':'real']">
-    <c-row >
-      <c-col class="c-w-5">
+    <c-row class="c-quads-stats-item pt2 pr2 pb2 pl2 mb3">
+      <c-col class="c-w-6">
         <c-figure :src="quizData.items[itemIndex].image_url"></c-figure>
       </c-col>
-      <c-col class="c-w-7">
-        <p>{{quizData.items[itemIndex].title}}</p>
+      <c-col class="c-w-6">
+        <h3 v-html="quizData.items[itemIndex].title"></h3>
+        <p class="f2">{{quizData.items[itemIndex].click_count}}</p>
       </c-col>
     </c-row>
-  </div>
 </template>
 
 <script>
@@ -17,7 +15,7 @@ import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
-  name:'cAddsExplanationItem',
+  name:'cNewsStatsItem',
   mixins: [layout, media, form],
   props: {
     itemIndex: { type: Number, required: true },

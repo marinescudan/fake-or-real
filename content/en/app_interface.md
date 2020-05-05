@@ -39,19 +39,4 @@ FINISH:
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
-QUESTION:
-  SUBMIT_MESSAGE_HEADING: "You selected"
-  SUBMIT_MESSAGE_CORRECT: "Correct"
-  SUBMIT_MESSAGE_WRONG: "Wrong"
-  VIDEO:
-    RESULT_MESSAGE_REAL: "It is real"
-    RESULT_MESSAGE_FAKE: "It is fake"
-  CTA_GO_EXPLANATION: "Check"
-  CTA_FAKE: "Fake?"
-  CTA_REAL: "Real?"
-EXPLANATION:
-  CTA_GO_STATS: "See what other people thought"
-STATS:
-  CTA_GO_AGAIN: "Give me another"
-  CTA_GO_FINISH: "I'm done with this"
 ---

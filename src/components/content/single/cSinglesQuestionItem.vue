@@ -1,5 +1,5 @@
 <template>
-  <c-row class="c-videos-question-item">
+  <c-row class="c-singles-question-item">
     <c-col class="c-w-8">
       <c-media-viewer :itemIndex="itemIndex"></c-media-viewer>
     </c-col>
@@ -13,18 +13,18 @@
       <c-row v-if="!submited" class="pt4">
         <c-col class="c-w-6">
           <button type="button" class="frame pt2 pb2"
-            @click="submitQuiz(true)">{{ locale.QUESTION.CTA_FAKE }}</button>
+            @click="submitQuiz(true)">{{ quiz.question_cta_fake }}</button>
         </c-col>
         <c-col class="c-w-6">
           <button type="button" class="frame pt2 pb2"
-            @click="submitQuiz(false)">{{ locale.QUESTION.CTA_REAL }}</button>
+            @click="submitQuiz(false)">{{ quiz.question_cta_real }}</button>
         </c-col>
       </c-row>
       <c-row v-if="submited" class="pt4">
         <c-col class="c-w-12">
           <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
-            <span v-if="!quizData.items[itemIndex].fake">{{ locale.QUESTION.VIDEO.RESULT_MESSAGE_REAL }}</span>
-            <span v-if="quizData.items[itemIndex].fake">{{ locale.QUESTION.VIDEO.RESULT_MESSAGE_FAKE }}</span>
+            <span v-if="!quizData.items[itemIndex].fake">{{ quiz.question_single_result_message_real }}</span>
+            <span v-if="quizData.items[itemIndex].fake">{{ quiz.question_single_result_message_fake }}</span>
           </h1>
         </c-col>
       </c-row>
@@ -38,7 +38,7 @@ import {layout, media, form} from '@/mixins/components';
 import cMediaViewer from '@/components/media/cMediaViewer';
 
 export default {
-  name:'cVideosQuestionItem',
+  name:'cSinglesQuestionItem',
   mixins: [layout, media, form],
   components: { cMediaViewer },
   props: {

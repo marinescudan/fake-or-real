@@ -11,18 +11,18 @@
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-news-stats-item :quizData="quiz" :itemIndex="0"></c-news-stats-item>
+          <c-quads-stats-item :quizData="quiz" :itemIndex="0"></c-quads-stats-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-news-stats-item :quizData="quiz" :itemIndex="1"></c-news-stats-item>
+          <c-quads-stats-item :quizData="quiz" :itemIndex="1"></c-quads-stats-item>
         </c-col>
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-news-stats-item :quizData="quiz" :itemIndex="2"></c-news-stats-item>
+          <c-quads-stats-item :quizData="quiz" :itemIndex="2"></c-quads-stats-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-news-stats-item :quizData="quiz" :itemIndex="3"></c-news-stats-item>
+          <c-quads-stats-item :quizData="quiz" :itemIndex="3"></c-quads-stats-item>
         </c-col>
       </c-row>
     </c-main>
@@ -31,11 +31,11 @@
         <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
           <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
-            @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
+            @click="startQuiz">{{ quiz.stats_cta_go_again }}</button>
         </c-col>
         <!-- <c-col v-bind:class="{ 'c-w-2': this.$store.state.quizList.length > 1, 'c-w-4': this.$store.state.quizList.length === 1 }">> -->
         <c-col v-bind:class="dinamicClass">
-          <c-link class="frame" :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
+          <c-link class="frame" :location="'/finish'">{{ quiz.stats_cta_go_finish }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -45,7 +45,7 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cNewsStatsItem from '@/components/content/news/cNewsStatsItem';
+import cNewsStatsItem from '@/components/content/quads/cNewsStatsItem';
 
 export default {
   name:'cNewsStats',

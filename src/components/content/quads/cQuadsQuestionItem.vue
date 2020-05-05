@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-news-question-item frame pt2 pr2 pb2 pl2 mb3"
+    class="c-quads-question-item frame pt2 pr2 pb2 pl2 mb3"
     v-if="quizData"
     v-bind:class="[quizData.items[quizIndex].selected?'selected':'', quizData.items[quizIndex].fake?'fake':'real']"
     v-on:click="$emit('itemSelected', quizIndex, !quizData.items[quizIndex].selected)">

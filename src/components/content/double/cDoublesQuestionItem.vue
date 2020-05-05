@@ -1,6 +1,6 @@
 <template>
   <div
-    class="c-adds-question-item frame pt2 pr2 pb2 pl2"
+    class="c-doubles-question-item frame pt2 pr2 pb2 pl2"
     v-if="quizData"
     v-bind:class="[quizData.items[itemIndex].selected?'selected':'', quizData.items[itemIndex].fake?'fake':'real']"
     v-on:click="$emit('itemSelected', itemIndex, !quizData.items[itemIndex].selected)">
@@ -21,7 +21,7 @@ import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 
 export default {
-  name:'cAddsQuestionItem',
+  name:'cDoublesQuestionItem',
   mixins: [layout, media, form],
   props: {
     itemIndex: { type: Number, required: true },

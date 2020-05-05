@@ -11,7 +11,7 @@
       </c-row>
       <c-row>
         <c-col class="c-w-8">
-          <c-videos-stats-item :quizData="quiz" :itemIndex="0"></c-videos-stats-item>
+          <c-singles-stats-item :quizData="quiz" :itemIndex="0"></c-singles-stats-item>
         </c-col>
       </c-row>
     </c-main>
@@ -20,10 +20,10 @@
         <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
           <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
-            @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
+            @click="startQuiz">{{ quiz.stats_cta_go_again }}</button>
         </c-col>
         <c-col v-bind:class="dinamicClass">
-          <c-link class="frame" :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
+          <c-link class="frame" :location="'/finish'">{{ quiz.stats_cta_go_finish }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -33,12 +33,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cVideosStatsItem from '@/components/content/videos/cVideosStatsItem';
+import cSinglesStatsItem from '@/components/content/singles/cSinglesStatsItem';
 
 export default {
-  name:'cVideosStats',
+  name:'cSinglesStats',
   mixins: [page, layout, media, form],
-  components: { cVideosStatsItem },
+  components: { cSinglesStatsItem },
   data: function () {
     return {
       contentWidth: 90

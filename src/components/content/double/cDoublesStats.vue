@@ -11,10 +11,10 @@
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-adds-stats-item :quizData="quiz" :itemIndex="0"></c-adds-stats-item>
+          <c-doubles-stats-item :quizData="quiz" :itemIndex="0"></c-doubles-stats-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-adds-stats-item :quizData="quiz" :itemIndex="1"></c-adds-stats-item>
+          <c-doubles-stats-item :quizData="quiz" :itemIndex="1"></c-doubles-stats-item>
         </c-col>
       </c-row>
     </c-main>
@@ -23,10 +23,10 @@
         <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
           <button type="button" class="frame"
             :disabled="!$store.state.quizList.length"
-            @click="startQuiz">{{ locale.STATS.CTA_GO_AGAIN }}</button>
+            @click="startQuiz">{{ quiz.stats_cta_go_again }}</button>
         </c-col>
         <c-col v-bind:class="dinamicClass">
-          <c-link class="frame" :location="'/finish'">{{ locale.STATS.CTA_GO_FINISH }}</c-link>
+          <c-link class="frame" :location="'/finish'">{{ quiz.stats_cta_go_finish }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -36,12 +36,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cAddsStatsItem from '@/components/content/adds/cAddsStatsItem';
+import cDoublesStatsItem from '@/components/content/doubles/cDoublesStatsItem';
 
 export default {
-  name:'cAddsStats',
+  name:'cDoublesStats',
   mixins: [page, layout, media, form],
-  components: { cAddsStatsItem },
+  components: { cDoublesStatsItem },
   data: function () {
     return {
       contentWidth: 90
