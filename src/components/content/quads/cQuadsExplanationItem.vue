@@ -3,7 +3,7 @@
     v-bind:class="[quizData.items[itemIndex].fake?'fake':'real']">
     <c-row>
       <c-col class="c-w-5">
-        <c-figure :src="quizData.items[itemIndex].image_url"></c-figure>
+        <c-figure :src="quizData.items[itemIndex].explanation_media_url || quizData.items[itemIndex].question_media_url"></c-figure>
       </c-col>
       <c-col class="c-w-7">
         <p>{{quizData.items[itemIndex].title}}</p>

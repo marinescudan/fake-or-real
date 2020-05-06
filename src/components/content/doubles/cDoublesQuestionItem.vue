@@ -6,7 +6,7 @@
     v-on:click="$emit('itemSelected', itemIndex, !quizData.items[itemIndex].selected)">
       <c-row>
         <c-col class="c-w-6">
-          <c-figure :src="quizData.items[itemIndex].image_url"></c-figure>
+          <c-figure :src="quizData.items[itemIndex].question_media_url"></c-figure>
         </c-col>
         <c-col class="c-w-6">
           <h3>{{quizData.items[itemIndex].title}}</h3>
