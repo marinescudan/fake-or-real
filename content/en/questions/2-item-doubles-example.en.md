@@ -27,15 +27,16 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    video_url: ""
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    explanation_media_url: ""
+    stats_media_url: ""
     title: "The 1 title of the item is max 36 ch"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum?"
     click_count: 37
   - fake: false
-    web_url: ""
-    video_url: ""
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"
+    explanation_media_url: ""
+    stats_media_url: ""
     title: "The 1 title of the item is max 36 ch"
     text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum?"
     click_count: 66

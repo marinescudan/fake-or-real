@@ -1,7 +1,7 @@
 <template>
   <c-row>
     <c-col class="c-w-8">
-      <c-media-viewer :itemIndex="itemIndex"></c-media-viewer>
+      <c-media-viewer :itemIndex="itemIndex" namespace="stats"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4">
       <h3>{{quizData.items[itemIndex].title}}</h3>

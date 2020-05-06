@@ -26,14 +26,16 @@ stats_cta_go_again: "stats_cta_go_again"
 stats_cta_go_finish: "stats_cta_go_finish"
 items:
   - fake: false
-    video_url: ""
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     title: "This is the title of the item"
     text: "The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consecrum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt"
     click_count: 37
   - fake: true
-    video_url: ""
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/3.jpg"
     title: "This is the title of the item"
     text: "The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consecrum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt"
     click_count: 66

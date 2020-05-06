@@ -1,7 +1,7 @@
 <template>
   <c-row class="c-singles-question-item">
     <c-col class="c-w-8">
-      <c-media-viewer :itemIndex="itemIndex"></c-media-viewer>
+      <c-media-viewer :itemIndex="itemIndex" namespace="question"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4" style="justify-content: space-between;">
       <c-row>

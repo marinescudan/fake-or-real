@@ -26,8 +26,9 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    video_url: "https://youtu.be/l1-6cwetV5k?t=878"
-    image_url: ""
+    question_media_url: "https://youtu.be/l1-6cwetV5k?t=878"
+    explanation_media_url: "https://youtu.be/l1-6cwetV5k?t=878"
+    stats_media_url: "https://youtu.be/l1-6cwetV5k?t=878"
     title: "The 1 title of the item is max 36 ch"
     text: "The title of the item is maximum 160 characters long. Sed distin maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum Sed distinctio modi maiores quasi sunt totam voluptatum?"
     click_count: 234

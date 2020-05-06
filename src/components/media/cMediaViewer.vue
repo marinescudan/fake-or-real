@@ -1,8 +1,8 @@
 <template>
   <div class="c-media-viewer">
-      <c-vimeo v-if="isVimeo" :videoId="vimeoId"></c-vimeo>
-      <c-youtube v-if="!isVimeo && isYoutube" :videoUrl="quizData.items[itemIndex].video_url"></c-youtube>
-      <c-figure v-if="!isVimeo && !isYoutube && isImage" :src="quizData.items[itemIndex].image_url"></c-figure>
+      <c-vimeo v-if="isVimeo" :videoId="getVimeoId(media_url)"></c-vimeo>
+      <c-youtube v-if="!isVimeo && isYoutube" :videoUrl="media_url"></c-youtube>
+      <c-figure v-if="!isVimeo && !isYoutube && isImage" :src="media_url"></c-figure>
   </div>
 </template>
 
@@ -14,30 +14,33 @@ export default {
   name:'cMediaViewer',
   mixins: [layout, media, form],
   props: {
-    itemIndex: { type: Number, required: true }
+    itemIndex: { type: Number, required: true },
+    namespace: { type: String, required: true }
   },
   computed: {
+    media_url (){
+      return this.quizData.items[this.itemIndex][`${namespace}_media_url`] || this.quizData.items[this.itemIndex].question_media_url;
+    },
     isVimeo (){
-      return this.quizData.items[this.itemIndex].video_url.includes('vimeo');
+      return this.media_url.includes('vimeo');
     },
     isYoutube (){
-      if (this.quizData.items[this.itemIndex].video_url.includes('youtube')) return true;
-      else if (this.quizData.items[this.itemIndex].video_url.includes('youtu.be')) return true;
+      if (this.media_url.includes('youtube')) return true;
+      else if (this.media_url.includes('youtu.be')) return true;
       else return false;
     },
     isImage (){
-      if (!this.isYoutube && !this.isVimeo && this.quizData.items[this.itemIndex].image_url) return true;
+      if (!this.isVimeo && !this.isYoutube && this.media_url) return true;
       else return false;
-    },
-    vimeoId: function (){
-      if (this.isVimeo) {
-        return this.quizData.items[this.itemIndex].video_url.split('://')[1].split('/')[1];
-      }
-      return false;
     },
     ...mapState({
       quizData: state => state.quiz,
     }),
+  },
+  methods: {
+    getVimeoId: function (url) {
+      return url.split('://')[1].split('/')[1];
+    }
   }
 }
 </script>

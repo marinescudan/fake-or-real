@@ -27,15 +27,16 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    video_url: ""
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_1.jpg"
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_1.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_1.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_1.jpg"
     title: "Image 1"
     text: "This image was shared widely on social media and on some new channels"
     click_count: 37
   - fake: false
-    web_url: ""
-    video_url: ""
-    image_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_2.jpg"
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_2.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_2.jpg"
     title: "Image 2"
     text: "This image was reported after the event to show damage to US bases as a result of the attack."
     click_count: 66

@@ -27,9 +27,9 @@ stats_cta_go_again: "stats_cta_go_again"
 stats_cta_go_finish: "stats_cta_go_finish"
 items:
   - fake: false
-    web_url: ""
-    video_url: "https://vimeo.com/386102796"
-    image_url: ""
+    question_media_url: "https://vimeo.com/386102796"
+    explanation_media_url: "https://vimeo.com/386102796"
+    stats_media_url: "https://vimeo.com/386102796"
     title: "This is the title of the item"
     text: "The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
     click_count: 234
