@@ -24,7 +24,7 @@ stats_title: "Is This Item Fake Or Real"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
 stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
-~~items~~:
+items:
   - fake: true
     question_media_url: "https://vimeo.com/386102796"
     explanation_media_url: "https://vimeo.com/386102796"
