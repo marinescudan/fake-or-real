@@ -5,27 +5,36 @@
     </c-col>
     <c-col class="c-w-4" style="justify-content: space-between;">
       <c-row>
-        <c-col>
+        <c-col class="c-w-12">
           <h3>{{quizData.items[itemIndex].title}}</h3>
           <p>{{quizData.items[itemIndex].text}}</p>
         </c-col>
       </c-row>
-      <c-row v-if="!submited" class="pt4">
-        <c-col class="c-w-6">
-          <button type="button" class="frame pt2 pb2"
-            @click="submitQuiz(true)">{{ quizData.question_cta_fake }}</button>
-        </c-col>
-        <c-col class="c-w-6">
-          <button type="button" class="frame pt2 pb2"
-            @click="submitQuiz(false)">{{ quizData.question_cta_real }}</button>
-        </c-col>
-      </c-row>
-      <c-row v-if="submited" class="pt4">
+      <c-row>
         <c-col class="c-w-12">
-          <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
-            <span v-if="!quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_real }}</span>
-            <span v-if="quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_fake }}</span>
-          </h1>
+          <c-row v-if="!submited" class="pt4">
+            <c-col class="c-w-12">
+              <p class="tc">{{ quizData.question_cta_help || "Choose between the options above!" }}</p>
+            </c-col>
+          </c-row>
+          <c-row v-if="!submited">
+            <c-col class="c-w-6">
+              <button type="button" class="frame pt2 pb2"
+                @click="submitQuiz(true)">{{ quizData.question_cta_fake }}</button>
+            </c-col>
+            <c-col class="c-w-6">
+              <button type="button" class="frame pt2 pb2"
+                @click="submitQuiz(false)">{{ quizData.question_cta_real }}</button>
+            </c-col>
+          </c-row>
+          <c-row v-if="submited" class="pt4">
+            <c-col class="c-w-12">
+              <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
+                <span v-if="!quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_real }}</span>
+                <span v-if="quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_fake }}</span>
+              </h1>
+            </c-col>
+          </c-row>
         </c-col>
       </c-row>
     </c-col>
