@@ -23,11 +23,7 @@
       </c-row>
     </c-main>
     <c-footer>
-      <c-row>
-        <c-col class="c-w-4">
-          <c-link class="frame" :location="'stats'">{{ quiz.explanation_cta_go_stats }}</c-link>
-        </c-col>
-      </c-row>
+      <c-next-step :page="'explanation'"></c-next-step>
     </c-footer>
   </c-page>
 </template>
@@ -36,11 +32,11 @@
 import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 import cSinglesExplanationItem from '@/components/content/singles/cSinglesExplanationItem';
-
+import cNextStep from '@/components/input/cNextStep';
 export default {
   name:'cSinglesExplanation',
   mixins: [layout, media, form],
-  components: { cSinglesExplanationItem },
+  components: { cSinglesExplanationItem, cNextStep },
   data: function () {
     return {
       contentWidth: 90
@@ -50,6 +46,7 @@ export default {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
+      showStatsPageFlag: state => state.showStatsPageFlag,
     }),
   },
 }

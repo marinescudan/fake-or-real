@@ -19,16 +19,7 @@
       </c-row>
     </c-main>
     <c-footer>
-      <c-row>
-        <c-col class="c-w-3" v-if="this.$store.state.quizList.length >= 2">
-          <button type="button" class="frame"
-            :disabled="!$store.state.quizList.length"
-            @click="startQuiz">{{ quiz.stats_cta_go_again }}</button>
-        </c-col>
-        <c-col v-bind:class="dinamicClass">
-          <c-link class="frame" :location="'/finish'">{{ quiz.stats_cta_go_finish }}</c-link>
-        </c-col>
-      </c-row>
+      <c-next-step :page="'stats'"></c-next-step>
     </c-footer>
   </c-page>
 </template>
@@ -37,11 +28,11 @@
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cDoublesStatsItem from '@/components/content/doubles/cDoublesStatsItem';
-
+import cNextStep from '@/components/input/cNextStep';
 export default {
   name:'cDoublesStats',
   mixins: [page, layout, media, form],
-  components: { cDoublesStatsItem },
+  components: { cDoublesStatsItem, cNextStep },
   data: function () {
     return {
       contentWidth: 90
@@ -52,19 +43,7 @@ export default {
       locale: state => state.locale,
       quiz: state => state.quiz,
     }),
-    dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-4';},
   },
-  methods: {
-    startQuiz: function () {
-      if (this.$store.state.quizList.length > 1) {
-        this.$store.dispatch('setQuiz', {loseCurrent: true}).then(()=>{
-          this.$router.push({ path: 'question' });
-        });
-      } else {
-        this.$router.push({ path: 'question' });
-      }
-    }
-  }
 }
 </script>
 

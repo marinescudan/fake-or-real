@@ -8,6 +8,7 @@ export default new Vuex.Store({
     quiz: null,
     quizIndex: null,
     loadRandomQuestionFlag:  false,
+    showStatsPageFlag:  false,
     quizList: null,
     i18n_messages: null,
     locale: null,

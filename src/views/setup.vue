@@ -14,7 +14,10 @@
       <c-row class="pt5">
         <c-col class="c-w-4">
           <label>
-            <input type="checkbox" @change="setupRandomQuiz($event)" :value="loadRandomQuestionFlag" > {{ locale.SETUP.RANDOM_CHECKBOX_LABLE }}
+            <input type="checkbox" @change="setFlag('loadRandomQuestionFlag')" :value="loadRandomQuestionFlag" > {{ locale.SETUP.RANDOM_CHECKBOX_LABLE }}
+          </label>
+          <label>
+            <input type="checkbox" @change="setFlag('showStatsPageFlag')" :value="showStatsPageFlag" > {{ locale.SETUP.SHOW_STATS_LABLE }}
           </label>
         </c-col>
       </c-row>
@@ -43,6 +46,7 @@ export default {
       quiz: state => state.quiz,
       locale: state => state.locale,
       loadRandomQuestionFlag: state => state.loadRandomQuestionFlag,
+      showStatsPageFlag: state => state.showStatsPageFlag,
     }),
     image_left_url: function(){return this.locale.START.image_left_url},
     image_center_url: function(){return this.locale.START.image_center_url},
@@ -54,8 +58,8 @@ export default {
         this.$router.push({ path: 'question' });
       });
     },
-    setupRandomQuiz: function () {
-      this.$store.dispatch('setState', { key: 'loadRandomQuestionFlag', value: !this.loadRandomQuestionFlag});
+    setFlag: function (flag) {
+      this.$store.dispatch('setState', { key: flag, value: !this[flag]});
     }
   }
 }
