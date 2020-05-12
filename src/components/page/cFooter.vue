@@ -27,7 +27,7 @@ export default {
   flex-wrap: wrap
   -webkit-justify-content: center
   -ms-flex-pack: center
-  justify-content: center
+  justify-content: flex-start
   -webkit-align-content: stretch
   -ms-flex-line-pack: stretch
   align-content: stretch
