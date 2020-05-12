@@ -3,7 +3,7 @@
     <button type="button" class="btn-link"
        v-for="lang in i18n_messages"
        :key="lang.locale"
-       :class="{'selected': userLocale === lang.locale}"
+       :class="{'selected': userLocale == lang.locale}"
        @click="setLanguage(lang.locale)"
     >{{lang.locale_for_humans}}</button>
   </div>
@@ -24,7 +24,7 @@ export default {
       i18n_messages: state => state.i18n_messages,
     }),
     userLocale: function () {
-      return this.locale || localStorage.getItem('locale');
+      return this.locale || JSON.parse(localStorage.getItem('locale'));
     }
   },
   methods: {
@@ -32,7 +32,14 @@ export default {
       localStorage.setItem('locale', JSON.stringify(key));
       this.$i18n.locale = key;
       this.locale = key;
-      this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]})
+      this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(
+        this.$store.dispatch('getQuizList').then(()=>{
+          let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
+          this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
+            console.log('this.locale localStorage.getItem(\'locale\')', this.locale == this.i18n_messages[key], this.i18n_messages[key], this.locale, JSON.parse(localStorage.getItem('locale')));
+          });
+        })
+      );
     }
   }
 }

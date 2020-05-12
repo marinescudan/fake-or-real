@@ -24,25 +24,38 @@ export default {
     })
   },
   mounted () {
-    this.$store.dispatch('getMessages').then(()=>{
+    this.setMessages();
+    this.$on('changeLaguage', function (e) {
+      console.log(e);
+      this.setQuizList();
+    });
+  },
+  methods: {
+    setMessages: function () {
+      this.$store.dispatch('getMessages').then(()=>{
+        this.setQuizList();
+      });
+    },
+    setQuizList: function () {
       this.$store.dispatch('getQuizList').then(()=>{
-
         let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
-
         this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
-           if ( JSON.parse( localStorage.getItem('locale')) in this.i18n_messages ) {
-            let key = JSON.parse(localStorage.getItem('locale'));
-            this.$i18n.locale = key;
-            this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(()=>{
-              if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
-            });
-          } else {
-            localStorage.setItem('locale', null);
-            if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
-          }
+          this.changeLocale();
         });
       });
-    });
+    },
+    changeLocale: function () {
+      let locale = JSON.parse(localStorage.getItem('locale'));
+      this.$i18n.locale = locale;
+      if ( locale in this.i18n_messages ) {
+        this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[locale]}).then(()=>{
+          if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
+        });
+      } else {
+        localStorage.setItem('locale', null);
+        if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
+      }
+    }
   }
 }
 </script>
