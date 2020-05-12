@@ -4,7 +4,7 @@ locale: tpl
 date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
-contentType: "news"
+contentType: "quads"
 slug: "question"
 title: "this is Not displayed"
 question_title: "question_title - This is the big title on the question page"
@@ -30,29 +30,37 @@ items:
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    title: "title - This is the title of the item"
-    text: "text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt"
+    question_title: "items.question_title - This is the title of the item in question page"
+    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
+    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 123
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    title: "title - This is the title of the item"
-    text: "text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt"
+    question_title: "items.question_title - This is the title of the item in question page"
+    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
+    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 753
   - fake: true
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    title: "title - This is the title of the item"
-    text: "text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt"
+    question_title: "items.question_title - This is the title of the item in question page"
+    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
+    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 654
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    title: "title - This is the title of the item"
-    text: "text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt"
+    question_title: "items.question_title - This is the title of the item in question page"
+    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
+    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 123
 ---
 ##  The title of explanation goes in markdown

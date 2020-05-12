@@ -31,15 +31,19 @@ items:
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_1.jpg"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_1.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_1.jpg"
-    title: "Image 1"
-    text: "This image was shared widely on social media and on some new channels"
+    question_title: "Image 1"
+    question_text: "This image was shared widely on social media and on some new channels"
+    explanation_title: ""
+    stats_title: ""
     click_count: 37
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_2.jpg"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_2.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q3_2.jpg"
-    title: "Image 2"
-    text: "This image was reported after the event to show damage to US bases as a result of the attack."
+    question_title: "Image 2"
+    question_text: "This image was reported after the event to show damage to US bases as a result of the attack."
+    explanation_title: ""
+    stats_title: ""
     click_count: 66
 ---
 ## Image 1 is fake

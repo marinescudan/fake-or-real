@@ -4,7 +4,7 @@
       <c-media-viewer :itemIndex="itemIndex" namespace="stats"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4">
-      <h3>{{quizData.items[itemIndex].title}}</h3>
+      <h3>{{quizData.items[itemIndex].stats_title}}</h3>
       <p class="f2">{{quizData.items[itemIndex].click_count}}</p>
     </c-col>
   </c-row>

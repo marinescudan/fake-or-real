@@ -30,8 +30,10 @@ items:
     question_media_url: "https://vimeo.com/386102796"
     explanation_media_url: "https://vimeo.com/386102796"
     stats_media_url: "https://vimeo.com/386102796"
-    title: "items.title - This is the title of the item"
-    text: "items.text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
+    question_title: "items.question_title - This is the title of the item in question page"
+    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt. Sed distinctio modi maiores quasi sunt totam volup maximum 160 characters long. Sed distinctio modi maiores quasi maximum 160 characters long. Sed distinctio modi maiores quasi tatum?"
+    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 234
 ---
 ##  The title of explanation goes in markdown

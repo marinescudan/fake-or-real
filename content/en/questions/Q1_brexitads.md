@@ -30,29 +30,37 @@ items:
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_1.png"
     explanation_media_url: ""
     stats_media_url: ""
-    title: "The 1 title of the item is max 36 ch"
-    text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    question_title: "The 1 title of the item is max 36 ch"
+    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    explanation_title: ""
+    stats_title: ""
     click_count: 123
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_1.png"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
     stats_media_url: ""
-    title: "The 1 title of the item is max 36 ch"
-    text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    question_title: "The 1 title of the item is max 36 ch"
+    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    explanation_title: ""
+    stats_title: ""
     click_count: 753
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
     explanation_media_url: ""
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_3.png"
-    title: "The 1 title of the item is max 36 ch"
-    text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    question_title: "The 1 title of the item is max 36 ch"
+    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    explanation_title: ""
+    stats_title: ""
     click_count: 654
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_3.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_4.png"
-    title: "The 1 title of the item is max 36 ch"
-    text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    question_title: "The 1 title of the item is max 36 ch"
+    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    explanation_title: ""
+    stats_title: ""
     click_count: 123
 ---
 ### All four of these adverts are suspicious

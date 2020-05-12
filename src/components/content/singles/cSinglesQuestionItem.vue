@@ -6,8 +6,8 @@
     <c-col class="c-w-4" style="justify-content: space-between;">
       <c-row>
         <c-col class="c-w-12">
-          <h3>{{quizData.items[itemIndex].title}}</h3>
-          <p>{{quizData.items[itemIndex].text}}</p>
+          <h3>{{quizData.items[itemIndex].question_title}}</h3>
+          <p>{{quizData.items[itemIndex].question_text}}</p>
         </c-col>
       </c-row>
       <c-row>

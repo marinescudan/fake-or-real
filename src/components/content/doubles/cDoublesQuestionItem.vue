@@ -9,8 +9,8 @@
           <c-figure :src="quizData.items[itemIndex].question_media_url"></c-figure>
         </c-col>
         <c-col class="c-w-6">
-          <h3>{{quizData.items[itemIndex].title}}</h3>
-          <p>{{quizData.items[itemIndex].text}}</p>
+          <h3>{{quizData.items[itemIndex].explanation_title}}</h3>
+          <p>{{quizData.items[itemIndex].question_text}}</p>
         </c-col>
       </c-row>
   </div>

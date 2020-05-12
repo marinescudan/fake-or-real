@@ -8,7 +8,7 @@
     </c-row>
     <c-row class="pt2">
       <c-col class="c-w-12">
-        <p>{{quizData.items[this.itemIndex].title}}</p>
+        <p>{{quizData.items[this.itemIndex].explanation_title}}</p>
       </c-col>
     </c-row>
   </div>
