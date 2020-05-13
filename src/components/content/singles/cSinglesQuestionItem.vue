@@ -14,7 +14,7 @@
         <c-col class="c-w-12">
           <c-row v-if="!submited" class="pt4">
             <c-col class="c-w-12">
-              <p class="tc">{{ quizData.question_cta_help || "Choose between the options above!" }}</p>
+              <p class="tc">{{ quizData.question_cta_help }}</p>
             </c-col>
           </c-row>
           <c-row v-if="!submited">

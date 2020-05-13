@@ -37,7 +37,7 @@
     <c-footer>
       <c-row v-if="!submited">
         <c-col class="c-w-12">
-          <p class="tc">{{ quiz.question_cta_help || "Choose between the options above!" }}</p>
+          <p class="tc">{{ quiz.question_cta_help }}</p>
         </c-col>
       </c-row>
       <c-row v-if="!submited">
@@ -96,7 +96,7 @@ export default {
       })
       .then(()=>{
         setTimeout(()=>{
-          this.$router.push({ path: 'explanation' });
+          // this.$router.push({ path: 'explanation' });
         }, 3000);
       });
     }
