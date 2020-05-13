@@ -31,7 +31,8 @@
       <c-row v-if="!submited">
         <c-col class="c-w-4">
           <button type="button" class="frame"
-            :disabled="!$store.state.quizList.length"
+             v-bind:class="{ 'disabled' : disabled }"
+            :disabled="disabled"
             @click="submitQuiz">{{ quiz.question_cta_go_explanation }}</button>
         </c-col>
       </c-row>
@@ -58,13 +59,15 @@ export default {
     return {
       submited: false,
       correct: false,
-      contentWidth: 90
+      contentWidth: 90,
+      hasSelection: false
     };
   },
   computed: {
     ...mapState({
       quiz: state => state.quiz,
       locale: state => state.locale,
+      disabled: function () { return !this.hasSelection;}
     }),
   },
   methods: {
@@ -72,12 +75,11 @@ export default {
       let newQuiz = Object.assign({}, this.quiz);
       this.correct = newQuiz.items[itemIndex].fake && selected;
       newQuiz.items.forEach( (each, i) => {
-        if (itemIndex === i) {
-          each.selected = selected;
-        } else {
-          each.selected = false;
-        }
+        if (itemIndex === i) each.selected = selected;
+        else each.selected = false;
       });
+      this.hasSelection = selected;
+
       this.$store.dispatch('setState', {
         key: 'quiz',
         value: newQuiz

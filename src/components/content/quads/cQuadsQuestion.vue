@@ -43,7 +43,8 @@
       <c-row v-if="!submited">
         <c-col class="c-w-4">
           <button type="button" class="frame"
-            :disabled="!$store.state.quizList.length"
+            v-bind:class="{ 'disabled' : disabled }"
+            :disabled="disabled"
             @click="submitQuiz">{{ quiz.question_cta_go_explanation }}</button>
         </c-col>
       </c-row>
@@ -76,6 +77,7 @@ export default {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
+      disabled: function () { return this.selectedFakeNumber < 1;}
     }),
   },
   methods: {

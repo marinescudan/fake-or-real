@@ -51,6 +51,12 @@ button.frame
   padding: 1rem
   @include frame
 
+.disabled
+  background: hsl(0, 0%, 92%)
+  color: #a4a4a4
+  border: 10px solid #cac9cb !important
+
+
 .frame
   @include frame
 
@@ -63,4 +69,5 @@ button.frame
 
 .explanation-page .frame.real,
 .submited .frame.real
-  // @include frameReal
+  @include frameReal
+

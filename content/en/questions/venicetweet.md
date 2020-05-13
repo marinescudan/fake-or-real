@@ -14,7 +14,7 @@ question_submit_message_wrong: "Wrong"
 question_single_result_message_real: "It is real"
 question_single_result_message_fake: "It is fake"
 question_cta_go_explanation: "Check"
-question_cta_help: "Choose between the options below!"
+question_cta_help: "Click one of the options below!"
 question_cta_fake: "Fake"
 question_cta_real: "Real"
 explanation_title: "The image in the tweet is real"
@@ -27,10 +27,11 @@ stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    explanation_media_url: "hhttps://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     stats_media_url: ""
     question_title: ""
     question_text: ""
+    explanation_title: ""
     stats_title: ""
     click_count: 234
 ---

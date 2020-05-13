@@ -15,7 +15,7 @@ question_single:
 question_single_result_message_real: "It is real"
 question_single_result_message_fake: "It is fake"
 question_cta_go_explanation: "Check"
-question_cta_help: "Choose between the options above!"
+question_cta_help: "Select one of the options above!"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
 explanation_title: "Which Of These Adverts Is Fake"

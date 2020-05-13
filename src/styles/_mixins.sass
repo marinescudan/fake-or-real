@@ -35,21 +35,23 @@
   border-image: url('~@/assets/img/frame.svg') 40% round
   cursor: pointer
   outline: none
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent
 
 @mixin frameFake
-  // background: rgba(255, 0, 0,.1)
-  border: 10px solid red
+  background: $white
+  border: 10px solid $brand-red
   border-image: url('~@/assets/img/frame_fake.svg') 40% round
   cursor: pointer
 
 @mixin frameReal
-  background: rgba(0, 255, 0,.1)
+  background: $white
+  border:  10px solid $brand-green
   border-image: url('~@/assets/img/frame_real.svg') 40% round
   cursor: pointer
 
 @mixin frameSelected
-  background: rgba(255, 255, 2550,1)
+  background: $white
+  border:  10px solid $dark
   border-image: url('~@/assets/img/frame_selected.svg') 40% round
   cursor: pointer
 
@@ -65,9 +67,10 @@
   background: rgba(0, 0, 0, 0.7) url('~@/assets/img/check-mark.svg') center center no-repeat
   background-size: 25% 25%
 
-@mixin h1  
+@mixin h1
   font-size: 6vh
   letter-spacing: 0.21vh
   line-height: 1
   font-family: 'Jost400Book'
   font-weight: 400
+

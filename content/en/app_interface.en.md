@@ -17,8 +17,7 @@ START:
   APP_VERSION: "News Edition"
   WELCOME_MESSAGE_HTML: "
     <p>
-      <b>Lorem ipsum dolor sit amet</b> consectetur adipisicing elit.
-      Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt.
+      <b>Lorem ipsum dolor sit amet</b> consectetur adipisicing elit. Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt.
     </p>
     <p>
       Quia audantium quae et officia saepe sunt assumenda.
@@ -33,9 +32,7 @@ START:
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 FINISH:
   GOODBYE_TITLE: "Thanks"
-  GOODBYE_MESSAGE_HTML: "
-    It's been brief but <b>special</b>
-  "
+  GOODBYE_MESSAGE_HTML: "It's been brief but <b>special</b>"
   CTA_GO_START: "Go to start"
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
