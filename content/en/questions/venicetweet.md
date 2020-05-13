@@ -30,7 +30,7 @@ items:
     explanation_media_url: "hhttps://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/2.jpg"
     stats_media_url: ""
     question_title: ""
-    question_text: """
+    question_text: ""
     stats_title: ""
     click_count: 234
 ---
