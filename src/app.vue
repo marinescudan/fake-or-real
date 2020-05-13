@@ -25,10 +25,6 @@ export default {
   },
   mounted () {
     this.setMessages();
-    this.$on('changeLaguage', function (e) {
-      console.log(e);
-      this.setQuizList();
-    });
   },
   methods: {
     setMessages: function () {
