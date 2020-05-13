@@ -96,7 +96,7 @@ export default {
       })
       .then(()=>{
         setTimeout(()=>{
-          // this.$router.push({ path: 'explanation' });
+          this.$router.push({ path: 'explanation' });
         }, 3000);
       });
     }
