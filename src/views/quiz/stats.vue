@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper vh-100" v-if="quiz">
-    <c-quads-stats v-if="quiz.contentType === 'quads'"></c-quads-stats>
-    <c-doubles-stats v-if="quiz.contentType === 'doubles'"></c-doubles-stats>
-    <c-singles-stats v-if="quiz.contentType === 'single'"></c-singles-stats>
+    <c-quads-stats v-if="quiz.items.length === 4"></c-quads-stats>
+    <c-doubles-stats v-if="quiz.items.length === 2"></c-doubles-stats>
+    <c-singles-stats v-if="quiz.items.length === 1"></c-singles-stats>
   </div>
 </template>
 

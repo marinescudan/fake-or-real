@@ -4,7 +4,6 @@ locale: tpl
 date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
-contentType: "single"
 slug: "question"
 title: "this is Not displayed"
 question_title: "question_title - This is the big title on the question page"

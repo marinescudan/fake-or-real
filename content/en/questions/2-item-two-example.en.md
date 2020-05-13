@@ -4,7 +4,6 @@ locale: en
 date: 2020-05-12T00:00:00.000Z
 published: true
 project: "for"
-contentType: "doubles"
 slug: "question"
 title: "Exemple 1"
 question_title: "Which Of These Adverts Is Fake"
