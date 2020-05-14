@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Find the fake adverts"
+question_title: "Which of these ads are misleading?"
 question_subtitle: "Choose one or more of the adverts that you think are suspicious"
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
@@ -17,55 +17,58 @@ question_cta_go_explanation: "Check"
 question_cta_help: "Select between 1 and 4 of the options above!"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
-explanation_title: "Find the fake adverts"
-explanation_subtitle: "Choose one or more of the adverts that you think are suspicious"
+explanation_title: "Which of these ads are misleading?"
+explanation_subtitle: "Choose one or more of the ads that you think are suspicious"
 explanation_cta_go_stats: "See what other people thought"
-stats_title: "Find the fake adverts"
-stats_subtitle: "Other people decided that these adverts are not trustworthy"
+stats_title: "Find the fake ads"
+stats_subtitle: "Other people decided that these ads are not trustworthy"
 stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
-  - fake: false
+  - fake: true
     question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_1.png"
     explanation_media_url: ""
     stats_media_url: ""
-    question_title: "The 1 title of the item is max 36 ch"
-    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    question_title: ""
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 123
-  - fake: false
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_1.png"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
+  - fake: true
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
+    explanation_media_url: ""
     stats_media_url: ""
-    question_title: "The 1 title of the item is max 36 ch"
-    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    question_title: ""
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 753
-  - fake: false
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
+  - fake: true
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_3.png"
     explanation_media_url: ""
-    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_3.png"
-    question_title: "The 1 title of the item is max 36 ch"
-    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    stats_media_url: ""
+    question_title: ""
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 654
-  - fake: false
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_3.png"
-    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_4.png"
-    question_title: "The 1 title of the item is max 36 ch"
-    question_text: "The title of the item is maximum 160 characters long. Sed distinctio modi maiores quasi sunt totam voluptatum?"
+  - fake: true
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_4.png"
+    explanation_media_url: ""
+    stats_media_url: ""
+    question_title: ""
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 123
 ---
 ### All four of these adverts are suspicious
 
-These images all look like political adverts from different campaigns to support a hardline position on “Brexit” - Britain’s exit from the European Union.
+All of these ads are misleading. 
 
-In fact all these adverts were secretly funded by one company, CTF Partners, run by Lynton Crosby, a prominent political consultant often used by Great Britain’s Conservative Party.
+These adverts all appear to be from different independent groups campaigning for Brexit. 
+However, all of these adverts were in fact created and paid for by the company of Lynton Crosby, a well known consultant UK Conservative Party and the Vote leave campaign in the UK. 
+The ads were designed to give the impression of a grass roots campaign rather than a well funded centrally managed campaign.
 
-All of the organisations named – Mainstream Network, Britain’s Future and We Are the 52% - claim to be grassroots campaigns, but were all set up by CTF Partners, all aimed at putting pressure on British MPs to support an uncompromising approach to Britain’s negotiating position with the EU.
+It’s sometimes very hard to see who is really behind adverts, but you can look at Facebook’s political ads directory to see who submitted the ad and paid for them. Search for “Ad library” when you visit facebook. 
+
