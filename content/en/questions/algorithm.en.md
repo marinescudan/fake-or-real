@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo1.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo1.png"
     question_title: ""
-    question_text: "Facebook post by a Facebook user sharing a link to a report that claims US Congresswoman Alexandra Ocasio-Cortez is pushing for a ban on motorcycles""
+    question_text: "Facebook post by a Facebook user sharing a link to a report that claims US Congresswoman Alexandra Ocasio-Cortez is pushing for a ban on motorcycles"
     stats_title: ""
     click_count: 123
   - fake: false
@@ -38,7 +38,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo2.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo2.png"
     question_title: ""
-    question_text: "Google search results to the phrase "big journalism""
+    question_text: "Google search results to the phrase "big journalism"
     stats_title: ""
     click_count: 753
   - fake: true
@@ -46,7 +46,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo3.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo3.jpg"
     question_title: ""
-    question_text: "List of Twitter Trends on a particular day in New Delhi with #LeftAttacksJNU4.""
+    question_text: "List of Twitter Trends on a particular day in New Delhi with #LeftAttacksJNU4."
     stats_title: ""
     click_count: 654
   - fake: false
