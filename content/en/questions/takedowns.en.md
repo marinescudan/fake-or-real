@@ -54,7 +54,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown4.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown4.jpg"
     question_title: ""
-    question_text: " Australian politicina Concetta Fierravanti-Wells saying bushfires were caused by arsonists""
+    question_text: " Australian politicina Concetta Fierravanti-Wells saying bushfires were caused by arsonists
     stats_title: ""
     click_count: 123
 ---
