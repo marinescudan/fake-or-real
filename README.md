@@ -1,7 +1,7 @@
-
 # Fake or real new edition
 ## Technology
 This is a Veu CLi project, see below the usefull comand fro development and build.
+Documentation for editing content is [here](https://git.tacticaltech.org/ttc/fake-or-real-news-edition/-/wikis/Step-by-step-instructions-for-adding-content).
 ## Data
 All text content goes into the `content` directory and must be Markdown with YAMl frontmatter. All changes in the content directory on the content branch will trigger a Markdown-to-JSON transformation using a Gitlab job as defined in `.gitlab-ci.yml` and make the content available on our Content API in the namespace `for`:
 Api URL:
