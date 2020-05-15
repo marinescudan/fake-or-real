@@ -1,5 +1,5 @@
 ---
-uuid: f4938728-4b21-47a1-819b-7d505b2e062c
+uuid: f3338728-4b21-47a1-819b-7d505b2e062c
 locale: en
 date: 2016-03-12T00:00:00.000Z
 published: true
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/Corona1.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/Corona1.jpg"
     question_title: ""
-    question_text: "Meme on coronavirus as intentional Chinese bioweapon""
+    question_text: "Meme on coronavirus as intentional Chinese bioweapon"
     stats_title: ""
     click_count: 123
   - fake: false
