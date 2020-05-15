@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown1.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown1.png"
     question_title: ""
-    question_text: "Donald Trump Tweet to Theresa May on Islamic terrorism""
+    question_text: "Donald Trump Tweet to Theresa May on Islamic terrorism"
     stats_title: ""
     click_count: 123
   - fake: false
