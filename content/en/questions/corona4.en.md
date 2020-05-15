@@ -54,7 +54,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona4.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona4.png"
     question_title: ""
-    question_text: "Facebook post on 5G and Bill Gates
+    question_text: "Facebook post on 5G and Bill Gates"
     stats_title: ""
     click_count: 123
 ---
