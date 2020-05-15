@@ -38,7 +38,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona2.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona2.png"
     question_title: ""
-    question_text: "News article about Coronavirus and blood plasma""
+    question_text: "News article about Coronavirus and blood plasma"
     stats_title: ""
     click_count: 753
   - fake: true
