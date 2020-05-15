@@ -1,12 +1,12 @@
 <template>
-  <div class="frame mb2 pa2"
+  <div class="frame"
     v-bind:class="[quizData.items[itemIndex].fake?'fake':'real']">
     <c-row>
       <c-col class="c-w-12">
         <c-media-viewer :itemIndex="itemIndex" namespace="explanation"></c-media-viewer>
       </c-col>
     </c-row>
-    <c-row class="pt2">
+    <c-row class="pt2" v-if="quizData.items[this.itemIndex].explanation_title">
       <c-col class="c-w-12">
         <p>{{quizData.items[this.itemIndex].explanation_title}}</p>
       </c-col>

@@ -1,5 +1,5 @@
 <template>
-  <c-row class="c-singles-question-item">
+  <c-row class="c-singles-question-item"  v-bind:class="{ 'submited' : submited}">
     <c-col class="c-w-8">
       <c-media-viewer :itemIndex="itemIndex" namespace="question"></c-media-viewer>
     </c-col>
@@ -12,12 +12,12 @@
       </c-row>
       <c-row>
         <c-col class="c-w-12">
-          <c-row v-if="!submited" class="pt4">
+          <c-row v-show="!submited" class="pt4">
             <c-col class="c-w-12">
               <p class="tc">{{ quizData.question_cta_help }}</p>
             </c-col>
           </c-row>
-          <c-row v-if="!submited">
+          <c-row v-show="!submited">
             <c-col class="c-w-6">
               <button type="button" class="frame pt2 pb2"
                 @click="submitQuiz(true)">{{ quizData.question_cta_fake }}</button>
@@ -27,9 +27,9 @@
                 @click="submitQuiz(false)">{{ quizData.question_cta_real }}</button>
             </c-col>
           </c-row>
-          <c-row v-if="submited" class="pt4">
+          <c-row v-show="submited" class="pt4">
             <c-col class="c-w-12">
-              <h1 :class="{'dark-green': correctQuess,'dark-red': !correctQuess}">
+              <h1 class="box-default" :class="{'dark-green': correctQuess,'dark-red': !correctQuess, 'box-full': submited}">
                 <span v-if="!quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_real }}</span>
                 <span v-if="quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_fake }}</span>
               </h1>

@@ -10,26 +10,28 @@
         </c-col>
       </c-row>
       <c-row>
-        <c-col class="c-w-8">
+        <c-col class="c-w-6">
           <c-row>
             <c-col class="c-w-12">
               <div class="two-columns user-input" v-html="quiz.contents"></div>
             </c-col>
           </c-row>
         </c-col>
-        <c-col class="c-w-4">
-          <c-quads-explanation-item
-            :itemIndex="0" :quizData="quiz"
-          ></c-quads-explanation-item>
-          <c-quads-explanation-item
-            :itemIndex="1" :quizData="quiz"
-          ></c-quads-explanation-item>
-          <c-quads-explanation-item
-            :itemIndex="2" :quizData="quiz"
-          ></c-quads-explanation-item>
-          <c-quads-explanation-item
-            :itemIndex="3" :quizData="quiz"
-          ></c-quads-explanation-item>
+        <c-col class="c-w-6">
+          <c-row>
+            <c-quads-explanation-item
+              :itemIndex="0" :quizData="quiz"
+            ></c-quads-explanation-item>
+            <c-quads-explanation-item
+              :itemIndex="1" :quizData="quiz"
+            ></c-quads-explanation-item>
+            <c-quads-explanation-item
+              :itemIndex="2" :quizData="quiz"
+            ></c-quads-explanation-item>
+            <c-quads-explanation-item
+              :itemIndex="3" :quizData="quiz"
+            ></c-quads-explanation-item>
+          </c-row>
         </c-col>
       </c-row>
     </c-main>
