@@ -38,7 +38,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo2.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/algo2.png"
     question_title: ""
-    question_text: "Google search results to the phrase "big journalism"
+    question_text: 'Google search results to the phrase "big journalism"'
     stats_title: ""
     click_count: 753
   - fake: true
@@ -60,14 +60,14 @@ items:
 ---
 ## The title of explanation goes in markdown
 
-All four items contain false messages that are delivered based on conditions set by an algorithm. 
+All four items contain false messages that are delivered based on conditions set by an algorithm.
 
 Facebook's Newsfeed algorithm determines who sees the post.
 
-Google's Page Rank algorithm decides which websites are shown in the search result and in what order. 
+Google's Page Rank algorithm decides which websites are shown in the search result and in what order.
 
 Twitter's trending hashtags show which topics are most tweeted about at a given time and place, and this influences which narratives are considered newsworthy.
 
-YouTube's recommendation algorithm suggests videos to us based on topics on which we have already engaged. 
+YouTube's recommendation algorithm suggests videos to us based on topics on which we have already engaged.
 
-Online platforms use features like hashtags and recommendations to filter the information we are shown. These features are often taken advantage of to present false information in a believable wrapper (such as the first page of Google results or alongside a trending hashtag), or deliver it to the people most likely to believe it (such as someone watching a YouTube video on a related topic or  a Facebook user with certain political opinions). 
+Online platforms use features like hashtags and recommendations to filter the information we are shown. These features are often taken advantage of to present false information in a believable wrapper (such as the first page of Google results or alongside a trending hashtag), or deliver it to the people most likely to believe it (such as someone watching a YouTube video on a related topic or  a Facebook user with certain political opinions).
