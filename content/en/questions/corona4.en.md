@@ -46,7 +46,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
     question_title: ""
-    question_text: "Google search autofill with popular Coronavirus search terms""
+    question_text: "Google search autofill with popular Coronavirus search terms"
     stats_title: ""
     click_count: 654
   - fake: true
