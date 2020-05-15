@@ -17,8 +17,7 @@ START:
   APP_VERSION: "News Edition"
   WELCOME_MESSAGE_HTML: "
     <p>
-      <b>‘Fake news’ is more than just false information. Even the term ‘fake news’ is misleading, because in many cases it contains some ‘real’ content – a piece of information, video footage or an image – that’s been doctored or taken out of context.
-</b>
+      ‘Fake news’ is more than just false information. Even the term ‘fake news’ is misleading, because in many cases it contains some ‘real’ content – a piece of information, video footage or an image – that’s been doctored or taken out of context.
     </p>
     <p>
       This kind of disinformation is often convincing because it is targeted at people who are likely to believe it, for example, or displayed somewhere that usually contains trustworthy content. Sometimes, ‘fake news’ is placed on a spoof website made to look like a major newspaper, and sometimes it comes straight from the mouth of a politician via social media. 
