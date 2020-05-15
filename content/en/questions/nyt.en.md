@@ -39,7 +39,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/nyt2.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/nyt2.png"
     question_title: ""
-    question_text: "
+    question_text: ""
     stats_title: ""
     click_count: 66
 ---
