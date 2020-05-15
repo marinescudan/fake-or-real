@@ -1,5 +1,5 @@
 ---
-uuid: f4938711-4b21-47a1-819b-7d505b2e062c
+uuid: f4938711-4b21-47a1-819b-6d505b2e062c
 locale: en
 date: 2020-05-12T00:00:00.000Z
 published: true
@@ -31,7 +31,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/nyt1.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/nyt1.png"
     question_title: ""
-    question_text: """
+    question_text: ""
     stats_title: ""
     click_count: 37
   - fake: false
