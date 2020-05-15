@@ -1,5 +1,5 @@
 ---
-uuid: f4938728-4b21-47a1-819b-7d505b2e062c
+uuid: f4938728-4b21-47a1-819b-7d505b2e011c
 locale: en
 date: 2016-03-12T00:00:00.000Z
 published: true
@@ -38,7 +38,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown2.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown2.jpg"
     question_title: ""
-    question_text: "Italian Politican Matteo Salvini Tweets about Coronavirus myths""
+    question_text: "Italian Politican Matteo Salvini Tweets about Coronavirus myths"
     stats_title: ""
     click_count: 753
   - fake: true
@@ -46,7 +46,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown3.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown3.jpg"
     question_title: ""
-    question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people""
+    question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
     stats_title: ""
     click_count: 654
   - fake: false
@@ -54,7 +54,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown4.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown4.jpg"
     question_title: ""
-    question_text: " Australian politicina Concetta Fierravanti-Wells saying bushfires were caused by arsonists
+    question_text: "Australian politicina Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
     stats_title: ""
     click_count: 123
 ---
