@@ -17,13 +17,14 @@ START:
   APP_VERSION: "News Edition"
   WELCOME_MESSAGE_HTML: "
     <p>
-      <b>Lorem ipsum dolor sit amet</b> consectetur adipisicing elit. Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt.
+      <b>‘Fake news’ is more than just false information. Even the term ‘fake news’ is misleading, because in many cases it contains some ‘real’ content – a piece of information, video footage or an image – that’s been doctored or taken out of context.
+</b>
     </p>
     <p>
-      Quia audantium quae et officia saepe sunt assumenda.
+      This kind of disinformation is often convincing because it is targeted at people who are likely to believe it, for example, or displayed somewhere that usually contains trustworthy content. Sometimes, ‘fake news’ is placed on a spoof website made to look like a major newspaper, and sometimes it comes straight from the mouth of a politician via social media. 
     </p>
     <p>
-      Oh ohh ohhh!
+      In Fake or Real News Edition, dive into this murky world and test your skills at spotting disinformation in its many guises. 
     </p>
   "
   CTA_GO_QUESTION: "Ready to play?"
