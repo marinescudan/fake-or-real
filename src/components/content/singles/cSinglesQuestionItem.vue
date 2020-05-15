@@ -12,29 +12,31 @@
       </c-row>
       <c-row>
         <c-col class="c-w-12">
-          <c-row v-show="!submited" class="pt4">
+          <c-row class="pt4">
             <c-col class="c-w-12">
               <p class="tc">{{ quizData.question_cta_help }}</p>
             </c-col>
           </c-row>
-          <c-row v-show="!submited">
+          <c-row>
             <c-col class="c-w-6">
               <button type="button" class="frame pt2 pb2"
+                :class="{'disabled': submited}"
+                :disabled="submited"
                 @click="submitQuiz(true)">{{ quizData.question_cta_fake }}</button>
             </c-col>
             <c-col class="c-w-6">
               <button type="button" class="frame pt2 pb2"
+                :class="{'disabled': submited}"
+                :disabled="submited"
                 @click="submitQuiz(false)">{{ quizData.question_cta_real }}</button>
             </c-col>
           </c-row>
-          <c-row v-show="submited" class="pt4">
-            <c-col class="c-w-12">
-              <h1 class="box-default" :class="{'dark-green': correctQuess,'dark-red': !correctQuess, 'box-full': submited}">
-                <span v-if="!quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_real }}</span>
-                <span v-if="quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_fake }}</span>
-              </h1>
-            </c-col>
-          </c-row>
+          <c-modal :show="showModal">
+            <h1 class="" :class="{'correct': correctQuess,'wrong': !correctQuess}">
+              <span v-if="!quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_real }}</span>
+              <span v-if="quizData.items[itemIndex].fake">{{ quizData.question_single_result_message_fake }}</span>
+            </h1>
+          </c-modal>
         </c-col>
       </c-row>
     </c-col>
@@ -45,17 +47,19 @@
 import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
 import cMediaViewer from '@/components/media/cMediaViewer';
+import cModal from '@/components/container/cModal';
 
 export default {
   name:'cSinglesQuestionItem',
   mixins: [layout, media, form],
-  components: { cMediaViewer },
+  components: { cMediaViewer, cModal },
   props: {
     itemIndex: { type: Number, required: true }
   },
   data: function () {
     return {
       submited: false,
+      showModal: false,
       correctQuess: null
     };
   },
@@ -67,8 +71,12 @@ export default {
   },
   methods: {
     submitQuiz: function (choice) {
-      this.submited = true;
       this.correctQuess = this.quizData.items[this.itemIndex].fake === choice;
+      this.submited = true;
+      this.showModal = true;
+      setTimeout(()=>{
+        this.showModal = false;
+      }, 1600);
       setTimeout(()=>{
         this.$router.push({ path: 'explanation' });
       }, 3000);

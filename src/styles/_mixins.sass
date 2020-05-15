@@ -67,6 +67,22 @@
   background: rgba(0, 0, 0, 0.7) url('~@/assets/img/check-mark.svg') center center no-repeat
   background-size: 25% 25%
 
+@mixin correctBackground
+  background: transparent url('~@/assets/img/icon-correct.svg') center center no-repeat
+  background-size: 100% 100%
+
+@mixin wrongBackground
+  background: transparent url('~@/assets/img/icon-wrong.svg') center center no-repeat
+  background-size: 100% 100%
+
+@mixin topCenter100
+  content: ""
+  position: absolute
+  top: -200%
+  left: calc(50% - 50px)
+  width: 100px
+  height: 100px
+
 @mixin h1
   font-size: 6vh
   letter-spacing: 0.21vh

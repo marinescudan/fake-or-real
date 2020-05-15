@@ -71,3 +71,18 @@ button.frame
 .submited .frame.real
   @include frameReal
 
+
+
+.correct
+  color: $brand-green
+  position: relative
+  &::after
+    @include topCenter100
+    @include correctBackground
+
+.wrong
+  color: $brand-red
+  position: relative
+  &::after
+    @include topCenter100
+    @include wrongBackground
