@@ -1,9 +1,9 @@
 <template>
   <c-page class="start-page vh-100" :rows="'23vh 63vh 14vh'" v-if="locale">
     <c-header class="divider">
-      <h2 class="pt3">{{ locale.START.WELCOME_TITLE }}</h2>
-      <h1 class="pt3">{{ locale.START.APP_NAME }}</h1>
-      <h2 class="pt3">{{ locale.START.APP_VERSION }}</h2>
+      <h2 class="pt3">{{ locale.start.welcome_title }}</h2>
+      <h1 class="pt3">{{ locale.start.app_name }}</h1>
+      <h2 class="pt3">{{ locale.start.app_version }}</h2>
     </c-header>
     <c-main :width="contentWidth">
       <c-row class="pt4">
@@ -19,7 +19,7 @@
       </c-row>
       <c-row>
         <c-col class="c-w-4 pt4">
-          <div class="welcome-message user-input" v-html="locale.START.WELCOME_MESSAGE_HTML"></div>
+          <div class="welcome-message user-input" v-html="locale.start.welcome_message_html"></div>
         </c-col>
       </c-row>
     </c-main>
@@ -28,7 +28,7 @@
         <c-col class="c-w-4">
           <button type="button" class="frame mr3 ml3"
             :disabled="!$store.state.quizList"
-            @click="startQuiz">{{ locale.START.CTA_GO_QUESTION }}</button>
+            @click="startQuiz">{{ locale.start.cta_go_question_ }}</button>
         </c-col>
       </c-row>
     </c-footer>
@@ -51,9 +51,9 @@ export default {
       quiz: state => state.quiz,
       locale: state => state.locale,
     }),
-    image_left_url: function(){return this.locale.START.image_left_url},
-    image_center_url: function(){return this.locale.START.image_center_url},
-    image_right_url: function(){return this.locale.START.image_right_url},
+    image_left_url: function(){return this.locale.start.image_left_url},
+    image_center_url: function(){return this.locale.start.image_center_url},
+    image_right_url: function(){return this.locale.start.image_right_url},
   },
   methods: {
     startQuiz: function () {

@@ -6,16 +6,16 @@ contentType: "app_interface"
 slug: "localisation"
 published: true
 project: "for"
-SETUP:
-  CHOOSE_LANGUAGE: "Set quiz language"
-  START_QUIZ: "Start quiz"
-  RANDOM_CHECKBOX_LABLE: "Load questions randomly."
-  SHOW_STATS_LABLE: "Show statistics page."
-START:
-  WELCOME_TITLE: "Welcome to"
-  APP_NAME: "FAKE or REAL?"
-  APP_VERSION: "News Edition"
-  WELCOME_MESSAGE_HTML: "
+setup:
+  choose_language: "Set quiz language"
+  start_quiz: "Start quiz"
+  random_checkbox_lable: "Load questions randomly."
+  show_stats_lable: "Show statistics page."
+start:
+  welcome_title: "Welcome to"
+  app_name: "FAKE or REAL?"
+  app_version: "News Edition"
+  welcome_message_html: "
     <p>
       ‘Fake news’ is more than just false information. Even the term ‘fake news’ is misleading, because in many cases it contains some ‘real’ content – a piece of information, video footage or an image – that’s been doctored or taken out of context.
     </p>
@@ -26,14 +26,14 @@ START:
       In Fake or Real News Edition, dive into this murky world and test your skills at spotting disinformation in its many guises. 
     </p>
   "
-  CTA_GO_QUESTION: "Ready to play?"
+  cta_go_question_: "Ready to play?"
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
-FINISH:
-  GOODBYE_TITLE: "Thanks"
-  GOODBYE_MESSAGE_HTML: "It's been brief but <b>special</b>"
-  CTA_GO_START: "Go to start"
+finish:
+  goodbye_title: "Thanks"
+  goodbye_message_html: "It's been brief but <b>special</b>"
+  cta_go_start: "Go to start"
   image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
   image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
   image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
