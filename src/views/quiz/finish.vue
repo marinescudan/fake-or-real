@@ -1,7 +1,7 @@
 <template>
   <c-page class="finish-page vh-100"  :rows="'27vh 59vh 14vh'" v-if="locale">
     <c-header>
-      <h1>{{ locale.finish.goodbye_title }}</h1>
+      <h1>{{ locale.finish_goodbye_title }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row>
@@ -17,14 +17,14 @@
       </c-row>
       <c-row class="pt4">
         <c-col class="c-w-4">
-          <div class="finish-message user-input" v-html="locale.finish.goodbye_message_html"></div>
+          <div class="finish-message user-input" v-html="locale.finish_goodbye_message_html"></div>
         </c-col>
       </c-row>
     </c-main>
     <c-footer>
       <c-row>
         <c-col class="c-w-4">
-          <c-link class="frame mr3 ml3" :location="{name: 'start'}">{{ locale.finish.cta_go_start }}</c-link>
+          <c-link class="frame mr3 ml3" :location="{name: 'start'}">{{ locale.finish_cta_go_start }}</c-link>
         </c-col>
       </c-row>
     </c-footer>
@@ -47,9 +47,9 @@ export default {
       quiz: state => state.quiz,
       locale: state => state.locale,
     }),
-    image_left_url: function(){ return this.locale.finish.image_left_url },
-    image_center_url: function(){ return this.locale.finish.image_center_url },
-    image_right_url: function(){ return this.locale.finish.image_right_url },
+    image_left_url: function(){ return this.locale.finish_image_left_url },
+    image_center_url: function(){ return this.locale.finish_image_center_url },
+    image_right_url: function(){ return this.locale.finish_image_right_url },
   },
   created () {
     let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
