@@ -3,7 +3,7 @@ uuid: f4938728-4b21-47a1-819b-7d505b2e062c
 locale: tpl
 locale_for_humans: Template
 contentType: "app_interface"
-slug: "localisation"
+slug: "depracated"
 published: true
 project: "for"
 setup:
