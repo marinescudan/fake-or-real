@@ -11,7 +11,7 @@ All content images must be uploaded to our CDN server in the directory `fake-or-
 https://cdn.ttc.io/src/fake-or-real-news-edition/test.jpg
 Please do not add content images to GIT!
 ## Localisation
-The localisation of the app is aquired by requesting from the json api server the the app interface message keys that are located in the ```./content/en/app_interface.md``` for the english setup. For more details see files:
+The localisation of the app is aquired by requesting from the json api server the the app interface message keys that are located in the ```./content/ex:<en>/ex:<finish.page.messages.en.md>``` for the english setup For more details see files:
 ```
 ./src/app.vue
 ./src/vue.config.js

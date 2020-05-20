@@ -1,7 +1,7 @@
 <template>
   <c-page class="finish-page vh-100"  :rows="'27vh 59vh 14vh'" v-if="locale">
     <c-header>
-      <h1>{{ locale.finish_goodbye_title }}</h1>
+      <h1>{{ locale.finish_contents }}</h1>
     </c-header>
     <c-main :width="contentWidth">
       <c-row>

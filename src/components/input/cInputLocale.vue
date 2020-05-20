@@ -5,7 +5,8 @@
        :key="lang.locale"
        :class="{'selected': userLocale == lang.locale}"
        @click="setLanguage(lang.locale)"
-    >{{lang.locale_for_humans}}</button>
+    >{{lang.locale_for_humans || lang.setup_locale_for_humans}}</button>
+    <!-- TODO: remove lang.setup_locale_for_humans -->
   </div>
 </template>
 

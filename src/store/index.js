@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import i18n from '@/i18n'
 import api from '@/http/api'
+import merge from 'deepmerge'
 Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
@@ -87,13 +88,36 @@ export default new Vuex.Store({
     }
   }
 })
-function mapMessages (data) {
-  let messages = {};
-
-  data.forEach(locale => {
-    let name = locale.locale;
-    messages[name] = locale;
+function mapMessages(data) {
+  let locales = {};
+  data.forEach((file) => {
+    //cleanup file
+    delete file.uuid;
+    delete file.published;
+    delete file.project;
+    //check if parameter exist or create
+    if (!locales[file['locale']]) {
+      locales[file["locale"]] = {
+        locale: file["locale"],
+      };
+    }
+    // merge object
+    locales[file['locale']] = addFileDataToLocale(locales[file['locale']], file);
   });
 
-  return messages;
+  return locales;
+}
+
+function addFileDataToLocale(locale, file) {
+  // merge the page level parameters
+  locale[file['page'] + '_contents'] = file['contents'];
+  locale = merge(locale, file["keys"]);
+  // remove copied parameters
+  delete file['page'];
+  delete file['contents'];
+  delete file['keys'];
+  // merge other unique parameters
+  merge(locale, file);
+
+  return locale;
 }
