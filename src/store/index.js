@@ -31,7 +31,7 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    getMessages: (context) => {
+    getLocalisationFiles: (context) => {
       return new Promise((resolve, reject) => {
         context.commit('SET_STATE', { key: 'isLoading', value: true });
         let url = `https://api.ttc.io/for?slug=${'localisation'}&contentType=${'app_interface'}`;
@@ -48,7 +48,7 @@ export default new Vuex.Store({
         });
       });
     },
-    getQuizList: (context) => {
+    getQuestionList: (context) => {
       return new Promise((resolve, reject) => {
         context.commit('SET_STATE', { key: 'isLoading', value: true });
         let url = `https://api.ttc.io/for?slug=${'question'}&locale=${i18n.locale}`;
@@ -66,11 +66,22 @@ export default new Vuex.Store({
     setQuiz: (context, config={}) => {
       return new Promise((resolve) => {
         let tempArray = JSON.parse(JSON.stringify(context.state.quizList));
-        if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
-        let newQuizIndex = context.state.loadRandomQuestionFlag ? Math.floor(Math.random() * (tempArray.length)) : 0;
-        context.commit('SET_STATE', { key: 'quiz', value: tempArray[newQuizIndex] });
-        context.commit('SET_STATE', { key: 'quizIndex', value: newQuizIndex });
         context.commit('SET_STATE', { key: 'quizList', value: tempArray });
+        let quiz;
+        if (config.loseCurrent) tempArray.splice(context.state.quizIndex, 1);
+        if (config.uuid) {
+          tempArray.forEach( (each, index) => {
+            if (each.uuid === config.uuid) {
+              quiz = each;
+              context.commit('SET_STATE', { key: 'quizIndex', value: index });
+            }
+          });
+        } else {
+          let newQuizIndex = context.state.loadRandomQuestionFlag ? Math.floor(Math.random() * (tempArray.length)) : 0;
+          context.commit('SET_STATE', { key: 'quizIndex', value: newQuizIndex });
+          quiz = tempArray[newQuizIndex];
+        }
+        context.commit("SET_STATE", { key: "quiz", value: quiz });
         resolve(context.state.quiz);
       });
     },
@@ -99,6 +110,7 @@ function mapMessages(data) {
     if (!locales[file['locale']]) {
       locales[file["locale"]] = {
         locale: file["locale"],
+        locale_for_humans: file["locale_for_humans"],
       };
     }
     // merge object

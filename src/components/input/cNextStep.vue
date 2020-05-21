@@ -39,8 +39,8 @@ export default {
   },
   methods: {
     startQuiz: function () {
-      this.$store.dispatch('setQuiz', {loseCurrent: true}).then(()=>{
-        this.$router.push({ path: 'question' });
+      this.$store.dispatch('setQuiz', { loseCurrent: true }).then(()=>{
+        this.$router.push({ path: `/question/${this.$store.state.quiz.uuid}` });
       });
     }
   }

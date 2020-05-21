@@ -11,10 +11,10 @@
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-doubles-stats-item :quizData="quiz" :itemIndex="0"></c-doubles-stats-item>
+          <c-doubles-stats-item :quiz="quiz" :itemIndex="0"></c-doubles-stats-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-doubles-stats-item :quizData="quiz" :itemIndex="1"></c-doubles-stats-item>
+          <c-doubles-stats-item :quiz="quiz" :itemIndex="1"></c-doubles-stats-item>
         </c-col>
       </c-row>
     </c-main>

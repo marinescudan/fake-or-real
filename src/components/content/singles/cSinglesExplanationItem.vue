@@ -1,14 +1,14 @@
 <template>
   <div class="frame"
-    v-bind:class="[quizData.items[itemIndex].fake?'fake':'real']">
+    v-bind:class="[quiz.items[itemIndex].fake?'fake':'real']">
     <c-row>
       <c-col class="c-w-12">
         <c-media-viewer :itemIndex="itemIndex" namespace="explanation"></c-media-viewer>
       </c-col>
     </c-row>
-    <c-row class="pt2" v-if="quizData.items[this.itemIndex].explanation_title">
+    <c-row class="pt2" v-if="quiz.items[this.itemIndex].explanation_title">
       <c-col class="c-w-12">
-        <p>{{quizData.items[this.itemIndex].explanation_title}}</p>
+        <p>{{quiz.items[this.itemIndex].explanation_title}}</p>
       </c-col>
     </c-row>
   </div>
@@ -29,10 +29,10 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
-      quizData: state => state.quiz,
+      quiz: state => state.quiz,
     }),
     vimeoId (){
-      let url = this.quizData.items[this.itemIndex].single_url;
+      let url = this.quiz.items[this.itemIndex].single_url;
       if (url.includes('vimeo')) {
         return url.split('://')[1].split('/')[1];
       } else {

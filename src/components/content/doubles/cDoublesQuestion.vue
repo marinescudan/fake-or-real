@@ -36,13 +36,13 @@
             @click="submitQuiz">{{ quiz.question_cta_go_explanation }}</button>
         </c-col>
       </c-row>
-      <c-row v-if="submited" class="pt4">
-        <c-col class="c-w-12">
-          <h1 class="dark-green" v-if="correct">{{ quiz.question_submit_message_correct}}</h1>
-          <h1 class="dark-red" v-if="!correct">{{ quiz.question_submit_message_wrong}}</h1>
-        </c-col>
-      </c-row>
     </c-footer>
+    <c-modal :show="showModal">
+      <h1 class="" :class="{'correct': correct,'wrong': !correct}">
+        <span v-if="!correct">{{ quiz.question_submit_message_correct }}</span>
+        <span v-if="correct">{{ quiz.question_submit_message_wrong }}</span>
+      </h1>
+    </c-modal>
   </c-page>
 </template>
 
@@ -50,17 +50,19 @@
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cDoublesQuestionItem from '@/components/content/doubles/cDoublesQuestionItem';
+import cModal from '@/components/container/cModal';
 
 export default {
   name:'cDoublesQuestion',
-  mixins: [page, layout, media, form],
-  components: { cDoublesQuestionItem },
+  mixins: [page, layout, media, form ],
+  components: { cDoublesQuestionItem, cModal },
   data: function () {
     return {
       submited: false,
       correct: false,
       contentWidth: 90,
-      hasSelection: false
+      hasSelection: false,
+      showModal: false,
     };
   },
   computed: {
@@ -74,6 +76,7 @@ export default {
     saveSelection (itemIndex, selected) {
       let newQuiz = Object.assign({}, this.quiz);
       this.correct = newQuiz.items[itemIndex].fake && selected;
+
       newQuiz.items.forEach( (each, i) => {
         if (itemIndex === i) each.selected = selected;
         else each.selected = false;
@@ -87,11 +90,10 @@ export default {
     },
     submitQuiz: function () {
       this.submited = true;
-      this.$store.dispatch('setState', { key: 'quiz', value: this.quiz})
-      .then(()=>{
-        setTimeout(()=>{
-          this.$router.push({ path: 'explanation' });
-        }, 3000);
+      this.showModal = true;
+      this.$store.dispatch('setState', { key: 'quiz', value: this.quiz}).then(()=>{
+        setTimeout(()=>{ this.showModal = false; }, 2000);
+        setTimeout(()=>{ this.$router.push({ path: `/explanation/${this.quiz.uuid}` }); }, 3000);
       });
     }
   }

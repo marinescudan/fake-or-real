@@ -4,8 +4,8 @@
       <c-media-viewer :itemIndex="itemIndex" namespace="stats"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4">
-      <h3>{{quizData.items[itemIndex].stats_title}}</h3>
-      <p class="f2">{{quizData.items[itemIndex].click_count}}</p>
+      <h3>{{quiz.items[itemIndex].stats_title}}</h3>
+      <p class="f2">{{quiz.items[itemIndex].click_count}}</p>
     </c-col>
   </c-row>
 </template>
@@ -24,10 +24,10 @@ export default {
   },
   computed: {
     ...mapState({
-      quizData: state => state.quiz,
+      quiz: state => state.quiz,
     }),
     vimeoId (){
-      let url = this.quizData.items[this.itemIndex].single_url;
+      let url = this.quiz.items[this.itemIndex].single_url;
       if (url.includes('vimeo')) {
         return url.split('://')[1].split('/')[1];
       } else {

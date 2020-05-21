@@ -1,16 +1,16 @@
 <template>
   <div
     class="c-quads-question-item frame pt2 pr2 pb2 pl2 mb4"
-    v-if="quizData"
-    v-bind:class="[quizData.items[quizIndex].selected?'selected':'', quizData.items[quizIndex].fake?'fake':'real']"
-    v-on:click="$emit('itemSelected', quizIndex, !quizData.items[quizIndex].selected)">
+    v-if="quiz"
+    v-bind:class="[quiz.items[itemIndex].selected?'selected':'', quiz.items[itemIndex].fake?'fake':'real']"
+    v-on:click="$emit('itemSelected', itemIndex, !quiz.items[itemIndex].selected)">
     <c-row>
       <c-col v-bind:class="dinamicClass">
-        <c-figure :src="quizData.items[quizIndex].question_media_url"></c-figure>
+        <c-figure :src="quiz.items[itemIndex].question_media_url"></c-figure>
       </c-col>
       <c-col class="c-w-6" v-if="showTextSection">
-        <h3>{{quizData.items[quizIndex].question_title}}</h3>
-        <p>{{quizData.items[quizIndex].question_text}}</p>
+        <h3>{{quiz.items[itemIndex].question_title}}</h3>
+        <p>{{quiz.items[itemIndex].question_text}}</p>
       </c-col>
     </c-row>
   </div>
@@ -24,17 +24,17 @@ export default {
   name:'cQuadsQuestionItem',
   mixins: [layout, media, form],
   props: {
-    quizIndex: { type: Number, required: true },
+    itemIndex: { type: Number, required: true },
   },
   computed: {
     ...mapState({
-      quizData: state => state.quiz,
+      quiz: state => state.quiz,
       dinamicClass: function () {
         return this.showTextSection ? 'c-w-6':'c-w-12';
       },
       showTextSection: function () {
-        return  this.quizData.items[this.quizIndex].question_title
-                || this.quizData.items[this.quizIndex].question_text
+        return  this.quiz.items[this.itemIndex].question_title
+                || this.quiz.items[this.itemIndex].question_text
                 ? true : false;
       },
     }),

@@ -19,7 +19,7 @@ export default {
   },
   computed: {
     media_url (){
-      return this.quizData.items[this.itemIndex][`${this.namespace}_media_url`] || this.quizData.items[this.itemIndex].question_media_url;
+      return this.quiz.items[this.itemIndex][`${this.namespace}_media_url`] || this.quiz.items[this.itemIndex].question_media_url;
     },
     isVimeo (){
       return this.media_url.includes('vimeo');
@@ -34,7 +34,7 @@ export default {
       else return false;
     },
     ...mapState({
-      quizData: state => state.quiz,
+      quiz: state => state.quiz,
     }),
   },
   methods: {

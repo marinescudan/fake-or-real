@@ -12,24 +12,24 @@
       <c-row>
         <c-col class="c-w-6">
           <c-quads-question-item
-            :quizIndex="0" v-on:itemSelected="saveSelection"
+            :itemIndex="0" v-on:itemSelected="saveSelection"
           ></c-quads-question-item>
         </c-col>
         <c-col class="c-w-6">
           <c-quads-question-item
-            :quizIndex="1" v-on:itemSelected="saveSelection"
+            :itemIndex="1" v-on:itemSelected="saveSelection"
           ></c-quads-question-item>
         </c-col>
       </c-row>
       <c-row>
         <c-col class="c-w-6">
           <c-quads-question-item
-            :quizIndex="2" v-on:itemSelected="saveSelection"
+            :itemIndex="2" v-on:itemSelected="saveSelection"
           ></c-quads-question-item>
         </c-col>
         <c-col class="c-w-6">
           <c-quads-question-item
-            :quizIndex="3" v-on:itemSelected="saveSelection"
+            :itemIndex="3" v-on:itemSelected="saveSelection"
           ></c-quads-question-item>
         </c-col>
       </c-row>
@@ -48,12 +48,12 @@
             @click="submitQuiz">{{ quiz.question_cta_go_explanation }}</button>
         </c-col>
       </c-row>
-      <c-row v-if="submited" class="pt4">
-        <c-col class="c-w-12">
-          <h1>{{ quiz.question_submit_message_heading}} {{selectedFakeNumber}}</h1>
-        </c-col>
-      </c-row>
     </c-footer>
+    <c-modal :show="showModal">
+      <h1 class="" :class="{'correct': selectedFakeNumber === fakesNumber,'wrong': selectedFakeNumber !== fakesNumber}">
+        <span>{{ quiz.question_submit_message_heading}} {{selectedFakeNumber}} / {{fakesNumber}}</span>
+      </h1>
+    </c-modal>
   </c-page>
 </template>
 
@@ -61,23 +61,32 @@
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
 import cQuadsQuestionItem from '@/components/content/quads/cQuadsQuestionItem';
+import cModal from '@/components/container/cModal';
 
 export default {
   name:'cQuadsQuestion',
-  mixins: [page, layout, media, form],
-  components: { cQuadsQuestionItem },
+  mixins: [page, layout, media, form ],
+  components: { cQuadsQuestionItem, cModal },
   data: function () {
     return {
       submited: false,
       selectedFakeNumber: 0,
-      contentWidth: 90
+      contentWidth: 90,
+      showModal: false,
     };
   },
   computed: {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
-      disabled: function () { return this.selectedFakeNumber < 1;}
+      disabled: function () { return this.selectedFakeNumber < 1;},
+      fakesNumber: function () {
+        let counter = 0;
+        this.quiz.items.forEach(each => {
+          if (each.fake) counter++
+        });
+        return counter;
+      },
     }),
   },
   methods: {
@@ -92,14 +101,10 @@ export default {
     },
     submitQuiz: function () {
       this.submited = true;
-      this.$store.dispatch('setState', {
-        key: 'quiz',
-        value: this.quiz
-      })
-      .then(()=>{
-        setTimeout(()=>{
-          this.$router.push({ path: 'explanation' });
-        }, 3000);
+      this.showModal = true;
+      this.$store.dispatch('setState', { key: 'quiz', value: this.quiz}).then(()=>{
+        setTimeout(()=>{ this.showModal = false; }, 2000);
+        setTimeout(()=>{ this.$router.push({ path: `/explanation/${this.quiz.uuid}` }); }, 3000);
       });
     }
   }

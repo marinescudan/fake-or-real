@@ -18,7 +18,7 @@
       ...mapState({
         quiz: state => state.quiz
       })
-    }
+    },
   }
 </script>
 

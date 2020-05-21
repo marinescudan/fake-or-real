@@ -24,31 +24,38 @@ export default {
     })
   },
   mounted () {
-    this.setMessages();
+    let locale = JSON.parse(window.localStorage.getItem('locale'));
+    if (!locale && this.$router.currentRoute.name !== 'setup') {
+      this.$router.push({name: 'setup'});
+    }
+
+    if ( this.$router.currentRoute.params.uuid ) {
+      this.setAppData({uuid: this.$router.currentRoute.params.uuid});
+    } else {
+      this.setAppData({uuid: null});
+    }
   },
   methods: {
-    setMessages: function () {
-      this.$store.dispatch('getMessages').then(()=>{
-        this.setQuizList();
+    setAppData: function (config={}) {
+      this.$store.dispatch('getLocalisationFiles').then(()=>{
+        this.setQestionList(config);
       });
     },
-    setQuizList: function () {
-      this.$store.dispatch('getQuizList').then(()=>{
+    setQestionList: function (config={}) {
+      this.$store.dispatch('getQuestionList').then(()=>{
         let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
         this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
-          this.changeLocale();
+          this.setLocale();
+          this.$store.dispatch('setQuiz', config);
         });
       });
     },
-    changeLocale: function () {
+    setLocale: function () {
       let locale = JSON.parse(localStorage.getItem('locale'));
       this.$i18n.locale = locale;
       if ( locale in this.i18n_messages ) {
-        this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[locale]}).then(()=>{
-          if (this.$router.currentRoute.name !== 'start') this.$router.push({name: 'start'});
-        });
+        this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[locale]});
       } else {
-        localStorage.setItem('locale', null);
         if (this.$router.currentRoute.name !== 'setup') this.$router.push({name: 'setup'});
       }
     }

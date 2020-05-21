@@ -11,18 +11,18 @@
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-quads-stats-item :quizData="quiz" :itemIndex="0"></c-quads-stats-item>
+          <c-quads-stats-item :quiz="quiz" :itemIndex="0"></c-quads-stats-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-quads-stats-item :quizData="quiz" :itemIndex="1"></c-quads-stats-item>
+          <c-quads-stats-item :quiz="quiz" :itemIndex="1"></c-quads-stats-item>
         </c-col>
       </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-quads-stats-item :quizData="quiz" :itemIndex="2"></c-quads-stats-item>
+          <c-quads-stats-item :quiz="quiz" :itemIndex="2"></c-quads-stats-item>
         </c-col>
         <c-col class="c-w-6">
-          <c-quads-stats-item :quizData="quiz" :itemIndex="3"></c-quads-stats-item>
+          <c-quads-stats-item :quiz="quiz" :itemIndex="3"></c-quads-stats-item>
         </c-col>
       </c-row>
     </c-main>

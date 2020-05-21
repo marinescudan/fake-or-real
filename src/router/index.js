@@ -11,36 +11,36 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'start',
-    component: start
+    path: "/",
+    name: "start",
+    component: start,
   },
   {
-    path: '/setup',
-    name: 'setup',
-    component: setup
+    path: "/setup",
+    name: "setup",
+    component: setup,
   },
   {
-    path: '/question',
-    name: 'question',
+    path: "/finish",
+    name: "finish",
+    component: finish,
+  },
+  {
+    path: "/question/:uuid",
+    name: "question",
     component: question,
   },
   {
-    path: '/explanation',
-    name: 'explanation',
+    path: "/explanation/:uuid",
+    name: "explanation",
     component: explanation,
   },
   {
-    path: '/stats',
-    name: 'stats',
+    path: "/stats/:uuid",
+    name: "stats",
     component: stats,
   },
-  {
-    path: '/finish',
-    name: 'finish',
-    component: finish,
-  },
-]
+];
 
 
 

@@ -1,11 +1,11 @@
 <template>
     <c-row class="c-quads-stats-item pt2 pr2 pb2 pl2 mb3">
       <c-col class="c-w-6">
-        <c-figure :src="quizData.items[itemIndex].stats_media_url || quizData.items[itemIndex].question_media_url"></c-figure>
+        <c-figure :src="quiz.items[itemIndex].stats_media_url || quiz.items[itemIndex].question_media_url"></c-figure>
       </c-col>
       <c-col class="c-w-6">
-        <h3 v-html="quizData.items[itemIndex].stats_title"></h3>
-        <p class="f2">{{quizData.items[itemIndex].click_count}}</p>
+        <h3 v-html="quiz.items[itemIndex].stats_title"></h3>
+        <p class="f2">{{quiz.items[itemIndex].click_count}}</p>
       </c-col>
     </c-row>
 </template>
@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     ...mapState({
-      quizData: state => state.quiz,
+      quiz: state => state.quiz,
     }),
   },
 }

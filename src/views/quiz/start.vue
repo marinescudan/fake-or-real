@@ -57,9 +57,9 @@ export default {
   },
   methods: {
     startQuiz: function () {
-      this.$store.dispatch('setQuiz', {loseCurrent: false}).then(()=>{
-        this.$router.push({ path: 'question' });
-      });
+      if (this.quiz) {
+        this.$router.push({ path: `/question/${this.quiz.uuid}`});
+      }
     }
   }
 }

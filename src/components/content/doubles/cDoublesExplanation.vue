@@ -19,10 +19,10 @@
         </c-col>
         <c-col class="c-w-4">
           <c-doubles-explanation-item
-            :itemIndex="0" :quizData="quiz"
+            :itemIndex="0" :quiz="quiz"
           ></c-doubles-explanation-item>
           <c-doubles-explanation-item
-            :itemIndex="1" :quizData="quiz"
+            :itemIndex="1" :quiz="quiz"
           ></c-doubles-explanation-item>
         </c-col>
       </c-row>

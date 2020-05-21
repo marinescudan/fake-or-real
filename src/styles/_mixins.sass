@@ -78,7 +78,7 @@
 @mixin topCenter100
   content: ""
   position: absolute
-  top: -200%
+  bottom: calc(100% + 36px)
   left: calc(50% - 50px)
   width: 100px
   height: 100px
@@ -90,3 +90,6 @@
   font-family: 'Jost400Book'
   font-weight: 400
 
+@mixin transitionEffect
+  transition: all .35s ease-in
+  transition-delay: .15s

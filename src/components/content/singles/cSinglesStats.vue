@@ -11,7 +11,7 @@
       </c-row>
       <c-row>
         <c-col class="c-w-8">
-          <c-singles-stats-item :quizData="quiz" :itemIndex="0"></c-singles-stats-item>
+          <c-singles-stats-item :quiz="quiz" :itemIndex="0"></c-singles-stats-item>
         </c-col>
       </c-row>
     </c-main>
