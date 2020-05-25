@@ -3,7 +3,6 @@ import VueI18n from "vue-i18n";
 
 Vue.use(VueI18n);
 let locale = JSON.parse(localStorage.getItem('locale')) || process.env.VUE_APP_I18N_LOCALE || "en";
-console.log(locale);
 function loadLocaleMessages() {
   const locales = require.context(
     "./locales",
