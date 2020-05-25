@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://vimeo.com/386102796"
     stats_media_url: ""
     question_title: ""
-    question_text: ""        
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 234
@@ -39,7 +39,7 @@ items:
 
 The story is fake.
 
-The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
+The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times.
 
 Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
 

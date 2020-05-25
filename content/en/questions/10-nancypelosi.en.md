@@ -30,13 +30,13 @@ items:
     explanation_media_url: "https://vimeo.com/386102796"
     stats_media_url: ""
     question_title: ""
-    question_text: ""        
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 234
 ---
 ## The title of explanation goes in markdown
 
-This video is fake. 
+This video is fake.
 
 The original video was slowed down to make it seem like Nancy Pelosi is slurring. Videos like this, which are doctored using basic editing techniques, are called "cheapfakes".

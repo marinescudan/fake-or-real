@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://vimeo.com/386102796"
     stats_media_url: ""
     question_title: ""
-    question_text: ""        
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 234

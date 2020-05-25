@@ -30,7 +30,7 @@ items:
     explanation_media_url: ""
     stats_media_url: ""
     question_title: ""
-    question_text: ""        
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 234

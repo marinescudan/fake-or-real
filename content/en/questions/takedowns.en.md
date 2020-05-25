@@ -31,6 +31,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown1.png"
     question_title: ""
     question_text: "Donald Trump Tweet to Theresa May on Islamic terrorism"
+    explanation_title: ""
     stats_title: ""
     click_count: 123
   - fake: false
@@ -39,6 +40,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown2.jpg"
     question_title: ""
     question_text: "Italian Politican Matteo Salvini Tweets about Coronavirus myths"
+    explanation_title: ""
     stats_title: ""
     click_count: 753
   - fake: true
@@ -47,6 +49,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown3.jpg"
     question_title: ""
     question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
+    explanation_title: ""
     stats_title: ""
     click_count: 654
   - fake: false
@@ -55,9 +58,10 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/takedown4.jpg"
     question_title: ""
     question_text: "Australian politicina Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
+    explanation_title: ""
     stats_title: ""
     click_count: 123
 ---
 ## The title of explanation goes in markdown
 
-All of these tweets provoide false information. However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the others continue to be visible on Twitter. 
+All of these tweets provoide false information. However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the others continue to be visible on Twitter.
