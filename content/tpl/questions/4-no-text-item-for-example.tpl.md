@@ -26,41 +26,41 @@ stats_cta_go_again: "stats_cta_go_again"
 stats_cta_go_finish: "stats_cta_go_finish"
 items:
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    stats_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    question_title: "items.question_title - This is the title of the item in question page"
-    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    question_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    question_title: ""
+    question_text: ""
+    explanation_title: ""
     stats_title: "items.stats_title - This is the title of the item in stats page"
-    click_count: 0
+    click_count: 123
   - fake: false
-    question_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    stats_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    question_title: "items.question_title - This is the title of the item in question page"
-    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    question_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    question_title: ""
+    question_text: ""
+    explanation_title: ""
     stats_title: "items.stats_title - This is the title of the item in stats page"
-    click_count: 0
+    click_count: 753
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    stats_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    question_title: "items.question_title - This is the title of the item in question page"
-    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    question_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    question_title: ""
+    question_text: ""
+    explanation_title: ""
     stats_title: "items.stats_title - This is the title of the item in stats page"
-    click_count: 0
+    click_count: 654
   - fake: false
-    question_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    stats_media_url: "https://cdn.ttc.io/i/fit/800/800/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    question_title: "items.question_title - This is the title of the item in question page"
-    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
-    stats_title: "items.stats_title - This is the title of the item in stats page"
-    click_count: 0
+    question_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    question_title: ""
+    question_text: ""
+    explanation_title: ""
+    stats_title: ""
+    click_count: 123
 ---
 ##  The title of explanation goes in markdown
 
