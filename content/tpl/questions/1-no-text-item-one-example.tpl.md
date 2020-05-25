@@ -29,10 +29,10 @@ items:
     question_media_url: "https://vimeo.com/386102796"
     explanation_media_url: "https://vimeo.com/386102796"
     stats_media_url: "https://vimeo.com/386102796"
-    question_title: "items.question_title - This is the title of the item in question page"
-    question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
-    stats_title: "items.stats_title - This is the title of the item in stats page"
+    question_title: ""
+    question_text: ""
+    explanation_title: ""
+    stats_title: ""
     click_count: 0
 ---
 ##  The title of explanation goes in markdown

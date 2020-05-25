@@ -32,7 +32,7 @@ items:
     question_title: ""
     question_text: ""
     explanation_title: ""
-    stats_title: "items.stats_title - This is the title of the item in stats page"
+    stats_title: ""
     click_count: 123
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
@@ -41,7 +41,7 @@ items:
     question_title: ""
     question_text: ""
     explanation_title: ""
-    stats_title: "items.stats_title - This is the title of the item in stats page"
+    stats_title: ""
     click_count: 753
   - fake: true
     question_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
@@ -50,7 +50,7 @@ items:
     question_title: ""
     question_text: ""
     explanation_title: ""
-    stats_title: "items.stats_title - This is the title of the item in stats page"
+    stats_title: ""
     click_count: 654
   - fake: false
     question_media_url: "https://cdn.ttc.io/i/fit/400/400/sm/0/plain/fake-or-real-news-edition/2.jpg"
