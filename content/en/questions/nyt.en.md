@@ -32,6 +32,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/nyt1.png"
     question_title: ""
     question_text: ""
+    explanation_title: ""
     stats_title: ""
     click_count: 37
   - fake: false
@@ -40,6 +41,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/nyt2.png"
     question_title: ""
     question_text: ""
+    explanation_title: ""
     stats_title: ""
     click_count: 66
 ---

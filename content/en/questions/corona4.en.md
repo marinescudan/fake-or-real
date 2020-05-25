@@ -31,6 +31,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/Corona1.jpg"
     question_title: ""
     question_text: "Meme on coronavirus as intentional Chinese bioweapon"
+    explanation_title: ""
     stats_title: ""
     click_count: 123
   - fake: false
@@ -39,6 +40,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona2.png"
     question_title: ""
     question_text: "News article about Coronavirus and blood plasma"
+    explanation_title: ""
     stats_title: ""
     click_count: 753
   - fake: true
@@ -47,6 +49,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
     question_title: ""
     question_text: "Google search autofill with popular Coronavirus search terms"
+    explanation_title: ""
     stats_title: ""
     click_count: 654
   - fake: true
@@ -55,6 +58,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona4.png"
     question_title: ""
     question_text: "Facebook post on 5G and Bill Gates"
+    explanation_title: ""
     stats_title: ""
     click_count: 123
 ---
