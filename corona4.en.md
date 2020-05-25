@@ -14,7 +14,7 @@ question_submit_message_wrong: "Wrong"
 question_single_result_message_real: "It is real"
 question_single_result_message_fake: "It is fake"
 question_cta_go_explanation: "Check"
-question_cta_help: ""
+question_cta_help: "Choose between 1 and 4 of the options above!"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
 explanation_title: "Three of these items are fake or misleading"
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/Corona1.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/Corona1.jpg"
     question_title: ""
-    question_text: "Meme on coronavirus as intentional Chinese bioweapon""
+    question_text: "Meme on coronavirus as intentional Chinese bioweapon"
     stats_title: ""
     click_count: 123
   - fake: false
@@ -38,7 +38,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona2.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona2.png"
     question_title: ""
-    question_text: "News article about Coronavirus and blood plasma""
+    question_text: "News article about Coronavirus and blood plasma"
     stats_title: ""
     click_count: 753
   - fake: true
@@ -46,7 +46,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
     question_title: ""
-    question_text: "Google search autofill with popular Coronavirus search terms""
+    question_text: "Google search autofill with popular Coronavirus search terms"
     stats_title: ""
     click_count: 654
   - fake: true
@@ -54,7 +54,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona4.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona4.png"
     question_title: ""
-    question_text: "Facebook post on 5G and Bill Gates""
+    question_text: "Facebook post on 5G and Bill Gates"
     stats_title: ""
     click_count: 123
 ---
