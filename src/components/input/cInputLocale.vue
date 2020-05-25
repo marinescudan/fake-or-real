@@ -36,7 +36,9 @@ export default {
       this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(
         this.$store.dispatch('getQuestionList').then(()=>{
           let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
-          this.$store.dispatch('setState', { key: 'quizList', value: tempArray});
+          this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
+            this.$store.dispatch('setQuiz', {});
+          });
         })
       );
     }
