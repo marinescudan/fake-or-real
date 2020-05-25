@@ -4,6 +4,7 @@
        v-for="lang in i18n_messages"
        :key="lang.locale"
        :class="{'selected': userLocale == lang.locale}"
+       :disabled="userLocale == lang.locale"
        @click="setLanguage(lang.locale)"
     >{{lang.locale_for_humans}}</button>
   </div>
@@ -31,6 +32,7 @@ export default {
     setLanguage: function (key) {
       localStorage.setItem('locale', JSON.stringify(key));
       this.$i18n.locale = key;
+      console.log(this.$i18n.locale);
       this.locale = key;
       this.$store.dispatch('setState', { key: 'locale', value: this.$store.state.i18n_messages[key]}).then(
         this.$store.dispatch('getQuestionList').then(()=>{
