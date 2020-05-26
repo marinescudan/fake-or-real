@@ -29,8 +29,8 @@ items:
     question_media_url: "https://youtu.be/l1-6cwetV5k?t=878"
     explanation_media_url: "https://youtu.be/l1-6cwetV5k?t=878"
     stats_media_url: "https://youtu.be/l1-6cwetV5k?t=878"
-    question_title: "The 1 title of the item is max 36 ch"
-    question_text: "The title of the item is maximum 160 characters long. Sed distin maiores quasi sunt totam voluptatum. Sed distinctio modi maiores quasi sunt totam voluptatum Sed distinctio modi maiores quasi sunt totam voluptatum?"
+    question_title: ""
+    question_text: ""
     explanation_title: ""
     stats_title: ""
     click_count: 234
