@@ -26,7 +26,7 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_1.png"
+    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/q1_1.png"
     explanation_media_url: ""
     stats_media_url: ""
     question_title: ""
@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 123
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_2.png"
+    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/q1_2.png"
     explanation_media_url: ""
     stats_media_url: ""
     question_title: ""
@@ -44,7 +44,7 @@ items:
     stats_title: ""
     click_count: 753
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_3.png"
+    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/q1_3.png"
     explanation_media_url: ""
     stats_media_url: ""
     question_title: ""
@@ -53,7 +53,7 @@ items:
     stats_title: ""
     click_count: 654
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/q1_4.png"
+    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/q1_4.png"
     explanation_media_url: ""
     stats_media_url: ""
     question_title: ""
