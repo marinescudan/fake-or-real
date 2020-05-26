@@ -62,7 +62,7 @@ items:
     stats_title: ""
     click_count: 123
 ---
-## The title of explanation goes in markdown
+## 
 
 The news story on blood plasma is genuine.
 
