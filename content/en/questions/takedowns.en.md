@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Which of these politicans' Tweets was removed by Twitter?"
+question_title: "Which of these politicans' tweets was removed by Twitter?"
 question_subtitle: ""
 question_submit_message_heading: "Chose every tweet and Facebook post you think was removed"
 question_submit_message_correct: "Correct"
@@ -17,7 +17,7 @@ question_cta_go_explanation: "Check"
 question_cta_help: "Choose between 1 and 4 of the options above!"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
-explanation_title: "Only one of these posts and Tweets was removed"
+explanation_title: "Only one of these posts and tweets was removed"
 explanation_subtitle: ""
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Find the fake adverts"
@@ -39,14 +39,14 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown2.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown2.png"
     question_title: ""
-    question_text: "Italian Politican Matteo Salvini Tweets about Coronavirus myths"
+    question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
     explanation_title: ""
     stats_title: ""
     click_count: 753
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown3.png"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown3.png"
-    stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown3.png"
+    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown3.jpeg"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown3.jpeg"
+    stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown3.jpeg"
     question_title: ""
     question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
     explanation_title: ""
@@ -62,6 +62,6 @@ items:
     stats_title: ""
     click_count: 123
 ---
-## The title of explanation goes in markdown
+## All of these tweets provoide false information. 
 
-All of these tweets provoide false information. However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the others continue to be visible on Twitter.
+However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the others continue to be visible on Twitter.
