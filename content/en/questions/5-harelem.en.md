@@ -2,7 +2,7 @@
 uuid: 857b4324-a777-11e5-bf7f-feff819cdc9f
 locale: en
 date: 2016-03-12T00:00:00.000Z
-published: true
+published: false
 project: "for"
 slug: "question"
 title: "Harelem - 5"
@@ -26,8 +26,8 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: "https://vimeo.com/386102796"
-    explanation_media_url: "https://vimeo.com/386102796"
+    question_media_url: ""
+    explanation_media_url: ""
     stats_media_url: ""
     question_title: ""
     question_text: ""
