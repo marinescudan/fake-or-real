@@ -44,8 +44,8 @@ items:
     stats_title: ""
     click_count: 66
 ---
-## The title of explanation goes in markdown
+## Look closely at the two URLs.
 
-Look closely at the two URLs. The “-se” part in the first image is unusual, and tells us that this is not the actual New York Times website. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL. 
+The “-se” part in the first image is unusual, and tells us that this is not the actual New York Times website. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL. 
 
 In addition, if you know about the Iraq conflict, you might have noticed that the headline was false.
