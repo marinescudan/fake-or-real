@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Which of these stories are being promoted by alorithms?"
+question_title: "Which of these stories are being promoted by algorithms?"
 question_subtitle: ""
 question_submit_message_heading: "You chose"
 question_submit_message_correct: "Correct"
@@ -48,7 +48,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/algo3.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/algo3.jpg"
     question_title: ""
-    question_text: "List of Twitter Trends on a particular day in New Delhi with #LeftAttacksJNU4."
+    question_text: "List of Twitter trends on a particular day in New Delhi with #LeftAttacksJNU4."
     explanation_title: ""
     stats_title: ""
     click_count: 654
@@ -57,14 +57,13 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/algo4.jpg"
     stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/algo4.jpg"
     question_title: ""
-    question_text: 'A video on vaccines shown "Next" on YouTube'
+    question_text: 'A video on vaccines show "Next" on YouTube'
     explanation_title: ""
     stats_title: ""
     click_count: 123
 ---
-## The title of explanation goes in markdown
+## All four items contain false messages that are delivered based on conditions set by an algorithm.
 
-All four items contain false messages that are delivered based on conditions set by an algorithm.
 
 Facebook's Newsfeed algorithm determines who sees the post.
 
