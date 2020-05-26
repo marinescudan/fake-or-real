@@ -44,9 +44,9 @@ items:
     stats_title: ""
     click_count: 753
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
-    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-editioncorona3.jpg"
+    question_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona3.png"
+    explanation_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona3.png"
+    stats_media_url: "https://cdn.ttc.io/i/fit/406/228/sm/0/plain/fake-or-real-news-edition/corona3.png"
     question_title: ""
     question_text: "Google search autofill with popular Coronavirus search terms"
     explanation_title: ""

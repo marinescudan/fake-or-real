@@ -11,7 +11,6 @@ question_subtitle: "Images reported as showing Iran's missile attacck on a US ba
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
 question_submit_message_wrong: "Wrong"
-question_single:
 question_single_result_message_real: "It is real"
 question_single_result_message_fake: "It is fake"
 question_cta_go_explanation: "Check"
