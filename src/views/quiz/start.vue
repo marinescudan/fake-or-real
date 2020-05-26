@@ -43,7 +43,7 @@ export default {
   mixins: [page, layout, media, form],
   data: function () {
     return {
-      contentWidth: 90
+      contentWidth: 96
     }
   },
   computed: {

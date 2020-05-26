@@ -1,37 +1,23 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 66vh 14vh'" v-bind:class="{ 'submited' : submited}">
+  <c-page class="vh-100" :rows="'12rem 1fr 10rem'" v-bind:class="{ 'submited' : submited}">
     <c-header class="divider">
-      <h1 class="pt5">{{ quiz.question_title }}</h1>
+      <h1>{{ quiz.question_title }}</h1>
+      <h2>{{ quiz.question_subtitle }}</h2>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row class="pt3 pb3">
-        <c-col class="c-w-12">
-          <h2>{{ quiz.question_subtitle }}</h2>
-        </c-col>
-      </c-row>
       <c-row>
-        <c-col class="c-w-6">
-          <c-quads-question-item
-            :itemIndex="0" v-on:itemSelected="saveSelection"
-          ></c-quads-question-item>
-        </c-col>
-        <c-col class="c-w-6">
-          <c-quads-question-item
-            :itemIndex="1" v-on:itemSelected="saveSelection"
-          ></c-quads-question-item>
-        </c-col>
-      </c-row>
-      <c-row>
-        <c-col class="c-w-6">
-          <c-quads-question-item
-            :itemIndex="2" v-on:itemSelected="saveSelection"
-          ></c-quads-question-item>
-        </c-col>
-        <c-col class="c-w-6">
-          <c-quads-question-item
-            :itemIndex="3" v-on:itemSelected="saveSelection"
-          ></c-quads-question-item>
-        </c-col>
+        <c-quads-question-item
+          :itemIndex="0" v-on:itemSelected="saveSelection"
+        ></c-quads-question-item>
+        <c-quads-question-item
+          :itemIndex="1" v-on:itemSelected="saveSelection"
+        ></c-quads-question-item>
+        <c-quads-question-item
+          :itemIndex="2" v-on:itemSelected="saveSelection"
+        ></c-quads-question-item>
+        <c-quads-question-item
+          :itemIndex="3" v-on:itemSelected="saveSelection"
+        ></c-quads-question-item>
       </c-row>
     </c-main>
     <c-footer>
@@ -71,7 +57,7 @@ export default {
     return {
       submited: false,
       selectedFakeNumber: 0,
-      contentWidth: 90,
+      contentWidth: 96,
       showModal: false,
     };
   },

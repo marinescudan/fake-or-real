@@ -1,6 +1,6 @@
 <template>
   <c-row>
-    <c-col class="c-w-8">
+    <c-col class="c-w-6">
       <c-media-viewer :itemIndex="itemIndex" namespace="stats"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4">

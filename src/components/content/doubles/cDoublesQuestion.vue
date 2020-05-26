@@ -1,14 +1,14 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'20vh 66vh 14vh'" v-bind:class="{ 'submited' : submited}">
+  <c-page class="vh-100 pt3" :rows="'12rem 1fr 10rem'" v-bind:class="{ 'submited' : submited}">
     <c-header class="divider">
       <h1 class="pt5">{{ quiz.question_title }}</h1>
+      <h2>{{ quiz.question_subtitle }}</h2>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row class="pt3 pb3">
+      <!-- <c-row class="pt3 pb3">
         <c-col class="c-w-12">
-          <h2>{{ quiz.question_subtitle }}</h2>
         </c-col>
-      </c-row>
+      </c-row> -->
       <c-row>
         <c-col class="c-w-6">
           <c-doubles-question-item
@@ -60,7 +60,7 @@ export default {
     return {
       submited: false,
       correct: false,
-      contentWidth: 90,
+      contentWidth: 96,
       hasSelection: false,
       showModal: false,
     };

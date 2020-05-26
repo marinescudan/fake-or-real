@@ -25,7 +25,12 @@ export default {
 @import "@/styles/_mixins.sass";
 
 .c-main
-  @include flex-col
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  justify-content: center
+  align-content: stretch
+  align-items: stretch
 
 .c-main > *
   @include flex-col-item

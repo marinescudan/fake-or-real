@@ -24,10 +24,10 @@ export default {
   flex-direction: column
   -webkit-flex-wrap: wrap
   -ms-flex-wrap: wrap
-  flex-wrap: wrap
+  flex-wrap: nowrap
   -webkit-justify-content: center
   -ms-flex-pack: center
-  justify-content: flex-start
+  justify-content: center
   -webkit-align-content: stretch
   -ms-flex-line-pack: stretch
   align-content: stretch

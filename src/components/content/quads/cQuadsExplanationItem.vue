@@ -1,13 +1,11 @@
 <template>
-  <c-col class="mb4" v-bind:class="wrapperClass">
+  <c-col class="mb4 c-w-6">
     <div class="frame"
       v-bind:class="[quiz.items[itemIndex].fake?'fake':'real']">
       <c-row>
-        <c-col v-bind:class="dinamicClass">
+        <c-col class="c-w-12">
           <c-figure :src="quiz.items[itemIndex].explanation_media_url || quiz.items[itemIndex].question_media_url"></c-figure>
-        </c-col>
-        <c-col class="c-w-7" v-if="showTextSection">
-          <p>{{quiz.items[itemIndex].explanation_title}}</p>
+          <p v-if="showTextSection">{{quiz.items[itemIndex].explanation_title}}</p>
         </c-col>
       </c-row>
     </div>
@@ -28,8 +26,6 @@ export default {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
-      wrapperClass: function () { return this.showTextSection ? 'c-w-12':'c-w-6'; },
-      dinamicClass: function () { return this.showTextSection ? 'c-w-5':'c-w-12'; },
       showTextSection: function () {
         return  this.quiz.items[this.itemIndex].explanation_title
                 ? true : false;

@@ -1,21 +1,13 @@
 <template>
-  <c-page class="explanation-page vh-100 pt3" :rows="'20vh 66vh 14vh'">
+  <c-page class="explanation-page vh-100" :rows="'20vh 66vh 14vh'">
     <c-header class="divider">
-      <h1 class="pt5">{{  quiz.explanation_title }}</h1>
+      <h1>{{  quiz.explanation_title }}</h1>
+      <h2>{{  quiz.explanation_subtitle  }}</h2>
     </c-header>
     <c-main :width="contentWidth">
-      <c-row class="pt3 pb3">
-        <c-col class="c-w-12">
-          <h2>{{  quiz.explanation_subtitle  }}</h2>
-        </c-col>
-      </c-row>
       <c-row>
         <c-col class="c-w-6">
-          <c-row>
-            <c-col class="c-w-12">
-              <div class="user-input" v-html="quiz.contents"></div>
-            </c-col>
-          </c-row>
+          <div class="user-input" v-html="quiz.contents"></div>
         </c-col>
         <c-col class="c-w-6">
           <c-row>
@@ -52,7 +44,7 @@ export default {
   components: { cQuadsExplanationItem, cNextStep },
   data: function () {
     return {
-      contentWidth: 90
+      contentWidth: 96
     };
   },
   computed: {

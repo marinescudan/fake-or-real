@@ -1,6 +1,6 @@
 <template>
   <c-row class="c-singles-question-item"  v-bind:class="{ 'submited' : submited}">
-    <c-col class="c-w-8">
+    <c-col class="c-w-6">
       <c-media-viewer :itemIndex="itemIndex" namespace="question"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4" style="justify-content: space-between;">
@@ -10,7 +10,7 @@
           <p>{{quiz.items[itemIndex].question_text}}</p>
         </c-col>
       </c-row>
-      <c-row>
+      <c-row class="align-self-end">
         <c-col class="c-w-12">
           <c-row class="pt4">
             <c-col class="c-w-12">

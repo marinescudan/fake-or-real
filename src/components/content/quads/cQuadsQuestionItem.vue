@@ -1,19 +1,20 @@
 <template>
-  <div
-    class="c-quads-question-item frame pt2 pr2 pb2 pl2 mb4"
-    v-if="quiz"
-    v-bind:class="[quiz.items[itemIndex].selected?'selected':'', quiz.items[itemIndex].fake?'fake':'real']"
-    v-on:click="$emit('itemSelected', itemIndex, !quiz.items[itemIndex].selected)">
-    <c-row>
-      <c-col v-bind:class="dinamicClass">
-        <c-figure :src="quiz.items[itemIndex].question_media_url"></c-figure>
-      </c-col>
-      <c-col class="c-w-6" v-if="showTextSection">
-        <h3>{{quiz.items[itemIndex].question_title}}</h3>
-        <p>{{quiz.items[itemIndex].question_text}}</p>
-      </c-col>
-    </c-row>
-  </div>
+  <c-col class="c-quads-question-item" v-bind:class="{'c-w-3': !hasText, 'c-w-6': hasText }">
+    <div class="frame pt2 pr2 pb2 pl2 mb4"
+      v-if="quiz"
+      v-bind:class="[quiz.items[itemIndex].selected?'selected':'', quiz.items[itemIndex].fake?'fake':'real']"
+      v-on:click="$emit('itemSelected', itemIndex, !quiz.items[itemIndex].selected)">
+      <c-row>
+        <c-col v-bind:class="dinamicClass">
+          <c-figure :src="quiz.items[itemIndex].question_media_url"></c-figure>
+        </c-col>
+        <c-col class="c-w-6" v-if="showTextSection">
+          <h3>{{quiz.items[itemIndex].question_title}}</h3>
+          <p>{{quiz.items[itemIndex].question_text}}</p>
+        </c-col>
+      </c-row>
+    </div>
+  </c-col>
 </template>
 
 <script>
@@ -36,6 +37,15 @@ export default {
         return  this.quiz.items[this.itemIndex].question_title
                 || this.quiz.items[this.itemIndex].question_text
                 ? true : false;
+      },
+      hasText: function () {
+        let hasText = false;
+        this.quiz.items.forEach((each)=>{
+          if (each.question_title || each.question_text) {
+            hasText = true;
+          }
+        });
+        return  hasText;
       },
     }),
   }
