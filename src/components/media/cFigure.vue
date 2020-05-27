@@ -33,9 +33,10 @@ export default {
   },
   methods: {
     url_builder: function (url) {
-      let arr  = url.split('/');
-      let src = arr[arr.length - 1].split('.')[0];
-      return `./img/questions/square/${src}.jpg`;
+      // let arr  = url.split('/');
+      // let src = arr[arr.length - 1].split('.')[0];
+      // return `./img/questions/square/${src}.jpg`;
+      return url;
     },
   },
 }

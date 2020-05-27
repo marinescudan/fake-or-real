@@ -8,6 +8,8 @@
             :src="item.explanation_media_url || item.question_media_url"
             :alt="item.explanation_media_url || item.question_media_url"
             :title="item.explanation_title"
+            :width="'60%'"
+            :height="'60%'"
           ></c-figure>
           <p v-if="showTextSection">{{ item.explanation_title }}</p>
         </c-col>
