@@ -26,36 +26,36 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona1.jpg"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona1.jpg"
-    stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona1.jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     question_title: ""
     question_text: "Meme on coronavirus as intentional Chinese bioweapon"
     explanation_title: ""
     stats_title: ""
     click_count: 123
   - fake: false
-    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona2.png"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona2.png"
-    stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona2.png"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.png"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.png"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.png"
     question_title: ""
     question_text: "News article about Coronavirus and blood plasma"
     explanation_title: ""
     stats_title: ""
     click_count: 753
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona3.png"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona3.png"
-    stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona3.png"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.png"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.png"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.png"
     question_title: ""
     question_text: "Google search autofill with popular Coronavirus search terms"
     explanation_title: ""
     stats_title: ""
     click_count: 654
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona4.png"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona4.png"
-    stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/corona4.png"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.png"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.png"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.png"
     question_title: ""
     question_text: "Facebook post on 5G and Bill Gates"
     explanation_title: ""
@@ -68,6 +68,4 @@ The news story on blood plasma is genuine.
 
 The autofill feature of Google’s search box shows popular searches and automatically leads people particular topics – in this case that the coronavirus is a bioweapon. This feature encourages people to search for the topic or keyword, in turn boosting its position in search results and making the story seem more likely to be true.
 
-Memes are also effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster. 
-
-x
+Memes are also effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster.

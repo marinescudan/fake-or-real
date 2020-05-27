@@ -35,9 +35,7 @@ items:
     stats_title: ""
     click_count: 234
 ---
-## The title of explanation goes in markdown
-
-The story is fake.
+## The story is fake.
 
 The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times.
 

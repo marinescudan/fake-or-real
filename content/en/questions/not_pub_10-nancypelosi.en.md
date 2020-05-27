@@ -35,8 +35,6 @@ items:
     stats_title: ""
     click_count: 234
 ---
-## The title of explanation goes in markdown
-
-This video is fake.
+## This video is fake.
 
 The original video was slowed down to make it seem like Nancy Pelosi is slurring. Videos like this, which are doctored using basic editing techniques, are called "cheapfakes".

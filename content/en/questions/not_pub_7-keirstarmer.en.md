@@ -35,8 +35,6 @@ items:
     stats_title: ""
     click_count: 234
 ---
-## The title of explanation goes in markdown
-
 This campaign video was made by The UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question. 
 
 In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 

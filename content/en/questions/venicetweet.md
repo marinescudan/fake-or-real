@@ -26,8 +26,8 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/2.jpg"
     stats_media_url: ""
     question_title: ""
     question_text: ""
@@ -36,12 +36,10 @@ items:
     click_count: 234
 ---
 
-## The title of explanation goes in markdown
+## The images in the tweet are real, but the information presented is very misleading.
 
-The images in the tweet are real, but the information presented is very misleading.
+The images show canals in Burano, a quiet island in the **Venetian Lagoo**n where swans were swimming. But swans have always swam there.
 
-The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
-
-Many people believed that the images provided evidence of clearer waters in central Venice, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic. 
+Many people believed that the images provided evidence of clearer waters in central Venice, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
 
 Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.

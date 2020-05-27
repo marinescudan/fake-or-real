@@ -35,9 +35,7 @@ items:
     stats_title: ""
     click_count: 234
 ---
-## The title of explanation goes in markdown
-
-This is fake!
+## This is fake!
 
 The video is actually showing the filming of a movie, taken out of context and presented as immigrants vandalising a car. As it is posted in a blog that consistently publishes anti-immigrant posts, the audience of the blog might be people who are already primed to believe this misrepresentation. 
 
