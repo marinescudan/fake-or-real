@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown1.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown1.png"
     question_title: ""
-    question_text: "Donald Trump Tweet to Theresa May on Islamic terrorism"
+    question_text: "Donald Trump's tweet to Theresa May on Islamic terrorism"
     explanation_title: ""
     stats_title: ""
     click_count: 123
@@ -57,7 +57,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown4.png"
     stats_media_url: "https://cdn.ttc.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/takedown4.png"
     question_title: ""
-    question_text: "Australian politicina Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
+    question_text: "Australian politician Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
     explanation_title: ""
     stats_title: ""
     click_count: 123
