@@ -17,7 +17,7 @@ question_cta_go_explanation: "Check"
 question_cta_help: "Choose between 1 and 4 of the options above!"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
-explanation_title: "Only one of these posts and tweets was removed"
+explanation_title: "Only one of these was removed"
 explanation_subtitle: ""
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Find the fake adverts"
@@ -62,6 +62,6 @@ items:
     stats_title: ""
     click_count: 123
 ---
-## All of these tweets provoide false information. 
+## All of these tweets provide false information. 
 
 However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the others continue to be visible on Twitter.
