@@ -74,6 +74,6 @@ export default {
   transform: scale(0.01)
 
 .show .wrapper
-  transform: scale(1)
+  transform: scale(0.3)
 
 </style>

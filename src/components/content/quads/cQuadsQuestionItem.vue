@@ -10,11 +10,11 @@
             :src="item.question_media_url"
             :alt="item.question_media_url"
             :title="item.question_title"
-            :width="'60%'"
-            :height="'60%'"
+            :width="hasText ? '60%': '100%'"
+            :height="hasText ? '60%': '100%'"
           ></c-figure>
         </c-col>
-        <c-col class="c-w-6" v-if="showTextSection">
+        <c-col class="c-w-6" v-if="hasText && showTextSection">
           <h3>{{item.question_title}}</h3>
           <p>{{item.question_text}}</p>
         </c-col>

@@ -44,9 +44,9 @@ items:
     stats_title: ""
     click_count: 753
   - fake: true
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpeg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpeg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpeg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     question_title: ""
     question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
     explanation_title: ""
