@@ -10,6 +10,8 @@
             :src="item.question_media_url"
             :alt="item.question_media_url"
             :title="item.question_title"
+            :width="'70%'"
+            :height="'70%'"
           ></c-figure>
         </c-col>
         <c-col class="c-w-6" v-if="showTextSection">
