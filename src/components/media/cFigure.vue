@@ -1,5 +1,5 @@
 <template>
-    <figure class="c-figure Xaspect-ratio Xaspect-ratio--16x9">
+    <figure class="c-figure">
         <img :src="url_builder(src)" :alt="alt" :title="title" :width="width" :height="height"/>
     </figure>
 </template>
@@ -33,9 +33,6 @@ export default {
   },
   methods: {
     url_builder: function (url) {
-      // let arr  = url.split('/');
-      // let src = arr[arr.length - 1].split('.')[0];
-      // return `./img/questions/square/${src}.jpg`;
       return url;
     },
   },

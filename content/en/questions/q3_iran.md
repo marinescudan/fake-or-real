@@ -46,6 +46,6 @@ items:
 ---
 ## Image 1 is fake
 
- Image 1 was taken in 2017 – three years before the attack took place.</p>
+Image 1 was taken in 2017 – three years before the attack took place.</p>
 
 Image 2 is a satellite image of the results taken by a well know imaging company Planet Labs, Inc, shared by Reuters, and published by BBC, New York Times, CNN, Al Jazeera and other news channels that are known to verify all the images they use in news reports.
