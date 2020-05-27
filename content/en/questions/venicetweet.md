@@ -2,7 +2,7 @@
 uuid: 857b6412-a777-11e5-bf7f-feff819cdc9f
 locale: en
 date: 2016-03-12T00:00:00.000Z
-published: false
+published: TRUE
 project: "for"
 slug: "question"
 title: "VeniceTweet"
@@ -33,7 +33,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 234
+    click_count: 0
 ---
 
 ## The images in the tweet are real, but the information presented is very misleading.
