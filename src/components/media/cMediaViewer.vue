@@ -2,7 +2,12 @@
   <div class="c-media-viewer">
       <c-vimeo v-if="isVimeo" :videoId="getVimeoId(media_url)"></c-vimeo>
       <c-youtube v-if="!isVimeo && isYoutube" :videoUrl="media_url"></c-youtube>
-      <c-figure v-if="!isVimeo && !isYoutube && isImage" :src="media_url"></c-figure>
+      <c-figure
+        v-if="!isVimeo && !isYoutube && isImage"
+        :src="media_url"
+        :alt="media_url"
+        :title="item.explanation_title"
+      ></c-figure>
   </div>
 </template>
 
@@ -18,8 +23,14 @@ export default {
     namespace: { type: String, required: true }
   },
   computed: {
+    ...mapState({
+      quiz: state => state.quiz,
+    }),
+    item: function () {
+      return this.quiz.items[this.itemIndex];
+    },
     media_url (){
-      return this.quiz.items[this.itemIndex][`${this.namespace}_media_url`] || this.quiz.items[this.itemIndex].question_media_url;
+      return this.item[`${this.namespace}_media_url`] || this.item.question_media_url;
     },
     isVimeo (){
       return this.media_url.includes('vimeo');
@@ -33,9 +44,6 @@ export default {
       if (!this.isVimeo && !this.isYoutube && this.media_url) return true;
       else return false;
     },
-    ...mapState({
-      quiz: state => state.quiz,
-    }),
   },
   methods: {
     getVimeoId: function (url) {
