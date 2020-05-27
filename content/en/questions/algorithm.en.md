@@ -26,18 +26,18 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo1 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo1 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo1 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo1.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo1.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo1.jpg"
     question_title: ""
     question_text: "Facebook post by a Facebook user sharing a link to a report that claims US Congresswoman Alexandra Ocasio-Cortez is pushing for a ban on motorcycles"
     explanation_title: ""
     stats_title: ""
     click_count: 123
   - fake: false
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2.jpg"
     question_title: ""
     question_text: 'Google search results to the phrase "big journalism"'
     explanation_title: ""

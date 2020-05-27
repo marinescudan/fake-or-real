@@ -26,18 +26,18 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: false
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     question_title: ""
     question_text: "Donald Trump's tweet to Theresa May on Islamic terrorism"
     explanation_title: ""
     stats_title: ""
     click_count: 123
   - fake: false
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     question_title: ""
     question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
     explanation_title: ""
@@ -53,9 +53,9 @@ items:
     stats_title: ""
     click_count: 654
   - fake: false
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     question_title: ""
     question_text: "Australian politician Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
     explanation_title: ""

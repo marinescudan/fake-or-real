@@ -35,27 +35,27 @@ items:
     stats_title: ""
     click_count: 123
   - fake: false
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     question_title: ""
     question_text: "News article about Coronavirus and blood plasma"
     explanation_title: ""
     stats_title: ""
     click_count: 753
   - fake: true
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.jpg"
     question_title: ""
     question_text: "Google search autofill with popular Coronavirus search terms"
     explanation_title: ""
     stats_title: ""
     click_count: 654
   - fake: true
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4 .jpg"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4 .jpg"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4 .jpg"
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.jpg"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.jpg"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.jpg"
     question_title: ""
     question_text: "Facebook post on 5G and Bill Gates"
     explanation_title: ""
