@@ -1,7 +1,6 @@
 <template>
-    <figure class="c-figure aspect-ratio aspect-ratio--16x9">
-        <img :src="src" :alt="alt" :title="title" :width="width" :height="height"/>
-        <img v-bind:src="image_media_url(src)"/>
+    <figure class="c-figure Xaspect-ratio Xaspect-ratio--16x9">
+        <img :src="url_builder(src)" :alt="alt" :title="title" :width="width" :height="height"/>
     </figure>
 </template>
 
@@ -13,25 +12,27 @@ export default {
       type: String,
       required: true
     },
-    // alt: {
-    //   type: String,
-    //   required: false
-    // },
-    // title: {
-    //   type: String,
-    //   required: false
-    // },
-    // width: {
-    //   type: Number,
-    //   required: false
-    // },
-    // height: {
-    //   type: Number,
-    //   required: false
-    // }
+    alt: {
+      type: String,
+      required: false
+    },
+    title: {
+      type: String,
+      required: false
+    },
+    width: {
+      type: String,
+      required: false,
+      default: function () {return '100%';}
+    },
+    height: {
+      type: String,
+      required: false,
+      default: function () {return '100%';}
+    }
   },
   methods: {
-    image_media_url: function (url) {
+    url_builder: function (url) {
       let arr  = url.split('/');
       let src = arr[arr.length - 1].split('.')[0];
       return `./img/questions/square/${src}.jpg`;
@@ -45,29 +46,22 @@ export default {
 @import "@/styles/_mixins.sass";
 
 .c-figure
-  display: block
   margin: 0
   position: relative
-  // @include imageBackground
+  @include imageBackground
   img
-    // position: absolute
-    width: 100%
-    height: 100%
-    // top: 0
-    // left: 0
-    // right: 0
-    // bottom: 0
+    position: relative
 
-// .selected
-//   background: rgba(255, 255, 255, 1)
-//   .c-figure::before
-//     content: ""
-//     position: absolute
-//     top: 0
-//     right: 0
-//     bottom: 0
-//     left: 0
-//     @include selectedBackground
-//     z-index: 3
+.selected
+  background: $white
+  .c-figure::before
+    position: absolute
+    content: ""
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 3
+    @include selectedBackground
 
 </style>
