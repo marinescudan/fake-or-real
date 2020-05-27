@@ -33,7 +33,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
     explanation_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
@@ -42,7 +42,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 753
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
     explanation_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
@@ -51,7 +51,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 654
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
     explanation_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
@@ -60,7 +60,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
 ---
 ##  The title of explanation goes in markdown
 

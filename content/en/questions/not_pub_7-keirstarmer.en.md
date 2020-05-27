@@ -33,7 +33,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 234
+    click_count: 0
 ---
 This campaign video was made by The UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question. 
 

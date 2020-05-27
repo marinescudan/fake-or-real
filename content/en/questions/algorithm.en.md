@@ -33,7 +33,7 @@ items:
     question_text: "Facebook post by a Facebook user sharing a link to a report that claims US Congresswoman Alexandra Ocasio-Cortez is pushing for a ban on motorcycles"
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo2.jpg"
@@ -42,7 +42,7 @@ items:
     question_text: 'Google search results to the phrase "big journalism"'
     explanation_title: ""
     stats_title: ""
-    click_count: 753
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo3.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo3.jpg"
@@ -51,7 +51,7 @@ items:
     question_text: "List of Twitter trends on a particular day in New Delhi with #LeftAttacksJNU4."
     explanation_title: ""
     stats_title: ""
-    click_count: 654
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo4.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo4.jpg"
@@ -60,7 +60,7 @@ items:
     question_text: 'A video on vaccines show "Next" on YouTube'
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
 ---
 ## All four items contain false messages that are delivered based on conditions set by an algorithm.
 

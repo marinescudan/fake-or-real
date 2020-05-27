@@ -33,7 +33,7 @@ items:
     question_text: "Donald Trump's tweet to Theresa May on Islamic terrorism"
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
@@ -42,7 +42,7 @@ items:
     question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
     explanation_title: ""
     stats_title: ""
-    click_count: 753
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
@@ -51,7 +51,7 @@ items:
     question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
     explanation_title: ""
     stats_title: ""
-    click_count: 654
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
@@ -60,7 +60,7 @@ items:
     question_text: "Australian politician Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
 ---
 ## All of these tweets provide false information.
 

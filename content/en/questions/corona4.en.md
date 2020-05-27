@@ -33,7 +33,7 @@ items:
     question_text: "Meme on coronavirus as intentional Chinese bioweapon"
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
@@ -42,7 +42,7 @@ items:
     question_text: "News article about Coronavirus and blood plasma"
     explanation_title: ""
     stats_title: ""
-    click_count: 753
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona3.jpg"
@@ -51,7 +51,7 @@ items:
     question_text: "Google search autofill with popular Coronavirus search terms"
     explanation_title: ""
     stats_title: ""
-    click_count: 654
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona4.jpg"
@@ -60,7 +60,7 @@ items:
     question_text: "Facebook post on 5G and Bill Gates"
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
 ---
 ## The news story on blood plasma is genuine.
 

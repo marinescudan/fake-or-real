@@ -33,7 +33,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 37
+    click_count: 0
   - fake: false
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/nyt2.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/nyt2.jpg"
@@ -42,7 +42,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 66
+    click_count: 0
 ---
 ## Look closely at the two URLs.
 

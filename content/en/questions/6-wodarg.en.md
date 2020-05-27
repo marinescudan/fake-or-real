@@ -33,7 +33,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 234
+    click_count: 0
 ---
 ## The person really is a retired doctor, but the video spreads disinformation, and was viewed over 2 million times mostly in German speaking countries. 
 

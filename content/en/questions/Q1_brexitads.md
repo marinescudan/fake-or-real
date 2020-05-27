@@ -33,7 +33,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/q1_2.jpg"
     explanation_media_url: ""
@@ -42,7 +42,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 753
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/q1_3.jpg"
     explanation_media_url: ""
@@ -51,7 +51,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 654
+    click_count: 0
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/q1_4.jpg"
     explanation_media_url: ""
@@ -60,7 +60,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 123
+    click_count: 0
 ---
 ### All four of these adverts are suspicious
 

@@ -33,7 +33,7 @@ items:
     question_text: ""
     explanation_title: ""
     stats_title: ""
-    click_count: 234
+    click_count: 0
 ---
 ## The story is fake.
 
