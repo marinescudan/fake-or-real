@@ -26,9 +26,9 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: ""
-    explanation_media_url: ""
-    stats_media_url: ""
+    question_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
+    explanation_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
+    stats_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     question_title: ""
     question_text: ""
     explanation_title: ""
