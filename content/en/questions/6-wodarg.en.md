@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## The person really is a retired doctor, but the video spreads disinformation, and was viewed over 2 million times mostly in German speaking countries. 
+### The person really is a retired doctor, but the video spreads disinformation, and was viewed over 2 million times mostly in German speaking countries. 
 
 Sometimes fake news can be highly convincing, even to people who actively look out for it. 
 

@@ -1,22 +1,12 @@
 <template>
-    <main class="c-main" :style="styles">
+    <main class="c-main">
       <slot></slot>
     </main>
 </template>
 
 <script>
 export default {
-  name:'cMain',
-  props: {
-    width: { type: Number, required: false },
-  },
-  computed: {
-    styles: function () {
-      return `
-        padding: 0 ${ this.width ? (100 - this.width) / 2 : 0 }vw;
-      `
-    }
-  }
+  name:'cMain'
 }
 </script>
 
@@ -25,14 +15,11 @@ export default {
 @import "@/styles/_mixins.sass";
 
 .c-main
-  display: flex
-  flex-direction: column
-  flex-wrap: nowrap
+  @include flex-col
+  box-sizing: border-box
+  margin: 0 auto
+  width: 98%
   justify-content: center
-  align-content: stretch
-  align-items: stretch
-
-.c-main > *
-  @include flex-col-item
-
+  overflow-x: hidden
+  overflow-y: auto
 </style>

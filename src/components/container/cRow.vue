@@ -16,7 +16,7 @@ export default {
 
 .c-row
   @include flex-row
-  margin: 0px -#{$gap}
+  margin: 0 -#{$gutter / 2}
 
   & > *
     @include flex-row-item

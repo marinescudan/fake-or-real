@@ -1,10 +1,10 @@
 <template>
-  <c-page class="explanation-page vh-100" :rows="'20vh 66vh 14vh'">
-    <c-header class="divider">
+  <c-page>
+    <c-header>
       <h1>{{  quiz.explanation_title }}</h1>
       <h2>{{  quiz.explanation_subtitle  }}</h2>
     </c-header>
-    <c-main :width="contentWidth">
+    <c-main>
       <c-row>
         <c-col class="c-w-6">
           <div class="user-input" v-html="quiz.contents"></div>
@@ -42,11 +42,6 @@ export default {
   name:'cQuadsExplanation',
   mixins: [page, layout, media, form],
   components: { cQuadsExplanationItem, cNextStep },
-  data: function () {
-    return {
-      contentWidth: 96
-    };
-  },
   computed: {
     ...mapState({
       locale: state => state.locale,

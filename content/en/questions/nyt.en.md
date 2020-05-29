@@ -44,7 +44,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## Look closely at the two URLs.
+### Look closely at the two URLs.
 
 The “-se” part in the first image is unusual, and tells us that this is not the actual New York Times website. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL. 
 

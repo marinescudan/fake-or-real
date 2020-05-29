@@ -1,6 +1,6 @@
 <template>
-    <div class="modal" :class="{'hide': !show, 'show': show}">
-      <div class="wrapper pl5 pr5">
+    <div class="modal" :class="{'hide': show, 'show': show}">
+      <div class="content">
         <slot></slot>
       </div>
     </div>
@@ -30,8 +30,8 @@ export default {
   display: block !important
   position: fixed !important
   z-index: 3
-  top: 0px
-  left: 0px
+  top: 0
+  left: 0
   width: 100%
   height: 100%
   @include transitionEffect
@@ -46,16 +46,17 @@ export default {
   width: 100%
   height: 100%
 
-.wrapper
+.content
   background: white
   position: relative
-  top: 5%
-  left: 5%
-  height: 90%
   z-index: 1
-  width: 90%
-  box-shadow: 9px 10px 20px rgb(0, 0, 0)
-  border-radius: 4px
+  height: 80rem
+  top: 20rem
+  width: 140rem
+  left: calc(50% - 70rem)
+  padding: 4rem
+  box-shadow: 1rem 1.25rem 2.5rem rgb(0, 0, 0)
+  border-radius: 0.5rem
   display: flex
   flex-direction: column
   align-items: center
@@ -70,10 +71,10 @@ export default {
   visibility: visible
   opacity: 1
 
-.hide .wrapper
+.hide .content
   transform: scale(0.01)
 
-.show .wrapper
-  transform: scale(0.3)
+.show .content
+  transform: scale(1)
 
 </style>

@@ -31,7 +31,7 @@
   outline: none
 
 @mixin frame
-  border: 10px solid transparent
+  border: 1.25rem solid transparent
   border-image: url('~@/assets/img/frame.svg') 40% round
   cursor: pointer
   outline: none
@@ -39,19 +39,19 @@
 
 @mixin frameFake
   background: $white
-  border: 10px solid $brand-red
+  border: 1.25rem solid $brand-red
   border-image: url('~@/assets/img/frame_fake.svg') 40% round
   cursor: pointer
 
 @mixin frameReal
   background: $white
-  border:  10px solid $brand-green
+  border:  1.25rem solid $brand-green
   border-image: url('~@/assets/img/frame_real.svg') 40% round
   cursor: pointer
 
 @mixin frameSelected
   background: $white
-  border:  10px solid $dark
+  border:  1.25rem solid $dark
   border-image: url('~@/assets/img/frame_selected.svg') 40% round
   cursor: pointer
 
@@ -78,19 +78,12 @@
 @mixin topCenter100
   content: ""
   position: absolute
-  bottom: calc(100% + 36px)
-  left: calc(50% - 50px)
-  width: 100px
-  height: 100px
-
-@mixin h1
-  font-size: 6vh
-  letter-spacing: 0.21vh
-  line-height: 1
-  font-family: 'Jost400Book'
-  font-weight: 400
-  text-transform: uppercase
+  top: -12.5rem
+  left: calc(50% - (12.5rem/2))
+  width: 12.5rem
+  height: 12.5rem
 
 @mixin transitionEffect
   transition: all .35s ease-in
   transition-delay: .15s
+

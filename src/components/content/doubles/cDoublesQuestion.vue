@@ -1,21 +1,17 @@
 <template>
-  <c-page class="vh-100 pt3" :rows="'12rem 1fr 10rem'" v-bind:class="{ 'submited' : submited}">
-    <c-header class="divider">
+  <c-page v-bind:class="{ 'submited' : submited}">
+    <c-header>
       <h1 class="pt5">{{ quiz.question_title }}</h1>
       <h2>{{ quiz.question_subtitle }}</h2>
     </c-header>
-    <c-main :width="contentWidth">
-      <!-- <c-row class="pt3 pb3">
-        <c-col class="c-w-12">
-        </c-col>
-      </c-row> -->
+    <c-main>
       <c-row>
-        <c-col class="c-w-6">
+        <c-col class="c-w-4" v-bind:class="{'c-w-6': hasText}">
           <c-doubles-question-item
           :itemIndex="0" v-on:itemSelected="saveSelection"
           ></c-doubles-question-item>
         </c-col>
-        <c-col class="c-w-6">
+        <c-col class="c-w-4" v-bind:class="{'c-w-6': hasText}">
           <c-doubles-question-item
           :itemIndex="1" v-on:itemSelected="saveSelection"
           ></c-doubles-question-item>
@@ -23,7 +19,7 @@
       </c-row>
     </c-main>
     <c-footer>
-      <c-row v-if="!submited" class="pt1">
+      <c-row v-if="!submited">
         <c-col class="c-w-12">
           <p class="tc">{{ quiz.question_cta_help }}</p>
         </c-col>
@@ -38,7 +34,7 @@
       </c-row>
     </c-footer>
     <c-modal :show="showModal">
-      <h1 class="" :class="{'correct': correct,'wrong': !correct}">
+      <h1 :class="{'correct': correct,'wrong': !correct}">
         <span v-if="!correct">{{ quiz.question_submit_message_correct }}</span>
         <span v-if="correct">{{ quiz.question_submit_message_wrong }}</span>
       </h1>
@@ -60,7 +56,6 @@ export default {
     return {
       submited: false,
       correct: false,
-      contentWidth: 96,
       hasSelection: false,
       showModal: false,
     };
@@ -71,6 +66,15 @@ export default {
       locale: state => state.locale,
       disabled: function () { return !this.hasSelection;}
     }),
+    hasText: function () {
+      let hasText = false;
+      this.quiz.items.forEach((each)=>{
+        if ( each.question_title || each.question_text ) {
+          hasText = true;
+        }
+      });
+      return  hasText;
+    },
   },
   methods: {
     saveSelection (itemIndex, selected) {

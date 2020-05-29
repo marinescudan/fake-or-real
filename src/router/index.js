@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import setup from '../views/setup.vue'
-import start from '../views/quiz/start.vue'
+import start from '../views/start.vue'
+import finish from '../views/finish.vue'
 import question from '../views/quiz/question.vue'
 import explanation from '../views/quiz/explanation.vue'
 import stats from '../views/quiz/stats.vue'
-import finish from '../views/quiz/finish.vue'
 
 Vue.use(VueRouter)
 

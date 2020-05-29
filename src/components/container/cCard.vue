@@ -16,6 +16,5 @@ export default {
 
 .c-card
   height: 100%
-  // @include frameLight
 
 </style>

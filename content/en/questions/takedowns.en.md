@@ -62,6 +62,6 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## All of these tweets provide false information.
+### All of these tweets provide false information.
 
 However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the others continue to be visible on Twitter.

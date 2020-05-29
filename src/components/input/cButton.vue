@@ -24,8 +24,4 @@ export default {
 <style scoped lang="sass">
 @import "@/styles/_mixins.sass";
 @import "@/styles/_variables.sass";
-
-.c-button
-  // @include frameLight
-
 </style>

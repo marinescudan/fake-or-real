@@ -1,9 +1,9 @@
 <template>
-  <c-page class="finish-page vh-100"  :rows="'27vh 59vh 14vh'" v-if="locale">
+  <c-page class="finish-page" v-if="locale">
     <c-header>
       <h1>{{ locale.finish_goodbye_title }}</h1>
     </c-header>
-    <c-main :width="contentWidth">
+    <c-main>
       <c-row>
         <c-col class="c-w-4">
           <c-figure :src="image_left_url"></c-figure>
@@ -61,6 +61,16 @@ export default {
 </script>
 
 <style scoped lang="sass">
-// @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
+@import "@/styles/_variables.sass";
+@import "@/styles/_mixins.sass";
+
+.footer-page
+  .c-header
+    height: 27%
+  .c-main
+    height: 59%
+    width: 96%
+  .c-footer
+    height: 14%
+
 </style>

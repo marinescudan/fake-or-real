@@ -1,25 +1,29 @@
 <template>
-  <c-page class="start-page vh-100" :rows="'23vh 63vh 14vh'" v-if="locale">
-    <c-header class="divider">
-      <h2 class="pt3">{{ locale.start_welcome_title }}</h2>
-      <h1 class="pt3">{{ locale.start_app_name }}</h1>
-      <h2 class="pt3">{{ locale.start_app_version }}</h2>
+  <c-page class="start-page">
+    <c-header>
+      <h2>{{ locale.start_welcome_title }}</h2>
+      <h1>{{ locale.start_app_name }}</h1>
+      <h2>{{ locale.start_app_version }}</h2>
     </c-header>
-    <c-main :width="contentWidth">
-      <c-row class="pt4">
-        <c-col class="c-w-4">
-          <c-figure :src="image_left_url"></c-figure>
-        </c-col>
-        <c-col class="c-w-4">
-          <c-figure :src="image_center_url"></c-figure>
-        </c-col>
-        <c-col class="c-w-4">
-          <c-figure :src="image_right_url"></c-figure>
-        </c-col>
-      </c-row>
+    <c-main>
       <c-row>
-        <c-col class="c-w-4 pt4">
-          <div class="welcome-message user-input" v-html="locale.start_contents"></div>
+        <c-col class="c-w-6">
+          <c-row>
+            <c-col class="c-w-4">
+              <c-figure :src="image_left_url"></c-figure>
+            </c-col>
+            <c-col class="c-w-4">
+              <c-figure :src="image_center_url"></c-figure>
+            </c-col>
+            <c-col class="c-w-4">
+              <c-figure :src="image_right_url"></c-figure>
+            </c-col>
+          </c-row>
+          <c-row>
+            <c-col class="c-w-12">
+              <div class="welcome-message" v-html="locale.start_contents"></div>
+            </c-col>
+          </c-row>
         </c-col>
       </c-row>
     </c-main>
@@ -41,11 +45,6 @@ import {page, layout, media, form} from '@/mixins/components.js';
 export default {
   name: 'start',
   mixins: [page, layout, media, form],
-  data: function () {
-    return {
-      contentWidth: 96
-    }
-  },
   computed: {
     ...mapState({
       quiz: state => state.quiz,
@@ -66,7 +65,16 @@ export default {
 </script>
 
 <style scoped lang="sass">
-// @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
+@import "@/styles/_variables.sass";
+@import "@/styles/_mixins.sass";
+
+.start-page
+  .c-header
+    height: 23%
+  .c-main
+    height: 63%
+    width: 96%
+  .c-footer
+    height: 14%
+
 </style>
-\

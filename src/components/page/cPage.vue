@@ -1,5 +1,5 @@
 <template>
-  <article class="c-page" :style="styles">
+  <article class="c-page">
     <slot></slot>
   </article>
 </template>
@@ -7,36 +7,17 @@
 <script>
 export default {
   name:'cPage',
-  props: {
-    rows: { type: String, required: false },
-    gap: { type: String, required: false },
-  },
-  computed: {
-    styles: function () {
-      return `
-        grid-template-rows: ${this.rows};
-        grid-template-gap: ${this.gap};
-      `
-    }
-  }
 }
 </script>
 
 <style scoped lang="sass">
-// @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
+@import "@/styles/_variables.sass";
+@import "@/styles/_mixins.sass";
 
 .c-page
-  height: 100vh
-  padding: 0
-  display: grid
-  grid-template-columns: 1fr
-  grid-template-rows: 1fr
-  grid-row-gap: 0vh
-  justify-items: stretch
-  align-items: stretch
-
-.c-page > *
+  box-sizing: border-box
+  height: 100%
   overflow: hidden
+  display: block
 
 </style>

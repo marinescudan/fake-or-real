@@ -1,58 +1,94 @@
-@import "_variables.sass"
-@import "_mixins.sass"
+@import _variables
+@import _mixins
 
-h1, h2, h3
-  margin: 0
-  padding: 0
-  color: $forground
+@mixin h1
+  font-size: 9rem
+  letter-spacing: 0.1rem
+  line-height: 1.5
+  text-align: center
+  font-family: 'Jost400Book'
+  font-weight: 400
+  text-transform: uppercase
+
+@mixin h2
+  font-size: 5rem
+  letter-spacing: 0.1rem
+  line-height: 1.5
+  text-align: center
+  font-family: 'Jost300Light'
+  font-weight: 300
+  text-transform: capitalize
+
+@mixin h3
+  font-size: 4.5rem
+  letter-spacing: 0.1rem
+  line-height: 1.5
+  font-family: 'Jost400Book'
+  text-align: left
+  font-weight: 400
+  text-transform: capitalize
+
+html
+  font-size: 16px
+
+@for $i from 1 through 100
+  html.scale-#{$i}
+    font-size: calc(100% * #{$i / 100} / 2)
 
 h1
+  color: $forground
+  margin: 0
+  padding: 0
   @include h1
 
 h2
-  font-size: 4vh
-  letter-spacing: 0vh
-  line-height: 1
-  font-family: 'Jost300Light'
-  font-weight: 300
+  color: $forground
+  margin: 0
+  padding: 0
+  @include h2
 
 h3
-  font-size: 3vh
-  letter-spacing: 0vh
-  line-height: 3.2vh
-  font-family: 'Jost400Book'
-  text-align: left
-  font-weight: 400
-  margin-bottom: 1vh
+  color: $forground
+  margin: 0
+  padding: 0
+  @include h3
 
-.welcome-message
-  font-size: 2vh
-  letter-spacing: 0vh
-  line-height: 1.4
-  text-align: left
+.welcome-message,
+.welcome-message *
+  font-size: 2rem
+  letter-spacing: 0.1rem
+  line-height: 1.5
+  text-align: center
   font-family: 'Jost400Book'
   font-weight: 400
 
-a, button
-  font-size: 3vh
-  letter-spacing: 0vh
-  line-height: 1
+a, button, label
+  font-size: 3rem
+  letter-spacing: 0.1rem
+  line-height: 1.5
   font-family: 'Jost400Book'
   font-weight: 400
 
-p,
-.user-input
-  font-size: 2vh
-  margin: 0 0 1vh 0
-  letter-spacing: 0vh
-  line-height: 1.4
+p, .user-input
+  font-size: 3rem
+  letter-spacing: 0.1rem
+  line-height: 1.5
   text-align: left
   font-family: 'Jost400Book'
   font-weight: 400
+  margin-bottom: 1rem
   color: $forground
 
-p.h1
+.h1
   @include h1
+  text-align: left
+
+.h2
+  @include h2
+  text-align: left
+
+.h3
+  @include h3
   text-align: left
 
 .user-input h1, .user-input h2, .user-input  h3

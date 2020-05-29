@@ -62,7 +62,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## All four items contain false messages that are delivered based on conditions set by an algorithm.
+### All four items contain false messages that are delivered based on conditions set by an algorithm.
 
 
 Facebook's Newsfeed algorithm determines who sees the post.

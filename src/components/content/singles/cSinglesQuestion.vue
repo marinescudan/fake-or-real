@@ -1,10 +1,10 @@
 <template>
-  <c-page class="vh-100" :rows="'192px 1fr'">
-    <c-header class="divider">
+  <c-page>
+    <c-header>
       <h1>{{ quiz.question_title }}</h1>
       <h2>{{ quiz.question_subtitle }}</h2>
     </c-header>
-    <c-main :width="contentWidth">
+    <c-main>
       <c-row>
         <c-col class="c-w-12">
           <c-singles-question-item :quiz="quiz" :itemIndex="0"></c-singles-question-item>
@@ -23,11 +23,6 @@ export default {
   name:'cSinglesQuestion',
   mixins: [page, layout, media, form],
   components: { cSinglesQuestionItem },
-  data: function () {
-    return {
-      contentWidth: 96
-    };
-  },
   computed: {
     ...mapState({
       locale: state => state.locale,

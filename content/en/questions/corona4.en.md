@@ -62,7 +62,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## The news story on blood plasma is genuine.
+### The news story on blood plasma is genuine.
 
 The autofill feature of Google’s search box shows popular searches and automatically leads people particular topics – in this case that the coronavirus is a bioweapon. This feature encourages people to search for the topic or keyword, in turn boosting its position in search results and making the story seem more likely to be true.
 

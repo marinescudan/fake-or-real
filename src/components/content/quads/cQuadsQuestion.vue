@@ -1,10 +1,10 @@
 <template>
-  <c-page class="vh-100" :rows="'12rem 1fr 10rem'" v-bind:class="{ 'submited' : submited}">
-    <c-header class="divider">
+  <c-page v-bind:class="{ 'submited' : submited}">
+    <c-header>
       <h1>{{ quiz.question_title }}</h1>
       <h2>{{ quiz.question_subtitle }}</h2>
     </c-header>
-    <c-main :width="contentWidth">
+    <c-main>
       <c-row>
         <c-quads-question-item
           :itemIndex="0" v-on:itemSelected="saveSelection"
@@ -36,7 +36,7 @@
       </c-row>
     </c-footer>
     <c-modal :show="showModal">
-      <h1 class="" :class="{'correct': selectedFakeNumber === fakesNumber,'wrong': selectedFakeNumber !== fakesNumber}">
+      <h1 :class="{'correct': selectedFakeNumber === fakesNumber,'wrong': selectedFakeNumber !== fakesNumber}">
         <span>{{ quiz.question_submit_message_heading}} {{selectedFakeNumber}} / {{fakesNumber}}</span>
       </h1>
     </c-modal>
@@ -57,7 +57,6 @@ export default {
     return {
       submited: false,
       selectedFakeNumber: 0,
-      contentWidth: 96,
       showModal: false,
     };
   },

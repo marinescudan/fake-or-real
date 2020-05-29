@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="app vh-100">
-    <router-view v-if="!isLoading && dataLoaded && localisationLoaded"/>
+  <div id="app" class="app" v-bind:style="app_style">
+    <router-view v-if="!isLoading && dataLoaded && localisationLoaded && locale"/>
     <div class="pt7" v-if="isLoading">
       <h1>...</h1>
     </div>
@@ -12,18 +12,25 @@
 
 <script>
 import { mapState } from 'vuex';
+// import { screen } from './mixins/screen.js';
 export default {
   name: 'app',
+  // mixins: [ screen ],
   computed: {
     ...mapState({
       isLoading: state => state.isLoading,
+      locale: state => state.locale,
       localisationLoaded: state => state.localisationLoaded,
       i18n_messages: state => state.i18n_messages,
       dataLoaded: state => state.dataLoaded,
       err: state => state.err,
-    })
+    }),
+    availableWidth: function (){ return ( this.$screen.width * 0.5625 ) >= this.$screen.height ? this.$screen.height / 0.5625 : this.$screen.width;},
+    html_class: function (){ return [ `scale-${Math.floor(this.availableWidth / 1920 * 100) }` ]},
+    app_style: function (){ return `height: ${ this.availableWidth * 0.5625 }px; width: ${this.availableWidth}px;`; },
   },
   mounted () {
+    this.toggleHTMLClass();
     let locale = JSON.parse(window.localStorage.getItem('locale'));
     if (!locale && this.$router.currentRoute.name !== 'setup') {
       this.$router.push({name: 'setup'});
@@ -35,7 +42,19 @@ export default {
       this.setAppData({uuid: null});
     }
   },
+  updated () {
+    this.toggleHTMLClass();
+  },
+  destroyed() {
+    this.toggleHTMLClass();
+  },
   methods: {
+    toggleHTMLClass() {
+      let el  =  document.querySelector('html');
+      // let oldClasses = el.classList.value.split(' ');
+      el.classList.value.split(' ').forEach(each => el.classList.remove(each));
+      this.html_class.forEach(each => el.classList.add(each));
+    },
     setAppData: function (config={}) {
       this.$store.dispatch('getLocalisationFiles').then(()=>{
         this.setQestionList(config);
@@ -64,5 +83,5 @@ export default {
 </script>
 
 <style lang="sass">
-  @import "@/styles/_main.sass"
+@import "@/styles/_main.sass"
 </style>

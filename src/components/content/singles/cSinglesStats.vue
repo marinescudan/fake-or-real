@@ -1,10 +1,10 @@
 <template>
-  <c-page class="vh-100" :rows="'20vh 66vh 14vh'">
-    <c-header class="divider">
+  <c-page>
+    <c-header>
       <h1>{{ quiz.stats_title }}</h1>
       <h2>{{ quiz.stats_subtitle }}</h2>
     </c-header>
-    <c-main :width="contentWidth">
+    <c-main>
       <c-row>
         <c-col class="c-w-8">
           <c-singles-stats-item :quiz="quiz" :itemIndex="0"></c-singles-stats-item>
@@ -27,11 +27,6 @@ export default {
   name:'cSinglesStats',
   mixins: [page, layout, media, form],
   components: { cSinglesStatsItem, cNextStep },
-  data: function () {
-    return {
-      contentWidth: 96
-    };
-  },
   computed: {
     ...mapState({
       locale: state => state.locale,
