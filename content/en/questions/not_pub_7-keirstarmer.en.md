@@ -26,9 +26,9 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: ""
-    explanation_media_url: ""
-    stats_media_url: ""
+    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/keirstarmervid.mp4"
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/keirstarmervid.mp4"
+    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/keirstarmervid.mp4"
     question_title: ""
     question_text: ""
     explanation_title: ""
