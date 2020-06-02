@@ -37,7 +37,8 @@
     </c-footer>
     <c-modal :show="showModal">
       <h1 :class="{'correct': selectedFakeNumber === fakesNumber,'wrong': selectedFakeNumber !== fakesNumber}">
-        <span>{{ quiz.question_submit_message_heading}} {{selectedFakeNumber}} / {{fakesNumber}}</span>
+        <!-- <span>{{ quiz.question_submit_message_heading}} {{selectedFakeNumber}} / {{fakesNumber}}</span> -->
+        <span>{{ quiz.question_submit_message_heading}}</span>
       </h1>
     </c-modal>
   </c-page>

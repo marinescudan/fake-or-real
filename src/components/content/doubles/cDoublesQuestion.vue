@@ -35,8 +35,8 @@
     </c-footer>
     <c-modal :show="showModal">
       <h1 :class="{'correct': correct,'wrong': !correct}">
-        <span v-if="!correct">{{ quiz.question_submit_message_correct }}</span>
-        <span v-if="correct">{{ quiz.question_submit_message_wrong }}</span>
+        <span v-if="correct">{{ quiz.question_submit_message_correct }}</span>
+        <span v-if="!correct">{{ quiz.question_submit_message_wrong }}</span>
       </h1>
     </c-modal>
   </c-page>

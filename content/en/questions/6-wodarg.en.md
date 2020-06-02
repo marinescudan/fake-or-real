@@ -35,10 +35,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The person really is a retired doctor, but the video spreads disinformation, and was viewed over 2 million times mostly in German speaking countries. 
+### The person really is a retired doctor, but the video spreads disinformation, and was viewed over 2 million times mostly in German speaking countries.
 
-Sometimes fake news can be highly convincing, even to people who actively look out for it. 
+Sometimes fake news can be highly convincing, even to people who actively look out for it.
 
-In this case, a retired medical doctor provides information that contradicts scientific consensus, which is especially dangerous during a pandemic such as the Coronavirus crisis. The makers of the video use a number of strategies to make its message more convincing. These include the doctor’s medical credentials; his appearance, which fits in with our ideas of what an expert looks like; the use of data; and the use of casual, non-threatening language to downplay the danger of the virus (such as referring to it as a “flu”). 
+In this case, a retired medical doctor provides information that contradicts scientific consensus, which is especially dangerous during a pandemic such as the Coronavirus crisis. The makers of the video use a number of strategies to make its message more convincing. These include the doctor’s medical credentials; his appearance, which fits in with our ideas of what an expert looks like; the use of data; and the use of casual, non-threatening language to downplay the danger of the virus (such as referring to it as a “flu”).
 
-In addition, YouTube's coronavirus information page, which includes official advice from the WHO, pops up on the same page as the video and could lend it further credibility. 
+In addition, YouTube's coronavirus information page, which includes official advice from the WHO, pops up on the same page as the video and could lend it further credibility.
