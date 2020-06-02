@@ -1,5 +1,5 @@
 <template>
-    <div class="modal" :class="{'hide': show, 'show': show}">
+    <div class="modal" :class="{'hide': !show, 'show': show}">
       <div class="content">
         <slot></slot>
       </div>
