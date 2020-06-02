@@ -4,7 +4,7 @@ locale: fr
 locale_for_humans: "France"
 contentType: "app_interface"
 slug: "localisation"
-published: true
+published: false
 project: "for"
 page: "start"
 keys:
