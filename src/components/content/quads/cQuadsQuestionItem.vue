@@ -14,7 +14,7 @@
             :height="hasText ? '60%': '100%'"
           ></c-figure>
         </c-col>
-        <c-col class="c-w-6" v-if="hasText && showTextSection">
+        <c-col class="c-w-7" v-if="hasText && showTextSection">
           <h3>{{item.question_title}}</h3>
           <p>{{item.question_text}}</p>
         </c-col>
@@ -38,7 +38,7 @@ export default {
       quiz: state => state.quiz,
     }),
     item: function () {return this.quiz.items[this.itemIndex]},
-    dinamicClass: function () { return this.showTextSection ? 'c-w-6':'c-w-12'; },
+    dinamicClass: function () { return this.showTextSection ? 'c-w-5':'c-w-12'; },
     showTextSection: function () { return  this.item.question_title || this.item.question_text ? true : false; },
     hasText: function () {
       let hasText = false;

@@ -46,7 +46,7 @@ export default {
 .c-figure
   margin: 0
   position: relative
-  @include imageBackground
+  // @include imageBackground
   img
     position: relative
 
