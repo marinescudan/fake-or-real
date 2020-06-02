@@ -1,8 +1,8 @@
 ---
-uuid: 857b4324-a777-11e5-bf7f-feff819cdc9f
+uuid: 857b577e-a777-11e5-bf7f-feff819cdc9f
 locale: en
 date: 2016-03-12T00:00:00.000Z
-published: false
+published: true
 project: "for"
 slug: "question"
 title: "Harelem - 5"
@@ -17,7 +17,7 @@ question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
-explanation_title: "Is This Item Fake Or Real?"
+explanation_title: "Is This Item Fake Or Real"
 explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is this news story fake or real?"
@@ -26,9 +26,9 @@ stats_cta_go_again: "Give me another"
 stats_cta_go_finish: "I'm done with this"
 items:
   - fake: true
-    question_media_url: "https://www.youtube.com/watch?v=P4OVGUQL_tk"
-    explanation_media_url: "https://www.youtube.com/watch?v=P4OVGUQL_tk"
-    stats_media_url: "https://www.youtube.com/watch?v=P4OVGUQL_tk"
+    question_media_url: ""
+    explanation_media_url: ""
+    stats_media_url: ""
     question_title: ""
     question_text: ""
     explanation_title: ""
@@ -37,7 +37,7 @@ items:
 ---
 ### The story is fake.
 
-The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
+The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times.
 
 Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
 
