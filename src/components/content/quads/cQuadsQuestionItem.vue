@@ -2,7 +2,7 @@
   <c-col class="c-quads-question-item" v-bind:class="{'c-w-3': !hasText, 'c-w-6': hasText }">
     <div class="frame pt2 pr2 pb2 pl2 mb4"
       v-if="quiz"
-      v-bind:class="[item.selected?'selected':'', item.fake?'fake':'real']"
+      v-bind:class="{'selected':item.selected}"
       v-on:click="$emit('itemSelected', itemIndex, !item.selected)">
       <c-row>
         <c-col v-bind:class="dinamicClass">

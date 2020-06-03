@@ -96,7 +96,7 @@ export default {
       this.submited = true;
       this.showModal = true;
       this.$store.dispatch('setState', { key: 'quiz', value: this.quiz}).then(()=>{
-        setTimeout(()=>{ this.showModal = false; }, 2000);
+        setTimeout(()=>{ this.showModal = false; }, 2600);
         setTimeout(()=>{ this.$router.push({ path: `/explanation/${this.quiz.uuid}` }); }, 3000);
       });
     }

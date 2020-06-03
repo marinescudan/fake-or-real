@@ -1,7 +1,7 @@
 <template>
   <c-col class="mb4 c-w-6">
     <div class="frame"
-      v-bind:class="[ item.fake ? 'fake' : 'real' ]">
+      v-bind:class="{'fake':item.fake}">
       <c-row>
         <c-col class="c-w-12">
           <c-figure

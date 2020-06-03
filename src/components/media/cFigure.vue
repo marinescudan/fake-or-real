@@ -79,7 +79,7 @@ export default {
     display: none
 
 .media-modal
-  z-index: 1
+  z-index: 2
   position: fixed
   width: 100rem
   max-width: 96vw
