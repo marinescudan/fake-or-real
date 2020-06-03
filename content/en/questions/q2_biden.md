@@ -22,8 +22,8 @@ explanation_subtitle: "US Democrat Politcian Joe Biden speaking at a campaign ra
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is This Item Fake Or Real"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Give me another"
-stats_cta_go_finish: "I'm done with this"
+stats_cta_go_again: "Next Question"
+stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
     question_media_url: "https://youtu.be/l1-6cwetV5k?t=878"
