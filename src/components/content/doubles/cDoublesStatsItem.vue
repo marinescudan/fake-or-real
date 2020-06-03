@@ -5,6 +5,7 @@
           :src="item.stats_media_url || item.question_media_url"
           :alt="item.stats_media_url || item.question_media_url"
           :title="item.stats_title"
+          :expandable="true"
         ></c-figure>
       </c-col>
       <c-col class="c-w-6">

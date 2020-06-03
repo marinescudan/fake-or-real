@@ -9,6 +9,7 @@
             :src="item.question_media_url"
             :alt="item.question_media_url"
             :title="item.question_title"
+            :expandable="true"
           ></c-figure>
         </c-col>
         <c-col class="c-w-6" v-if="showTextSection">

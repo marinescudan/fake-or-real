@@ -12,6 +12,7 @@
             :title="item.question_title"
             :width="hasText ? '60%': '100%'"
             :height="hasText ? '60%': '100%'"
+            :expandable="true"
           ></c-figure>
         </c-col>
         <c-col class="c-w-7" v-if="hasText && showTextSection">

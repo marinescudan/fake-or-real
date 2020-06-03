@@ -1,13 +1,15 @@
 <template>
   <div class="c-media-viewer">
       <c-vimeo v-if="isVimeo" :videoId="getVimeoId(media_url)"></c-vimeo>
-      <c-youtube v-if="!isVimeo && isYoutube" :videoUrl="media_url"></c-youtube>
+      <c-youtube v-if="isYoutube" :videoUrl="media_url"></c-youtube>
       <c-figure
-        v-if="!isVimeo && !isYoutube && isImage"
+        v-if="isImage"
         :src="media_url"
         :alt="media_url"
         :title="item.explanation_title"
+        :expandable="true"
       ></c-figure>
+      <p v-if="!isVimeo && !isYoutube && !isImage" class="tc">Unknown media src</p>
   </div>
 </template>
 
@@ -41,8 +43,12 @@ export default {
       else return false;
     },
     isImage (){
-      if (!this.isVimeo && !this.isYoutube && this.media_url) return true;
-      else return false;
+      if (!this.isVimeo && !this.isYoutube) {
+        let testImg = new Image();
+        testImg.src = this.media_url;
+        if(testImg.complete) return true;
+      }
+      return false;
     },
   },
   methods: {

@@ -1,12 +1,9 @@
 <template>
   <div id="app" class="app" v-bind:style="app_style">
+    <div class="pt7" v-if="isLoading"><h1>...</h1></div>
+    <div class="pt7" v-if="!isLoading && err"><h1>{{err}}</h1></div>
+
     <router-view v-if="!isLoading && dataLoaded && localisationLoaded && locale"/>
-    <div class="pt7" v-if="isLoading">
-      <h1>...</h1>
-    </div>
-    <div class="pt7" v-if="!isLoading && err">
-      <h1>{{err}}</h1>
-    </div>
   </div>
 </template>
 

@@ -7,6 +7,7 @@
             :src="item.explanation_media_url || item.question_media_url"
             :alt="item.explanation_media_url || item.question_media_url"
             :title="item.explanation_title"
+            :expandable="true"
           ></c-figure>
         </c-col>
         <c-col class="c-w-12" v-if="item.explanation_title">

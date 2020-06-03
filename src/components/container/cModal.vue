@@ -38,7 +38,7 @@ export default {
 
 .modal::after
   content: ""
-  background: rgba(0,0,0,0.7)
+  background: $backdrop
   position: fixed
   z-index: 0
   top: 0

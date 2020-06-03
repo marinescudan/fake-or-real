@@ -10,6 +10,7 @@
             :title="item.explanation_title"
             :width="'60%'"
             :height="'60%'"
+            :expandable="true"
           ></c-figure>
           <p v-if="showTextSection">{{ item.explanation_title }}</p>
         </c-col>
