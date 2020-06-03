@@ -31,7 +31,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/q3_1.jpg"
     question_title: ""
     question_text: "Image 1: This image was shared widely on social media and on some news channels"
-    explanation_title: ""
+    explanation_title: "Image 1: This image was shared widely on social media and on some news channels"
     stats_title: ""
     click_count: 0
   - fake: false
@@ -40,7 +40,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/q3_2.jpg"
     question_title: ""
     question_text: "Image 2: This image was reported after the event to show damage to US bases as a result of the attack."
-    explanation_title: ""
+    explanation_title: "Image 2: This image was reported after the event to show damage to US bases as a result of the attack."
     stats_title: ""
     click_count: 0
 ---
