@@ -22,8 +22,8 @@ explanation_subtitle: "Choose one or more of the ads that you think are suspicio
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Find the fake ads"
 stats_subtitle: "Other people decided that these ads are not trustworthy"
-stats_cta_go_again: "Give me another"
-stats_cta_go_finish: "I'm done with this"
+stats_cta_go_again: "Next Question"
+stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/q1_1.jpg"
