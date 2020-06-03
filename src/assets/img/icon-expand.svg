@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0px" y="0px"
+	viewBox="0 0 24 24"
+	style="enable-background:new 0 0 24 24;"
+	xml:space="preserve">
+	<path id="tr" d="M16,0h8v8h-4V4h-4V0z"/>
+	<path id="br" d="M20,16h4v8h-8v-4h4V16z"/>
+	<path id="bl" d="M0,16h4v4h4v4H0V16z"/>
+	<path id="tl" d="M0,0h8v4H4v4H0V0z"/>
+</svg>
