@@ -24,6 +24,17 @@ export default {
     itemIndex: { type: Number, required: true },
     namespace: { type: String, required: true }
   },
+  data() {
+      return {
+        resolvedImage: false
+      };
+  },
+  created() {
+    //check if media_url is img and itțs valid
+    let testImg = new Image();
+    testImg.src = this.media_url;
+    if(testImg.complete) this.resolvedImage = true;
+  },
   computed: {
     ...mapState({
       quiz: state => state.quiz,
@@ -43,11 +54,7 @@ export default {
       else return false;
     },
     isImage (){
-      if (!this.isVimeo && !this.isYoutube) {
-        let testImg = new Image();
-        testImg.src = this.media_url;
-        if(testImg.complete) return true;
-      }
+      if (!this.isVimeo && !this.isYoutube && this.resolvedImage) return true;
       return false;
     },
   },
