@@ -26,9 +26,9 @@ stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
-    question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/pelosi.mp4"
-    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/pelosi.mp4"
-    stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/pelosi.mp4"
+    question_media_url: "https://vimeo.com/425869332/f4d28e085a"
+    explanation_media_url: "https://vimeo.com/425869332/f4d28e085a"
+    stats_media_url: "https://vimeo.com/425869332/f4d28e085a"
     question_title: ""
     question_text: ""
     explanation_title: ""
