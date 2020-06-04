@@ -2,11 +2,12 @@
   <div class="c-vimeo aspect-ratio aspect-ratio--16x9">
     <vue-vimeo-player
       ref="player"
-      :video-id='videoId'
+      :video-id="videoId"
       :player-height="playerHeight"
       :player-width="playerWidth"
       :options="{ responsive: true }"
       @ready="onReady"
+      @error="onError"
     ></vue-vimeo-player>
   </div>
 </template>
@@ -24,7 +25,7 @@ export default {
   props: {
     videoId: {
       type: String,
-      required: true
+      required: false
     },
     autoplay: {
       type: Boolean,
@@ -41,22 +42,21 @@ export default {
       default: function () { return 320 },
       required:  false
     },
-    'options': {
+    options: {
       type: Object,
       default: function () {	return {} },
       required:  false
     },
-    'video-url': {
+    videoUrl: {
       type: String,
-      default: function () { return undefined },
       required:  false
     },
-    'loop': {
+    loop: {
       type: Boolean,
       default: function () {	return false },
       required:  false
     },
-    'controls': {
+    controls: {
       type: Boolean,
       default: function () {	return true },
       required:  false
@@ -80,6 +80,9 @@ export default {
     },
     update (videoID) {
         this.$refs.player.update(videoID)
+    },
+    onError (error) {
+        console.error(error)
     },
   }
 }

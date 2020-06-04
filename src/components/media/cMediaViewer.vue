@@ -1,6 +1,6 @@
 <template>
   <div class="c-media-viewer">
-      <c-vimeo v-if="isVimeo" :videoId="getVimeoId(media_url)"></c-vimeo>
+      <c-vimeo v-if="isVimeo" :videoId="media_url"></c-vimeo>
       <c-youtube v-if="isYoutube" :videoUrl="media_url"></c-youtube>
       <c-figure
         v-if="isImage"
@@ -51,11 +51,6 @@ export default {
       return false;
     },
   },
-  methods: {
-    getVimeoId: function (url) {
-      return url.split('://')[1].split('/')[1];
-    }
-  }
 }
 </script>
 
