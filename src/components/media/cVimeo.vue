@@ -7,7 +7,6 @@
       :player-width="playerWidth"
       :options="{ responsive: true }"
       @ready="onReady"
-      @error="onError"
     ></vue-vimeo-player>
   </div>
 </template>
@@ -39,7 +38,7 @@ export default {
     },
     playerHeight: {
       type: [String, Number],
-      default: function () { return '100rem' },
+      default: function () { return '50vh' },
       required:  false
     },
     options: {
