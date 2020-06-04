@@ -39,7 +39,7 @@ export default {
     },
     playerHeight: {
       type: [String, Number],
-      default: function () { return 320 },
+      default: function () { return '100rem' },
       required:  false
     },
     options: {
@@ -80,9 +80,6 @@ export default {
     },
     update (videoID) {
         this.$refs.player.update(videoID)
-    },
-    onError (error) {
-        console.error(error)
     },
   }
 }
