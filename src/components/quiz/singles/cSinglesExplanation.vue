@@ -27,7 +27,7 @@
 <script>
 import { mapState } from 'vuex';
 import {layout, media, form} from '@/mixins/components';
-import cSinglesExplanationItem from '@/components/content/singles/cSinglesExplanationItem';
+import cSinglesExplanationItem from '@/components/quiz/singles/cSinglesExplanationItem';
 import cNextStep from '@/components/input/cNextStep';
 export default {
   name:'cSinglesExplanation',

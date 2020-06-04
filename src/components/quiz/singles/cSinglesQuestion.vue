@@ -17,7 +17,7 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cSinglesQuestionItem from '@/components/content/singles/cSinglesQuestionItem';
+import cSinglesQuestionItem from '@/components/quiz/singles/cSinglesQuestionItem';
 
 export default {
   name:'cSinglesQuestion',

@@ -23,7 +23,7 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cDoublesStatsItem from '@/components/content/doubles/cDoublesStatsItem';
+import cDoublesStatsItem from '@/components/quiz/doubles/cDoublesStatsItem';
 import cNextStep from '@/components/input/cNextStep';
 export default {
   name:'cDoublesStats',

@@ -1,20 +1,19 @@
 <template>
   <c-row>
-    <c-col class="c-w-12">
-      <c-row>
-        <c-col class="c-w-4"  v-if="showStatsBtn">
-          <c-link class="frame" :location="'stats'">{{ quiz.explanation_cta_go_stats }}</c-link>
-        </c-col>
+    <c-col class="c-w-4"  v-if="showStatsBtn">
+      <button type="button" class="frame"
+        @click="next('/stats')">{{ quiz.explanation_cta_go_stats }}</button>
+    </c-col>
 
-        <c-col class="c-w-3"  v-if="!showStatsBtn && this.$store.state.quizList.length >= 2">
-          <button type="button" class="frame"
-            :disabled="!$store.state.quizList.length"
-            @click="startQuiz">{{ quiz.stats_cta_go_again }}</button>
-        </c-col>
-        <c-col v-bind:class="dinamicClass" v-if="!showStatsBtn">
-          <c-link class="frame" :location="'/finish'">{{ quiz.stats_cta_go_finish }}</c-link>
-        </c-col>
-      </c-row>
+    <c-col class="c-w-3"  v-if="!showStatsBtn && this.$store.state.quizList.length >= 2">
+      <button type="button" class="frame"
+        :disabled="!$store.state.quizList.length"
+        @click="startQuiz">{{ quiz.stats_cta_go_again }}</button>
+    </c-col>
+
+    <c-col v-bind:class="quizListLength > 1?'c-w-3':'c-w-4'" v-if="!showStatsBtn">
+      <button type="button" class="frame"
+        @click="next('/finish')">{{ quiz.stats_cta_go_finish }}</button>
     </c-col>
   </c-row>
 </template>
@@ -27,7 +26,7 @@ export default {
   name:'NextStep',
   mixins: [page, layout, media, form],
   components: {  },
-   props: {
+  props: {
     page: { type: String, required: true }
   },
   data: function () {
@@ -36,9 +35,9 @@ export default {
   computed: {
     ...mapState({
       quiz: state => state.quiz,
+      quizListLength: state => state.quizList.length,
       showStatsPageFlag: state => state.showStatsPageFlag,
     }),
-    dinamicClass: function(){return this.$store.state.quizList.length > 1?'c-w-3':'c-w-4';},
     showStatsBtn: function(){return this.page != 'stats' && this.showStatsPageFlag},
   },
   methods: {
@@ -46,6 +45,10 @@ export default {
       this.$store.dispatch('setQuiz', { loseCurrent: true }).then(()=>{
         this.$router.push({ path: `/question/${this.$store.state.quiz.uuid}` });
       });
+    },
+    next: function (location) {
+      if (location === '/finish') setTimeout(()=>{ this.$router.push({ path: `${location}` }); }, 100);
+      if (location === '/stats') setTimeout(()=>{ this.$router.push({ path: `${location}/${this.quiz.uuid}` }); }, 100);
     }
   }
 }

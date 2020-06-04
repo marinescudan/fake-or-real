@@ -6,8 +6,19 @@
     </c-header>
     <c-main>
       <c-row>
-        <c-col class="c-w-8">
-          <c-singles-stats-item :quiz="quiz" :itemIndex="0"></c-singles-stats-item>
+        <c-col class="c-w-6">
+          <c-quads-stats-item :quiz="quiz" :itemIndex="0"></c-quads-stats-item>
+        </c-col>
+        <c-col class="c-w-6">
+          <c-quads-stats-item :quiz="quiz" :itemIndex="1"></c-quads-stats-item>
+        </c-col>
+      </c-row>
+      <c-row>
+        <c-col class="c-w-6">
+          <c-quads-stats-item :quiz="quiz" :itemIndex="2"></c-quads-stats-item>
+        </c-col>
+        <c-col class="c-w-6">
+          <c-quads-stats-item :quiz="quiz" :itemIndex="3"></c-quads-stats-item>
         </c-col>
       </c-row>
     </c-main>
@@ -20,13 +31,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cSinglesStatsItem from '@/components/content/singles/cSinglesStatsItem';
+import cQuadsStatsItem from '@/components/quiz/quads/cQuadsStatsItem';
 import cNextStep from '@/components/input/cNextStep';
-
 export default {
-  name:'cSinglesStats',
+  name:'cQuadsStats',
   mixins: [page, layout, media, form],
-  components: { cSinglesStatsItem, cNextStep },
+  components: { cQuadsStatsItem, cNextStep },
   computed: {
     ...mapState({
       locale: state => state.locale,

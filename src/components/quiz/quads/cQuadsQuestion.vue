@@ -1,21 +1,23 @@
 <template>
   <c-page v-bind:class="{ 'submited' : submited}">
     <c-header>
-      <h1 class="pt5">{{ quiz.question_title }}</h1>
+      <h1>{{ quiz.question_title }}</h1>
       <h2>{{ quiz.question_subtitle }}</h2>
     </c-header>
     <c-main>
       <c-row>
-        <c-col class="c-w-4" v-bind:class="{'c-w-6': hasText}">
-          <c-doubles-question-item
+        <c-quads-question-item
           :itemIndex="0" v-on:itemSelected="saveSelection"
-          ></c-doubles-question-item>
-        </c-col>
-        <c-col class="c-w-4" v-bind:class="{'c-w-6': hasText}">
-          <c-doubles-question-item
+        ></c-quads-question-item>
+        <c-quads-question-item
           :itemIndex="1" v-on:itemSelected="saveSelection"
-          ></c-doubles-question-item>
-        </c-col>
+        ></c-quads-question-item>
+        <c-quads-question-item
+          :itemIndex="2" v-on:itemSelected="saveSelection"
+        ></c-quads-question-item>
+        <c-quads-question-item
+          :itemIndex="3" v-on:itemSelected="saveSelection"
+        ></c-quads-question-item>
       </c-row>
     </c-main>
     <c-footer>
@@ -27,16 +29,15 @@
       <c-row v-if="!submited">
         <c-col class="c-w-4">
           <button type="button" class="frame"
-             v-bind:class="{ 'disabled' : disabled }"
+            v-bind:class="{ 'disabled' : disabled }"
             :disabled="disabled"
             @click="submitQuiz">{{ quiz.question_cta_go_explanation }}</button>
         </c-col>
       </c-row>
     </c-footer>
     <c-modal :show="showModal">
-      <h1 :class="{'correct': correct,'wrong': !correct}">
-        <span v-if="correct">{{ quiz.question_submit_message_correct }}</span>
-        <span v-if="!correct">{{ quiz.question_submit_message_wrong }}</span>
+      <h1 :class="{'correct': selectedFakeNumber === fakesNumber,'wrong': selectedFakeNumber !== fakesNumber}">
+        <span>{{ quiz.question_submit_message_heading}}</span>
       </h1>
     </c-modal>
   </c-page>
@@ -45,48 +46,39 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cDoublesQuestionItem from '@/components/content/doubles/cDoublesQuestionItem';
+import cQuadsQuestionItem from '@/components/quiz/quads/cQuadsQuestionItem';
 import cModal from '@/components/container/cModal';
 
 export default {
-  name:'cDoublesQuestion',
+  name:'cQuadsQuestion',
   mixins: [page, layout, media, form ],
-  components: { cDoublesQuestionItem, cModal },
+  components: { cQuadsQuestionItem, cModal },
   data: function () {
     return {
       submited: false,
-      correct: false,
-      hasSelection: false,
+      selectedFakeNumber: 0,
       showModal: false,
     };
   },
   computed: {
     ...mapState({
-      quiz: state => state.quiz,
       locale: state => state.locale,
-      disabled: function () { return !this.hasSelection;}
+      quiz: state => state.quiz,
+      disabled: function () { return this.selectedFakeNumber < 1;},
+      fakesNumber: function () {
+        let counter = 0;
+        this.quiz.items.forEach(each => {
+          if (each.fake) counter++
+        });
+        return counter;
+      },
     }),
-    hasText: function () {
-      let hasText = false;
-      this.quiz.items.forEach((each)=>{
-        if ( each.question_title || each.question_text ) {
-          hasText = true;
-        }
-      });
-      return  hasText;
-    },
   },
   methods: {
-    saveSelection (itemIndex, selected) {
+    saveSelection: function (itemIndex, selected) {
+      this.selectedFakeNumber = selected ? this.selectedFakeNumber + 1 : this.selectedFakeNumber - 1;
       let newQuiz = Object.assign({}, this.quiz);
-      this.correct = newQuiz.items[itemIndex].fake && selected;
-
-      newQuiz.items.forEach( (each, i) => {
-        if (itemIndex === i) each.selected = selected;
-        else each.selected = false;
-      });
-      this.hasSelection = selected;
-
+      newQuiz.items[itemIndex].selected = selected;
       this.$store.dispatch('setState', {
         key: 'quiz',
         value: newQuiz

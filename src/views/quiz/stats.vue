@@ -8,9 +8,9 @@
 
 <script>
   import { mapState } from 'vuex';
-  import cQuadsStats from '@/components/content/quads/cQuadsStats';
-  import cSinglesStats from '@/components/content/singles/cSinglesStats';
-  import cDoublesStats from '@/components/content/doubles/cDoublesStats';
+  import cQuadsStats from '@/components/quiz/quads/cQuadsStats';
+  import cSinglesStats from '@/components/quiz/singles/cSinglesStats';
+  import cDoublesStats from '@/components/quiz/doubles/cDoublesStats';
   import {page} from '@/mixins/components.js';
   export default {
     name: 'question',

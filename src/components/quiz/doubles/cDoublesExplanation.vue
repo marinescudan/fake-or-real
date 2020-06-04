@@ -1,8 +1,8 @@
 <template>
   <c-page>
     <c-header>
-      <h1>{{  quiz.explanation_title }}</h1>
-      <h2>{{  quiz.explanation_subtitle  }}</h2>
+      <h1>{{ quiz.explanation_title}}</h1>
+      <h2>{{ quiz.explanation_subtitle }}</h2>
     </c-header>
     <c-main>
       <c-row>
@@ -11,18 +11,16 @@
         </c-col>
         <c-col class="c-w-6">
           <c-row>
-            <c-quads-explanation-item
-              :itemIndex="0" :quiz="quiz"
-            ></c-quads-explanation-item>
-            <c-quads-explanation-item
-              :itemIndex="1" :quiz="quiz"
-            ></c-quads-explanation-item>
-            <c-quads-explanation-item
-              :itemIndex="2" :quiz="quiz"
-            ></c-quads-explanation-item>
-            <c-quads-explanation-item
-              :itemIndex="3" :quiz="quiz"
-            ></c-quads-explanation-item>
+            <c-col class="c-w-6">
+              <c-doubles-explanation-item
+                :itemIndex="0" :quiz="quiz"
+              ></c-doubles-explanation-item>
+            </c-col>
+            <c-col class="c-w-6">
+              <c-doubles-explanation-item
+                :itemIndex="1" :quiz="quiz"
+              ></c-doubles-explanation-item>
+            </c-col>
           </c-row>
         </c-col>
       </c-row>
@@ -36,18 +34,18 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cQuadsExplanationItem from '@/components/content/quads/cQuadsExplanationItem';
+import cDoublesExplanationItem from '@/components/quiz/doubles/cDoublesExplanationItem';
 import cNextStep from '@/components/input/cNextStep';
 export default {
-  name:'cQuadsExplanation',
+  name:'cDoublesExplanation',
   mixins: [page, layout, media, form],
-  components: { cQuadsExplanationItem, cNextStep },
+  components: { cDoublesExplanationItem, cNextStep },
   computed: {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
     }),
-  }
+  },
 }
 </script>
 
