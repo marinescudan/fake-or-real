@@ -26,9 +26,9 @@ stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
-    question_media_url: "https://vimeo.com/tacticaltech/review/425865322/133fdb6091"
-    explanation_media_url: "https://vimeo.com/tacticaltech/review/425865322/133fdb6091"
-    stats_media_url: "https://vimeo.com/tacticaltech/review/425865322/133fdb6091"
+    question_media_url: "https://vimeo.com/425865322/0b6101aa2a"
+    explanation_media_url: "https://vimeo.com/425865322/0b6101aa2a"
+    stats_media_url: "https://vimeo.com/425865322/0b6101aa2a"
     question_title: ""
     question_text: ""
     explanation_title: ""
