@@ -13,7 +13,7 @@ keys:
   start_app_version: "Misinformation Edition"
   start_cta_go_question_: "Ready to play?"
   start_image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
-  start_image_center_url: "https://cdn.ttc.io/s/fit/960/580/sm/0/plain/fake-or-real-news-edition/misinfo_logo.jpg"
+  start_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
   start_image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 ---
 ‘Fake news’ is more than just false information. Even the term ‘fake news’ is misleading, because in many cases it contains some ‘real’ content – a piece of information, video footage or an image – that’s been doctored or taken out of context.
