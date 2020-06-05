@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://vimeo.com/425865322/0b6101aa2a"
     stats_media_url: "https://vimeo.com/425865322/0b6101aa2a"
     question_title: ""
-    question_text: ""
+    question_text: "This video went viral among Dutch users on platforms such as Tiktok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe."
     explanation_title: ""
     stats_title: ""
     click_count: 0
