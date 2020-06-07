@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Which of these front pages of the New York Times is real?"
+question_title: "Which of these front pages of the New York Times is fake?"
 question_subtitle: ""
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
