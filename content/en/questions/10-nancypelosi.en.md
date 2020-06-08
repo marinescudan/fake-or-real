@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://vimeo.com/425897203/a7c08816a8"
     stats_media_url: "https://vimeo.com/425897203/a7c08816a8"
     question_title: ""
-    question_text: ""
+    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019."
     explanation_title: ""
     stats_title: ""
     click_count: 0
