@@ -57,7 +57,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo4.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/algo4.jpg"
     question_title: ""
-    question_text: "A video on vaccines show &quot;Next&quot; on YouTube"
+    question_text: "A video on vaccines shown on YouTube"
     explanation_title: ""
     stats_title: ""
     click_count: 0
