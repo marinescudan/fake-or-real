@@ -17,7 +17,7 @@ question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
-explanation_title: "Is This Item Fake Or Real?"
+explanation_title: "Is this news story fake or real?"
 explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is this news story fake or real?"
@@ -41,4 +41,4 @@ The WhatsApp video of people crowding a shop was shared among residents of Haarl
 
 Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
 
-Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for"FBI store" in German and found that FBI is a hairdressing chain in Germany. 
+Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. 
