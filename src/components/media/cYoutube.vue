@@ -1,5 +1,5 @@
 <template>
-  <div class="c-youtube fade-in">
+  <div class="c-youtube aspect-ratio aspect-ratio--16x9">
     <youtube
       ref="youtube"
       :video-id="videoID"
@@ -13,7 +13,6 @@
 import { getIdFromUrl } from 'vue-youtube'
 export default {
   name:'cYoutube',
-  // components: { youtube },
   data: function () {
     return {
       options: {
@@ -44,5 +43,6 @@ export default {
 
   .c-youtube
     overflow: hidden
+    @include videoBackground
 
 </style>

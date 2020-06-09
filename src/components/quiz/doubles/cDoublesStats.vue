@@ -23,12 +23,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cDoublesStatsItem from '@/components/quiz/doubles/cDoublesStatsItem';
-import cNextStep from '@/components/input/cNextStep';
+import cDoublesStatsItem from './cDoublesStatsItem';
+
 export default {
   name:'cDoublesStats',
   mixins: [page, layout, media, form],
-  components: { cDoublesStatsItem, cNextStep },
+  components: { cDoublesStatsItem },
   computed: {
     ...mapState({
       locale: state => state.locale,

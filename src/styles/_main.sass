@@ -70,13 +70,19 @@ button.frame
 .correct
   color: $brand-green
   position: relative
-  &::after
-    @include topCenter100
-    @include correctBackground
+  // &::after
+  //   @include topCenter100
+  //   @include correctBackground
 
 .wrong
   color: $brand-red
   position: relative
-  &::after
-    @include topCenter100
-    @include wrongBackground
+  // &::after
+  //   @include topCenter100
+  //   @include wrongBackground
+
+.fade-enter-active, .fade-leave-active
+  @include transitionEffect
+
+.fade-enter, .fade-leave-to, .fade-leave-active
+  opacity: 0

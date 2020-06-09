@@ -1,17 +1,12 @@
 <template>
     <div class="frame"
-      v-bind:class="[ item.fake ? 'fake' : 'real' ]">
-      <c-row >
+      v-bind:class="{'fake':item.fake}">
+      <c-row>
         <c-col class="c-w-12">
-          <c-figure
-            :src="item.explanation_media_url || item.question_media_url"
-            :alt="item.explanation_media_url || item.question_media_url"
-            :title="item.explanation_title"
-            :expandable="true"
-          ></c-figure>
+          <c-media-viewer :itemIndex="itemIndex" :namespace="'explanation'"></c-media-viewer>
         </c-col>
         <c-col class="c-w-12" v-if="item.explanation_title">
-          <p>{{ item.explanation_title}}</p>
+          <p>{{ item.explanation_title }}</p>
         </c-col>
       </c-row>
     </div>
@@ -19,11 +14,11 @@
 
 <script>
 import { mapState } from 'vuex';
-import {layout, media, form} from '@/mixins/components';
+import {page, layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cDoublesExplanationItem',
-  mixins: [layout, media, form],
+  mixins: [page, layout, media, form],
   props: {
     itemIndex: { type: Number, required: true },
   },
@@ -35,8 +30,3 @@ export default {
   },
 }
 </script>
-
-<style scoped lang="sass">
-// @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
-</style>

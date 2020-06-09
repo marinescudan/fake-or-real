@@ -3,16 +3,16 @@
     <div class="pt7" v-if="isLoading"><h1>...</h1></div>
     <div class="pt7" v-if="!isLoading && err"><h1>{{err}}</h1></div>
 
-    <router-view v-if="!isLoading && dataLoaded && localisationLoaded && locale"/>
+    <transition name="fade">
+      <router-view v-if="!isLoading && dataLoaded && localisationLoaded && locale"/>
+    </transition>
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex';
-// import { screen } from './mixins/screen.js';
 export default {
   name: 'app',
-  // mixins: [ screen ],
   computed: {
     ...mapState({
       isLoading: state => state.isLoading,
@@ -32,7 +32,6 @@ export default {
     if (!locale && this.$router.currentRoute.name !== 'setup') {
       this.$router.push({name: 'setup'});
     }
-
     if ( this.$router.currentRoute.params.uuid ) {
       this.setAppData({uuid: this.$router.currentRoute.params.uuid});
     } else {
@@ -48,7 +47,6 @@ export default {
   methods: {
     toggleHTMLClass() {
       let el  =  document.querySelector('html');
-      // let oldClasses = el.classList.value.split(' ');
       el.classList.value.split(' ').forEach(each => el.classList.remove(each));
       this.html_class.forEach(each => el.classList.add(each));
     },

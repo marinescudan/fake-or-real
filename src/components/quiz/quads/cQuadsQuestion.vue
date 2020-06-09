@@ -36,7 +36,7 @@
       </c-row>
     </c-footer>
     <c-modal :show="showModal">
-      <h1 :class="{'correct': selectedFakeNumber === fakesNumber,'wrong': selectedFakeNumber !== fakesNumber}">
+      <h1>
         <span>{{ quiz.question_submit_message_heading}}</span>
       </h1>
     </c-modal>
@@ -46,13 +46,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cQuadsQuestionItem from '@/components/quiz/quads/cQuadsQuestionItem';
-import cModal from '@/components/container/cModal';
+import cQuadsQuestionItem from './cQuadsQuestionItem';
 
 export default {
   name:'cQuadsQuestion',
-  mixins: [page, layout, media, form ],
-  components: { cQuadsQuestionItem, cModal },
+  components: { cQuadsQuestionItem },
+  mixins: [page, layout, media, form],
   data: function () {
     return {
       submited: false,
@@ -95,7 +94,6 @@ export default {
   }
 }
 </script>
-
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
 // @import "@/styles/_mixins.sass";

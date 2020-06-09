@@ -58,11 +58,15 @@
 
 @mixin imageBackground
   // background: #221100 url('~@/assets/img/image_background.svg') top center no-repeat
-  background: #221100 url('~@/assets/img/checkers_background.svg')
+  // background: #221100 url('~@/assets/img/checkers_background.svg')
+  background: #221100 url('~@/assets/img/ui-loader.gif') top center no-repeat
+  background-size: cover
 
 @mixin videoBackground
-  background: #221100 url('~@/assets/img/video_background.svg') top center no-repeat
-  background-size: 100% 100%
+  // background: #221100 url('~@/assets/img/video_background.svg') top center no-repeat
+  // background-size: 100% 100%
+  background: #221100 url('~@/assets/img/ui-loader.gif') top center no-repeat
+  background-size: cover
 
 @mixin selectedBackground
   background: rgba(0, 0, 0, 0.7) url('~@/assets/img/check-mark.svg') center center no-repeat
@@ -87,7 +91,6 @@
 @mixin transitionEffect
   transition: all .25s ease-in
   transition-delay: .05s
-
 
 @mixin fillContainer
   top: 0

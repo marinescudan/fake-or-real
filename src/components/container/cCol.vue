@@ -6,8 +6,7 @@
 
 <script>
 export default {
-  name:'cCol',
-  props: { }
+  name:'cCol'
 }
 </script>
 

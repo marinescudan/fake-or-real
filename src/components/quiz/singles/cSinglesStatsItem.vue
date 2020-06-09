@@ -1,44 +1,29 @@
 <template>
   <c-row>
     <c-col class="c-w-6">
-      <c-media-viewer :itemIndex="itemIndex" namespace="stats"></c-media-viewer>
+      <c-media-viewer :itemIndex="itemIndex" :namespace="'stats'"></c-media-viewer>
     </c-col>
     <c-col class="c-w-4">
-      <h3>{{quiz.items[itemIndex].stats_title}}</h3>
-      <p class="f2">{{quiz.items[itemIndex].click_count}}</p>
+      <h3>{{item.stats_title}}</h3>
+      <p class="h2">{{item.click_count}}</p>
     </c-col>
   </c-row>
 </template>
 
 <script>
 import { mapState } from 'vuex';
-import {layout, media, form} from '@/mixins/components';
-import cMediaViewer from '@/components/media/cMediaViewer';
+import {page, layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cSinglesStatsItem',
-  mixins: [layout, media, form],
-  components: { cMediaViewer },
+  mixins: [page, layout, media, form],
   props: {
     itemIndex: { type: Number, required: true }
   },
   computed: {
     ...mapState({
-      quiz: state => state.quiz,
+      item: function (state) {return state.quiz.items[this.itemIndex]},
     }),
-    vimeoId (){
-      let url = this.quiz.items[this.itemIndex].single_url;
-      if (url.includes('vimeo')) {
-        return url.split('://')[1].split('/')[1];
-      } else {
-        return false;
-      }
-    },
   },
 }
 </script>
-
-<style scoped lang="sass">
-// @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
-</style>

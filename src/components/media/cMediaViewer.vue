@@ -4,36 +4,27 @@
       <c-youtube v-if="isYoutube" :videoUrl="media_url"></c-youtube>
       <c-figure
         v-if="isImage"
+        :itemIndex="itemIndex"
         :src="media_url"
         :alt="media_url"
         :title="item.explanation_title"
         :expandable="true"
+        :namespace="namespace"
       ></c-figure>
-      <p v-if="!isVimeo && !isYoutube && !isImage" class="tc">Unknown media src</p>
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex';
-import {layout, media, form} from '@/mixins/components';
-
+import cVimeo from '@/components/media/cVimeo.vue';
+import cYoutube from "@/components/media/cYoutube.vue";
+import cFigure from '@/components/media/cFigure.vue';
 export default {
   name:'cMediaViewer',
-  mixins: [layout, media, form],
+  components: {cVimeo, cYoutube, cFigure },
   props: {
     itemIndex: { type: Number, required: true },
     namespace: { type: String, required: true }
-  },
-  data() {
-      return {
-        resolvedImage: false
-      };
-  },
-  created() {
-    //check if media_url is img and itțs valid
-    let testImg = new Image();
-    testImg.src = this.media_url;
-    if(testImg.complete) this.resolvedImage = true;
   },
   computed: {
     ...mapState({
@@ -54,7 +45,7 @@ export default {
       else return false;
     },
     isImage (){
-      if (!this.isVimeo && !this.isYoutube && this.resolvedImage) return true;
+      if (!this.isVimeo && !this.isYoutube) return true;
       return false;
     },
   },

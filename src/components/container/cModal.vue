@@ -71,10 +71,4 @@ export default {
   visibility: visible
   opacity: 1
 
-.hide .content
-  transform: scale(0.01)
-
-.show .content
-  transform: scale(1)
-
 </style>

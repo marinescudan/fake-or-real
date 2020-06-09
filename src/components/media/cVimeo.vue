@@ -88,5 +88,5 @@ export default {
 // @import "@/styles/_variables.sass";
 @import "@/styles/_mixins.sass";
 .c-vimeo
-   @include videoBackground
+  @include videoBackground
 </style>

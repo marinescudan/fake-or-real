@@ -41,7 +41,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import {page, layout, media, form} from '@/mixins/components.js';
+import {page, layout, media, form} from '@/mixins/components';
 export default {
   name: 'start',
   mixins: [page, layout, media, form],

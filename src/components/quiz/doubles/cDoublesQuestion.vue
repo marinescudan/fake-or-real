@@ -45,13 +45,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cDoublesQuestionItem from '@/components/quiz/doubles/cDoublesQuestionItem';
-import cModal from '@/components/container/cModal';
+import cDoublesQuestionItem from './cDoublesQuestionItem';
 
 export default {
   name:'cDoublesQuestion',
-  mixins: [page, layout, media, form ],
-  components: { cDoublesQuestionItem, cModal },
+  components: { cDoublesQuestionItem },
+  mixins: [page, layout, media, form],
   data: function () {
     return {
       submited: false,

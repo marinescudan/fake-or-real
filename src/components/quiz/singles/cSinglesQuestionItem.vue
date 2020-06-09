@@ -1,13 +1,14 @@
 <template>
   <c-row class="c-singles-question-item"  v-bind:class="{ 'submited' : submited}">
+    <span>asa</span>
     <c-col class="c-w-6">
-      <c-media-viewer :itemIndex="itemIndex" namespace="question"></c-media-viewer>
+      <c-media-viewer :itemIndex="itemIndex" :namespace="'question'"></c-media-viewer>
     </c-col>
-    <c-col class="c-w-4" style="justify-content: space-between;">
+   <c-col class="c-w-4" style="justify-content: space-between;">
       <c-row>
         <c-col class="c-w-12">
-          <h3>{{quiz.items[itemIndex].question_title}}</h3>
-          <p>{{quiz.items[itemIndex].question_text}}</p>
+          <h3>{{item.question_title}}</h3>
+          <p>{{item.question_text}}</p>
         </c-col>
       </c-row>
       <c-row class="align-self-end">
@@ -33,8 +34,8 @@
           </c-row>
           <c-modal :show="showModal">
             <h1 class="" :class="{'correct': correctQuess,'wrong': !correctQuess}">
-              <span v-if="!quiz.items[itemIndex].fake">{{ quiz.question_single_result_message_real }}</span>
-              <span v-if="quiz.items[itemIndex].fake">{{ quiz.question_single_result_message_fake }}</span>
+              <span v-if="!item.fake">{{ quiz.question_single_result_message_real }}</span>
+              <span v-if="item.fake">{{ quiz.question_single_result_message_fake }}</span>
             </h1>
           </c-modal>
         </c-col>
@@ -45,14 +46,10 @@
 
 <script>
 import { mapState } from 'vuex';
-import {layout, media, form} from '@/mixins/components';
-import cMediaViewer from '@/components/media/cMediaViewer';
-import cModal from '@/components/container/cModal';
-
+import {page, layout, form, media} from '@/mixins/components';
 export default {
   name:'cSinglesQuestionItem',
-  mixins: [layout, media, form],
-  components: { cMediaViewer, cModal },
+  mixins: [page, layout, form, media],
   props: {
     itemIndex: { type: Number, required: true }
   },
@@ -67,11 +64,12 @@ export default {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
+      item: function (state) {return state.quiz.items[this.itemIndex]},
     }),
   },
   methods: {
     submitQuiz: function (choice) {
-      this.correctQuess = this.quiz.items[this.itemIndex].fake === choice;
+      this.correctQuess = this.item.fake === choice;
       this.submited = true;
       this.showModal = true;
       this.$store.dispatch('setState', { key: 'quiz', value: this.quiz}).then(()=>{
@@ -82,8 +80,3 @@ export default {
   }
 }
 </script>
-
-<style scoped lang="sass">
-// @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
-</style>

@@ -81,7 +81,7 @@ export default new Vuex.Store({
           context.commit('SET_STATE', { key: 'quizIndex', value: newQuizIndex });
           quiz = tempArray[newQuizIndex];
         }
-        context.commit("SET_STATE", { key: "quiz", value: quiz });
+        context.commit("SET_STATE", { key: "quiz", value: mapQuiz(quiz) });
         resolve(context.state.quiz);
       });
     },
@@ -99,6 +99,16 @@ export default new Vuex.Store({
     }
   }
 })
+
+function mapQuiz (quiz) {
+  quiz.items.forEach((item) => {
+      quiz.questionText = item.question_title || item.question_text ? true : false;
+      quiz.explanationText = item.explanation_title ? true : false;
+      quiz.statsText = item.stats_title ? true : false;
+  });
+  return quiz;
+}
+
 function mapMessages(data) {
   let locales = {};
   data.forEach((file) => {

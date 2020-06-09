@@ -20,13 +20,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cSinglesStatsItem from '@/components/quiz/singles/cSinglesStatsItem';
-import cNextStep from '@/components/input/cNextStep';
+import cSinglesStatsItem from './cSinglesStatsItem';
 
 export default {
   name:'cSinglesStats',
+  components: { cSinglesStatsItem },
   mixins: [page, layout, media, form],
-  components: { cSinglesStatsItem, cNextStep },
   computed: {
     ...mapState({
       locale: state => state.locale,
@@ -39,4 +38,6 @@ export default {
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
 // @import "@/styles/_mixins.sass";
+.c-page .c-main
+  height: 80%
 </style>

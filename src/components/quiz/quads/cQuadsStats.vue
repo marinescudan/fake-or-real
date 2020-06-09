@@ -31,12 +31,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cQuadsStatsItem from '@/components/quiz/quads/cQuadsStatsItem';
-import cNextStep from '@/components/input/cNextStep';
+import cQuadsStatsItem from './cQuadsStatsItem';
+
 export default {
   name:'cQuadsStats',
+  components: { cQuadsStatsItem },
   mixins: [page, layout, media, form],
-  components: { cQuadsStatsItem, cNextStep },
   computed: {
     ...mapState({
       locale: state => state.locale,

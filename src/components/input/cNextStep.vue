@@ -20,12 +20,11 @@
 
 <script>
 import { mapState } from 'vuex';
-import {page, layout, media, form} from '@/mixins/components';
-
+import cRow from '@/components/container/cRow.vue';
+import cCol from '@/components/container/cCol.vue';
 export default {
-  name:'NextStep',
-  mixins: [page, layout, media, form],
-  components: {  },
+  name:'cNextStep',
+  components: { cCol, cRow },
   props: {
     page: { type: String, required: true }
   },

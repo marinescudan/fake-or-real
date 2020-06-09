@@ -1,15 +1,16 @@
 <template>
     <figure class="c-figure" @keydown.esc="expand(false)">
       <div class="media-container">
-        <img class="media" :src="url_builder(src)" :alt="alt" :title="title" :width="width" :height="height"/>
+        <img class="media" :src="url_builder(src)" :alt="alt" :title="title" :style="style"/>
         <button @click.stop="expand(true)" class="expand-btn" type="button" v-if="expandable">&nbsp;</button>
       </div>
-
-      <div class="media-modal" v-if="expanded" @click.stop="">
-        <img class="media" :src="url_builder(src)" @click.stop=""/>
-        <button @click.stop="expand(false)" class="close-btn" type="button">&nbsp;</button>
-        <div class="backdrop" @click.stop="expand(false)"></div>
-      </div>
+      <transition name="fade">
+        <div class="media-modal" v-if="expanded" transition="expand" @click.stop="">
+          <img class="media" :src="url_builder(src)" @click.stop=""/>
+          <button @click.stop="expand(false)" class="close-btn" type="button">&nbsp;</button>
+          <div class="backdrop" @click.stop="expand(false)"></div>
+        </div>
+      </transition>
     </figure>
 </template>
 
@@ -21,9 +22,8 @@ export default {
     src: { type: String, required: true },
     alt: { type: String, required: false },
     title: { type: String,required: false },
-    width: { type: String, required: false, },
-    height: { type: String, required: false, },
     expandable: { type: Boolean, required: false, default: function (){return false;}},
+    namespace: { type: String, required: false, default: function (){return null;}},
   },
   data() {
       return { expanded: false }
@@ -31,10 +31,10 @@ export default {
   computed: {
     ...mapState({
       quiz: state => state.quiz,
-      item: state => state.quiz[this.itemIndex],
+      item: function (state) {return state.quiz[this.itemIndex];},
     }),
-    style: function(){
-      return `max-height: ${ this.item.hasText ? '50rem' : 'auto'}`;
+    style: function () {
+      return `max-height: ${ this.quiz && this.quiz[`${this.namespace}Text`] ? '50%' : 'auto'}`;
     }
   },
   methods: {
@@ -52,8 +52,12 @@ export default {
 @import "@/styles/_variables.sass";
 @import "@/styles/_mixins.sass";
 
+
 .c-figure
   position: relative
+  min-height: 15rem
+.fade-enter-active .c-figure
+  @include imageBackground
 
 .media-container
   .media
@@ -99,8 +103,8 @@ export default {
     height: 5rem
     background: $light url('~@/assets/img/icon-times.svg') center center no-repeat
     background-size: 2.5rem 2.5rem
-    border-radius: 2.5rem
-    border: 0.25rem solid $dark
+    border-radius: 50%
+    border: 2px solid $brand-grey
   .backdrop
     z-index: -1
     position: fixed

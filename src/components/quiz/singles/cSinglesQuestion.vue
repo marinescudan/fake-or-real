@@ -17,12 +17,12 @@
 <script>
 import { mapState } from 'vuex';
 import {page, layout, media, form} from '@/mixins/components';
-import cSinglesQuestionItem from '@/components/quiz/singles/cSinglesQuestionItem';
+import cSinglesQuestionItem from './cSinglesQuestionItem';
 
 export default {
   name:'cSinglesQuestion',
-  mixins: [page, layout, media, form],
   components: { cSinglesQuestionItem },
+  mixins: [page, layout, media, form],
   computed: {
     ...mapState({
       locale: state => state.locale,

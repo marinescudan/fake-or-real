@@ -7,21 +7,19 @@
 </template>
 
 <script>
-  import { mapState } from 'vuex';
-  import cQuadsExplanation from '@/components/quiz/quads/cQuadsExplanation';
-  import cDoublesExplanation from '@/components/quiz/doubles/cDoublesExplanation';
-  import cSinglesExplanation from '@/components/quiz/singles/cSinglesExplanation';
-  import {page} from '@/mixins/components.js';
-  export default {
-    name: 'question',
-    components: { cQuadsExplanation, cDoublesExplanation, cSinglesExplanation },
-    mixins: [page],
-    computed: {
-      ...mapState({
-        quiz: state => state.quiz
-      })
-    }
-  }
+import { mapState } from 'vuex';
+import cQuadsExplanation from '@/components/quiz/quads/cQuadsExplanation';
+import cDoublesExplanation from '@/components/quiz/doubles/cDoublesExplanation';
+import cSinglesExplanation from '@/components/quiz/singles/cSinglesExplanation';
+export default {
+  name: 'question',
+  components: { cQuadsExplanation, cDoublesExplanation, cSinglesExplanation },
+  computed: {
+    ...mapState({
+      quiz: state => state.quiz
+    })
+  },
+}
 </script>
 
 <style scoped lang="sass">

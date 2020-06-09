@@ -1,16 +1,11 @@
 <template>
   <div
     class="c-doubles-question-item frame pt2 pr2 pb2 pl2"  v-if="item"
-    v-bind:class="[ item.selected ? 'selected' : '' , item.fake ? 'fake' : 'real' ]"
+    v-bind:class="{'selected': item.selected}"
     v-on:click="$emit('itemSelected', itemIndex, !item.selected)">
       <c-row>
         <c-col v-bind:class="dinamicClass">
-          <c-figure
-            :src="item.question_media_url"
-            :alt="item.question_media_url"
-            :title="item.question_title"
-            :expandable="true"
-          ></c-figure>
+          <c-media-viewer :itemIndex="itemIndex" :namespace="'question'"></c-media-viewer>
         </c-col>
         <c-col class="c-w-6" v-if="showTextSection">
           <h3 v-if="item.question_title">{{item.question_title}}</h3>
@@ -22,11 +17,11 @@
 
 <script>
 import { mapState } from 'vuex';
-import {layout, media, form} from '@/mixins/components';
+import {page, layout, media, form} from '@/mixins/components';
 
 export default {
   name:'cDoublesQuestionItem',
-  mixins: [layout, media, form],
+  mixins: [page, layout, media, form],
   props: {
     itemIndex: { type: Number, required: true },
   },
@@ -40,8 +35,3 @@ export default {
   }
 }
 </script>
-
-<style scoped lang="sass">
-// @import "@/styles/_variables.sass";
-// @import "@/styles/_mixins.sass";
-</style>

@@ -26,13 +26,13 @@
 
 <script>
 import { mapState } from 'vuex';
-import {layout, media, form} from '@/mixins/components';
-import cSinglesExplanationItem from '@/components/quiz/singles/cSinglesExplanationItem';
-import cNextStep from '@/components/input/cNextStep';
+import {page, layout, media, form} from '@/mixins/components';
+import cSinglesExplanationItem from './cSinglesExplanationItem';
+
 export default {
   name:'cSinglesExplanation',
-  mixins: [layout, media, form],
-  components: { cSinglesExplanationItem, cNextStep },
+  components: { cSinglesExplanationItem },
+  mixins: [page, layout, media, form],
   computed: {
     ...mapState({
       locale: state => state.locale,
