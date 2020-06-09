@@ -30,11 +30,11 @@ items:
     explanation_media_url: "https://vimeo.com/425897203/a7c08816a8"
     stats_media_url: "https://vimeo.com/425897203/a7c08816a8"
     question_title: ""
-    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019."
+    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019, in which Pelosi appeared to be stammering and stuttering during a speech."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 ### This video is fake.
 
-The original video was slowed down to make it seem like Nancy Pelosi is slurring. Videos like this, which are doctored using basic editing techniques, are called "cheapfakes".
+The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
