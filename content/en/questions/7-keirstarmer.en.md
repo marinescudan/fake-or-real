@@ -17,7 +17,7 @@ question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Fake?"
 question_cta_real: "Real?"
-explanation_title: "Is This Video Fake Or Real"
+explanation_title: "Is this video fake or real"
 explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is this video fake or real?"
@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-This campaign video was made by The UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question. 
+This campaign video was made by the opposing UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question about Brexit on a morning news programme.
 
 In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 
 
