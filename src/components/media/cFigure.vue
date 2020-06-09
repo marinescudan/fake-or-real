@@ -1,7 +1,7 @@
 <template>
     <figure class="c-figure" @keydown.esc="expand(false)">
       <div class="media-container">
-        <img class="media" :src="url_builder(src)" :alt="alt" :title="title" :style="style"/>
+        <img class="media" :src="url_builder(src)" :alt="alt" :title="title" :style="figureStyle"/>
         <button @click.stop="expand(true)" class="expand-btn" type="button" v-if="expandable">&nbsp;</button>
       </div>
       <transition name="fade">
@@ -24,6 +24,7 @@ export default {
     title: { type: String,required: false },
     expandable: { type: Boolean, required: false, default: function (){return false;}},
     namespace: { type: String, required: false, default: function (){return null;}},
+    figureStyle: { type: String, required: false, default: function (){return '';}},
   },
   data() {
       return { expanded: false }
@@ -33,9 +34,6 @@ export default {
       quiz: state => state.quiz,
       item: function (state) {return state.quiz[this.itemIndex];},
     }),
-    style: function () {
-      return `max-height: ${ this.quiz && this.quiz[`${this.namespace}Text`] ? '50%' : 'auto'}`;
-    }
   },
   methods: {
     url_builder: function (url) {

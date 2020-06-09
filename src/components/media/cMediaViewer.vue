@@ -1,6 +1,6 @@
 <template>
   <div class="c-media-viewer">
-      <c-vimeo v-if="isVimeo" :videoId="media_url"></c-vimeo>
+      <c-vimeo v-if="isVimeo" :videoId="media_url" :options="vimeoOptions"></c-vimeo>
       <c-youtube v-if="isYoutube" :videoUrl="media_url"></c-youtube>
       <c-figure
         v-if="isImage"
@@ -9,6 +9,7 @@
         :alt="media_url"
         :title="item.explanation_title"
         :expandable="true"
+        :figureStyle="figureStyle"
         :namespace="namespace"
       ></c-figure>
   </div>
@@ -47,6 +48,34 @@ export default {
     isImage (){
       if (!this.isVimeo && !this.isYoutube) return true;
       return false;
+    },
+    figureStyle: function () {
+      let height;
+      if (this.quiz.items.length === 1) {height  = this.quiz[`${this.namespace}Text`] ? '100rem' : '100rem';}
+      if (this.quiz.items.length === 2) {height  = this.quiz[`${this.namespace}Text`] ? '100rem' : '100rem';}
+      if (this.quiz.items.length === 4) {height  = this.quiz[`${this.namespace}Text`] ? '30rem' : '30rem';}
+      return `max-height: ${ height }; min-height: 15rem`;
+    },
+    availableWidth: function (){ return ( this.$screen.width * 0.5625 ) >= this.$screen.height ? this.$screen.height / 0.5625 : this.$screen.width;},
+    availableHeight: function (){ return this.availableWidth * 0.5625;},
+    vimeoOptions (){
+      let options = {
+        responsive: false,
+        byline: false,
+        controls: true,
+        title: false,
+        dnt: true,
+      };
+      let exponent = 0;
+
+      if (this.quiz.items.length === 1 && this.namespace === 'question') exponent = 2.111;
+      if (this.quiz.items.length === 1 && this.namespace === 'explanation') exponent = 3.333;
+      if (this.quiz.items.length === 1 && this.namespace === 'stats') exponent = 3.333;
+
+      options.height = this.availableHeight / exponent;
+      options.width = this.availableWidth / exponent;
+
+      return options;
     },
   },
 }

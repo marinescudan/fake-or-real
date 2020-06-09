@@ -38,6 +38,4 @@ export default {
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
 // @import "@/styles/_mixins.sass";
-.c-page .c-main
-  height: 80%
 </style>

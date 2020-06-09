@@ -1,6 +1,5 @@
 <template>
   <c-row class="c-singles-question-item"  v-bind:class="{ 'submited' : submited}">
-    <span>asa</span>
     <c-col class="c-w-6">
       <c-media-viewer :itemIndex="itemIndex" :namespace="'question'"></c-media-viewer>
     </c-col>

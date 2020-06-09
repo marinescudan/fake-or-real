@@ -1,11 +1,11 @@
 <template>
-  <div class="c-vimeo aspect-ratio aspect-ratio--16x9">
+  <div class="c-vimeo aspect-ratio aspect-ratio--16x9" :class="{'player-loading': !playerReady}">
     <vue-vimeo-player
       ref="player"
       :video-id="videoId"
       :player-height="playerHeight"
       :player-width="playerWidth"
-      :options="{ responsive: true }"
+      :options="options"
       @ready="onReady"
     ></vue-vimeo-player>
   </div>
@@ -18,8 +18,8 @@ export default {
   components: { vueVimeoPlayer },
   data() {
       return {
-          playerReady: false
-      }
+          playerReady: false,
+      };
   },
   props: {
     videoId: {
@@ -87,6 +87,6 @@ export default {
 <style scoped lang="sass">
 // @import "@/styles/_variables.sass";
 @import "@/styles/_mixins.sass";
-.c-vimeo
+.c-vimeo.player-loading
   @include videoBackground
 </style>
