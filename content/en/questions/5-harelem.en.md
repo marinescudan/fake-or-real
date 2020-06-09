@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://vimeo.com/425865322/0b6101aa2a"
     stats_media_url: "https://vimeo.com/425865322/0b6101aa2a"
     question_title: ""
-    question_text: "This video went viral among Dutch users on platforms such as Tiktok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe."
+    question_text: "This video went viral among in the Netherlands on platforms such as TikTok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe, as evidence that grocery stores were being mobbed by shoppers stocking up on supplies."
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -41,4 +41,4 @@ The WhatsApp video of people crowding a shop was shared among residents of Haarl
 
 Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
 
-Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. 
+Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. Not only that, but their analysis allowed them to determine that the video was actually taken in 2011, before a special sale on PCs and mobile phones at the store.
