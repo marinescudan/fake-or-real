@@ -36,10 +36,10 @@ items:
     click_count: 0
 ---
 
-### The images in the tweet are real, but the information presented is very misleading.
+### The images in the tweet are real, but the information presented is misleading.
 
 The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
 
-Many people believed that the images provided evidence of clearer waters in central Venice, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
+Many people believed that the images provided evidence of clearer waters in central Venice as a result of the shutdown in Italy during the COVID-19 pandemic, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
 
 Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.
