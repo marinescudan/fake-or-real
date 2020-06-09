@@ -28,10 +28,16 @@ export default {
   },
   mounted () {
     this.toggleHTMLClass();
+
+    if (this.$route.query.loadRandom) this.setQueryParams('loadRandom');
+
+    if (this.$route.query.showStats) this.setQueryParams('showStats');
+
     let locale = JSON.parse(window.localStorage.getItem('locale'));
     if (!locale && this.$router.currentRoute.name !== 'setup') {
       this.$router.push({name: 'setup'});
     }
+
     if ( this.$router.currentRoute.params.uuid ) {
       this.setAppData({uuid: this.$router.currentRoute.params.uuid});
     } else {
@@ -45,6 +51,12 @@ export default {
     this.toggleHTMLClass();
   },
   methods: {
+    setQueryParams(query) {
+      localStorage.setItem(query, this.$route.query[query]);
+      let queries = JSON.parse(JSON.stringify(this.$route.query));
+      if(queries[query]) delete queries[query];
+      this.$router.replace({ query: queries });
+    },
     toggleHTMLClass() {
       let el  =  document.querySelector('html');
       el.classList.value.split(' ').forEach(each => el.classList.remove(each));

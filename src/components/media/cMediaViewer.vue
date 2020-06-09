@@ -50,24 +50,28 @@ export default {
       return false;
     },
     figureStyle: function () {
-      let height;
-      if (this.quiz.items.length === 1) {height  = this.quiz[`${this.namespace}Text`] ? '100rem' : '100rem';}
-      if (this.quiz.items.length === 2) {height  = this.quiz[`${this.namespace}Text`] ? '100rem' : '100rem';}
-      if (this.quiz.items.length === 4) {height  = this.quiz[`${this.namespace}Text`] ? '30rem' : '30rem';}
-      return `max-height: ${ height }; min-height: 15rem`;
+      let exponent;
+
+      if (this.quiz.items.length === 1) exponent = 10;
+
+      if (this.quiz.items.length === 2) {
+        exponent = 10;
+        if (this.namespace === 'question' && !this.quiz[`${this.namespace}Text`]) exponent  = 10;
+      }
+
+      if (this.quiz.items.length === 4) {
+        if (this.namespace === 'question') exponent  = this.quiz[`${this.namespace}Text`] ? 30 : 20;
+        if (this.namespace === 'explanation') exponent  = 40;
+        if (this.namespace === 'stats') exponent  = 30;
+      }
+      return `max-height: ${ this.availableHeight / exponent }rem; min-height: ${ 30 }rem;`;
     },
     availableWidth: function (){ return ( this.$screen.width * 0.5625 ) >= this.$screen.height ? this.$screen.height / 0.5625 : this.$screen.width;},
     availableHeight: function (){ return this.availableWidth * 0.5625;},
     vimeoOptions (){
-      let options = {
-        responsive: false,
-        byline: false,
-        controls: true,
-        title: false,
-        dnt: true,
-      };
-      let exponent = 0;
+      let options = { /*byline: false, title: false,*/ dnt: true };
 
+      let exponent = 0;
       if (this.quiz.items.length === 1 && this.namespace === 'question') exponent = 2.111;
       if (this.quiz.items.length === 1 && this.namespace === 'explanation') exponent = 3.333;
       if (this.quiz.items.length === 1 && this.namespace === 'stats') exponent = 3.333;

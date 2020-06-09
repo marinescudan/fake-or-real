@@ -10,7 +10,5 @@ page: "setup"
 keys:
     setup_choose_language: "setup_choose_language"
     setup_start_quiz: "setup_start_quiz"
-    setup_random_checkbox_lable: "setup_random_checkbox_lable"
-    setup_show_stats_lable: "setup_show_stats_lable"
 ---
 Setup page html is not displayed in the app yet.

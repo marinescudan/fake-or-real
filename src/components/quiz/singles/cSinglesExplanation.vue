@@ -37,7 +37,6 @@ export default {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
-      showStatsPageFlag: state => state.showStatsPageFlag,
     }),
   },
 }

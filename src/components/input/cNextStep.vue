@@ -35,9 +35,8 @@ export default {
     ...mapState({
       quiz: state => state.quiz,
       quizListLength: state => state.quizList.length,
-      showStatsPageFlag: state => state.showStatsPageFlag,
     }),
-    showStatsBtn: function(){return this.page != 'stats' && this.showStatsPageFlag},
+    showStatsBtn: function(){return this.page != 'stats' && JSON.parse(window.localStorage.getItem('showStats'))},
   },
   methods: {
     startQuiz: function () {
