@@ -30,13 +30,13 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     stats_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     question_title: ""
-    question_text: ""
+    question_text: "This video, showing men destroying a car with baseball bats, was posted on YouTube with a title that reads 'Angry immigrants attack a police car'."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 ### This is fake!
 
-The video is actually showing the filming of a movie, taken out of context and presented as immigrants vandalising a car. As it is posted in a blog that consistently publishes anti-immigrant posts, the audience of the blog might be people who are already primed to believe this misrepresentation. 
+The video was shared as evidence of so-called ‘migrant crime’ in Italy. But the video actually shows the filming of the 2015 Italian film ‘Mediterranea'. If you look closely, you can see members of the film crew holding up a microphone and a reflector.
 
-The link that leads to a YouTube video is also embedded in a channel that consistently pushes such false narratives. 
+The video was posted by anti-immigrant bloggers around the world, and has since been debunked, but it illustrates how easy it is to take video footage and present it out of context with a different headline to lead viewers to believe something other than what is actually shown in the original video.
