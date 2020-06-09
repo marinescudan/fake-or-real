@@ -39,4 +39,4 @@ items:
 
 The video is actually showing the filming of a movie, taken out of context and presented as immigrants vandalising a car. As it is posted in a blog that consistently publishes anti-immigrant posts, the audience of the blog might be people who are already primed to believe this misrepresentation. 
 
-The link that leads to a YouTube video is also embedded in a channel that consistently pushes such false narratives. Their use of the European Union logo in the YouTube channel also lends a certain legitimacy and encourages trust for many viewers.
+The link that leads to a YouTube video is also embedded in a channel that consistently pushes such false narratives. 
