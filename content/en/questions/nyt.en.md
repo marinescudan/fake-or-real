@@ -44,8 +44,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### Look closely at the two URLs.
+### The front page on the left is fake; the front page on the right is real.
 
-The “-se” part in the first image is unusual, and tells us that this is not the actual New York Times website. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL. 
+Although both covers at first glance appear to be real, look closely at the two URLs.
+
+The “.se” part of the URL in the left-hand image is unusual, and tells us that this is not the actual New York Times website. Misinformation is often made to look genuine but can be spotted if you can recognise that the logo or the URL of the news outlet is suspicious. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL.
 
 In addition, if you know about the Iraq conflict, you might have noticed that the headline was false.
