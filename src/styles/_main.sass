@@ -11,7 +11,7 @@ body
   margin: 0
   padding: 0
   overflow: hidden
-  background: $light
+  background: $background
 
 .app
   text-align: center
@@ -70,16 +70,10 @@ button.frame
 .correct
   color: $brand-green
   position: relative
-  // &::after
-  //   @include topCenter100
-  //   @include correctBackground
 
 .wrong
   color: $brand-red
   position: relative
-  // &::after
-  //   @include topCenter100
-  //   @include wrongBackground
 
 .fade-enter-active, .fade-leave-active
   @include transitionEffect
