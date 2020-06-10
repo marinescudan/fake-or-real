@@ -10,6 +10,15 @@ https://api.ttc.io/for/
 All content images must be uploaded to our CDN server in the directory `fake-or-real-news-edition` and are served like this:
 https://cdn.ttc.io/src/fake-or-real-news-edition/test.jpg
 Please do not add content images to GIT!
+
+## Hidden features
+The app supports the use of url query param feature flag enablement. The app reads and sets the faure the removes the query from the url. The app supports the folowing query flags:
+?showStats=<true|false> will display|hide the statistics page "/stats"
+?loadRandom=<true|false> will set if the questions should load in a ordarly fashion or randomly
+Ex:
+ - https://fake-or-real-news-edition.stg.ttc.io/#/?**showStats=true**
+ - https://fake-or-real-news-edition.stg.ttc.io/#/?**loadRandom=true**
+
 ## Localisation
 The localisation of the app is aquired by requesting from the json api server the the app interface message keys that are located in the ```./content/ex:<en>/ex:<finish.page.messages.en.md>``` for the english setup For more details see files:
 ```
