@@ -31,7 +31,6 @@
   outline: none
 
 @mixin frame
-  // border: 1.25rem solid transparent
   border: 10px solid transparent
   border-image: url('~@/assets/img/frame.svg') 40% round
   cursor: pointer
@@ -40,35 +39,27 @@
 
 @mixin frameFake
   background: $white
-  // border: 1.25rem solid $brand-red
   border: 9px solid $brand-red
   border-image: url('~@/assets/img/frame_fake.svg') 40% round
   cursor: pointer
-  box-shadow: 0 0 0.5rem rgba(0,0,0,0.3)
 
 @mixin frameReal
   background: $white
-  // border:  1.25rem solid $brand-green
   border:  10px solid $brand-green
   border-image: url('~@/assets/img/frame_real.svg') 40% round
   cursor: pointer
 
 @mixin frameSelected
   background: $white
-  // border:  1.25rem solid $dark
   border:  10px solid $dark
   border-image: url('~@/assets/img/frame_selected.svg') 40% round
   cursor: pointer
 
 @mixin imageBackground
-  // background: #221100 url('~@/assets/img/image_background.svg') top center no-repeat
-  // background: #221100 url('~@/assets/img/checkers_background.svg')
   background: #221100 url('~@/assets/img/ui-loader.gif') top center no-repeat
   background-size: cover
 
 @mixin videoBackground
-  // background: #221100 url('~@/assets/img/video_background.svg') top center no-repeat
-  // background-size: 100% 100%
   background: #221100 url('~@/assets/img/ui-loader.gif') top center no-repeat
   background-size: cover
 
