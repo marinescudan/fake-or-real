@@ -73,7 +73,7 @@ export default {
 
       let exponent = 0;
       if (this.quiz.items.length === 1 && this.namespace === 'question') exponent = 2.111;
-      if (this.quiz.items.length === 1 && this.namespace === 'explanation') exponent = 3.333;
+      if (this.quiz.items.length === 1 && this.namespace === 'explanation') exponent = 3.45;
       if (this.quiz.items.length === 1 && this.namespace === 'stats') exponent = 3.333;
 
       options.height = this.availableHeight / exponent;
