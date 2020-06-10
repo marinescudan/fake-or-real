@@ -72,9 +72,9 @@ export default {
   .c-header
     height: 23%
   .c-main
-    height: 63%
+    height: 67%
     width: 96%
   .c-footer
-    height: 14%
+    height: 10%
 
 </style>
