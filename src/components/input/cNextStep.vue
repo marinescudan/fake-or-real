@@ -40,7 +40,9 @@ export default {
   },
   methods: {
     startQuiz: function () {
+      this.$store.dispatch('setState', { key: 'isLoading', value: true });
       this.$store.dispatch('setQuiz', { loseCurrent: true }).then(()=>{
+        this.$store.dispatch('setState', { key: 'isLoading', value: false });
         this.$router.push({ path: `/question/${this.$store.state.quiz.uuid}` });
       });
     },
