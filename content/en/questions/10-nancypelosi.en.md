@@ -26,9 +26,9 @@ stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
-    question_media_url: "https://vimeo.com/425897203/a7c08816a8"
-    explanation_media_url: "https://vimeo.com/425897203/a7c08816a8"
-    stats_media_url: "https://vimeo.com/425897203/a7c08816a8"
+    question_media_url: "https://youtu.be/uRM7NUMe2vM"
+    explanation_media_url: "https://youtu.be/uRM7NUMe2vM"
+    stats_media_url: "https://youtu.be/uRM7NUMe2vM"
     question_title: ""
     question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019, in which Pelosi appeared to be stammering and stuttering during a speech."
     explanation_title: ""
