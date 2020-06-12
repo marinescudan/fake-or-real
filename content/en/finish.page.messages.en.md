@@ -10,8 +10,8 @@ page: "finish"
 keys:
     finish_goodbye_title: "Thanks"
     finish_cta_go_start: "Go to start"
-    finish_image_left_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/1.jpg"
-    finish_image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
-    finish_image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
+    finish_image_left_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-8694.jpg"
+    finish_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
+    finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
 ## It's been brief but **special**
