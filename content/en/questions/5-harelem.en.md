@@ -26,9 +26,9 @@ stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
-    question_media_url: "https://vimeo.com/425865322/0b6101aa2a"
-    explanation_media_url: "https://vimeo.com/425865322/0b6101aa2a"
-    stats_media_url: "https://vimeo.com/425865322/0b6101aa2a"
+    question_media_url: "https://youtu.be/jIjKIXQHHwg"
+    explanation_media_url: "https://youtu.be/jIjKIXQHHwg"
+    stats_media_url: "https://youtu.be/jIjKIXQHHwg"
     question_title: ""
     question_text: "This video went viral among in the Netherlands on platforms such as TikTok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe, as evidence that grocery stores were being mobbed by shoppers stocking up on supplies."
     explanation_title: ""
