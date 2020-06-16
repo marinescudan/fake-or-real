@@ -8,7 +8,7 @@ slug: "question"
 title: "Exemple 1"
 question_title: "Which of these politicians' tweets was removed from Twitter?"
 question_subtitle: ""
-question_submit_message_heading: "3 out of the 4 were removed"
+question_submit_message_heading: "1 out of the 4 were removed"
 question_submit_message_correct: "Correct"
 question_submit_message_wrong: "Wrong"
 question_single_result_message_real: "It is real"
@@ -64,4 +64,4 @@ items:
 ---
 ### All of these tweets provide false information.
 
-However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the others continue to be visible on Twitter.
+However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other tweets continue to be visible on the platform.
