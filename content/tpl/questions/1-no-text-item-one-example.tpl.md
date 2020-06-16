@@ -35,14 +35,15 @@ items:
     stats_title: ""
     click_count: 0
 ---
-##  The title of explanation goes in markdown
+#  H1 The title of explanation goes in markdown
+##  H2 The title of explanation goes in markdown
+###  H3 The title of explanation goes in markdown
 
-This is the text of the explanation. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus,  excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+This is the text of the explanation. You cas use [links](http://www.google.com) **bold** and *italics*. <span style="color: red;">Colored Text</span> is done with html sintax.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
+### Listum ipsum dashum
+- Animals
+- <span style="color: green;">Plants</span>
+   - Tree
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.

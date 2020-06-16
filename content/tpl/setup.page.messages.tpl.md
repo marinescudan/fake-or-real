@@ -11,4 +11,4 @@ keys:
     setup_choose_language: "setup_choose_language"
     setup_start_quiz: "setup_start_quiz"
 ---
-Setup page html is not displayed in the app yet.
+# Setup page html is not displayed in the app yet.

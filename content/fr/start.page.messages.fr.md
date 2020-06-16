@@ -16,4 +16,8 @@ keys:
     start_image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
     start_image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 ---
-Welcome message html
+# Welcome message html
+
+This is the text of the explanation. You cas use [links](http://www.google.com) **bold** and *italics*. <span style="color: purple;">Colored Text</span> is done with html sintax.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio modi maiores quasi sunt totam voluptatum mollitia corrupti veritatis id accusamus, excepturi accusantium eligendi minima molestiae eaque omnis cumque? Deleniti.
