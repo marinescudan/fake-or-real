@@ -15,3 +15,6 @@ keys:
     finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
 ## It's been brief but **special**
+
+For more info, please check out our Data Detox Kit chapter on Misinformation here: 
+https://datadetoxkit.org/en/wellbeing/misinformation
