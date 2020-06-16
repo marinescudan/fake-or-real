@@ -64,13 +64,13 @@ export default {
 @import "@/styles/_variables.sass";
 @import "@/styles/_mixins.sass";
 
-.footer-page
+.finish-page
   .c-header
-    height: 27%
+    height: 20%
   .c-main
-    height: 59%
-    width: 96%
+    height: 70%
+    width: 94%
   .c-footer
-    height: 14%
+    height: 10%
 
 </style>
