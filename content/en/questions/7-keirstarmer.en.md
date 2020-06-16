@@ -6,18 +6,18 @@ published: true
 project: "for"
 slug: "question"
 title: "Starmer - 7"
-question_title: "Is this video fake or real?"
+question_title: "Could this video be considered misinformation?"
 question_subtitle: "Decide whether this item is trustworthy or not"
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
 question_submit_message_wrong: "Wrong"
-question_single_result_message_real: "It is real"
-question_single_result_message_fake: "It is fake"
+question_single_result_message_real: "No"
+question_single_result_message_fake: "Yes"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
-question_cta_fake: "Fake?"
-question_cta_real: "Real?"
-explanation_title: "Is this video fake or real"
+question_cta_fake: "Yes"
+question_cta_real: "No"
+explanation_title: "Could this video be considered misinformation?"
 explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is this video fake or real?"
@@ -35,6 +35,8 @@ items:
     stats_title: ""
     click_count: 0
 ---
+## This can be considered misninformation
+
 This campaign video was made by the opposing UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question about Brexit on a morning news programme.
 
 In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 
