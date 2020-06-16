@@ -6,21 +6,21 @@ published: true
 project: "for"
 slug: "question"
 title: "Smashing car - Geller vid - 8"
-question_title: "Is this story fake or real?"
+question_title: "Is this story misinformation?"
 question_subtitle: "Decide whether this item is trustworthy or not"
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
 question_submit_message_wrong: "Wrong"
-question_single_result_message_real: "It is real"
-question_single_result_message_fake: "It is fake"
+question_single_result_message_real: "No"
+question_single_result_message_fake: "Yes"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
-question_cta_fake: "Fake?"
-question_cta_real: "Real?"
-explanation_title: "Is this story fake or real?"
+question_cta_fake: "Yes"
+question_cta_real: "No"
+explanation_title: "Is this story misinformation?"
 explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is This Item Fake Or Real"
+stats_title: "Is this story misinformation?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
 stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### This is fake!
+### This story can be considered misinformation!
 
 The video was shared as evidence of so-called ‘migrant crime’ in Italy. But the video actually shows the filming of the 2015 Italian film ‘Mediterranea'. If you look closely, you can see members of the film crew holding up a microphone and a reflector.
 
