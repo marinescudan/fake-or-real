@@ -6,21 +6,21 @@ published: true
 project: "for"
 slug: "question"
 title: "Harelem - 5"
-question_title: "Is this news story fake or real?"
+question_title: "Could this video be considered misinformation?"
 question_subtitle: ""
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
 question_submit_message_wrong: "Wrong"
-question_single_result_message_real: "It is real"
-question_single_result_message_fake: "It is fake"
+question_single_result_message_real: "Yes"
+question_single_result_message_fake: "No"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
-question_cta_fake: "Fake?"
-question_cta_real: "Real?"
-explanation_title: "Is this news story fake or real?"
+question_cta_fake: "Yes"
+question_cta_real: "No"
+explanation_title: "Could this video be considered misinformation?"
 explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this news story fake or real?"
+stats_title: "Could this video be considered misinformation?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
 stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The story is fake.
+### The video would be considered misinformation.
 
 The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
 
