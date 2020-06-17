@@ -1,6 +1,6 @@
 <template>
   <c-page>
-    <c-header>
+    <c-header class="divider">
       <h1>{{ quiz.explanation_title }}</h1>
       <h2>{{  quiz.explanation_subtitle  }}</h2>
     </c-header>

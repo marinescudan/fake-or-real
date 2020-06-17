@@ -1,6 +1,6 @@
 <template>
   <c-page class="finish-page" v-if="locale">
-    <c-header>
+    <c-header class="divider">
       <h1>{{ locale.finish_goodbye_title }}</h1>
     </c-header>
     <c-main>

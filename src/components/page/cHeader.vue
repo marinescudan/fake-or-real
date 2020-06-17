@@ -1,5 +1,5 @@
 <template>
-    <header class="c-header divider">
+    <header class="c-header">
       <slot></slot>
     </header>
 </template>

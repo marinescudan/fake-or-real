@@ -1,6 +1,6 @@
 <template>
   <c-page class="setup-page" v-if="locale">
-    <c-header>
+    <c-header class="divider">
       <h1>{{ locale.start_app_name }}</h1>
       <h2>{{ locale.start_app_version }}</h2>
     </c-header>

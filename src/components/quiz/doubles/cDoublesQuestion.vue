@@ -1,6 +1,6 @@
 <template>
   <c-page v-bind:class="{ 'submited' : submited}">
-    <c-header>
+    <c-header class="divider">
       <h1 class="pt5">{{ quiz.question_title }}</h1>
       <h2>{{ quiz.question_subtitle }}</h2>
     </c-header>

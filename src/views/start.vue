@@ -1,6 +1,6 @@
 <template>
   <c-page class="start-page">
-    <c-header>
+    <c-header class="divider">
       <h2>{{ locale.start_welcome_title }}</h2>
       <h1>{{ locale.start_app_name }}</h1>
       <h2>{{ locale.start_app_version }}</h2>
