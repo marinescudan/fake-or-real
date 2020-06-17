@@ -26,9 +26,9 @@ stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
-    question_media_url: "https://youtu.be/uRM7NUMe2vM"
-    explanation_media_url: "https://youtu.be/uRM7NUMe2vM"
-    stats_media_url: "https://youtu.be/uRM7NUMe2vM"
+    question_media_url: "https://tube.rebellion.global/videos/watch/2ad12b6b-bb53-473c-ad74-14eef02874b5?title=0&warningTitle=0&start="
+    explanation_media_url: "https://tube.rebellion.global/videos/watch/2ad12b6b-bb53-473c-ad74-14eef02874b5?title=0&warningTitle=0&start="
+    stats_media_url: "https://tube.rebellion.global/videos/watch/2ad12b6b-bb53-473c-ad74-14eef02874b5?title=0&warningTitle=0&start="
     question_title: ""
     question_text: "A video of Belgium’s prime minister Sophie Wilmès, in which she states that the “exploitation and destruction by humans of [the] natural environment” is directly linked to the mosy recent global epidemics, such as SARS, Ebola, Swine Flu and Covid-19"
     explanation_title: ""
