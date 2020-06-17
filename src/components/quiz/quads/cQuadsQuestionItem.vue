@@ -5,10 +5,10 @@
       v-bind:class="{'selected':item.selected}"
       v-on:click="$emit('itemSelected', itemIndex, !item.selected)">
       <c-row>
-        <c-col v-bind:class="[quiz.questionText ? 'c-w-5':'c-w-12']">
+        <c-col v-bind:class="[quiz.questionText ? 'c-w-4':'c-w-12']">
           <c-media-viewer :itemIndex="itemIndex" :namespace="'question'"></c-media-viewer>
         </c-col>
-        <c-col class="c-w-7" v-if="quiz.questionText">
+        <c-col class="c-w-8" v-if="quiz.questionText">
           <h3 v-if="item.question_title">{{item.question_title}}</h3>
           <p v-if="item.question_text">{{item.question_text}}</p>
         </c-col>

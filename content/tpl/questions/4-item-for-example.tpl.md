@@ -31,7 +31,7 @@ items:
     stats_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
     question_title: "items.question_title - This is the title of the item in question page"
     question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    explanation_title: "abcdefghijklmnopqrstuvxyzabcdefghij"
     stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 0
   - fake: false
@@ -40,7 +40,7 @@ items:
     stats_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
     question_title: "items.question_title - This is the title of the item in question page"
     question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    explanation_title: "abcdefghijklmnopqrstuvxyzabcdefghij"
     stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 0
   - fake: true
@@ -49,7 +49,7 @@ items:
     stats_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
     question_title: "items.question_title - This is the title of the item in question page"
     question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    explanation_title: "abcdefghijklmnopqrstuvxyzabcdefghij"
     stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 0
   - fake: false
@@ -58,7 +58,7 @@ items:
     stats_media_url: "https://cdn\.ttc\.io/i/fit/720/0/sm/0/plain/fake-or-real-news-edition/2.jpg"
     question_title: "items.question_title - This is the title of the item in question page"
     question_text: "items.question_text - The text of the item Ad est laborum autem ullam explicabo voluptatem corporis illum eaque consectetur magni quo deserunt?"
-    explanation_title: "items.explanation_title - This is the title of the item in explanation page"
+    explanation_title: "abcdefghijklmnopqrstuvxyzabcdefghij"
     stats_title: "items.stats_title - This is the title of the item in stats page"
     click_count: 0
 ---

@@ -87,9 +87,21 @@
   transition: all .25s ease-in
   transition-delay: .05s
 
+@mixin modalContainer
+  background: $white
+  box-shadow: 0rem 0rem 10rem 0rem rgba(0, 0, 0, 0.2)
+  border-radius: 0.5rem
+  border: 2px
+
+@mixin border
+  border: 2px solid $brand-grey
+
 @mixin fillContainer
   top: 0
   right: 0
   bottom: 0
   left: 0
 
+@mixin timesBackground
+  background: $light url('~@/assets/img/icon-times.svg') center center no-repeat
+  background-size: 2.5rem 2.5rem

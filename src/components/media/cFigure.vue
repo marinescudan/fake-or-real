@@ -89,7 +89,7 @@ export default {
   max-height: 96vh
   top: calc(50% - 50rem)
   left: calc(50% - 50rem)
-  background: $dark
+  @include modalContainer
   .media
     width: 100%
   .close-btn
@@ -99,10 +99,9 @@ export default {
     right: -2.5rem
     width: 5rem
     height: 5rem
-    background: $light url('~@/assets/img/icon-times.svg') center center no-repeat
-    background-size: 2.5rem 2.5rem
     border-radius: 50%
-    border: 2px solid $brand-grey
+    @include timesBackground
+    @include border
   .backdrop
     z-index: -1
     position: fixed

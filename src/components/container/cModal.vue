@@ -47,7 +47,6 @@ export default {
   height: 100%
 
 .content
-  background: white
   position: relative
   z-index: 1
   height: 80rem
@@ -55,12 +54,11 @@ export default {
   width: 140rem
   left: calc(50% - 70rem)
   padding: 4rem
-  box-shadow: 1rem 1.25rem 2.5rem rgb(0, 0, 0)
-  border-radius: 0.5rem
   display: flex
   flex-direction: column
   align-items: center
   justify-content: center
+  @include modalContainer
   @include transitionEffect
 
 .modal.hide
