@@ -56,7 +56,7 @@ export default {
     return {
       submited: false,
       selectedFakeNumber: 0,
-      showModal: false,
+      showModal: false
     };
   },
   computed: {
@@ -70,8 +70,8 @@ export default {
           if (each.fake) counter++
         });
         return counter;
-      },
-    }),
+      }
+    })
   },
   methods: {
     saveSelection: function (itemIndex, selected) {

@@ -20,14 +20,14 @@ export default {
   name:'cQuadsExplanationItem',
   mixins: [page, layout, media, form],
   props: {
-    itemIndex: { type: Number, required: true },
+    itemIndex: { type: Number, required: true }
   },
   computed: {
     ...mapState({
       locale: state => state.locale,
       quiz: state => state.quiz,
-      item: function () {return this.quiz.items[this.itemIndex]},
-    }),
-  },
+      item: function () {return this.quiz.items[this.itemIndex]}
+    })
+  }
 }
 </script>

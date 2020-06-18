@@ -45,18 +45,18 @@ export default {
   computed: {
     ...mapState({
       quiz: state => state.quiz,
-      locale: state => state.locale,
+      locale: state => state.locale
     }),
     image_left_url: function(){ return this.locale.finish_image_left_url },
     image_center_url: function(){ return this.locale.finish_image_center_url },
-    image_right_url: function(){ return this.locale.finish_image_right_url },
+    image_right_url: function(){ return this.locale.finish_image_right_url }
   },
   created () {
     let tempArray = JSON.parse(JSON.stringify(this.$store.state.quizListBackup));
     this.$store.dispatch('setState', { key: 'quizList', value: tempArray}).then(()=>{
       this.$store.dispatch('setQuiz', { loseCurrent: false });
     });
-  },
+  }
 }
 </script>
 

@@ -7,6 +7,6 @@ export default {
         cNextStep,
         cButton,
         cLink,
-        cInputLocale,
+        cInputLocale
     }
 };

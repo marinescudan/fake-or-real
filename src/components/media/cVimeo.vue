@@ -18,7 +18,7 @@ export default {
   components: { vueVimeoPlayer },
   data() {
       return {
-          playerReady: false,
+          playerReady: false
       };
   },
   props: {
@@ -59,27 +59,27 @@ export default {
       type: Boolean,
       default: function () {	return true },
       required:  false
-    },
+    }
   },
   methods: {
     onReady() {
-        this.playerReady = true
+      this.playerReady = true;
     },
     play () {
-        this.$refs.player.play()
+      this.$refs.player.play();
     },
     pause () {
-        this.$refs.player.pause()
+      this.$refs.player.pause();
     },
     mute () {
-        this.$refs.player.mute()
+      this.$refs.player.mute();
     },
     unmute () {
-        this.$refs.player.unmute()
+      this.$refs.player.unmute();
     },
     update (videoID) {
-        this.$refs.player.update(videoID)
-    },
+      this.$refs.player.update(videoID);
+    }
   }
 }
 </script>

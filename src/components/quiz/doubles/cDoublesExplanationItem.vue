@@ -20,13 +20,13 @@ export default {
   name:'cDoublesExplanationItem',
   mixins: [page, layout, media, form],
   props: {
-    itemIndex: { type: Number, required: true },
+    itemIndex: { type: Number, required: true }
   },
   computed: {
     ...mapState({
-      quiz: state => state.quiz,
+      quiz: state => state.quiz
     }),
-    item: function () {return this.quiz.items[this.itemIndex]},
-  },
+    item: function () {return this.quiz.items[this.itemIndex]}
+  }
 }
 </script>

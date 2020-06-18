@@ -7,6 +7,6 @@ export default {
         cFigure,
         cVimeo,
         cYoutube,
-        cMediaViewer,
+        cMediaViewer
     }
 };

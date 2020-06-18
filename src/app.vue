@@ -20,29 +20,28 @@ export default {
       localisationLoaded: state => state.localisationLoaded,
       i18n_messages: state => state.i18n_messages,
       dataLoaded: state => state.dataLoaded,
-      err: state => state.err,
+      err: state => state.err
     }),
     availableWidth: function (){ return ( this.$screen.width * 0.5625 ) >= this.$screen.height ? this.$screen.height / 0.5625 : this.$screen.width;},
     html_class: function (){ return [ `scale-${Math.floor(this.availableWidth / 1920 * 100) }` ]},
-    app_style: function (){ return `height: ${ this.availableWidth * 0.5625 }px; width: ${this.availableWidth}px;`; },
+    app_style: function (){ return `height: ${ this.availableWidth * 0.5625 }px; width: ${this.availableWidth}px;`; }
   },
   mounted () {
+    let isSetupPage = this.$router.currentRoute.name === 'setup';
+    let storedLocale = JSON.parse(localStorage.getItem('locale'));
+
+    let queryLocale = this.$route.query.locale;
+    let loadRandom = this.$route.query.loadRandom;
+    let showStats = this.$route.query.showStats;
+
+    if (!isSetupPage && !storedLocale && !queryLocale) this.$router.push({name: 'setup'});
+
+    if (queryLocale) this.setQueryParams('locale');
+    if (loadRandom) this.setQueryParams('loadRandom');
+    if (showStats) this.setQueryParams('showStats');
+
     this.toggleHTMLClass();
-
-    if (this.$route.query.loadRandom) this.setQueryParams('loadRandom');
-
-    if (this.$route.query.showStats) this.setQueryParams('showStats');
-
-    let locale = JSON.parse(window.localStorage.getItem('locale'));
-    if (!locale && this.$router.currentRoute.name !== 'setup') {
-      this.$router.push({name: 'setup'});
-    }
-
-    if ( this.$router.currentRoute.params.uuid ) {
-      this.setAppData({uuid: this.$router.currentRoute.params.uuid});
-    } else {
-      this.setAppData({uuid: null});
-    }
+    this.setAppData({uuid: queryLocale ? null : this.$router.currentRoute.params.uuid || null});
   },
   updated () {
     this.toggleHTMLClass();
@@ -52,7 +51,7 @@ export default {
   },
   methods: {
     setQueryParams(query) {
-      localStorage.setItem(query, this.$route.query[query]);
+      localStorage.setItem(query, JSON.stringify(this.$route.query[query]));
       let queries = JSON.parse(JSON.stringify(this.$route.query));
       if(queries[query]) delete queries[query];
       this.$router.replace({ query: queries });

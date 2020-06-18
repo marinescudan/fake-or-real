@@ -7,6 +7,6 @@ export default {
         cPage,
         cHeader,
         cMain,
-        cFooter,
+        cFooter
     }
 };

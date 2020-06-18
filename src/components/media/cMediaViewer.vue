@@ -29,7 +29,7 @@ export default {
   },
   computed: {
     ...mapState({
-      quiz: state => state.quiz,
+      quiz: state => state.quiz
     }),
     item: function () {
       return this.quiz.items[this.itemIndex];
@@ -80,8 +80,8 @@ export default {
       options.width = this.availableWidth / exponent;
 
       return options;
-    },
-  },
+    }
+  }
 }
 </script>
 

@@ -36,18 +36,18 @@ export default {
   computed: {
     ...mapState({
       quiz: state => state.quiz,
-      locale: state => state.locale,
+      locale: state => state.locale
     }),
     image_left_url: function(){return this.locale.start_image_left_url},
     image_center_url: function(){return this.locale.start_image_center_url},
-    image_right_url: function(){return this.locale.start_image_right_url},
+    image_right_url: function(){return this.locale.start_image_right_url}
   },
   methods: {
     setupQuiz: function () {
       this.$store.dispatch('setQuiz', {loseCurrent: false}).then(()=>{
         this.$router.push({ path: 'question' });
       });
-    },
+    }
   }
 }
 </script>

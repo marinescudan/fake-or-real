@@ -43,9 +43,9 @@ export default {
   computed: {
     ...mapState({
       locale: state => state.locale,
-      quiz: state => state.quiz,
-    }),
-  },
+      quiz: state => state.quiz
+    })
+  }
 }
 </script>
 

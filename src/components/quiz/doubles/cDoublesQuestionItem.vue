@@ -23,15 +23,15 @@ export default {
   name:'cDoublesQuestionItem',
   mixins: [page, layout, media, form],
   props: {
-    itemIndex: { type: Number, required: true },
+    itemIndex: { type: Number, required: true }
   },
   computed: {
     ...mapState({
-      quiz: state => state.quiz,
+      quiz: state => state.quiz
     }),
     item: function () { return this.quiz.items[this.itemIndex]},
     dinamicClass: function () { return this.showTextSection ? 'c-w-6':'c-w-12'; },
-    showTextSection: function () { return  this.item.question_title || this.item.question_text ? true : false;},
+    showTextSection: function () { return  this.item.question_title || this.item.question_text ? true : false;}
   }
 }
 </script>

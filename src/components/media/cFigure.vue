@@ -24,7 +24,7 @@ export default {
     title: { type: String,required: false },
     expandable: { type: Boolean, required: false, default: function (){return false;}},
     namespace: { type: String, required: false, default: function (){return null;}},
-    figureStyle: { type: String, required: false, default: function (){return '';}},
+    figureStyle: { type: String, required: false, default: function (){return '';}}
   },
   data() {
       return { expanded: false }
@@ -32,8 +32,8 @@ export default {
   computed: {
     ...mapState({
       quiz: state => state.quiz,
-      item: function (state) {return state.quiz[this.itemIndex];},
-    }),
+      item: function (state) {return state.quiz[this.itemIndex];}
+    })
   },
   methods: {
     url_builder: function (url) {
@@ -41,8 +41,8 @@ export default {
     },
     expand: function (bool) {
       this.expanded = bool;
-    },
-  },
+    }
+  }
 }
 </script>
 

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { getIdFromUrl } from 'vue-youtube'
+import { getIdFromUrl } from 'vue-youtube';
 export default {
   name:'cYoutube',
   data: function () {
@@ -19,7 +19,7 @@ export default {
         autoplay: false,
         resize: true,
         fitParent: true,
-        resizeDelay: 1200,
+        resizeDelay: 1200
       }
     };
   },
@@ -28,14 +28,14 @@ export default {
       type: String,
       default: function () { return undefined },
       required:  true
-    },
+    }
   },
   computed: {
     videoID() {
       return getIdFromUrl(this.videoUrl);
     }
   }
-}
+};
 </script>
 
 <style scoped lang="sass">

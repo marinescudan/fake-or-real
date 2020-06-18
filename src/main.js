@@ -14,7 +14,7 @@ Vue.use(VueAxios, axios);
 
 Vue.use(VueScreen, {
   xs: 0, sm: 640, md: 960, lg: 1280, xl: 1600, xxl: 1920,
-  breakpointsOrder: ["xs", "sm", "md", "lg", "xl", "xxl"],
+  breakpointsOrder: ["xs", "sm", "md", "lg", "xl", "xxl"]
 });
 
 Vue.config.productionTip = false;

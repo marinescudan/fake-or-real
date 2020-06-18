@@ -5,6 +5,6 @@ export default {
     components: {
         cModal,
         cRow,
-        cCol,
+        cCol
     }
 };

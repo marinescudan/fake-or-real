@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     ...mapState({
-      i18n_messages: state => state.i18n_messages,
+      i18n_messages: state => state.i18n_messages
     }),
     userLocale: function () {
       return this.locale || JSON.parse(localStorage.getItem('locale'));

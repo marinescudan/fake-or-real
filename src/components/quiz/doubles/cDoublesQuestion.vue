@@ -56,7 +56,7 @@ export default {
       submited: false,
       correct: false,
       hasSelection: false,
-      showModal: false,
+      showModal: false
     };
   },
   computed: {
@@ -73,7 +73,7 @@ export default {
         }
       });
       return  hasText;
-    },
+    }
   },
   methods: {
     saveSelection (itemIndex, selected) {
