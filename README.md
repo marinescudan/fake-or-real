@@ -13,11 +13,13 @@ Please do not add content images to GIT!
 
 ## Hidden features
 The app supports the use of url query param feature flag enablement. The app reads and sets the faure the removes the query from the url. The app supports the folowing query flags:
-?showStats=<true|false> will display|hide the statistics page "/stats"
-?loadRandom=<true|false> will set if the questions should load in a ordarly fashion or randomly
+?showStats=<true|false> will display|hide the statistics page "/stats".
+?loadRandom=<true|false> will set if the questions should load in a ordarly fashion or randomly.
+?locale=<en> will set the app locale it the locale is in locales.
 Ex:
  - https://fake-or-real-news-edition.stg.ttc.io/#/?**showStats=true**
  - https://fake-or-real-news-edition.stg.ttc.io/#/?**loadRandom=true**
+ - https://fake-or-real-news-edition.stg.ttc.io/#/?**locale=en**
 
 ## Localisation
 The localisation of the app is aquired by requesting from the json api server the the app interface message keys that are located in the ```./content/ex:<en>/ex:<finish.page.messages.en.md>``` for the english setup For more details see files:
