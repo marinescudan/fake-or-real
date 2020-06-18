@@ -12,7 +12,7 @@ keys:
   start_app_name: "FAKE or REAL?"
   start_app_version: "Misinformation Edition"
   start_cta_go_question_: "Ready to play?"
-  start_image_left_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-8694.jpg"
+  start_image_left_url: "https://cdn.ttc.io/i/fit/330/0/sm/0/plain/s/fake-or-real-app/nikoline_nik_-8694.jpg"
   start_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
   start_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
