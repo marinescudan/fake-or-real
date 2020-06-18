@@ -16,5 +16,5 @@ keys:
 ---
 ## It's been brief but **special**
 
-For more info, please check out our Data Detox Kit chapter on Misinformation here: 
-https://datadetoxkit.org/en/wellbeing/misinformation
+For more info, please check out our Data Detox Kit chapter on 
+[Misinformation here](https://datadetoxkit.org/en/wellbeing/misinformation)
