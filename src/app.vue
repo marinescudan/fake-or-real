@@ -23,7 +23,7 @@ export default {
       err: state => state.err
     }),
     availableWidth: function (){ return ( this.$screen.width * 0.5625 ) >= this.$screen.height ? this.$screen.height / 0.5625 : this.$screen.width;},
-    html_class: function (){ return [ `scale-${Math.floor(this.availableWidth / 1920 * 100) }` ]},
+    html_class: function (){ return ["scale-" + Math.floor(this.availableWidth / 1920 * 100), "h-100"]; },
     app_style: function (){ return `height: ${ this.availableWidth * 0.5625 }px; width: ${this.availableWidth}px;`; }
   },
   mounted () {
@@ -58,7 +58,8 @@ export default {
     },
     toggleHTMLClass() {
       let el  =  document.querySelector('html');
-      el.classList.value.split(' ').forEach(each => el.classList.remove(each));
+      let classList = el.classList.value ? el.classList.value.split(' ') : el.classList;
+      classList.forEach(each => el.classList.remove(each));
       this.html_class.forEach(each => el.classList.add(each));
     },
     setAppData: function (config={}) {
@@ -89,5 +90,5 @@ export default {
 </script>
 
 <style lang="sass">
-@import "@/styles/_main.sass"
+@import "@/styles/_style.sass"
 </style>

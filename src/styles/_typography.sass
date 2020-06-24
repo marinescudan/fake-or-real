@@ -1,6 +1,15 @@
 @import _variables
 @import _mixins
 
+html,
+body
+  font-size: 16px
+
+@for $i from 1 through 100
+  html.scale-#{$i},
+  html.scale-#{$i} body
+    font-size: calc(100% * #{$i / 100} / 2)
+
 @mixin h1
   font-size: 9rem
   letter-spacing: 0.1rem
@@ -24,13 +33,6 @@
   font-family: 'Jost400Book'
   text-align: left
   font-weight: 400
-
-html
-  font-size: 16px
-
-@for $i from 1 through 100
-  html.scale-#{$i}
-    font-size: calc(100% * #{$i / 100} / 2)
 
 h1
   color: $forground
