@@ -4,7 +4,7 @@ locale: tpl
 locale_for_humans: "Template"
 contentType: "app_interface"
 slug: "localisation"
-published: true
+published: false
 project: "for"
 page: "finish"
 keys:
