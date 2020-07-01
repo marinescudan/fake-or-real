@@ -49,4 +49,4 @@ items:
 
 Memes are effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster.
 
-"The meme on the left implies that China was responsible for releasing the coronavirus, a theory that has not been backed up with evidence.
+The meme on the left implies that China was responsible for releasing the coronavirus, a theory that has not been backed up with evidence.
