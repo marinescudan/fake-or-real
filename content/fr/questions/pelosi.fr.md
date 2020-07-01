@@ -1,13 +1,13 @@
 ---
-uuid: 857b5062-a777-11e5-bf7f-feff819cdc9f
+uuid: 857b4324-a777-11e5-bf7f-feff819cdc9f
 locale: en
 date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Nancy Pelosi - 10"
+title: "Harelem - 5"
 question_title: "Could this video be considered misinformation?"
-question_subtitle: "Decide whether this item is trustworthy or not"
+question_subtitle: ""
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
 question_submit_message_wrong: "Wrong"
@@ -26,16 +26,19 @@ stats_cta_go_again: "Next Question"
 stats_cta_go_finish: "Restart Game"
 items:
   - fake: true
-    question_media_url: "https://youtu.be/uRM7NUMe2vM"
-    explanation_media_url: "https://youtu.be/uRM7NUMe2vM"
-    stats_media_url: "https://youtu.be/uRM7NUMe2vM"
+    question_media_url: "https://youtu.be/jIjKIXQHHwg"
+    explanation_media_url: "https://youtu.be/jIjKIXQHHwg"
+    stats_media_url: "https://youtu.be/jIjKIXQHHwg"
     question_title: ""
-    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019, in which Pelosi appeared to be stammering and stuttering during a speech."
+    question_text: "This video went viral among in the Netherlands on platforms such as TikTok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe, as evidence that grocery stores were being mobbed by shoppers stocking up on supplies."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video can be considered misinformation.
+### The video would be considered misinformation.
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
+The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
 
+Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
+
+Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. Not only that, but their analysis allowed them to determine that the video was actually taken in 2011, before a special sale on PCs and mobile phones at the store.
