@@ -1,5 +1,5 @@
 ---
-uuid: f4938728-4b21-47a1-819b-7d505b2e062c
+uuid: 0fad13ef-55f4-4307-922f-ed77015e4582
 locale: fr
 locale_for_humans: "France"
 contentType: "app_interface"
