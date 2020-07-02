@@ -1,7 +1,7 @@
 ---
 uuid: b714cb0a-e4eb-4975-8eaa-289f50b0516f
 locale: fr
-locale_for_humans: "France"
+locale_for_humans: "Français"
 contentType: "app_interface"
 slug: "localisation"
 published: false
