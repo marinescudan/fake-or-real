@@ -1,7 +1,7 @@
 ---
-uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: en
-locale_for_humans: "English"
+uuid: 4a423884-ec9a-484a-919a-7a8f497c081c
+locale: it
+locale_for_humans: "Italiano"
 contentType: "app_interface"
 slug: "localisation"
 published: true
