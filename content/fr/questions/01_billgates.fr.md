@@ -1,5 +1,5 @@
 ---
-uuid: 1c936105-9716-489e-8364-532d436cb27d
+uuid: d15aedd8-6a6e-4f2e-8b8b-5d43ead0bc72
 locale: fr
 date: 2016-03-12T00:00:00.000Z
 published: true
