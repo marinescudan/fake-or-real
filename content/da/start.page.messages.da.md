@@ -1,7 +1,7 @@
 ---
-uuid: f4938728-4b21-47a1-819b-7d505b2e062c
-locale: en
-locale_for_humans: "English"
+uuid: c7f64a99-3557-4011-8a13-aaaa3e7cf2f7
+locale: da
+locale_for_humans: "Dansk"
 contentType: "app_interface"
 slug: "localisation"
 published: true
