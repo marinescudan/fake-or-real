@@ -5,7 +5,7 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Harelem - 5"
+title: "Aldi - 5"
 question_title: "Could this video be considered misinformation?"
 question_subtitle: ""
 question_submit_message_heading: "You selected"
