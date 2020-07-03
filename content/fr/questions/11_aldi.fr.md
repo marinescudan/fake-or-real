@@ -5,14 +5,14 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Harelem - 5"
+title: "aldi - 5"
 question_title: "Could this video be considered misinformation?"
 question_subtitle: ""
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misinformation"
-question_single_result_message_fake: "It is misinformation"
+question_single_result_message_fake: "C'est de la désinformation"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Yes"
@@ -35,11 +35,11 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The video would be considered misinformation.
+### La vidéo serait considérée comme de la désinformation.
 
-The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
+La vidéo de WhatsApp montrant des gens s'entassant dans un magasin a été partagée entre les habitants de Haarlem aux Pays-Bas. La vidéo a ensuite été diffusée sur TikTok et visionnée plus de quatre millions de fois. 
 
-Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
+Elle a eu pour effet de semer la panique en laissant entendre que les épiceries manquaient de produits de première nécessité. 
 
-Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. Not only that, but their analysis allowed them to determine that the video was actually taken in 2011, before a special sale on PCs and mobile phones at the store.
+Cependant, en regardant de près, vous pouvez constater que cette vidéo ne provient pas du tout des Pays-Bas. Le panneau à gauche sur l'image est en allemand, et non en néerlandais. De plus, après avoir remarqué les lettres à droite de l'image, les enquêteurs de Bellingcat, qui ont démystifié la vidéo, ont cherché "FBI store" en allemand et ont découvert que FBI est une chaîne de coiffeurs en Allemagne. De plus, leur analyse leur a permis de déterminer que la vidéo avait en fait été prise en 2011, avant une vente spéciale sur les PC et les téléphones portables dans le magasin.
 

@@ -6,11 +6,11 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Which of these items are spreading misinformation about coronavirus?"
+question_title: "Lesquelles de ces informations sur le Coronavirus sont fausses?"
 question_subtitle: ""
 question_submit_message_heading: "Choose which item you think is false or misleading"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is not misinformation"
 question_single_result_message_fake: "It is misinformation"
 question_cta_go_explanation: "Check"
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     question_title: ""
-    question_text: "A meme that suggests China released the coronavirus"
+    question_text: "Mème faisant du Coronavirus une arme biologique chinoise"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,15 +39,15 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     question_title: ""
-    question_text: "A news article that suggests blood plasma could help cure coronavirus"
+    question_text: "Un article de presse qui suggère que le plasma sanguin pourrait aider à guérir le coronavirus"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 
-### The news story on blood plasma is genuine.
+### L'article sur le plasma sanguin est authentique.
 
-Memes are effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster.
+Les mèmes sont également des vecteurs de désinformation très efficaces, par leur ton léger et leur humour qui prend souvent le pas sur leur sens. Ils sont de plus très faciles à partager et circulent ainsi beaucoup plus rapidement.
 
-The meme on the left implies that China was responsible for releasing the coronavirus, a theory that has not been backed up with evidence.
+Le mème de gauche implique que la Chine est responsable de la libération du coronavirus, une théorie qui n'a pas été étayée par des preuves.
 

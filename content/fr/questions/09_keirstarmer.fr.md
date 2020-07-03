@@ -10,9 +10,9 @@ question_title: "Could this video be considered misinformation?"
 question_subtitle: "Decide whether this item is trustworthy or not"
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misinformation"
-question_single_result_message_fake: "It is misinformation"
+question_single_result_message_fake: "C'est de la désinformation"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Yes"
@@ -35,11 +35,11 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## This can be considered misninformation
+## Cela peut être considéré comme de la désinformation
 
-This campaign video was made by the opposing UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question about Brexit on a morning news programme.
+Cette vidéo de campagne a été réalisée par le parti conservateur britannique opposé pour montrer l'homme politique travailliste Keir Starmer apparemment incapable de répondre à une simple question sur Brexit lors d'une émission d'information matinale.
 
-In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 
+Dans l'interview elle-même, Keir Stramer a répondu rapidement ; la vidéo a été montée de manière trompeuse. De plus en plus, les campagnes de tous les types de partis politiques utilisent des "faux bon marché", des techniques simples comme celle-ci pour présenter leurs adversaires sous un faux jour. 
 
-On social media these campaign videos are often not checked,  and unlike with a newspaper or TV advert, there is rarely any penalty when they are found out.
+Sur les médias sociaux, ces vidéos de campagne ne sont souvent pas vérifiées et, contrairement à ce qui se passe avec une publicité dans les journaux ou à la télévision, il est rare qu'une sanction soit prise lorsqu'elles sont découvertes.
 

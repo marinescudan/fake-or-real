@@ -10,9 +10,9 @@ question_title: "Is this story misinformation?"
 question_subtitle: "Decide whether this item is trustworthy or not"
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misinformation"
-question_single_result_message_fake: "It is misinformation"
+question_single_result_message_fake: "C'est de la désinformation"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Yes"
@@ -35,9 +35,9 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### This story can be considered misinformation!
+### Cette histoire peut être considérée comme de la désinformation !
 
-The video was shared as evidence of so-called ‘migrant crime’ in Italy. But the video actually shows the filming of the 2015 Italian film ‘Mediterranea'. If you look closely, you can see members of the film crew holding up a microphone and a reflector.
+La vidéo a été partagée comme preuve de ce que l'on appelle la "criminalité des migrants" en Italie. Mais la vidéo montre en fait le tournage du film italien "Mediterranea" en 2015. Si vous regardez attentivement, vous pouvez voir des membres de l'équipe de tournage tenant un microphone et un réflecteur.
 
-The video was posted by anti-immigrant bloggers around the world, and has since been debunked, but it illustrates how easy it is to take video footage and present it out of context with a different headline to lead viewers to believe something other than what is actually shown in the original video.
+La vidéo a été publiée par des blogueurs anti-immigrants du monde entier et a depuis été démystifiée, mais elle montre à quel point il est facile de prendre des images vidéo et de les présenter hors contexte avec un titre différent pour amener les spectateurs à croire autre chose que ce qui est réellement montré dans la vidéo originale.
 

@@ -10,7 +10,7 @@ question_title: "Which of these politicians' tweets was removed from Twitter?"
 question_subtitle: ""
 question_submit_message_heading: "1 out of the 4 were removed"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is real"
 question_single_result_message_fake: "It is fake"
 question_cta_go_explanation: "Check"
@@ -62,7 +62,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### All of these tweets provide false information.
+### Tous ces tweets fournissent de fausses informations.
 
-However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other tweets continue to be visible on the platform.
+Cependant, un seul d'entre eux, le tweet de Bolsonaro, a été retiré par Twitter, tandis que les autres tweets continuent à être visibles sur la plateforme.
 

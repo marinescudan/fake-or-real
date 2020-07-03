@@ -10,9 +10,9 @@ question_title: "Is the image in the tweet misleading?"
 question_subtitle: ""
 question_submit_message_heading: "You chose"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misleading"
-question_single_result_message_fake: "It is misleading"
+question_single_result_message_fake: "Il est trompeur"
 question_cta_go_explanation: "Check"
 question_cta_help: "Click one of the options below!"
 question_cta_fake: "Yes"
@@ -36,11 +36,11 @@ items:
     click_count: 0
 ---
 
-### The images in the tweet are real, but the information presented is misleading.
+### Les images contenues dans le tweet sont réelles, mais les informations présentées sont trompeuses.
 
-The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
+Les images montrent des canaux à Burano, une île tranquille dans le lagon vénitien où nagent des cygnes. Mais les cygnes y ont toujours nagé.
 
-Many people believed that the images provided evidence of clearer waters in central Venice as a result of the shutdown in Italy during the COVID-19 pandemic, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
+Beaucoup de gens pensent que ces images témoignent d'une amélioration de la qualité des eaux dans le centre de Venise, suite à la fermeture de l'Italie pendant la pandémie COVID-19, peut-être parce que c'est une histoire pleine d'espoir et qu'elle offre un angle positif pendant une période difficile. À mesure que le tweet devenait plus populaire et était partagé par des organisations de confiance, il a commencé à sembler plus authentique.
 
-Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.
+Même si les eaux des canaux de Venise étaient effectivement plus claires en raison de la réduction du trafic maritime, les informations présentées dans ce tweet sont fausses.
 

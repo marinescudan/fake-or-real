@@ -10,9 +10,9 @@ question_title: "Is the image in the tweet misleading?"
 question_subtitle: "Decide whether this item is trustworthy or not"
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misleading"
-question_single_result_message_fake: "It is misleading"
+question_single_result_message_fake: "Il est trompeur"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Yes"
@@ -35,8 +35,8 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The image in the tweet is real, but way in which it is presented is misleading.
+### L'image dans le tweet est réelle, mais la manière dont elle est présentée est trompeuse.
 
-The real image shows a peaceful protest in Ferguson, Missouri, following the murder of Michael Brown on August 9, 2014. Posts like these skew protest narratives, often inciting rage. 
-These types of posts  are often shared on social media platforms, where truth and misinformation exists in parallel. 
+L'image réelle montre une manifestation pacifique à Ferguson, Missouri, suite au meurtre de Michael Brown le 9 août 2014. Des messages comme celui-ci déforment les récits de protestation, incitant souvent à la rage. 
+Ces types de messages sont souvent partagés sur les plateformes de médias sociaux, où la vérité et la désinformation existent en parallèle. 
 

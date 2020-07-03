@@ -6,11 +6,11 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Which of these front pages of the New York Times is fake?"
+question_title: "Laquelle de ces images du New York Times est authentique?"
 question_subtitle: ""
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is real"
 question_single_result_message_fake: "It is fake"
 question_cta_go_explanation: "Check"
@@ -31,7 +31,7 @@ items:
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/nyt1.jpg"
     question_title: ""
     question_text: ""
-    explanation_title: ""
+    explanation_title: "Page d'accueil du New York Times affichant « Fin de la guerre en Iraq"
     stats_title: ""
     click_count: 0
   - fake: false
@@ -40,15 +40,12 @@ items:
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/nyt2.jpg"
     question_title: ""
     question_text: ""
-    explanation_title: ""
+    explanation_title: "Page d'accueil du New York Times tirée de la Wayback Machine"
     stats_title: ""
     click_count: 0
 ---
-### The front page on the left is fake; the front page on the right is real.
+### 
 
-Although both covers at first glance appear to be real, look closely at the two URLs.
+Regardez attentivement les deux adresses. 
 
-The “.se” part of the URL in the left-hand image is unusual, and tells us that this is not the actual New York Times website. Misinformation is often made to look genuine but can be spotted if you can recognise that the logo or the URL of the news outlet is suspicious. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL.
-
-In addition, if you know about the Iraq conflict, you might have noticed that the headline was false.
-
+Sur la première image, les caractères « -se » sont de trop, ce qui nous indique qu'il ne s'agit pas du véritable site du New York Times. Ces anomalies sont plus faciles à détecter lorsqu'il s'agit d'un organe d'information reconnu ou si vous connaissez déjà la bonne adresse du site. Si vous êtes déjà en partie au courant des informations de la première page, vous pourrez également remarquer le titre erroné.

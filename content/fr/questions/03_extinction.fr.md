@@ -7,13 +7,13 @@ published: true
 project: "for"
 slug: "question"
 title: "extinction"
-question_title: "Has this video been altered?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
+question_title: "Cette vidéo a-t-elle été modifiée?"
+question_subtitle: "Décider si cet article est digne de confiance ou non"
+question_submit_message_heading: "Vous avez sélectionné"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
-question_single_result_message_real: "It is not misinformation"
-question_single_result_message_fake: "It is misinformation"
+question_submit_message_wrong: "Faux"
+question_single_result_message_real: "Il ne s'agit pas de désinformation"
+question_single_result_message_fake: "C'est de la désinformation"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Yes"
@@ -31,13 +31,13 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "A video of Belgium’s prime minister Sophie Wilmès, in which she states that the “exploitation and destruction by humans of [the] natural environment” is directly linked to the mosy recent global epidemics, such as SARS, Ebola, Swine Flu and Covid-19"
+    question_text: "Une vidéo de la première ministre belge Sophie Wilmès, dans laquelle elle déclare que "l'exploitation et la destruction par l'homme de l'environnement naturel" sont directement liées aux nombreuses épidémies mondiales récentes, telles que le SRAS, le virus Ebola, la grippe porcine et le virus Covid-19"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video has been altered, but its objective was not to misinform. 
+### Cette vidéo a été modifiée, mais son objectif n'était pas de désinformer. 
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
-This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
-“Culture jamming” or guerrilla communication is distinct from misinformation in that it seeks to reveal the parody or hoax as part of the strategy to expose the message.
+La vidéo originale du discours de Peolosi a été montée et assemblée de manière trompeuse pour donner l'impression qu'elle bégayait pendant une conférence de presse. Les vidéos de ce type, qui sont trafiquées à l'aide de techniques de montage de base - telles que le montage ou le ralentissement pour donner l'impression que quelqu'un articule mal ses mots - sont appelées "cheapfakes".
+Cette vidéo a été publiée par Extinction Rebellion Belgium, dans le cadre de leur action #TellTheTruthBelgium. L'intelligence artificielle et l'apprentissage automatique ont été utilisés dans cette vidéo pour reproduire la voix et la parole de la première ministre Sophie Wilmès. Dans les 24 heures qui ont suivi le partage de la vidéo truquée, il y a eu plus de 100 000 visionnements. Extinction Rebellion Belgium a depuis rendu public ses actions, en précisant que la vidéo n'est pas réelle, et en faisant clairement référence aux sources scientifiques utilisées pour justifier le discours. 
+Le "brouillage culturel" ou la communication de guérilla se distingue de la désinformation en ce qu'il cherche à révéler la parodie ou le canular dans le cadre de la stratégie visant à exposer le message.

@@ -10,9 +10,9 @@ question_title: "Is the image misleading?"
 question_subtitle: "Decide whether this item is trustworthy or not"
 question_submit_message_heading: "You selected"
 question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is not misleading"
-question_single_result_message_fake: "It is misleading"
+question_single_result_message_fake: "Il est trompeur"
 question_cta_go_explanation: "Check"
 question_cta_help: "Choose between the options below"
 question_cta_fake: "Yes"
@@ -35,8 +35,11 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The image has been altered.
+### L'image a été altérée.
 
-This image is the sub-product of the conspiracy theory that Bill Gates, through his foundation, seeks to control global human populations through vaccines. In 2020, the foundation began efforts in finding a vaccine to end the coronavirus pandemic. 
-As a result, images like these have begun to resurface. 
+Cette image est le sous-produit de la théorie de la conspiration selon laquelle Bill Gates, par le biais de sa fondation, cherche à contrôler les populations humaines mondiales par le biais de vaccins.
+
+En 2020, la fondation a commencé à s'efforcer de trouver un vaccin pour mettre fin à la pandémie de coronavirus. 
+
+En conséquence, des images comme celles-ci ont commencé à refaire surface. 
 
