@@ -8,15 +8,16 @@ published: true
 project: "for"
 page: "start"
 keys:
-  start_welcome_title: "Welcome to"
+  start_welcome_title: "Benvenuti a"
   start_app_name: "FAKE or REAL?"
   start_app_version: "Misinformation Edition"
-  start_cta_go_question_: "Ready to play?"
+  start_cta_go_question_: "Pronti a giocare?"
   start_image_left_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-8694.jpg"
   start_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
   start_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
-‘Fake news’ is more than just false information. Even the term ‘fake news’ is misleading, because in many cases it contains some ‘real’ content – a piece of information, video footage or an image – that’s been doctored or taken out of context. 
-The term “misinformation” is often used to describe false or misleading content and is shared when the person doesn’t realise that it is false. Misinformation can be anything from a funny meme to a manipulated video; it can spread and become viral especially when it is targeted at people who are likely to believe it. Sometimes, it is placed on a spoof website made to look like a major newspaper, and sometimes it comes straight from the mouth of a politician via social media. 
+Le "notizie false" non sono solo informazioni false. Anche il termine "notizie false" è fuorviante, perché in molti casi contiene un contenuto "reale" - un'informazione, un filmato o un'immagine - che è stato manipolato o tolto dal contesto. 
 
-In Fake or Real Misinformation Edition, dive into this murky world and test your skills at spotting disinformation in its many guises.
+Il termine "disinformazione" è spesso usato per descrivere contenuti falsi o fuorvianti e viene condiviso quando la persona non si rende conto che sono falsi. La disinformazione può essere qualsiasi cosa, da un meme divertente a un video manipolato; può diffondersi e diventare virale soprattutto quando è rivolta a persone che probabilmente ci crederanno. A volte, viene messa su un sito web di parodia fatto per sembrare un grande giornale, e a volte proviene direttamente dalla bocca di un politico attraverso i social media. 
+
+In Fake or Real Misinformation Edition, tuffatevi in questo mondo torbido e mettete alla prova le vostre capacità di individuare la disinformazione nelle sue molteplici forme.

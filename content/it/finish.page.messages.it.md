@@ -8,13 +8,13 @@ published: true
 project: "for"
 page: "finish"
 keys:
-    finish_goodbye_title: "Thanks"
-    finish_cta_go_start: "Go to start"
+    finish_goodbye_title: "Grazie"
+    finish_cta_go_start: "Vai a iniziare"
     finish_image_left_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-8694.jpg"
     finish_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
     finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
-<p style="text-align: center;">## It's been brief but **special**
+<p style="text-align: center;">## E' stato breve ma **speciale**
 
-For more info, check out this link in the Data Detox Kit chapter on Misinformation
-[https://datadetoxkit.org/en/wellbeing/misinformation](https://datadetoxkit.org/en/wellbeing/misinformation)</p>
+Per ulteriori informazioni, consultate questo link nel capitolo del Kit di disintossicazione dei dati (Data Detox Kit) sulla disinformazione
+[https://datadetoxkit.org/it/wellbeing/misinformation](https://datadetoxkit.org/it/wellbeing/misinformation)</p>
