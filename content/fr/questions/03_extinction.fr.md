@@ -23,15 +23,15 @@ explanation_subtitle: "Décider si cet article est digne de confiance ou non"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Could this video be considered misinformation?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Next Question"
-stats_cta_go_finish: "Restart Game"
+stats_cta_go_again: "Prochaine question"
+stats_cta_go_finish: "Redémarrer le jeu"
 items:
   - fake: true
     question_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "Une vidéo de la première ministre belge Sophie Wilmès, dans laquelle elle déclare que "l'exploitation et la destruction par l'homme de l'environnement naturel" sont directement liées aux nombreuses épidémies mondiales récentes, telles que le SRAS, le virus Ebola, la grippe porcine et le virus Covid-19"
+    question_text: "Une vidéo de la première ministre belge Sophie Wilmès, dans laquelle elle déclare que 'l'exploitation et la destruction par l'homme de l'environnement naturel' sont directement liées aux nombreuses épidémies mondiales récentes, telles que le SRAS, le virus Ebola, la grippe porcine et le virus Covid-19"
     explanation_title: ""
     stats_title: ""
     click_count: 0
