@@ -1,6 +1,6 @@
 ---
-uuid: 3bb7f70e-2ea2-4c29-bd0f-2780112ef522
-locale: en
+uuid: 7077bb5f-495a-4432-8995-56a16c6d02dd
+locale: sw
 date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
