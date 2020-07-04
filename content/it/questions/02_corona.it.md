@@ -6,18 +6,18 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Which of these items are spreading misinformation about coronavirus?"
+question_title: "Quali di questi elementi stanno diffondendo informazioni errate sul coronavirus?"
 question_subtitle: ""
-question_submit_message_heading: "Choose which item you think is false or misleading"
-question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_heading: "Scegliete quale articolo pensate sia falso o fuorviante"
+question_submit_message_correct: "Correggere"
+question_submit_message_wrong: "Sbagliato"
 question_single_result_message_real: "It is not misinformation"
-question_single_result_message_fake: "It is misinformation"
-question_cta_go_explanation: "Check"
-question_cta_help: "Select one of the options above!"
-question_cta_fake: "Fake?"
-question_cta_real: "Real?"
-explanation_title: "Choose which item you think it false or misleading"
+question_single_result_message_fake: "È disinformazione"
+question_cta_go_explanation: "Verifica"
+question_cta_help: "Selezionare una delle opzioni di cui sopra!"
+question_cta_fake: "Falso?"
+question_cta_real: "Reale?"
+explanation_title: "Scegliete quale articolo pensate sia falso o fuorviante"
 explanation_subtitle: ""
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Which Of These Adverts Is Fake"
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     question_title: ""
-    question_text: "A meme that suggests China released the coronavirus"
+    question_text: "Un meme che suggerisce che la Cina ha rilasciato il coronavirus"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,14 +39,14 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     question_title: ""
-    question_text: "A news article that suggests blood plasma could help cure coronavirus"
+    question_text: "Un articolo di giornale che suggerisce che il plasma sanguigno potrebbe aiutare a curare il coronavirus"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 
-### The news story on blood plasma is genuine.
+### La notizia sul plasma sanguigno è vera.
 
-Memes are effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster.
+I memi sono efficaci portatori di disinformazione, perché sono visti come spensierati e al loro umorismo viene spesso data più importanza del loro significato. Inoltre, sono altamente condivisibili, il che significa che circolano più velocemente.
 
-The meme on the left implies that China was responsible for releasing the coronavirus, a theory that has not been backed up with evidence.
+Il meme a sinistra implica che la Cina è stata responsabile del rilascio del coronavirus, una teoria che non è stata suffragata da prove.

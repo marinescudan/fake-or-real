@@ -7,18 +7,18 @@ project: "for"
 slug: "question"
 title: "billgates"
 question_title: "L'immagine è fuorviante?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
-question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_subtitle: "Decidere se questa voce è affidabile o meno"
+question_submit_message_heading: "Hai selezionato"
+question_submit_message_correct: "Correggere"
+question_submit_message_wrong: "Sbagliato"
 question_single_result_message_real: "It is not misleading"
-question_single_result_message_fake: "It is misleading"
-question_cta_go_explanation: "Check"
-question_cta_help: "Choose between the options below"
-question_cta_fake: "Yes"
+question_single_result_message_fake: "E' fuorviante"
+question_cta_go_explanation: "Verifica"
+question_cta_help: "Scegliete tra le opzioni seguenti"
+question_cta_fake: "Si"
 question_cta_real: "No"
 explanation_title: "L'immagine è fuorviante?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
+explanation_subtitle: "Decidere se questa voce è affidabile o meno"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is the image misleading?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The image has been altered.
+### L'immagine è stata alterata.
 
-This image is the sub-product of the conspiracy theory that Bill Gates, through his foundation, seeks to control global human populations through vaccines. In 2020, the foundation began efforts in finding a vaccine to end the coronavirus pandemic. 
-As a result, images like these have begun to resurface. 
+Questa immagine è il sotto-prodotto della teoria della cospirazione che Bill Gates, attraverso la sua fondazione, cerca di controllare le popolazioni umane globali attraverso i vaccini. Nel 2020, la fondazione ha iniziato gli sforzi per trovare un vaccino per porre fine alla pandemia del coronavirus. 
+Di conseguenza, immagini come queste hanno cominciato a riemergere. 
