@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Laquelle de ces images du New York Times est authentique?"
+question_title: "Laquelle de ces pages d'accueil du New York Times est fausse?"
 question_subtitle: ""
 question_submit_message_heading: "Vous avez sélectionné"
 question_submit_message_correct: "Vrai"
@@ -14,14 +14,14 @@ question_submit_message_wrong: "Faux"
 question_single_result_message_real: "C'est réel"
 question_single_result_message_fake: "C'est un faux"
 question_cta_go_explanation: "Vérifiez"
-question_cta_help: "Select one of the options above!"
-question_cta_fake: "Fake?"
-question_cta_real: "Real?"
-explanation_title: "Which of these front pages of the New York Times is fake?"
+question_cta_help: "Sélectionnez l'une des options ci-dessus!"
+question_cta_fake: "Faux?"
+question_cta_real: "Vrai?"
+explanation_title: "Laquelle de ces pages d'accueil du New York Times est fausse ?"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Which Of These Adverts Is Fake"
-stats_subtitle: "Other people decided that the adverts are not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Question suivante"
 stats_cta_go_finish: "Recommencer le jeu"
 items:
@@ -44,8 +44,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### 
+### La page d'accueil de gauche est fausse, celle de droite est authentique. 
 
-Regardez attentivement les deux adresses. 
+Bien qu'elles semblent authentiques toutes les deux, regardez attentivement les deux adresses.
 
-Sur la première image, les caractères « -se » sont de trop, ce qui nous indique qu'il ne s'agit pas du véritable site du New York Times. Ces anomalies sont plus faciles à détecter lorsqu'il s'agit d'un organe d'information reconnu ou si vous connaissez déjà la bonne adresse du site. Si vous êtes déjà en partie au courant des informations de la première page, vous pourrez également remarquer le titre erroné.
+Les caractères « -se » sont de trop dans l'image de gauche, ce qui nous indique qu'il ne s'agit pas du véritable site du New York Times. La désinformation est souvent conçue pour avoir l'air authentique, mais vous pouvez l'identifier si le logo ou l'adresse vous semblent suspects. 
+
+Ces anomalies sont plus faciles à détecter lorsqu'il s'agit d'un organe d'information reconnu ou si vous connaissez déjà la bonne adresse du site. Si vous êtes déjà en partie au courant du conflit en Iraq, vous aurez également remarqué le titre erroné.

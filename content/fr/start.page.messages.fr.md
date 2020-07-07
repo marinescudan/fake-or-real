@@ -16,7 +16,6 @@ keys:
     start_image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
     start_image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 ---
-# Bienvenue
 
 Les «infox» sont bien plus que des informations erronées. Le terme «infox» est lui-même trompeur, parce que bien souvent, on retrouve des informations «réelles» – comme un article, une séquence vidéo ou une image – qui ont été modifiées ou sorties de leur contexte.
 
