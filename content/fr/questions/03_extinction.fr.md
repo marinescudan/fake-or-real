@@ -23,8 +23,8 @@ explanation_subtitle: "Décider si cet article est digne de confiance ou non"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Could this video be considered misinformation?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Prochaine question"
-stats_cta_go_finish: "Redémarrer le jeu"
+stats_cta_go_again: "Question suivante"
+stats_cta_go_finish: "Recommencer le jeu"
 items:
   - fake: true
     question_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
