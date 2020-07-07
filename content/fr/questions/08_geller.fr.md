@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Smashing car - Geller vid - 8"
-question_title: "Is this story misinformation?"
+question_title: "Cet article constitue-t-il de la désinformation?"
 question_subtitle: "Cette information est-elle fiable?"
 question_submit_message_heading: "Vous avez sélectionné"
 question_submit_message_correct: "Vrai"
@@ -14,14 +14,14 @@ question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misinformation"
 question_single_result_message_fake: "Il s'agit de désinformation"
 question_cta_go_explanation: "Vérifiez"
-question_cta_help: "Choose between the options below"
+question_cta_help: "Choisissez parmi les options ci-dessous"
 question_cta_fake: "Oui"
 question_cta_real: "No"
-explanation_title: "Is this story misinformation?"
+explanation_title: "Cet article constitue-t-il de la désinformation?"
 explanation_subtitle: "Cette information est-elle fiable?"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this story misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Question suivante"
 stats_cta_go_finish: "Recommencer le jeu"
 items:
@@ -30,14 +30,14 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     stats_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     question_title: ""
-    question_text: "This video, showing men destroying a car with baseball bats, was posted on YouTube with a title that reads 'Angry immigrants attack a police car'."
+    question_text: "Cette vidéo, montrant des hommes détruisant une voiture à coups de batte de baseball, a été publiée sur YouTube et titrée :  'Des immigrés en colère s'attaquent à une voiture de police'."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 ### Cette histoire peut être considérée comme de la désinformation !
 
-La vidéo a été partagée comme preuve de ce que l'on appelle la "criminalité des migrants" en Italie. Mais la vidéo montre en fait le tournage du film italien "Mediterranea" en 2015. Si vous regardez attentivement, vous pouvez voir des membres de l'équipe de tournage tenant un microphone et un réflecteur.
+Elle a été partagée pour mettre en évidence de soi-disant crimes perpétrés par des immigrés en Italie. Mais elle montre en fait le tournage du film « Mediterranea » en 2015. En y regardant de plus près, on aperçoit des membres de l'équipe de tournage tenant un micro et un réflecteur. 
 
-La vidéo a été publiée par des blogueurs anti-immigrants du monde entier et a depuis été démystifiée, mais elle montre à quel point il est facile de prendre des images vidéo et de les présenter hors contexte avec un titre différent pour amener les spectateurs à croire autre chose que ce qui est réellement montré dans la vidéo originale.
+La vidéo a été publiée sur des blogs anti immigration du monde entier et son origine a été identifiée depuis, mais elle montre à quel point il est facile de sortir des images de leur contexte et de les présenter avec une légende précise pour orienter la compréhension des spectateur·rices et leur faire croire autre chose.
 
