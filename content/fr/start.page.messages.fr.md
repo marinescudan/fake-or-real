@@ -16,9 +16,10 @@ keys:
     start_image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
     start_image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 ---
-# Welcome message html
+# Bienvenue
 
-Les "fausses nouvelles" sont plus que de simples fausses informations. Même l'expression "fausse nouvelle" est trompeuse, car dans de nombreux cas, elle contient un contenu "réel" - une information, une séquence vidéo ou une image - qui a été falsifié ou sorti de son contexte. 
-Le terme "fausse information" est souvent utilisé pour décrire un contenu faux ou trompeur et est partagé lorsque la personne ne se rend pas compte qu'il est faux. La désinformation peut aller d'un mème drôle à une vidéo manipulée ; elle peut se répandre et devenir virale, surtout lorsqu'elle vise des personnes susceptibles de la croire. Parfois, elle est placée sur un site web frauduleux conçu pour ressembler à un grand journal, et parfois elle vient directement de la bouche d'un politicien via les médias sociaux. 
+Les «infox» sont bien plus que des informations erronées. Le terme «infox» est lui-même trompeur, parce que bien souvent, on retrouve des informations «réelles» – comme un article, une séquence vidéo ou une image – qui ont été modifiées ou sorties de leur contexte.
 
-Dans Fake or Real Misinformation Edition, plongez dans ce monde obscur et testez vos capacités à repérer la désinformation sous toutes ses formes.
+Le terme «désinformation» est souvent utilisé pour désigner du contenu faux ou trompeur qui se retrouve diffusé par des individus ignorant leur teneur. La désinformation peut aller d'un mème à une vidéo retouchée; elle peut être diffusée et devenir virale, surtout lorsqu'elle vise des communautés plus enclines à la croire. Parfois, elle est utilisée sur un site satirique pour le faire passer pour un site authentique, d'autres fois elle sort directement de la bouche d'un politicien sur les médias sociaux.
+
+Dans Vrai ou faux Désinformation Édition, vous allez découvrir cet univers obscur et tenter d'identifier différents exemples de désinformation.
