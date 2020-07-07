@@ -6,24 +6,24 @@ published: true
 project: "for"
 slug: "question"
 title: "billgates"
-question_title: "Is the image misleading?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
-question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_title: "¿Esta imagen es engañosa?"
+question_subtitle: "Decide si este contenido es confiable o no"
+question_submit_message_heading: "Usted seleccionó"
+question_submit_message_correct: "Correcto"
+question_submit_message_wrong: "Incorrecta"
 question_single_result_message_real: "It is not misleading"
-question_single_result_message_fake: "It is misleading"
-question_cta_go_explanation: "Check"
-question_cta_help: "Choose between the options below"
-question_cta_fake: "Yes"
+question_single_result_message_fake: "Es engañoso"
+question_cta_go_explanation: "Compruebe"
+question_cta_help: "Escoge entre las siguientes opciones"
+question_cta_fake: "Sí"
 question_cta_real: "No"
-explanation_title: "Is the image misleading?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is the image misleading?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Next Question"
-stats_cta_go_finish: "Restart Game"
+explanation_title: "¿Esta imagen es engañosa?"
+explanation_subtitle: "Decide si este contenido es confiable o no"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
+stats_cta_go_again: "Siguiente pregunta"
+stats_cta_go_finish: "Reiniciar el juego"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/billgates.png"
@@ -35,7 +35,6 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The image has been altered.
+### La imagen ha sido alterada.
 
-This image is the sub-product of the conspiracy theory that Bill Gates, through his foundation, seeks to control global human populations through vaccines. In 2020, the foundation began efforts in finding a vaccine to end the coronavirus pandemic. 
-As a result, images like these have begun to resurface. 
+Esta imagen es el resultado de una teoría conspiratoria sobre Bill Gates y cómo, a través de su fundación, busca controlar la población mundial a través de vacunas. En 2020, la fundación empezó a volcar esfuerzos en encontrar una vacuna para acabar con la pandemia del coronavirus. En respuesta, imágenes como estas vuelven a aparecer.
