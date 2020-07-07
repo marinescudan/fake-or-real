@@ -5,32 +5,32 @@ date: 2020-06-08T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Exemple 1"
-question_title: "Which of these items are spreading misinformation about coronavirus?"
+title: "corona"
+question_title: "¿Cuáles de los siguientes contenidos están propagando información falsa sobre el coronavirus?"
 question_subtitle: ""
-question_submit_message_heading: "Choose which item you think is false or misleading"
-question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_heading: "Selecciona qué contenidos crees que son falsos o engañosos"
+question_submit_message_correct: "Correcto"
+question_submit_message_wrong: "Incorrecta"
 question_single_result_message_real: "It is not misinformation"
-question_single_result_message_fake: "It is misinformation"
-question_cta_go_explanation: "Check"
-question_cta_help: "Select one of the options above!"
-question_cta_fake: "Fake?"
-question_cta_real: "Real?"
-explanation_title: "Choose which item you think it false or misleading"
+question_single_result_message_fake: "Esta información es falsa"
+question_cta_go_explanation: "Compruebe"
+question_cta_help: "¡Selecciona una de las opciones de arriba!"
+question_cta_fake: "Falso?"
+question_cta_real: "¿Verdadero?"
+explanation_title: "¿Cuáles de los siguientes contenidos están propagando información falsa sobre el coronavirus?"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Which Of These Adverts Is Fake"
-stats_subtitle: "Other people decided that the adverts are not trustworthy"
-stats_cta_go_again: "Next Question"
-stats_cta_go_finish: "Restart Game"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
+stats_cta_go_again: "Siguiente pregunta"
+stats_cta_go_finish: "Reiniciar el juego"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     question_title: ""
-    question_text: "A meme that suggests China released the coronavirus"
+    question_text: "Un meme que insinúa que el coronvirus surgió en la China"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,14 +39,14 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     question_title: ""
-    question_text: "A news article that suggests blood plasma could help cure coronavirus"
+    question_text: "Una noticia que insinúa que el plasma sanguíneo podría ayudar a curar el coronavirus"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 
-### The news story on blood plasma is genuine.
+### La noticia sobre el plasma sanguíneo es genuina.
 
-Memes are effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster.
+La noticia sobre el plasma sanguíneo es real. Los memes son portadores eficaces de información falsa porque aparentan ser livianos y se suele dar más importancia a su humor que su signficado. 
 
-The meme on the left implies that China was responsible for releasing the coronavirus, a theory that has not been backed up with evidence.
+Además, son fáciles de compartir, por lo que circulan más rápido. El meme de la izquierda insinúa que China fue responsable del coronavirus, una teoría sin fundamento.
