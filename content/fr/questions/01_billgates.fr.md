@@ -18,7 +18,7 @@ question_cta_help: "Choisissez parmi les options ci-dessous"
 question_cta_fake: "Oui"
 question_cta_real: "No"
 explanation_title: "Cette image est-elle trompeuse?"
-explanation_subtitle: "Décider si cet article est digne de confiance ou non"
+explanation_subtitle: "Cette information est-elle fiable?"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is the image misleading?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
@@ -37,9 +37,8 @@ items:
 ---
 ### L'image a été altérée.
 
-Cette image est le sous-produit de la théorie de la conspiration selon laquelle Bill Gates, par le biais de sa fondation, cherche à contrôler les populations humaines mondiales par le biais de vaccins.
+Cette image est issue d'une théorie conspirationniste suggérant que Bill Gates, par l'intermédiaire de sa fondation, cherche à contrôler la population mondiale à l'aide de vaccins. 
 
-En 2020, la fondation a commencé à s'efforcer de trouver un vaccin pour mettre fin à la pandémie de coronavirus. 
+En 2020, la fondation s'est engagée dans la recherche d'un vaccin qui mettrait fin à la pandémie de coronavirus. 
 
-En conséquence, des images comme celles-ci ont commencé à refaire surface. 
-
+À la suite de cela, des images similaires ont refait surface.
