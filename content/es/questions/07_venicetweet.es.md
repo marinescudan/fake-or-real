@@ -22,8 +22,8 @@ explanation_subtitle: ""
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is This Item Fake Or Real"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Next Question"
-stats_cta_go_finish: "Restart Game"
+stats_cta_go_again: "Siguiente pregunta"
+stats_cta_go_finish: "Reiniciar el juego"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/venicetweet.jpg"

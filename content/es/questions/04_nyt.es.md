@@ -44,10 +44,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The front page on the left is fake; the front page on the right is real.
+### La portada de la izquierda es falsa; la portada de la derecha es real. 
 
-Although both covers at first glance appear to be real, look closely at the two URLs.
+Aunque ambas, a primera vista, parecen auténticas, fíjate más de cerca en los URLS. El “.se” del enlace de la imagen de la izquierda es poco común y nos revela que no pertenece al sitio del New York Times. 
 
-The “.se” part of the URL in the left-hand image is unusual, and tells us that this is not the actual New York Times website. Misinformation is often made to look genuine but can be spotted if you can recognise that the logo or the URL of the news outlet is suspicious. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL.
+La información falsa suele parecer verdadera, pero podemos darnos cuenta a través de elementos como el logotipo o la URL de la fuente, sobre todo si se trata de portales de noticias conocidos o te sabes el enlace del sitio. 
 
-In addition, if you know about the Iraq conflict, you might have noticed that the headline was false.
+Además, en este caso, si ya te habías informado sobre el conflicto en Iraq, quizás ya te diste cuenta que el titular era falso.
