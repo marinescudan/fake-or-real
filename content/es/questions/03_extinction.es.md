@@ -6,37 +6,38 @@ published: true
 project: "for"
 slug: "question"
 title: "extinction"
-question_title: "Has this video been altered?"
-question_subtitle: "Decide whether this item is trustworthy or not"
+question_title: "¿Este vídeo ha sido alterado?"
+question_subtitle: "Decide si este contenido es confiable o no"
 question_submit_message_heading: "You selected"
-question_submit_message_correct: "Correct"
-question_submit_message_wrong: "Wrong"
+question_submit_message_correct: "Correcto"
+question_submit_message_wrong: "Incorrecta"
 question_single_result_message_real: "It is not misinformation"
 question_single_result_message_fake: "It is misinformation"
 question_cta_go_explanation: "Check"
-question_cta_help: "Choose between the options below"
-question_cta_fake: "Yes"
+question_cta_help: "Escoge entre las siguientes opciones"
+question_cta_fake: "Sí"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Next Question"
-stats_cta_go_finish: "Restart Game"
+explanation_title: "¿Este vídeo podría considerarse como información falsa?"
+explanation_subtitle: "Decide si este contenido es confiable o no"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
+stats_cta_go_again: "Siguiente pregunta"
+stats_cta_go_finish: "Reiniciar el juego"
 items:
   - fake: true
     question_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "A video of Belgium’s prime minister Sophie Wilmès, in which she states that the “exploitation and destruction by humans of [the] natural environment” is directly linked to the mosy recent global epidemics, such as SARS, Ebola, Swine Flu and Covid-19"
+    question_text: "Vídeo de la primera ministra belga Sophie Wilmès donde afirma que las epidemias globales recientes como el SARS, la Ebola, la gripe porcina y el Covid-19 están directamente vinculadas a  'la explotación y destrucción humana del medioambiente'."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video has been altered, but its objective was not to misinform. 
+### Este video ha sido alterado, pero su objetivo no era informar mal. 
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
-This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
-“Culture jamming” or guerrilla communication is distinct from misinformation in that it seeks to reveal the parody or hoax as part of the strategy to expose the message.
+
+Este vídeo fue publicado por Extinction Rebellion Belgium, como parte de su acción #TellTheTruthBelgium. Se utilizaron técnicas de inteligencia artificial y aprendizaje automático en el vídeo para replicar la voz de la primera ministra Sophie Wilmès. A las 24 horas de compartir este vídeo ultra-falso, ya había recibido más de 100 mil vistos. Desde entonces, Extinction Rebellion Belgium ha difundido sus acciones, dejando en claro que el vídeo no es real y haciendo referencias explícitas a las fuentes científicas utilizadas para justificar el discurso. 
+
+El “cultural jamming” y la comunicación guerrilla  se diferencian de la información falsa en que buscan revelar la parodia o el engaño como parte de su estrategia de exponer el mensaje.
