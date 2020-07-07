@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "VeniceTweet"
-question_title: "Is the image in the tweet misleading?"
+question_title: "L'image du tweet est-elle trompeuse?"
 question_subtitle: ""
 question_submit_message_heading: "Vous avez sélectionné"
 question_submit_message_correct: "Vrai"
@@ -14,14 +14,14 @@ question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misleading"
 question_single_result_message_fake: "Il est trompeur"
 question_cta_go_explanation: "Vérifiez"
-question_cta_help: "Click one of the options below!"
+question_cta_help: "Choisissez parmi les options ci-dessous"
 question_cta_fake: "Oui"
 question_cta_real: "No"
-explanation_title: "Is the image in the tweet misleading?"
+explanation_title: "L'image du tweet est-elle trompeuse ?"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is This Item Fake Or Real"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Question suivante"
 stats_cta_go_finish: "Recommencer le jeu"
 items:
@@ -38,9 +38,7 @@ items:
 
 ### Les images contenues dans le tweet sont réelles, mais les informations présentées sont trompeuses.
 
-Les images montrent des canaux à Burano, une île tranquille dans le lagon vénitien où nagent des cygnes. Mais les cygnes y ont toujours nagé.
+Les images montrent des canaux à Burano, une île paisible du lagon de Venise. Elle se trouve à l'écart du centre de la ville et a toujours abrité des cygnes. Pour de nombreuses personnes, ces images montraient que l'eau était devenue plus claire au centre de Venise suite au confinement italien pendant la pandémie de COVID-19, sans doute parce que cette idée leur apportait de l'espoir en ces temps difficiles. 
 
-Beaucoup de gens pensent que ces images témoignent d'une amélioration de la qualité des eaux dans le centre de Venise, suite à la fermeture de l'Italie pendant la pandémie COVID-19, peut-être parce que c'est une histoire pleine d'espoir et qu'elle offre un angle positif pendant une période difficile. À mesure que le tweet devenait plus populaire et était partagé par des organisations de confiance, il a commencé à sembler plus authentique.
-
-Même si les eaux des canaux de Venise étaient effectivement plus claires en raison de la réduction du trafic maritime, les informations présentées dans ce tweet sont fausses.
+Alors que le tweet gagnait en popularité et était partagé par de nombreuses organisations de confiance, l'histoire semblait d'autant plus authentique. Même si l'eau des canaux du centre de Venise était effectivement plus claire en raison du trafic réduit, les informations de ce tweet sont fausses.
 
