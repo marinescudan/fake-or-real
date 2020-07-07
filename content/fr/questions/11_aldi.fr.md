@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "aldi - 5"
-question_title: "Could this video be considered misinformation?"
+question_title: "Cette vidéo peut-elle être considérée comme de la désinformation?"
 question_subtitle: ""
 question_submit_message_heading: "Vous avez sélectionné"
 question_submit_message_correct: "Vrai"
@@ -14,14 +14,14 @@ question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misinformation"
 question_single_result_message_fake: "Il s'agit de désinformation"
 question_cta_go_explanation: "Vérifiez"
-question_cta_help: "Choose between the options below"
+question_cta_help: "Choisissez parmi les options ci-dessous"
 question_cta_fake: "Oui"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "Cette vidéo peut-elle être considérée comme de la désinformation?"
 explanation_subtitle: "Cette information est-elle fiable?"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Question suivante"
 stats_cta_go_finish: "Recommencer le jeu"
 items:
@@ -30,16 +30,16 @@ items:
     explanation_media_url: "https://youtu.be/jIjKIXQHHwg"
     stats_media_url: "https://youtu.be/jIjKIXQHHwg"
     question_title: ""
-    question_text: "This video went viral among in the Netherlands on platforms such as TikTok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe, as evidence that grocery stores were being mobbed by shoppers stocking up on supplies."
+    question_text: "Cette vidéo est devenue virale aux Pays-Bas sur des plateformes comme TikTok et WhatsApp en mars 2020 au début de la pandémie de COVID-19 en Europe, présentée comme un exemple de supermarché pris d'assaut par des habitants cherchant à faire des provisions."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 ### La vidéo serait considérée comme de la désinformation.
 
-La vidéo de WhatsApp montrant des gens s'entassant dans un magasin a été partagée entre les habitants de Haarlem aux Pays-Bas. La vidéo a ensuite été diffusée sur TikTok et visionnée plus de quatre millions de fois. 
+La vidéo WhatsApp d'un attroupement dans une boutique a été partagée parmi les résidents de Haarlem aux Pays-Bas. Elle a ensuite été partagée sur TikTok et visionnée plus de quatre millions de fois. 
 
-Elle a eu pour effet de semer la panique en laissant entendre que les épiceries manquaient de produits de première nécessité. 
+Elle a eu pour effet de semer la panique en suggérant que les supermarchés étaient à court de produits de première nécessité. Mais regardez attentivement et vous verrez que cette vidéo n'a pas été prise aux Pays-Bas. Le panneau présent à gauche de l'image est en allemand, pas en néerlandais. Et grâce aux lettres présentes à droite de l'image, les membres de Bellingcat qui menaient l'enquête et qui ont mis au jour l'origine de la vidéo, ont cherché « boutique FBI » en allemand et ont découvert qu'il s'agissait d'une chaîne de salons de coiffure en Allemagne. 
 
-Cependant, en regardant de près, vous pouvez constater que cette vidéo ne provient pas du tout des Pays-Bas. Le panneau à gauche sur l'image est en allemand, et non en néerlandais. De plus, après avoir remarqué les lettres à droite de l'image, les enquêteurs de Bellingcat, qui ont démystifié la vidéo, ont cherché "FBI store" en allemand et ont découvert que FBI est une chaîne de coiffeurs en Allemagne. De plus, leur analyse leur a permis de déterminer que la vidéo avait en fait été prise en 2011, avant une vente spéciale sur les PC et les téléphones portables dans le magasin.
+Leur analyse a également permis de déterminer que la vidéo datait de 2011, juste avant des soldes sur du matériel informatique et des téléphones portables
 

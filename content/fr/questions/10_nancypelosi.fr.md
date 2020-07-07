@@ -30,15 +30,11 @@ items:
     explanation_media_url: "https://youtu.be/jIjKIXQHHwg"
     stats_media_url: "https://youtu.be/jIjKIXQHHwg"
     question_title: ""
-    question_text: "Cette vidéo est devenue virale aux Pays-Bas sur des plateformes comme TikTok et WhatsApp en mars 2020 au début de la pandémie de COVID-19 en Europe, présentée comme un exemple de supermarché pris d'assaut par des habitants cherchant à faire des provisions."
+    question_text: "Une vidéo de Nancy Pelosi, politicienne américaine démocrate, largement diffusée en 2019, dans laquelle elle donne l'impression de bredouiller pendant un discours."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 ### La vidéo serait considérée comme de la désinformation.
 
-La vidéo WhatsApp d'un attroupement dans une boutique a été partagée parmi les résidents de Haarlem aux Pays-Bas. Elle a ensuite été partagée sur TikTok et visionnée plus de quatre millions de fois. 
-
-Elle a eu pour effet de semer la panique en suggérant que les supermarchés étaient à court de produits de première nécessité. Mais regardez attentivement et vous verrez que cette vidéo n'a pas été prise aux Pays-Bas. Le panneau présent à gauche de l'image est en allemand, pas en néerlandais. Et grâce aux lettres présentes à droite de l'image, les membres de Bellingcat qui menaient l'enquête et qui ont mis au jour l'origine de la vidéo, ont cherché « boutique FBI » en allemand et ont découvert qu'il s'agissait d'une chaîne de salons de coiffure en Allemagne. 
-
-Leur analyse a également permis de déterminer que la vidéo datait de 2011, juste avant des soldes sur du matériel informatique et des téléphones portables.
+La vidéo originale a été remontée et retouchée dans le but de faire croire que Nancy Pelosi bredouillait lors d'une conférence de presse. Ce genre de vidéos, retouchées sommairement – par exemple en les ralentissant pour donner l'impression qu'une personne mange ses mots – sont appelées des « cheap fakes ».
