@@ -14,14 +14,14 @@ question_submit_message_wrong: "Faux"
 question_single_result_message_real: "It is misinformation"
 question_single_result_message_fake: "Il s'agit de désinformation"
 question_cta_go_explanation: "Vérifiez"
-question_cta_help: "Choose between the options below"
+question_cta_help: "Choisissez parmi les options ci-dessous"
 question_cta_fake: "Oui"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "Cette vidéo peut-elle être considérée comme de la désinformation ?"
 explanation_subtitle: "Cette information est-elle fiable?"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this video fake or real?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Question suivante"
 stats_cta_go_finish: "Recommencer le jeu"
 items:
@@ -37,9 +37,9 @@ items:
 ---
 ## Cela peut être considéré comme de la désinformation
 
-Cette vidéo de campagne a été réalisée par le parti conservateur britannique opposé pour montrer l'homme politique travailliste Keir Starmer apparemment incapable de répondre à une simple question sur Brexit lors d'une émission d'information matinale.
+Cette vidéo de campagne a été montée par le Parti conservateur du Royaume-Uni pour montrer le politicien du parti travailliste Keir Starmer incapable de répondre à une simple question. Au cours de l'interview d'origine, Keir Stramer a répondu rapidement ; la vidéo a été tronquée de manière trompeuse. 
 
-Dans l'interview elle-même, Keir Stramer a répondu rapidement ; la vidéo a été montée de manière trompeuse. De plus en plus, les campagnes de tous les types de partis politiques utilisent des "faux bon marché", des techniques simples comme celle-ci pour présenter leurs adversaires sous un faux jour. 
+De plus en plus de campagnes politiques pour des partis de tous bords emploient des « cheap fakes » (trucages faciles), des techniques très simples comme celle-ci pour donner une fausse image de leurs opposants. 
 
-Sur les médias sociaux, ces vidéos de campagne ne sont souvent pas vérifiées et, contrairement à ce qui se passe avec une publicité dans les journaux ou à la télévision, il est rare qu'une sanction soit prise lorsqu'elles sont découvertes.
+Dans les médias sociaux, ces vidéos de campagne sont rarement vérifiées et, contrairement aux publicités dans les journaux ou à la télévision, sont rarement pénalisées lorsqu'elles sont exposées.
 
