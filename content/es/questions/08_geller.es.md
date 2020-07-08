@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Smashing car - Geller vid - 8"
-question_title: "Is this story misinformation?"
+question_title: "¿Esta historia es información falsa?"
 question_subtitle: "Decide si este contenido es confiable o no"
 question_submit_message_heading: "Usted seleccionó"
 question_submit_message_correct: "Correcto"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Compruebe"
 question_cta_help: "Escoge entre las siguientes opciones"
 question_cta_fake: "Sí"
 question_cta_real: "No"
-explanation_title: "Is this story misinformation?"
+explanation_title: "¿Esta historia es información falsa?"
 explanation_subtitle: "Decide si este contenido es confiable o no"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this story misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Siguiente pregunta"
 stats_cta_go_finish: "Reiniciar el juego"
 items:
@@ -30,13 +30,13 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     stats_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     question_title: ""
-    question_text: "This video, showing men destroying a car with baseball bats, was posted on YouTube with a title that reads 'Angry immigrants attack a police car'."
+    question_text: "Este vídeo mostrando a hombres destrozando un coche con bates de beisbol se publicó en Youtube bajo el título 'Inmigrantes furiosos atacan coche de policia'."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This story can be considered misinformation!
+### ¡Esta historia podría considerarse como información falsa!
 
-The video was shared as evidence of so-called ‘migrant crime’ in Italy. But the video actually shows the filming of the 2015 Italian film ‘Mediterranea'. If you look closely, you can see members of the film crew holding up a microphone and a reflector.
+Este vídeo se compartió como prueba de un supuesto ‘delito de migrantes’ en Italia. Pero, en realidad, se trata de una grabación de la ‘Mediterranea’, una película italiana de 2015. Si te fijas, verás personas del equipo de rodaje sosteniendo un micrófono y un reflector. 
 
-The video was posted by anti-immigrant bloggers around the world, and has since been debunked, but it illustrates how easy it is to take video footage and present it out of context with a different headline to lead viewers to believe something other than what is actually shown in the original video.
+Este vídeo fue publicado por personas blogueras anti-inmigrantes y eventualmente se reveló que era falsa. Sin embargo, refleja lo fácil que es tomar una grabación y presentarla fuera de contexto con otro titular para hacerte creer algo distinto al mensaje original.
