@@ -5,8 +5,8 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Exemple 1"
-question_title: "Which of these politicians' tweets was removed from Twitter?"
+title: "takedowns"
+question_title: "¿Cuáles de los siguientes tweets de representantes políticos fueron eliminados de Twitter?"
 question_subtitle: ""
 question_submit_message_heading: "1 out of the 4 were removed"
 question_submit_message_correct: "Correcto"
@@ -14,14 +14,14 @@ question_submit_message_wrong: "Incorrecta"
 question_single_result_message_real: "Es verdadero"
 question_single_result_message_fake: "Es falso"
 question_cta_go_explanation: "Compruebe"
-question_cta_help: "Choose between 1 and 4 of the options above!"
+question_cta_help: "¡Elija entre 1 y 4 de las opciones arriba!"
 question_cta_fake: "¿Falso?"
 question_cta_real: "¿Verdadero?"
-explanation_title: "Only one of these was removed"
+explanation_title: "Solo uno fue eliminado"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Find the fake adverts"
-stats_subtitle: "Other people decided that these adverts are not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Siguiente pregunta"
 stats_cta_go_finish: "Reiniciar el juego"
 items:
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     question_title: ""
-    question_text: "Donald Trump's tweet to Theresa May on Islamic terrorism"
+    question_text: "El tweet de Donald Trump a Theresa May sobre el terrorismo islámico"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,7 +39,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     question_title: ""
-    question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
+    question_text: "Tweets de Matteo Salvini, político italiano, sobre mitos del coronavirus"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -48,7 +48,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     question_title: ""
-    question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
+    question_text: "Jair Bolsonaro, presidente de Brasil, publica en Twitter un vídeo mostrando las fábricas que permanecieron abiertas durante la emergencia sanitaria del Coronavirus, indicando que dicha situación suponía una amenaza a la salud de las personas"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -57,11 +57,11 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     question_title: ""
-    question_text: "Australian politician Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
+    question_text: "Concetta Fierravanti-Wells, representante política australiana, afirma que los incendios forestales fueron provocados por pirómanos"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### All of these tweets provide false information.
+### Todos estos tweets contienen información falsa. 
 
-However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other tweets continue to be visible on the platform.
+Sin embargo, solo uno, el tweet de Bolsonaro, fue eliminado por Twitter. Los demás siguen visibles en la plataforma.
