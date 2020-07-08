@@ -6,22 +6,22 @@ published: true
 project: "for"
 slug: "question"
 title: "Starmer - 7"
-question_title: "Could this video be considered misinformation?"
+question_title: "Questo video potrebbe essere considerato disinformazione?"
 question_subtitle: "Decidi se questo elemento è attendibile o no"
-question_submit_message_heading: "You selected"
+question_submit_message_heading: "Hai selezionato"
 question_submit_message_correct: "Giusto"
 question_submit_message_wrong: "Sbagliato"
 question_single_result_message_real: "It is misinformation"
-question_single_result_message_fake: "It is misinformation"
-question_cta_go_explanation: "Check"
+question_single_result_message_fake: "È disinformazione"
+question_cta_go_explanation: "Verificare"
 question_cta_help: "Scegli tra le opzioni riportate sotto"
 question_cta_fake: "Sì"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "Questo video potrebbe essere considerato disinformazione?"
 explanation_subtitle: "Decidi se questo elemento è attendibile o no"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this video fake or real?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Prossima domanda"
 stats_cta_go_finish: "Ricomincia il gioco"
 items:
@@ -35,10 +35,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## This can be considered misninformation
+## Questo può essere considerato disinformazione
 
-This campaign video was made by the opposing UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question about Brexit on a morning news programme.
+Questo video della campagna elettorale è stato realizzato dal Partito Conservatore britannico per mostrare il politico laburista Keir Starmer apparentemente incapace di rispondere a una semplice domanda sulla Brexit durante un programma televisivo di attualità. 
 
-In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 
+Nell'intervista vera e propria, Keir Stramer ha risposto prontamente, ma il video è stato montato per far credere il contrario. Sempre più campagne elettorali, di partiti politici vari, usano "cheapfake", tecniche semplici come questa per rappresentare in modo errato i loro avversari. 
 
-On social media these campaign videos are often not checked,  and unlike with a newspaper or TV advert, there is rarely any penalty when they are found out.
+Sui social media video da campagna elettorale come questo spesso non vengono controllati e, diversamente da un servizio alla TV o sui giornali, quando sono scoperti come falsi raramente ne pagano le conseguenze.
