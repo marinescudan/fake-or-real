@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "Un video della premier belga Sophie Wilmès, in cui afferma che lo "sfruttamento e la distruzione da parte dell'uomo [dell']ambiente naturale" sono direttamente collegati alle più recenti epidemie globali, come SARS, Ebola, influenza suina e Covid-19"
+    question_text: "Un video della premier belga Sophie Wilmès, in cui afferma che lo 'sfruttamento e la distruzione da parte dell'uomo [dell']ambiente naturale' sono direttamente collegati alle più recenti epidemie globali, come SARS, Ebola, influenza suina e Covid-19"
     explanation_title: ""
     stats_title: ""
     click_count: 0
