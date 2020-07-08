@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Starmer - 7"
-question_title: "Could this video be considered misinformation?"
+question_title: "¿Este vídeo podría considerarse como información falsa?"
 question_subtitle: "Decide si este contenido es confiable o no"
 question_submit_message_heading: "Usted seleccionó"
 question_submit_message_correct: "Correcto"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Compruebe"
 question_cta_help: "Escoge entre las siguientes opciones"
 question_cta_fake: "Sí"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "¿Este vídeo podría considerarse como información falsa?"
 explanation_subtitle: "Decide si este contenido es confiable o no"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this video fake or real?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Siguiente pregunta"
 stats_cta_go_finish: "Reiniciar el juego"
 items:
@@ -35,10 +35,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## This can be considered misninformation
+## ¡Esta historia podría considerarse como información falsa!
 
-This campaign video was made by the opposing UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question about Brexit on a morning news programme.
+Este vídeo de campaña fue realizado por el Partido Conservador Británico en oposición intentando hacer ver que el político Keir Starmer era incapaz de responder a una sencilla pregunta sobre Brexit en un telediario matinal. 
 
-In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 
+En la entrevista original, Keir Stramer responde ágilmente; el vídeo fue editado de manera engañosa. Cada vez más, campañas políticas de todo tipo utilizan “falsos baratos” (“cheap fakes”), técnicas sencillas como la de este ejemplo tergiversan a los oponentes políticos. 
 
-On social media these campaign videos are often not checked,  and unlike with a newspaper or TV advert, there is rarely any penalty when they are found out.
+No se suele verificar la veracidad de estos vídeos de campaña en plataformas de redes sociales y, a diferencia de los anuncios televisivos y los periódicos, incluso cuando se descubren, no suele haber sanciones.
