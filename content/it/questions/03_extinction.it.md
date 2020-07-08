@@ -6,18 +6,18 @@ published: true
 project: "for"
 slug: "question"
 title: "extinction"
-question_title: "Has this video been altered?"
+question_title: "Questo video è stato modificato?"
 question_subtitle: "Decidi se questo elemento è attendibile o no"
-question_submit_message_heading: "You selected"
+question_submit_message_heading: "Hai selezionato"
 question_submit_message_correct: "Giusto"
 question_submit_message_wrong: "Sbagliato"
 question_single_result_message_real: "It is not misinformation"
-question_single_result_message_fake: "It is misinformation"
-question_cta_go_explanation: "Check"
+question_single_result_message_fake: "È disinformazione"
+question_cta_go_explanation: "Verifica"
 question_cta_help: "Scegli tra le opzioni riportate sotto"
 question_cta_fake: "Sì"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "Questo video potrebbe essere considerato disinformazione?"
 explanation_subtitle: "Decidi se questo elemento è attendibile o no"
 explanation_cta_go_stats: ""
 stats_title: ""
@@ -30,13 +30,15 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "A video of Belgium’s prime minister Sophie Wilmès, in which she states that the “exploitation and destruction by humans of [the] natural environment” is directly linked to the mosy recent global epidemics, such as SARS, Ebola, Swine Flu and Covid-19"
+    question_text: "Un video della premier belga Sophie Wilmès, in cui afferma che lo "sfruttamento e la distruzione da parte dell'uomo [dell']ambiente naturale" sono direttamente collegati alle più recenti epidemie globali, come SARS, Ebola, influenza suina e Covid-19"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video has been altered, but its objective was not to misinform. 
+### Questo video è stato modificato, ma il suo obiettivo non era quello di disinformare. 
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
-This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
-“Culture jamming” or guerrilla communication is distinct from misinformation in that it seeks to reveal the parody or hoax as part of the strategy to expose the message.
+Questo video è stato pubblicato da Extinction Rebellion Belgium, nell'ambito della loro azione #TellTheTruthBelgium. In questo video l'intelligenza artificiale e il machine learning sono stati utilizzati per replicare la voce e il modo di parlare della premier Sophie Wilmès. 
+
+A 24 ore dalla condivisione, il video deepfake era già stato visualizzato più di 100 mila volte. Extinction Rebellion Belgium da allora ha esplicitato le proprie intenzioni e chiarito che il video non è autentico, citando chiaramente le fonti scientifiche utilizzate per giustificare il discorso. 
+
+L'interferenza culturale o "guerrilla communication" è un concetto distinto dalla disinformazione, in quanto cerca di rivelare la parodia o la bufala come parte della strategia per esporre il messaggio.
