@@ -5,23 +5,23 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Exemple 1"
-question_title: "Which of these politicians' tweets was removed from Twitter?"
+title: "tweets"
+question_title: "Tra questi tweet di politici, quale è stato rimosso da Twitter?"
 question_subtitle: ""
-question_submit_message_heading: "1 out of the 4 were removed"
+question_submit_message_heading: "In 1 caso su 4 sono stati rimossi"
 question_submit_message_correct: "Giusto"
 question_submit_message_wrong: "Sbagliato"
 question_single_result_message_real: "It is real"
-question_single_result_message_fake: "It is fake"
-question_cta_go_explanation: "Check"
-question_cta_help: "Choose between 1 and 4 of the options above!"
-question_cta_fake: "Fake?"
-question_cta_real: "Real?"
-explanation_title: "Only one of these was removed"
+question_single_result_message_fake: "È falso"
+question_cta_go_explanation: "Verificare"
+question_cta_help: "Scegliete tra 1 e 4 delle opzioni di cui sopra!"
+question_cta_fake: "Falso?"
+question_cta_real: "Reale?"
+explanation_title: "Solo uno di questi è stato rimosso"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Find the fake adverts"
-stats_subtitle: "Other people decided that these adverts are not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Prossima domanda"
 stats_cta_go_finish: "Ricomincia il gioco"
 items:
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     question_title: ""
-    question_text: "Donald Trump's tweet to Theresa May on Islamic terrorism"
+    question_text: "Il tweet di Donald Trump a Theresa May sul terrorismo islamico"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,7 +39,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     question_title: ""
-    question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
+    question_text: "I tweet del politico italiano Matteo Salvini sui miti legati al Covid-19"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -48,7 +48,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     question_title: ""
-    question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
+    question_text: "Il presidente brasiliano Jair Bolsonaro twitta un video che mostra alcune fabbriche rimaste aperte durante l'emergenza sanitaria Covid-19, commentando che questa situazione minacciava la salute della popolazione"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -57,11 +57,11 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     question_title: ""
-    question_text: "Australian politician Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
+    question_text: "La politica australiana Concetta Fierravanti-Wells dichiara che gli incendi boschivi sono stati causati da piromani"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### All of these tweets provide false information.
+### AQuesti tweet riportano tutti informazioni false. 
 
-However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other tweets continue to be visible on the platform.
+Tuttavia solo uno, quello di Bolsonaro, è stato rimosso da Twitter, mentre gli altri continuano a essere visibili sulla piattaforma
