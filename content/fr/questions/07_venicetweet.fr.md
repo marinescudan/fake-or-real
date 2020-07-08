@@ -27,7 +27,7 @@ stats_cta_go_finish: "Recommencer le jeu"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/venicetweet.jpg"
-    explanation_media_url: ""
+    explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/venicetweet.jpg"
     stats_media_url: ""
     question_title: ""
     question_text: ""
