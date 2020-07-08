@@ -8,7 +8,7 @@ published: true
 project: "for"
 page: "setup"
 keys:
-    setup_choose_language: "Set quiz language"
-    setup_start_quiz: "Start quiz"
+    setup_choose_language: "Quiz-Sprache einstellen"
+    setup_start_quiz: "Quiz starten"
 ---
 Setup text is not displayed in the app yet.
