@@ -14,7 +14,7 @@ keys:
     finish_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
     finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
-<p style="text-align: center;">## E' stato breve ma **speciale**
+<p style="text-align: center;">## Breve, ma **intenso** 
 
-Per ulteriori informazioni, consultate questo link nel capitolo del Kit di disintossicazione dei dati (Data Detox Kit) sulla disinformazione
+Per maggiori informazioni dai un'occhiata a questo link sulla disinformazione del Data Detox Kit
 [https://datadetoxkit.org/it/wellbeing/misinformation](https://datadetoxkit.org/it/wellbeing/misinformation)</p>
