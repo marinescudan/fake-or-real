@@ -62,6 +62,6 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### AQuesti tweet riportano tutti informazioni false. 
+### Questi tweet riportano tutti informazioni false. 
 
 Tuttavia solo uno, quello di Bolsonaro, è stato rimosso da Twitter, mentre gli altri continuano a essere visibili sulla piattaforma
