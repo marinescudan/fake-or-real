@@ -6,22 +6,22 @@ published: true
 project: "for"
 slug: "question"
 title: "train"
-question_title: "Is the image in the tweet misleading?"
+question_title: "L'immagine in questo tweet è fuorviante?"
 question_subtitle: "Decidi se questo elemento è attendibile o no"
-question_submit_message_heading: "You selected"
+question_submit_message_heading: "Hai selezionato"
 question_submit_message_correct: "Giusto"
 question_submit_message_wrong: "Sbagliato"
 question_single_result_message_real: "It is misleading"
-question_single_result_message_fake: "It is misleading"
-question_cta_go_explanation: "Check"
+question_single_result_message_fake: "E' fuorviante"
+question_cta_go_explanation: "Verificare"
 question_cta_help: "Scegli tra le opzioni riportate sotto"
 question_cta_fake: "Sì"
 question_cta_real: "No"
-explanation_title: "Is the image in the tweet misleading?"
+explanation_title: "L'immagine in questo tweet è fuorviante?"
 explanation_subtitle: "Decidi se questo elemento è attendibile o no"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is the image in the tweet misleading?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Prossima domanda"
 stats_cta_go_finish: "Ricomincia il gioco"
 items:
@@ -30,12 +30,13 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/train.png"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/train.png"
     question_title: ""
-    question_text: "A tweet stating that a mall train was stolen during the Black Lives Matter protests in Minneapolis."
+    question_text: "Un tweet in cui si afferma che un trenino del centro commerciale è stato rubato durante le proteste Black Lives Matter a Minneapolis."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### The image in the tweet is real, but way in which it is presented is misleading.
+### L'immagine nel tweet è reale, ma il modo in cui è presentata è fuorviante.
 
-The real image shows a peaceful protest in Ferguson, Missouri, following the murder of Michael Brown on August 9, 2014. Posts like these skew protest narratives, often inciting rage. 
-These types of posts  are often shared on social media platforms, where truth and misinformation exists in parallel. 
+L'immagine originale mostra una protesta pacifica a Ferguson, nel Missouri, in seguito all'assassinio di Michael Brown il 9 agosto 2014. Messaggi come questi distorcono la narrariva della protesta, spesso incitando alla rabbia. 
+
+Questi tipi di post sono spesso condivisi sui social media, dove verità e disinformazione coesistono in parallelo.
