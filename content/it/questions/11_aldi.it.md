@@ -6,22 +6,22 @@ published: true
 project: "for"
 slug: "question"
 title: "Harelem - 5"
-question_title: "Could this video be considered misinformation?"
+question_title: "Questo video potrebbe essere considerato disinformazione?"
 question_subtitle: ""
-question_submit_message_heading: "You selected"
+question_submit_message_heading: "Hai selezionato"
 question_submit_message_correct: "Giusto"
 question_submit_message_wrong: "Sbagliato"
 question_single_result_message_real: "It is misinformation"
-question_single_result_message_fake: "It is misinformation"
-question_cta_go_explanation: "Check"
+question_single_result_message_fake: "È disinformazione"
+question_cta_go_explanation: "Verificare"
 question_cta_help: "Scegli tra le opzioni riportate sotto"
 question_cta_fake: "Sì"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_title: "Questo video potrebbe essere considerato disinformazione?"
+explanation_subtitle: "Decidi se questo elemento è attendibile o no"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Prossima domanda"
 stats_cta_go_finish: "Ricomincia il gioco"
 items:
@@ -35,10 +35,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The video would be considered misinformation.
+### Questo video sarebbe considerato disinformazione.
 
-The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
+Il video di WhatsApp sulle persone che affollano un negozio è stato condiviso tra i residenti di Haarlem nei Paesi Bassi. Il video è stato quindi condiviso su TikTok e visualizzato più di quattro milioni di volte, con l'effetto di diffondere il panico, suggerendo che i negozi di alimentari stavano esaurendo i beni di prima necessità. 
 
-Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
+Se lo osservi da vicino, tuttavia, noterai che il filmato non proviene affatto dai Paesi Bassi. L'insegna a sinistra nell'immagine è in tedesco, non in olandese. Inoltre, dopo aver notato le lettere nella parte destra dell'immagine, gli investigatori di Bellingcat, che hanno dimostrato che il video era falso, hanno cercato "negozio FBI" in tedesco e hanno scoperto che FBI è una catena di parrucchieri in Germania. 
 
-Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. Not only that, but their analysis allowed them to determine that the video was actually taken in 2011, before a special sale on PCs and mobile phones at the store.
+Non solo: la loro analisi ha permesso di determinare che il video in realtà era stato girato nel 2011, prima dei saldi su PC e telefoni nel negozio.
