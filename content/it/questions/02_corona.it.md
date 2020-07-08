@@ -23,7 +23,7 @@ explanation_cta_go_stats: "See what other people thought"
 stats_title: "Which Of These Adverts Is Fake"
 stats_subtitle: "Other people decided that the adverts are not trustworthy"
 stats_cta_go_again: "Prossima domanda"
-stats_cta_go_finish: "Riavviare il gioco"
+stats_cta_go_finish: "Ricomincia il gioco"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"

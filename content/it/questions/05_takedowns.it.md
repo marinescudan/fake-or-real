@@ -23,7 +23,7 @@ explanation_cta_go_stats: "See what other people thought"
 stats_title: "Find the fake adverts"
 stats_subtitle: "Other people decided that these adverts are not trustworthy"
 stats_cta_go_again: "Prossima domanda"
-stats_cta_go_finish: "Riavviare il gioco"
+stats_cta_go_finish: "Ricomincia il gioco"
 items:
   - fake: false
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
