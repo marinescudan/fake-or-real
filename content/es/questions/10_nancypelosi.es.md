@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Nancy Pelosi - 10"
-question_title: "Could this video be considered misinformation?"
+question_title: "¿Este vídeo podría considerarse como información falsa?"
 question_subtitle: "Decide si este contenido es confiable o no"
 question_submit_message_heading: "Usted seleccionó"
 question_submit_message_correct: "Correcto"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Compruebe"
 question_cta_help: "Escoge entre las siguientes opciones"
 question_cta_fake: "Sí"
 question_cta_real: "No"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "¿Este vídeo podría considerarse como información falsa?"
 explanation_subtitle: "Decide si este contenido es confiable o no"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Siguiente pregunta"
 stats_cta_go_finish: "Reiniciar el juego"
 items:
@@ -30,11 +30,11 @@ items:
     explanation_media_url: "https://youtu.be/uRM7NUMe2vM"
     stats_media_url: "https://youtu.be/uRM7NUMe2vM"
     question_title: ""
-    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019, in which Pelosi appeared to be stammering and stuttering during a speech."
+    question_text: "Este vídeo de Nancy Pelosi, representante política del Partido Democrático de Estados Unidos, donde aparece balbuceando y tartamudeando en un discurso, fue ampliamente difundido en 2019."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video can be considered misinformation.
+### ¡Esta vídeo podría considerarse como información falsa!
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
+El vídeo original del discurso de Pelosi fue editado engañosamente para que pareciera que Pelosi estaba balbuceando en la rueda de prensa. Los vídeos de este tipo, intervenidos a través de técnicas básicas de edición  – por ejemplo, disminuyendo la velocidad para que cause la impresión de alguien pronunciando mal  – se llaman “falsos baratos” (“cheap fakes”).
