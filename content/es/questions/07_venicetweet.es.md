@@ -6,22 +6,22 @@ published: true
 project: "for"
 slug: "question"
 title: "VeniceTweet"
-question_title: "Is the image in the tweet misleading?"
+question_title: "¿La imagen de este tweet es engañosa?"
 question_subtitle: ""
 question_submit_message_heading: "Usted seleccionó"
 question_submit_message_correct: "Correcto"
 question_submit_message_wrong: "Incorrecta"
 question_single_result_message_real: "It is misleading"
-question_single_result_message_fake: "It is misleading"
+question_single_result_message_fake: "Es engañoso"
 question_cta_go_explanation: "Compruebe"
 question_cta_help: "Escoge entre las siguientes opciones"
 question_cta_fake: "Sí"
 question_cta_real: "No"
-explanation_title: "Is the image in the tweet misleading?"
+explanation_title: "¿La imagen de este tweet es engañosa??"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is This Item Fake Or Real"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Siguiente pregunta"
 stats_cta_go_finish: "Reiniciar el juego"
 items:
@@ -36,10 +36,10 @@ items:
     click_count: 0
 ---
 
-### The images in the tweet are real, but the information presented is misleading.
+### La imagen de este tweet es real, pero la manera en que se presenta es engañosa.
 
-The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
+Estas imágenes son de unos cisnes nadando por los canales de Burano, una isla tranquila en la laguna de Venecia. Estos cisnes son habitantes y siempre nadan en los canales. 
 
-Many people believed that the images provided evidence of clearer waters in central Venice as a result of the shutdown in Italy during the COVID-19 pandemic, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
+Mucha gente cree que las imágenes brindan evidencia de que las aguas del centro de Venecia se han limpiado debido al parón en Italia durante la pandemia del COVID-19, quizás porque es una historia esperanzadora y ofrece una perspectiva positiva en un momento difícil. Conforme el tweet se hizo más conocido y se empezó a compartir por organizaciones confiables, se percibió como más verídica. 
 
-Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.
+Incluso si los canales de Venecia están más limpios que antes por una reducción del tráfico de barcos, la información de este tweet es falsa.
