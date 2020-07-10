@@ -6,9 +6,9 @@ published: true
 project: "for"
 slug: "question"
 title: "Smashing car - Geller vid - 8"
-question_title: "Is this story misinformation?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
+question_title: "Ist diese Geschichte eine Fehlinformation?"
+question_subtitle: "Entscheide, ob dieses Video vertrauenswürdig ist oder nicht"
+question_submit_message_heading: "Sie ausgewählt haben"
 question_submit_message_correct: "Richtig"
 question_submit_message_wrong: "Falsch"
 question_single_result_message_real: "It is misinformation"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Überprüfen"
 question_cta_help: "Wähle eine der unteren Möglichkeiten aus"
 question_cta_fake: "Ja"
 question_cta_real: "Nein"
-explanation_title: "Is this story misinformation?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this story misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_title: "Ist diese Geschichte eine Fehlinformation?"
+explanation_subtitle: "Entscheide, ob dieses Video vertrauenswürdig ist oder nicht"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
 stats_cta_go_finish: "Spiel erneut starten"
 items:
@@ -30,13 +30,13 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     stats_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     question_title: ""
-    question_text: "This video, showing men destroying a car with baseball bats, was posted on YouTube with a title that reads 'Angry immigrants attack a police car'."
+    question_text: "Dieses Video zeigt Männer, die ein Auto mit Baseballschlägern zerstören, und wurde auf YouTube mit dem Titel 'Wütende Einwanderer greifen ein Polizeiauto an' veröffentlicht."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This story can be considered misinformation!
+### Bei dieser Geschichte handelt es sich um eine Falschinformation.
 
-The video was shared as evidence of so-called ‘migrant crime’ in Italy. But the video actually shows the filming of the 2015 Italian film ‘Mediterranea'. If you look closely, you can see members of the film crew holding up a microphone and a reflector.
+Das Video wurde als Beweis für das sogenannte „Migrantenverbrechen“ in Italien geteilt. Es zeigt allerdings in Wirklichkeit die Dreharbeiten zum italienischen Film „Mediterranea“ von 2015. Wenn man genau hinsieht, kann man die Mitglieder des Filmteams sehen, die ein Mikrofon und einen Reflektor hochhalten. 
 
-The video was posted by anti-immigrant bloggers around the world, and has since been debunked, but it illustrates how easy it is to take video footage and present it out of context with a different headline to lead viewers to believe something other than what is actually shown in the original video.
+Das Video wurde von Anti-Einwanderer-Bloggern auf der ganzen Welt gepostet, wurde seitdem aber entlarvt. Es zeigt jedoch, wie einfach es ist, Videomaterial aufzunehmen und es mit einer anderen Überschrift aus dem Kontext zu reißen, damit die Zuschauer etwas anderes glauben als das, was es ist tatsächlich im Originalvideo zu sehen gibt.
