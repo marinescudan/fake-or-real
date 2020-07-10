@@ -6,9 +6,9 @@ published: true
 project: "for"
 slug: "question"
 title: "Nancy Pelosi - 10"
-question_title: "Could this video be considered misinformation?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
+question_title: "Könnte man dieses Video als Desinformation bezeichnen?"
+question_subtitle: "Entscheide, ob dieses Video vertrauenswürdig ist oder nicht"
+question_submit_message_heading: "Sie ausgewählt haben"
 question_submit_message_correct: "Richtig"
 question_submit_message_wrong: "Falsch"
 question_single_result_message_real: "It is misinformation"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Überprüfen"
 question_cta_help: "Wähle eine der unteren Möglichkeiten aus"
 question_cta_fake: "Ja"
 question_cta_real: "Nein"
-explanation_title: "Could this video be considered misinformation?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_title: "Könnte man dieses Video als Desinformation bezeichnen?"
+explanation_subtitle: "Entscheide, ob dieses Video vertrauenswürdig ist oder nicht"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
 stats_cta_go_finish: "Spiel erneut starten"
 items:
@@ -30,11 +30,11 @@ items:
     explanation_media_url: "https://youtu.be/uRM7NUMe2vM"
     stats_media_url: "https://youtu.be/uRM7NUMe2vM"
     question_title: ""
-    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019, in which Pelosi appeared to be stammering and stuttering during a speech."
+    question_text: "Ein Video von Nancy Pelosi, einer US-demokratischen Politikerin, wurde 2019 weit verbreitet. Darin sah man Pelosi, die während einer Rede zu stammeln und zu stottern schien."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video can be considered misinformation.
+### Bei diesem Video handelt es sich um eine Falschinformation.
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
+Das Originalvideo von Pelosis Rede wurde bearbeitet und zusammengefügt, um den Eindruck zu erwecken, sie würde während einer Pressekonferenz stottern. Videos wie diese, die mit grundlegenden Bearbeitungstechniken verändert werden – wie in z.B.  Schneiden oder Verlangsamen, um jemanden seine Worte verschlucken zu lassen – werden als „Cheapfakes“ bezeichnet.
