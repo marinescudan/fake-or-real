@@ -5,23 +5,23 @@ date: 2020-05-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Exemple 1"
-question_title: "Which of these front pages of the New York Times is fake?"
+title: "mytimes"
+question_title: "Welche dieser Titelseiten der New York Times ist gefälscht?"
 question_subtitle: ""
-question_submit_message_heading: "You selected"
+question_submit_message_heading: "Sie ausgewählt haben"
 question_submit_message_correct: "Richtig"
 question_submit_message_wrong: "Falsch"
-question_single_result_message_real: "It is real"
-question_single_result_message_fake: "It is fake"
+question_single_result_message_real: "Es ist real"
+question_single_result_message_fake: "Es ist falsch"
 question_cta_go_explanation: "Überprüfen"
-question_cta_help: "Select one of the options above!"
-question_cta_fake: "Fake?"
+question_cta_help: "Wähle eine der oben Möglichkeiten aus."
+question_cta_fake: "Falsch?"
 question_cta_real: "Real?"
-explanation_title: "Which of these front pages of the New York Times is fake?"
+explanation_title: "Welche dieser Titelseiten der New York Times ist gefälscht?"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Which Of These Adverts Is Fake"
-stats_subtitle: "Other people decided that the adverts are not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
 stats_cta_go_finish: "Spiel erneut starten"
 items:
@@ -44,10 +44,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The front page on the left is fake; the front page on the right is real.
+### Die Titelseite links ist falsch; die Titelseite rechts ist echt, obwohl beide auf den ersten Blick echt erscheinen. 
 
-Although both covers at first glance appear to be real, look closely at the two URLs.
+Sieh dir die beiden URLs genau an. Der "-se" -Teil im ersten Bild ist ungewöhnlich und verrät uns, dass es sich hier nicht um die eigentliche Website der New York Times handelt. Falschinformationen sehen oft echt aus, können aber erkannt werden, wenn dir auffällt, dass das Logo oder die URL der Nachrichtenagentur verdächtig ist. 
 
-The “.se” part of the URL in the left-hand image is unusual, and tells us that this is not the actual New York Times website. Misinformation is often made to look genuine but can be spotted if you can recognise that the logo or the URL of the news outlet is suspicious. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL.
+Diese Anomalien sind leichter zu erkennen, wenn die Nachrichtenagenturen bekannt sind oder du die korrekte URL der Website schon kennst. 
 
-In addition, if you know about the Iraq conflict, you might have noticed that the headline was false.
+Falls du bereits einige Kenntnisse über den Konflikt im Irak hast, ist dir möglicherweise aufgefallen, dass die Überschrift falsch ist. 
