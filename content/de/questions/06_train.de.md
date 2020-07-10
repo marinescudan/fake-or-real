@@ -6,9 +6,9 @@ published: true
 project: "for"
 slug: "question"
 title: "train"
-question_title: "Is the image in the tweet misleading?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
+question_title: "Ist das Bild in dem Tweet irreführend?"
+question_subtitle: "Entscheide, ob dieser Tweet vertrauenswürdig ist oder nicht"
+question_submit_message_heading: "Sie ausgewählt haben"
 question_submit_message_correct: "Richtig"
 question_submit_message_wrong: "Falsch"
 question_single_result_message_real: "It is misleading"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Überprüfen"
 question_cta_help: "Wähle eine der unteren Möglichkeiten aus"
 question_cta_fake: "Ja"
 question_cta_real: "Nein"
-explanation_title: "Is the image in the tweet misleading?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is the image in the tweet misleading?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_title: "Ist das Bild in dem Tweet irreführend?"
+explanation_subtitle: "Entscheide, ob dieser Tweet vertrauenswürdig ist oder nicht"
+explanation_cta_go_stats: ""
+stats_title: "Ist das Bild in dem Tweet irreführend?"
+stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
 stats_cta_go_finish: "Spiel erneut starten"
 items:
@@ -30,12 +30,11 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/train.png"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/train.png"
     question_title: ""
-    question_text: "A tweet stating that a mall train was stolen during the Black Lives Matter protests in Minneapolis."
+    question_text: "Ein Tweet, der besagt, dass während der Black-Lives-Matter-Proteste in Minneapolis ein Kinderzug aus einem Einkaufszentrum gestohlen wurde"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### The image in the tweet is real, but way in which it is presented is misleading.
+### Das Bild im Tweet ist echt, aber die Art und Weise der Darstellung ist irreführend.
 
-The real image shows a peaceful protest in Ferguson, Missouri, following the murder of Michael Brown on August 9, 2014. Posts like these skew protest narratives, often inciting rage. 
-These types of posts  are often shared on social media platforms, where truth and misinformation exists in parallel. 
+Das wirkliche Bild zeigt einen friedlichen Protest in Ferguson, Missouri, nach dem Mord an Michael Brown am 9. August 2014. Beiträge wie dieser verzerren das Protestnarrativ und hetzen andere gegen die Bewegung auf. Diese Arten von Beiträgen werden häufig auf Social-Media-Plattformen geteilt, auf denen Wahrheit und Fehlinformation parallel existieren.
