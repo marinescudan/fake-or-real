@@ -6,9 +6,9 @@ published: true
 project: "for"
 slug: "question"
 title: "extinction"
-question_title: "Has this video been altered?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
+question_title: "Wurde dieses Video bearbeitet?"
+question_subtitle: "Entscheide, ob dieses Video vertrauenswürdig ist oder nicht"
+question_submit_message_heading: "Sie haben ausgewählt"
 question_submit_message_correct: "Richtig"
 question_submit_message_wrong: "Falsch"
 question_single_result_message_real: "It is not misinformation"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Überprüfen"
 question_cta_help: "Wähle eine der unteren Möglichkeiten aus."
 question_cta_fake: "Ja"
 question_cta_real: "Nein"
-explanation_title: "Could this video be considered misinformation?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_title: "Könnte man dieses Video als Desinformation bezeichnen?"
+explanation_subtitle: "Entscheide, ob dieses Video vertrauenswürdig ist oder nicht"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
 stats_cta_go_finish: "Spiel erneut starten"
 items:
@@ -30,13 +30,15 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "A video of Belgium’s prime minister Sophie Wilmès, in which she states that the “exploitation and destruction by humans of [the] natural environment” is directly linked to the mosy recent global epidemics, such as SARS, Ebola, Swine Flu and Covid-19"
+    question_text: "Ein Video der belgischen Premierministerin Sophie Wilmès, in dem sie erklärt, dass die 'Ausbeutung und Zerstörung der natürlichen Umwelt durch Menschen' direkt mit den jüngsten globalen Epidemien wie SARS, Ebola, Schweinegrippe und Covid-19 zusammenhängt"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video has been altered, but its objective was not to misinform. 
+### Dieses Video wurde bearbeitet, ist allerdings objektiv und wurde nicht mir der Absicht veröffentlicht, Fehlinformationen zu verbreiten. 
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
-This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
-“Culture jamming” or guerrilla communication is distinct from misinformation in that it seeks to reveal the parody or hoax as part of the strategy to expose the message.
+Dieses Video wurde von Extinction Rebellion Belgium im Rahmen ihrer Aktion #TellTheTruthBelgium veröffentlicht. In diesem Video wurden künstliche Intelligenz und maschinelles Lernen verwendet, um Stimme und Sprache von Premier Sophie Wilmès zu reproduzieren. Innerhalb von 24 Stunden nach der Freigabe des Deep-Fake-Videos gab es über 100.000 Aufrufe. 
+
+Extinction Rebellion Belgium hat seitdem seine Aktionen öffentlich gemacht und damit klargestellt, dass das Video nicht echt ist, und deutlich auf die wissenschaftlichen Quellen verwiesen, die zur Rechtfertigung des Videos verwendet wurden. 
+
+„Culture Jamming“ oder „Guerilla-Kommunikation“ unterscheidet sich von Desinformation dahingehend, dass sie versucht, die Parodie oder den Scherz als Teil der Strategie zur Übermittlung der Botschaft zu nutzen.
