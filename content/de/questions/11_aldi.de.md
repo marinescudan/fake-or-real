@@ -5,10 +5,10 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "aldi - 5"
-question_title: "Could this video be considered misinformation?"
+title: "aldi - 11"
+question_title: "Könnte man dieses Video als Desinformation bezeichnen?"
 question_subtitle: ""
-question_submit_message_heading: "You selected"
+question_submit_message_heading: "Sie ausgewählt haben"
 question_submit_message_correct: "Richtig"
 question_submit_message_wrong: "Falsch"
 question_single_result_message_real: "It is misinformation"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Überprüfen"
 question_cta_help: "Wähle eine der unteren Möglichkeiten aus"
 question_cta_fake: "Ja"
 question_cta_real: "Nein"
-explanation_title: "Could this video be considered misinformation?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_title: "Könnte man dieses Video als Desinformation bezeichnen?"
+explanation_subtitle: "Entscheide, ob dieses Video vertrauenswürdig ist oder nicht"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
 stats_cta_go_finish: "Spiel erneut starten"
 items:
@@ -30,15 +30,15 @@ items:
     explanation_media_url: "https://youtu.be/jIjKIXQHHwg"
     stats_media_url: "https://youtu.be/jIjKIXQHHwg"
     question_title: ""
-    question_text: "This video went viral among in the Netherlands on platforms such as TikTok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe, as evidence that grocery stores were being mobbed by shoppers stocking up on supplies."
+    question_text: "Dieses Video wurde im März 2020 in den Niederlanden auf Plattformen wie TikTok und WhatsApp zu Beginn der COVID-19-Pandemie in Europa viral verbreitet, als Beweis dafür, dass Lebensmittelgeschäfte von Käufern gestürmt wurden, die sich mit Vorräten eindecken wollten."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### The video would be considered misinformation.
+### Bei diesem Video handelt es sich um eine Falschinformation.
 
-The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
+Das WhatsApp-Video von Menschen, die sich in einen Laden drängen, wurde unter den Bewohnern von Haarlem in den Niederlanden verbreitet. Das Video wurde dann auf TikTok geteilt und mehr als vier Millionen Mal angesehen. Dies löste Panik aus, da das Video suggerierte, dass Lebensmittelgeschäfte die Nachfrage nach lebensnotwendigen Gütern nicht mehr decken könnten. Ein genauerer Blick zeigt jedoch, dass dieses Filmmaterial überhaupt nicht aus den Niederlanden stammt. Das Schild links im Bild ist auf Deutsch und nicht auf Niederländisch. Die Ermittler von Bellingcat entlarvten die Falschmeldung schließlich. 
 
-Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
+Als sie Buchstaben auf der rechten Seite des Bildes bemerkt hatten, suchten sie nach „FBI-Laden“ auf Deutsch und stellten fest, dass FBI eine Friseurkette in Deutschland ist. 
 
-Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. Not only that, but their analysis allowed them to determine that the video was actually taken in 2011, before a special sale on PCs and mobile phones at the store.
+Darüber hinaus konnten sie anhand ihrer Analyse feststellen, dass das Video tatsächlich im Jahr 2011 aufgenommen wurde, als es im Geschäft einen Sonderverkauf für PCs und Mobiltelefone gab.

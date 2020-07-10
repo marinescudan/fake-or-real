@@ -5,7 +5,7 @@ date: 2020-05-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "mytimes"
+title: "nyt"
 question_title: "Welche dieser Titelseiten der New York Times ist gefälscht?"
 question_subtitle: ""
 question_submit_message_heading: "Sie ausgewählt haben"
