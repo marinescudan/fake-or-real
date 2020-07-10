@@ -8,7 +8,7 @@ published: true
 project: "for"
 page: "setup"
 keys:
-    setup_choose_language: "setup_choose_language"
-    setup_start_quiz: "setup_start_quiz"
+    setup_choose_language: "Choisissez une langue"
+    setup_start_quiz: "Commencer le quiz"
 ---
 # Setup page html is not displayed in the app yet.
