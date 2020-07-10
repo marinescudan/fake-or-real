@@ -18,8 +18,8 @@ question_cta_help: "Wähle eine der unteren Möglichkeiten aus"
 question_cta_fake: "Ja"
 question_cta_real: "Nein"
 explanation_title: "Ist das Bild irreführend?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
+explanation_subtitle: "Entscheide, ob dieses Bild vertrauenswürdig ist oder nicht."
+explanation_cta_go_stats: ""
 stats_title: ""
 stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The image has been altered.
+### Das Bild wurde bearbeitet.
 
-This image is the sub-product of the conspiracy theory that Bill Gates, through his foundation, seeks to control global human populations through vaccines. In 2020, the foundation began efforts in finding a vaccine to end the coronavirus pandemic. 
-As a result, images like these have begun to resurface. 
+Dieses Bild ist ein Nebenprodukt der Verschwörungstheorie, die besagt, dass Bill Gates durch seine Stiftung versucht, die globale menschliche Bevölkerung durch Impfstoffe zu kontrollieren. Im Jahr 2020 begann die Stiftung mit der Suche nach einem Impfstoff gegen die Coronavirus-Pandemie. 
+Infolgedessen tauchten Bilder wie dieses  auf.
