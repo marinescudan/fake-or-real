@@ -6,9 +6,9 @@ published: true
 project: "for"
 slug: "question"
 title: "VeniceTweet"
-question_title: "Is the image in the tweet misleading?"
+question_title: "Ist das Bild in dem Tweet irreführend?"
 question_subtitle: ""
-question_submit_message_heading: "You chose"
+question_submit_message_heading: "Sie ausgewählt haben"
 question_submit_message_correct: "Richtig"
 question_submit_message_wrong: "Falsch"
 question_single_result_message_real: "It is misleading"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Überprüfen"
 question_cta_help: "Wähle eine der unteren Möglichkeiten aus"
 question_cta_fake: "Ja"
 question_cta_real: "Nein"
-explanation_title: "Is the image in the tweet misleading?"
+explanation_title: "Ist das Bild in dem Tweet irreführend?"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is This Item Fake Or Real"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nächste Frage"
 stats_cta_go_finish: "Spiel erneut starten"
 items:
@@ -36,10 +36,10 @@ items:
     click_count: 0
 ---
 
-### The images in the tweet are real, but the information presented is misleading.
+### Das Bild im Tweet ist echt, aber die Art und Weise der Darstellung ist irreführend.
 
-The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
+Die Bilder zeigen Kanäle in Burano, einer ruhigen Insel in der Lagune von Venedig und Schwäne, die darin schwimmen. Dies war dort allerdings schon immer der Fall. Viele Menschen glaubten, dass die Bilder Beweise für klarere Gewässer im Zentrum von Venedig infolge der Ausgangssperre in Italien während der COVID-19-Pandemie lieferten. 
 
-Many people believed that the images provided evidence of clearer waters in central Venice as a result of the shutdown in Italy during the COVID-19 pandemic, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
+Womöglich auch deshalb, weil dieser Bericht einen positiven Blickwinkel in einer schwierigen Zeit bot. Als der Tweet populärer wurde und von vertrauenswürdigen Organisationen geteilt wurde, wirkte er plötzlich authentischer. 
 
-Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.
+Selbst wenn die Gewässer in den Kanälen von Venedig aufgrund des verringerten Schiffsverkehrs tatsächlich klarer wurden, sind die in diesem Tweet dargestellten Informationen dennoch falsch.
