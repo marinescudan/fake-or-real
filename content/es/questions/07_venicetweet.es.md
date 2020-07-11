@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/venicetweet.jpg"
     stats_media_url: ""
     question_title: ""
-    question_text: ""
+    question_text: "La imagen va acompañada del texto: #venice Un efecto colateral inesperado de la pandemia: agua limpia fluye por los canales de Venecia por primera vez en la Historia. Se ven peces. Regresaron los cisnes."
     explanation_title: ""
     stats_title: ""
     click_count: 0

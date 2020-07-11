@@ -30,16 +30,14 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/venicetweet.jpg"
     stats_media_url: ""
     question_title: ""
-    question_text: ""
-    explanation_title: "L'immagine recita: #venice Un effetto collaterale inaspettato della pandemia: l'acqua che scorre attraverso i canali di Venezia è limpida per la prima volta in assoluto. Si vedono i pesci, i cigni sono tornati"
+    question_text: "L'immagine recita: #venice Un effetto collaterale inaspettato della pandemia: l'acqua che scorre attraverso i canali di Venezia è limpida per la prima volta in assoluto. Si vedono i pesci, i cigni sono tornati"
+    explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 
 ### L'immagine nel tweet è reale, ma il modo in cui è presentata è fuorviante.
 
-The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
+Le immagini mostrano dei cigni che nuotano nei canali di Burano, un'isola tranquilla nella laguna veneziana. Ma i cigni hanno sempre nuotato lì. Molte persone hanno creduto che le immagini provassero che le acque nel centro di Venezia fossero diventate più limpide in seguito al blocco delle attività in Italia durante la pandemia da Covid-19, forse perché questa storia di speranza offriva una prospettiva positiva in un momento difficile. 
 
-Many people believed that the images provided evidence of clearer waters in central Venice as a result of the shutdown in Italy during the COVID-19 pandemic, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
-
-Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.
+Man mano che il tweet diventava più popolare ed era condiviso da organizzazioni note, ha cominciato a sembrare sempre più affidabile. Anche se le acque nei canali di Venezia erano davvero meno inquinate per la riduzione del traffico navale, le informazioni presentate in questo tweet sono false.

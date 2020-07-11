@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/venicetweet.jpg"
     stats_media_url: ""
     question_title: ""
-    question_text: ""
+    question_text: "Légende de l'image : #venise Un effet inattendu de la pandémie : l'eau des canaux de Venise est claire pour la première fois depuis des lustres. Les poissons sont visibles, les cygnes sont revenus"
     explanation_title: ""
     stats_title: ""
     click_count: 0
