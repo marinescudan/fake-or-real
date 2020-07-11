@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://youtu.be/jIjKIXQHHwg"
     stats_media_url: "https://youtu.be/jIjKIXQHHwg"
     question_title: ""
-    question_text: "This video went viral among in the Netherlands on platforms such as TikTok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe, as evidence that grocery stores were being mobbed by shoppers stocking up on supplies."
+    question_text: "Questo video è diventato virale nei Paesi Bassi su piattaforme come TikTok e WhatsApp nel marzo 2020, all'inizio della pandemia Covid-19 in Europa, come prova che i negozi di alimentari erano assaltati dai clienti che facevano le scorte."
     explanation_title: ""
     stats_title: ""
     click_count: 0
