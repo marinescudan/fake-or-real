@@ -1,4 +1,3 @@
-
 ---
 uuid: a14ca382-92f4-4bb3-aa05-d2e9789326a1
 locale: fr
@@ -18,7 +17,7 @@ question_cta_go_explanation: "Vérifiez"
 question_cta_help: "Choisissez parmi les options ci-dessous"
 question_cta_fake: "Oui"
 question_cta_real: "No"
-explanation_title: "Cette vidéo pourrait-elle être considérée comme de la désinformation?"
+explanation_title: "Cette vidéo a-t-elle été modifiée?"
 explanation_subtitle: "Cette information est-elle fiable?"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Could this video be considered misinformation?"
