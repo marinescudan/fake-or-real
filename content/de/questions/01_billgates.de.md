@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/billgates.png"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/billgates.png"
     question_title: ""
-    question_text: ""
+    question_text: "Dieses Bild zeigt ein Gebäude aus der Bill and Melinda Gates Foundation, in dem es heißt: 'Zentrum für globale Reduzierung der menschlichen Bevölkerung'. "
     explanation_title: ""
     stats_title: ""
     click_count: 0
