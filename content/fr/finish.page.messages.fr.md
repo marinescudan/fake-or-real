@@ -14,7 +14,8 @@ keys:
     finish_image_center_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/2.jpg"
     finish_image_right_url: "https://cdn.ttc.io/i/fit/960/580/sm/0/plain/fake-or-real-news-edition/3.jpg"
 ---
-<p style="text-align: center;">## Ce fut court, mais **intense**
+<p style="text-align: center;">
+## Ce fut court, mais **intense**
 
 Pour plus d'informations, consultez le chapitre Désinformation du Data Detox Kit 
 [https://datadetoxkit.org/fr/wellbeing/misinformation](https://datadetoxkit.org/fr/wellbeing/misinformation)</p>
