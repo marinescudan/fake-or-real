@@ -41,4 +41,4 @@ Das WhatsApp-Video von Menschen, die sich in einen Laden drängen, wurde unter d
 
 Als sie Buchstaben auf der rechten Seite des Bildes bemerkt hatten, suchten sie nach „FBI-Laden“ auf Deutsch und stellten fest, dass FBI eine Friseurkette in Deutschland ist. 
 
-Darüber hinaus konnten sie anhand ihrer Analyse feststellen, dass das Video tatsächlich im Jahr 2011 aufgenommen wurde, als es im Geschäft einen Sonderverkauf für PCs und Mobiltelefone gab.
+Darüber hinaus konnten sie anhand ihrer Analyse feststellen, dass das Video tatsächlich im Jahr 2011 aufgenommen wurde.
