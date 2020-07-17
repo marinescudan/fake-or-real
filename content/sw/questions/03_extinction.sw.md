@@ -6,22 +6,22 @@ published: true
 project: "for"
 slug: "question"
 title: "extinction"
-question_title: "Has this video been altered?"
-question_subtitle: "Decide whether this item is trustworthy or not"
-question_submit_message_heading: "You selected"
+question_title: "Har denna video ändrats?"
+question_subtitle: "Avgör om detta är tillförlitligt eller inte"
+question_submit_message_heading: "Du valde"
 question_submit_message_correct: "Rätt"
 question_submit_message_wrong: "Fel"
 question_single_result_message_real: "It is not misinformation"
 question_single_result_message_fake: "Det är desinformation"
 question_cta_go_explanation: "Kontrollera"
-question_cta_help: "Choose between the options below"
+question_cta_help: "Välj mellan alternativen nedan"
 question_cta_fake: "Ja"
 question_cta_real: "Nej"
-explanation_title: "Could this video be considered misinformation?"
-explanation_subtitle: "Decide whether this item is trustworthy or not"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_title: "Kan denna video betraktas som desinformation?"
+explanation_subtitle: "Avgör om detta är tillförlitligt eller inte"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
 stats_cta_go_finish: "Starta om spelet"
 items:
@@ -30,13 +30,13 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "A video of Belgium’s prime minister Sophie Wilmès, in which she states that the “exploitation and destruction by humans of [the] natural environment” is directly linked to the mosy recent global epidemics, such as SARS, Ebola, Swine Flu and Covid-19"
+    question_text: "En video med Belgiens premiärminister Sophie Wilmès där hon uttalar att "människors exploatering och förstörelse av den naturliga miljön" är direkt kopplad till de senaste globala epedemierna så som SARS, Ebola, Svininfluensan och Covid-19."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video has been altered, but its objective was not to misinform. 
+### Denna video har ändrats men syftet var inte att felinformera.
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
-This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
-“Culture jamming” or guerrilla communication is distinct from misinformation in that it seeks to reveal the parody or hoax as part of the strategy to expose the message.
+Denna video släpptes av Extinction Rebellion Belgium, som en del av deras #TellTheTruthBelgium-kampanj. Artificiell intelligens och maskininlärning användes i den här videon för att efterlikna premiärminister Sophie Wilmès röst och tal. Inom 24 timmar efter att denna deepfake-video delades hade den över 100 000 visningar. 
+
+Extinction Rebellion Belgium har efter det publicerat beskrivning av hur de agerat, gjort det tydligt att videon inte är riktig och hänvisat till vetenskapliga källor som stödjer talet. "Culture jamming" eller gerillakommunikation skiljer sig från desinformation då det handlar om att medvetet göra en ideologisk poäng.
