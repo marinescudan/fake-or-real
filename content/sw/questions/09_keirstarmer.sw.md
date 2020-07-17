@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Starmer - 7"
-question_title: "Could this video be considered misinformation?"
+question_title: "Kan denna video betraktas som desinformation?"
 question_subtitle: "Avgör om detta är tillförlitligt eller inte"
 question_submit_message_heading: "Du valde"
 question_submit_message_correct: "Rätt"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Kontrollera"
 question_cta_help: "Välj mellan alternativen nedan"
 question_cta_fake: "Ja"
 question_cta_real: "Nej"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "Kan denna video betraktas som desinformation?"
 explanation_subtitle: "Avgör om detta är tillförlitligt eller inte"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is this video fake or real?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
 stats_cta_go_finish: "Starta om spelet"
 items:
@@ -35,10 +35,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## This can be considered misninformation
+## Detta kan betraktas som desinformation!
 
-This campaign video was made by the opposing UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question about Brexit on a morning news programme.
+Denna kampanjvideo gjordes av det konservativa oppositionspartiet i Storbritannien och visar politikern Keir Starmer (Labour) som har svårt att svara på en enkel fråga om Brexit i ett nyhetsprogram. 
 
-In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 
+I den verkliga intervjun svarade Keir Stramer omgående, videon redigerades på ett missvisande sätt. Kampanjer från alla politiska partier använder allt oftare "cheap fakes", enkla tekniker för att misskreditera sina motståndare. 
 
-On social media these campaign videos are often not checked,  and unlike with a newspaper or TV advert, there is rarely any penalty when they are found out.
+På sociala medier är denna typ av filmklipp inte granskade på samma sätt som tidningar eller TV-inslag. Det leder sällan till något straff när de väl upptäcks.
