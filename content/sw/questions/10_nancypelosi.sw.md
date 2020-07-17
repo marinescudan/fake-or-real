@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Nancy Pelosi - 10"
-question_title: "Could this video be considered misinformation?"
+question_title: "Kan denna video betraktas som desinformation?"
 question_subtitle: "Avgör om detta är tillförlitligt eller inte"
 question_submit_message_heading: "Du valde"
 question_submit_message_correct: "Rätt"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Kontrollera"
 question_cta_help: "Välj mellan alternativen nedan"
 question_cta_fake: "Ja"
 question_cta_real: "Nej"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "Kan denna video betraktas som desinformation?"
 explanation_subtitle: "Avgör om detta är tillförlitligt eller inte"
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
 stats_cta_go_finish: "Starta om spelet"
 items:
@@ -30,11 +30,11 @@ items:
     explanation_media_url: "https://youtu.be/uRM7NUMe2vM"
     stats_media_url: "https://youtu.be/uRM7NUMe2vM"
     question_title: ""
-    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019, in which Pelosi appeared to be stammering and stuttering during a speech."
+    question_text: "En video av den amerikanska politikern Nancy Pelosi (Demokratiska partiet), som spreds 2019 och där hon framställs som långsam och stammandes under ett tal."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video can be considered misinformation.
+### Denna video kan betraktas som desinformation
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
+Den ursprungliga videon av Pelosis tal var kraftigt redigerad för att få det att verka som om hon stammade under presskonferensen. Videor som denna, där redigeringsteknik använts för att exempelvis ändra hastgheten och på så sätt få det att framstå som att någon sluddrar eller tappar bort sig, kallas för "cheapfakes".
