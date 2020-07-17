@@ -30,7 +30,7 @@ items:
     explanation_media_url: ""
     stats_media_url: ""
     question_title: ""
-    question_text: ""
+    question_text: "Das Bild lautet: #venice Ein unerwarteter Nebeneffekt der Pandemie: Das Wasser, das durch die Kanäle von Venedig fließt, ist zum ersten Mal seit einer Ewigkeit klar. Die Fische sind sichtbar, die Schwäne sind zurückgekommen."
     explanation_title: ""
     stats_title: ""
     click_count: 0
