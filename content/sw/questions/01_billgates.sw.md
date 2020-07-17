@@ -19,7 +19,7 @@ question_cta_fake: "Ja"
 question_cta_real: "Nej"
 explanation_title: "Är denna bild vilseledande?"
 explanation_subtitle: "Avgör om detta är tillförlitligt eller inte"
-explanation_cta_go_stats: "See what other people thought"
+explanation_cta_go_stats: ""
 stats_title: ""
 stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
@@ -35,7 +35,6 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The image has been altered.
+### Bilden har ändrats.
 
-This image is the sub-product of the conspiracy theory that Bill Gates, through his foundation, seeks to control global human populations through vaccines. In 2020, the foundation began efforts in finding a vaccine to end the coronavirus pandemic. 
-As a result, images like these have begun to resurface. 
+Denna bild är en del av konspirationsteorin att Bill Gates genom sin organisation försöker kontrollera den globala mänskliga populationen genom vacciner. 2020 påbörjade organisationen ett arbete med att hitta vaccin för att bekämpa coronaviruset. Som ett resultat har denna typ av bilder börjat cirkulera.
