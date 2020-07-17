@@ -5,23 +5,23 @@ date: 2020-06-08T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Exemple 1"
-question_title: "Which of these items are spreading misinformation about coronavirus?"
+title: "corona"
+question_title: "Vilken av dessa sprider desinformation om coronaviruset?"
 question_subtitle: ""
-question_submit_message_heading: "Choose which item you think is false or misleading"
+question_submit_message_heading: "Välj vilken av dessa du tror är fel eller vilseledande"
 question_submit_message_correct: "Rätt"
 question_submit_message_wrong: "Fel"
 question_single_result_message_real: "It is not misinformation"
-question_single_result_message_fake: "It is misinformation"
+question_single_result_message_fake: "Det är desinformation"
 question_cta_go_explanation: "Kontrollera"
-question_cta_help: "Select one of the options above!"
+question_cta_help: "Välj ett av alternativen ovan!"
 question_cta_fake: "Falsk?"
 question_cta_real: "Verklig?"
-explanation_title: "Choose which item you think it false or misleading"
+explanation_title: "Välj vilken av dessa du tror är fel eller vilseledande"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Which Of These Adverts Is Fake"
-stats_subtitle: "Other people decided that the adverts are not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
 stats_cta_go_finish: "Starta om spelet"
 items:
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     question_title: ""
-    question_text: "A meme that suggests China released the coronavirus"
+    question_text: "Ett meme som menar att Kina medvetet sped coronaviruset"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,14 +39,14 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     question_title: ""
-    question_text: "A news article that suggests blood plasma could help cure coronavirus"
+    question_text: "En nyhetsartikel som föreslår att blodplasma kan bidra till att bota coronaviruset"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 
-### The news story on blood plasma is genuine.
+### Nyheten om blodplasma är äkta. 
 
-Memes are effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster.
+Memes är effektiva bärare av desinformation eftersom den lättsamma och humoristiska tonen ofta anses viktigare än innehållet. Plus att de är lätta att dela vilket betyder att de cirkulerar snabbare. 
 
-The meme on the left implies that China was responsible for releasing the coronavirus, a theory that has not been backed up with evidence.
+"Memet till vänster antyder att Kina var ansvarigt för spridningen av coronaviruset, en teori som inte stöds med evidens.
