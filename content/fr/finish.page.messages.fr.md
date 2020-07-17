@@ -18,4 +18,4 @@ keys:
 ## Ce fut court, mais **intense**
 
 Pour plus d'informations, consultez le chapitre Désinformation du Data Detox Kit 
-[https://datadetoxkit.org/fr/wellbeing/misinformation](https://datadetoxkit.org/fr/wellbeing/misinformation)</p>
+[https://datadetoxkit.org/fr/misinformation/steerclear](https://datadetoxkit.org/fr/misinformation/steerclear)</p>

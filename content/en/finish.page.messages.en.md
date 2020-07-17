@@ -18,4 +18,4 @@ keys:
 ## It's been brief but **special**
 
 For more info, check out this link in the Data Detox Kit chapter on Misinformation
-[https://datadetoxkit.org/en/wellbeing/misinformation](https://datadetoxkit.org/en/wellbeing/misinformation)</p>
+[https://datadetoxkit.org/en/misinformation/steerclear](https://datadetoxkit.org/en/misinformation/steerclear)</p>
