@@ -22,8 +22,8 @@ explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is the image in the tweet misleading?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Next Question"
-stats_cta_go_finish: "Restart Game"
+stats_cta_go_again: "Nästa fråga"
+stats_cta_go_finish: "Starta om spelet"
 items:
   - fake: true
     question_media_url: "https://cdn.ttc.io/s/fake-or-real-app/train.png"
