@@ -6,22 +6,22 @@ published: true
 project: "for"
 slug: "question"
 title: "VeniceTweet"
-question_title: "Is the image in the tweet misleading?"
+question_title: "Är bilden i tweeten vilseledande?"
 question_subtitle: ""
 question_submit_message_heading: "Du valde"
 question_submit_message_correct: "Rätt"
 question_submit_message_wrong: "Fel"
 question_single_result_message_real: "It is misleading"
-question_single_result_message_fake: "It is misleading"
+question_single_result_message_fake: "Det är vilseledande"
 question_cta_go_explanation: "Kontrollera"
 question_cta_help: "Välj mellan alternativen nedan"
 question_cta_fake: "Ja"
 question_cta_real: "Nej"
-explanation_title: "Is the image in the tweet misleading?"
+explanation_title: "Är bilden i tweeten vilseledande?"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Is This Item Fake Or Real"
-stats_subtitle: "Other people decided that the advert is not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
 stats_cta_go_finish: "Starta om spelet"
 items:
@@ -36,10 +36,10 @@ items:
     click_count: 0
 ---
 
-### The images in the tweet are real, but the information presented is misleading.
+### Bilden i denna tweet är riktig, men sättet den presenteras på är vilseledande.
 
-The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
+Bilderna är på svanar som simmade i kanalerna på den lugna ön Burano i den venetianska lagunen. Men svanar har alltid simmat där. 
 
-Many people believed that the images provided evidence of clearer waters in central Venice as a result of the shutdown in Italy during the COVID-19 pandemic, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
+Många uppfattade bilderna som bevis på klarare vatten i centrala Venedig till följd av den nedstängning som skedde i Italien under COVID-19-pandemin. Kanske för att det är en hoppfull historia med en positiv vinkel under en svår tid. 
 
-Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.
+När tweeten blev mer populär och delades av betrodda organisationer, ökade trovärdheten. Även om vattnet i Venedigs kanaler verkligen var klarare på grund av minskad båttrafik, är informationen i denna tweet falsk.
