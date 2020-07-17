@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "nyt"
-question_title: "Which of these front pages of the New York Times is fake?"
+question_title: "Vilken av dessa förstasidor av New York Times är falsk?"
 question_subtitle: ""
 question_submit_message_heading: "Du valde"
 question_submit_message_correct: "Rätt"
@@ -17,11 +17,11 @@ question_cta_go_explanation: "Kontrollera"
 question_cta_help: "Välj ett av alternativen ovan!"
 question_cta_fake: "Falsk?"
 question_cta_real: "Verklig?"
-explanation_title: "Which of these front pages of the New York Times is fake?"
+explanation_title: "Vilken av dessa förstasidor av New York Times är falsk?"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Which Of These Adverts Is Fake"
-stats_subtitle: "Other people decided that the adverts are not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
 stats_cta_go_finish: "Starta om spelet"
 items:
@@ -44,10 +44,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The front page on the left is fake; the front page on the right is real.
+### Framsidan till vänster är falsk; framsidan till höger är äkta. 
 
-Although both covers at first glance appear to be real, look closely at the two URLs.
+Även om båda omslagen vid första anblicken verkar vara riktiga, titta noga på de två webbadresserna. ".Se" -delen av URL: en i den vänstra bilden är ovanlig och berättar att detta inte är New York Times faktiska webbplats. 
 
-The “.se” part of the URL in the left-hand image is unusual, and tells us that this is not the actual New York Times website. Misinformation is often made to look genuine but can be spotted if you can recognise that the logo or the URL of the news outlet is suspicious. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL.
+Desinformation görs ofta för att se äkta ut men kan upptäckas om du kan känna igen att logotypen eller webbadressen till nyhetsuttaget är misstänkt. 
 
-In addition, if you know about the Iraq conflict, you might have noticed that the headline was false.
+Dessa avvikelser är lättare att upptäcka om nyheterna är välkända eller om du redan känner till webbplatsens korrekta URL. Dessutom, om du känner till Irak-konflikten, kanske du märkte att rubriken var falsk.

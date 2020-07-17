@@ -5,23 +5,23 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Exemple 1"
-question_title: "Which of these politicians' tweets was removed from Twitter?"
+title: "takedowns"
+question_title: "Vilka av dessa politikers tweets raderades av Twitter?"
 question_subtitle: ""
-question_submit_message_heading: "1 out of the 4 were removed"
+question_submit_message_heading: "1 av 4 togs bort"
 question_submit_message_correct: "Rätt"
 question_submit_message_wrong: "Fel"
 question_single_result_message_real: "Det är på riktigt"
-question_single_result_message_fake: "It is fake"
+question_single_result_message_fake: "Det är falskt"
 question_cta_go_explanation: "Kontrollera"
-question_cta_help: "Choose between 1 and 4 of the options above!"
+question_cta_help: "Välj mellan 1 och 4 av alternativen ovan!"
 question_cta_fake: "Falsk?"
 question_cta_real: "Verklig?"
-explanation_title: "Only one of these was removed"
+explanation_title: "Bara en av dessa togs bort"
 explanation_subtitle: ""
-explanation_cta_go_stats: "See what other people thought"
-stats_title: "Find the fake adverts"
-stats_subtitle: "Other people decided that these adverts are not trustworthy"
+explanation_cta_go_stats: ""
+stats_title: ""
+stats_subtitle: ""
 stats_cta_go_again: "Nästa fråga"
 stats_cta_go_finish: "Starta om spelet"
 items:
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     question_title: ""
-    question_text: "Donald Trump's tweet to Theresa May on Islamic terrorism"
+    question_text: "Donald Trumps tweet till Theresa May om islamistisk terrorism"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,7 +39,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     question_title: ""
-    question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
+    question_text: "Den italienske politikern Matteo Salvini twittrar om myter kring coronaviruset"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -48,7 +48,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     question_title: ""
-    question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
+    question_text: "Den brasilianske presidenten Jair Bolsonaros tweet med en video som visar fabriker som hålls öppna trots hälsoläget med coronaviruset vilket indikerar ett hot mot människors hälsa"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -57,11 +57,11 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     question_title: ""
-    question_text: "Australian politician Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
+    question_text: "Australiensiske politikern Cencetta Fierravanti-Wells påstår att aktuella bränder varit anlagda"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### All of these tweets provide false information.
+### Alla dessa tweets visade sig vara falska. 
 
-However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other tweets continue to be visible on the platform.
+Men endast en av dem, Bolsonaros, togs bort av Twitter medan de andra låg kvar på plattformen.
