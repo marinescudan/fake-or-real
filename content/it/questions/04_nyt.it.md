@@ -44,7 +44,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### TLa prima pagina sulla sinistra è falsa; la prima pagina a destra è vera. 
+### La prima pagina sulla sinistra è falsa; la prima pagina a destra è vera. 
 
 Anche se entrambe le prime pagine a prima vista sembrano essere autentiche, osserva attentamente i due URL. La parte ".se" dell'URL nell'immagine a sinistra è insolita e ci dice che questo non è il vero sito web del New York Times. 
 
