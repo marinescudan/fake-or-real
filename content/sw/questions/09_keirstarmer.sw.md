@@ -5,7 +5,7 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Starmer - 7"
+title: "Starmer"
 question_title: "Kan denna video betraktas som desinformation?"
 question_subtitle: "Avgör om detta är tillförlitligt eller inte"
 question_submit_message_heading: "Du valde"
