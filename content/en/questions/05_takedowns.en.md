@@ -6,7 +6,7 @@ published: true
 project: "for"
 slug: "question"
 title: "Exemple 1"
-question_title: "Which of these politicians' tweets was removed from Twitter?"
+question_title: "Which of these politicians' posts was removed?"
 question_subtitle: ""
 question_submit_message_heading: "1 out of the 4 were removed"
 question_submit_message_correct: "Correct"
@@ -39,7 +39,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     question_title: ""
-    question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
+    question_text: "Italian Politican Matteo Salvini posts about Coronavirus myths"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -64,4 +64,4 @@ items:
 ---
 ### All of these tweets provide false information.
 
-However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other tweets continue to be visible on the platform.
+However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other posts continue to be visible on the platforms.
