@@ -64,7 +64,7 @@ export default {
         if (this.namespace === 'explanation') exponent  = 40;
         if (this.namespace === 'stats') exponent  = 30;
       }
-      return `max-height: ${ this.availableHeight / exponent }rem; min-height: ${ 30 }rem;`;
+      return `max-height: ${ this.availableHeight / exponent }rem;`;
     },
     availableWidth: function (){ return ( this.$screen.width * 0.5625 ) >= this.$screen.height ? this.$screen.height / 0.5625 : this.$screen.width;},
     availableHeight: function (){ return this.availableWidth * 0.5625;},

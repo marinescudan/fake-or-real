@@ -67,8 +67,8 @@ export default {
     right: calc(50% - 2.5rem)
     width: 5rem
     height: 5rem
-    background: rgba(255,255,255,0.5) url('~@/assets/img/icon-expand.svg') center center no-repeat
-    background-size: 2.5rem 2.5rem
+    background: rgba(255,255,255,0.5) url('~@/assets/img/icon-expand.png') center center no-repeat
+    background-size: 2.5rem 2.5rem  
 
 .selected
   .media-container::before
@@ -90,6 +90,7 @@ export default {
   top: calc(50% - 50rem)
   left: calc(50% - 50rem)
   @include modalContainer
+  @include border
   .media
     width: 100%
   .close-btn

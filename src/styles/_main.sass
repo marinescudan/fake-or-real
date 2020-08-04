@@ -45,11 +45,10 @@ button.frame
   padding: 1rem
   @include frame
 
-.disabled
-  background: hsl(0, 0%, 92%)
-  color: #a4a4a4
-  // border: 1.25rem solid #cac9cb !important
-  border: 10px solid #cac9cb !important
+a.frame.disabled,
+button.frame.disabled
+  padding: 1rem
+  @include frameDisabled
 
 
 .frame
