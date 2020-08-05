@@ -1,11 +1,11 @@
 <template>
   <div class="c-input-locale">
-    <button type="button" class="btn-link"
-       v-for="lang in i18n_messages"
-       :key="lang.locale"
-       :class="{'selected': userLocale == lang.locale}"
-       :disabled="userLocale == lang.locale"
-       @click="setLanguage(lang.locale)"
+    <button type="button" class="btn-link w-25 mb4"
+      v-for="lang in messages"
+      :key="lang.locale"
+      :class="{'selected': userLocale == lang.locale}"
+      :disabled="userLocale == lang.locale"
+      @click="setLanguage(lang.locale)"
     >{{lang.locale_for_humans}}</button>
   </div>
 </template>
@@ -21,6 +21,9 @@ export default {
     }
   },
   computed: {
+    messages: function () {
+      return Object.keys(this.i18n_messages).sort().reduce((r, k) => (r[k] = this.i18n_messages[k], r), {});
+    },
     ...mapState({
       i18n_messages: state => state.i18n_messages
     }),

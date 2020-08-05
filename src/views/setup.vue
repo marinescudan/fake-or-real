@@ -8,7 +8,7 @@
       <c-row>
         <c-col class="c-w-6">
           <h2>{{ locale.setup_choose_language }}</h2>
-          <c-input-locale class="pt3"></c-input-locale>
+          <c-input-locale class="pt5"></c-input-locale>
         </c-col>
       </c-row>
     </c-main>

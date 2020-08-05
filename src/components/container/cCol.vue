@@ -26,7 +26,5 @@ export default {
 @for $i from 1 through 12
   .c-w-#{ $i }
     width: calc( 99.9999% / 12 * #{ $i } )
-    // @media all and (-ms-high-contrast:none)
-    //   width: calc( 99.9999% / 12 * #{ $i } )
 
 </style>
