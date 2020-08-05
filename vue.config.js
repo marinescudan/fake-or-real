@@ -1,4 +1,4 @@
-// const path = require('path');
+const path = require('path');
 
 const app = {
   name: 'Fake or Real - News Edition',
@@ -16,9 +16,7 @@ module.exports = {
       enableInSFC: true
     }
   },
-
   outputDir: '_site',
-
   pwa: {
     name: 'Fake or Real - News Edition',
     themeColor: '#FFFFFF',
