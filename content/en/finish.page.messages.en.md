@@ -14,8 +14,9 @@ keys:
     finish_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
     finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
+<h2 style="text-align: center;"> It's been brief but <b>special</b></h2>
+
 <p style="text-align: center;">
-## It's been brief but **special**
 
 For more info, check out this link in the Data Detox Kit chapter on Misinformation
 [https://datadetoxkit.org/en/misinformation/steerclear](https://datadetoxkit.org/en/misinformation/steerclear)</p>
