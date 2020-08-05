@@ -16,4 +16,4 @@ keys:
 ---
 <h2 style="text-align: center;"> It's been brief but <b>special</b></h2>
 
-<p style="text-align: center;"> For more info, check out this link in the Data Detox Kit chapter on Misinformation <a href="https://datadetoxkit.org/en/misinformation/steerclear"> https://datadetoxkit.org/en/misinformation/steerclear</a></p>
+<p style="text-align: center;"> For more info, check out this link in the Data Detox Kit chapter on Misinformation <a href="https://datadetoxkit.org/en/misinformation/steerclear" target="_blank"> https://datadetoxkit.org/en/misinformation/steerclear</a></p>
