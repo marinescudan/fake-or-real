@@ -14,7 +14,6 @@ keys:
     finish_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
     finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
-<p style="text-align: center;">
-## Trumpai, bet ** ypatingai** 
+<h2 style="text-align: center;"> Trumpai, bet <b>ypatingai</b></h2>
 
-Norėdami daugiau informacijos, paspauskite šią nuorodą Duomenų detoksikacijos rinkinio skyriuje apie klaidinančią informaciją https://datadetoxkit.org/li/wellbeing/misinformation </p>
+<p style="text-align: center;"> Norėdami daugiau informacijos, paspauskite šią nuorodą Duomenų detoksikacijos rinkinio skyriuje apie klaidinančią informaciją <a href="https://datadetoxkit.org/li/misinformation/steerclear" target="_blank"> https://datadetoxkit.org/li/misinformation/steerclear</a></p
