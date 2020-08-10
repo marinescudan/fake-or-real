@@ -12,7 +12,7 @@ question_submit_message_heading: "Pasirinkite elementą, kuris jūsų manymu yra
 question_submit_message_correct: "Teisingas"
 question_submit_message_wrong: "Klaidingas"
 question_single_result_message_real: "It is not misinformation"
-question_single_result_message_fake: "It is misinformation"
+question_single_result_message_fake: "Tai yra dezinformacija"
 question_cta_go_explanation: "Check"
 question_cta_help: "Select one of the options above!"
 question_cta_fake: "Fake?"
