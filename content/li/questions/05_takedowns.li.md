@@ -5,7 +5,7 @@ date: 2016-03-12T00:00:00.000Z
 published: true
 project: "for"
 slug: "question"
-title: "Exemple 1"
+title: "takedowns"
 question_title: "Which of these politicians' tweets was removed from Twitter?"
 question_subtitle: ""
 question_submit_message_heading: "1 out of the 4 were removed"
