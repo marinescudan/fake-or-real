@@ -22,8 +22,8 @@ explanation_subtitle: "Decide whether this item is trustworthy or not"
 explanation_cta_go_stats: "See what other people thought"
 stats_title: "Is this story misinformation?"
 stats_subtitle: "Other people decided that the advert is not trustworthy"
-stats_cta_go_again: "Next Question"
-stats_cta_go_finish: "Restart Game"
+stats_cta_go_again: "Kitas klausimas"
+stats_cta_go_finish: "Pradėti žaidimą iš naujo"
 items:
   - fake: true
     question_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
