@@ -14,7 +14,7 @@ question_submit_message_wrong: "Klaidingas"
 question_single_result_message_real: "It is real"
 question_single_result_message_fake: "Tai netikra"
 question_cta_go_explanation: "Patikrinkite"
-question_cta_help: "Choose between 1 and 4 of the options above!"
+question_cta_help: "Pasirinkite nuo 1 iki 4 iš aukščiau pateiktų variantų!"
 question_cta_fake: "Netikras?"
 question_cta_real: "Tikras?"
 explanation_title: "Pašalinta tik viena jų"
@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown1.jpg"
     question_title: ""
-    question_text: "Donald Trump's tweet to Theresa May on Islamic terrorism"
+    question_text: "Donaldo Trumpo 'Twitter' žinutė  apie islamo terorizmą, skirta Theresa'i May"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,7 +39,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown2.jpg"
     question_title: ""
-    question_text: "Italian Politican Matteo Salvini tweets about Coronavirus myths"
+    question_text: "Italijos politiko Matteo Salvini komentarai apie koronaviruso mitus"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -48,7 +48,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown3.jpg"
     question_title: ""
-    question_text: "Brazilian President Jair Bolsonaro tweets a video showing factories that remained open in light of the Coronavirus health emergency, indicating that such a situation was threatening to the health of the people"
+    question_text: "Brazilijos prezidentas Jair Bolsonaro 'Twitter' paskelbė vaizdo įrašą, kuriame matosi fabrikai, likę veikti nepaprastosios koronaviruso situacijos metu, užsimenant, kad tokia padėtis kelia grėsmę žmonių sveikatai"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -57,11 +57,11 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/takedown4.jpg"
     question_title: ""
-    question_text: "Australian politician Concetta Fierravanti-Wells saying bushfires were caused by arsonists"
+    question_text: "Australijos politikės Concetta'os Fierravanti-Wells teiginys, kad miškų gaisrus sukėlė padegėjai"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### All of these tweets provide false information.
+### Visose šiose žinutėse yra melagingos informacijos.
 
-However, only one of them, Bolsonaro's tweet, was taken down by Twitter, while the other tweets continue to be visible on the platform.
+ Tačiau „Twitter“ pašalino tik vieną jų - Bolsonaro žinutę, o kitos ir toliau matosi.

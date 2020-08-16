@@ -44,10 +44,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The front page on the left is fake; the front page on the right is real.
+### Pirmasis puslapis kairėje yra melagingas; pirmasis puslapis dešinėje yra tikras.
 
-Although both covers at first glance appear to be real, look closely at the two URLs.
+Nors abu viršeliai iš pirmo žvilgsnio atrodo tikri, atidžiai pažiūrėkite į du URL adresus. URL „.se“ dalis kairiajame vaizde yra neįprasta, ir taip sužinome, kad tai nėra tikroji „New York Times“ svetainė. 
 
-The “.se” part of the URL in the left-hand image is unusual, and tells us that this is not the actual New York Times website. Misinformation is often made to look genuine but can be spotted if you can recognise that the logo or the URL of the news outlet is suspicious. These anomalies are easier to spot if the news outlets are well-known, or if you already know the website’s correct URL.
+Klaidinanti informacija pateikiama taip, kad atrodytų kaip tikra, bet ją galima pastebėti, jei atpažinsite įtartiną naujienų svetainės logotipą ar URL. 
 
-In addition, if you know about the Iraq conflict, you might have noticed that the headline was false.
+Šias anomalijas lengviau pastebėti, jei naujienų svetainės yra populiarios, arba jei jau žinote teisingą svetainės URL adresą. Be to, jei žinote apie Irako konfliktą, gal pastebėjote, kad antraštė buvo melaginga.

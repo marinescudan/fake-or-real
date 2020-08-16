@@ -38,5 +38,6 @@ items:
 ### Šis vaizdo įrašas buvo pakeistas, tačiau juo nesiekta klaidinančiai informuoti. 
 
 
-This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
-“Culture jamming” or guerrilla communication is distinct from misinformation in that it seeks to reveal the parody or hoax as part of the strategy to expose the message.
+Šį vaizdo įrašą paskelbė „Extinction Rebellion Belgium“, kaip savo #TellTheTruthBelgium akcijos dalį. Šiame vaizdo įraše, atkuriant premjerės Sophie Wilmès balsą ir kalbėsenos panašumą, panaudotas dirbtinis intelektas ir mašinų mokymasis. Per 24 valandas po to, kai buvo pasidalytas šis vaizdo įrašas su sintetinėmis vaizdo klastotėmis, jį peržiūrėjo daugiau nei 100 000 kartų. 
+
+Po to „Extinction Rebellion Belgium“ paviešino savo veiksmus, aiškiai nurodydama, kad vaizdo įrašas nėra tikras, ir aiškiai nurodė mokslinius šaltinius, naudojamus kalbai pagrįsti. „Kultūros slopinimas“ (angl. “Culture jamming” ) arba partizaninė komunikacija skiriasi nuo klaidinančios informacijos tuo, kad ja siekiama atskleisti parodiją ar apgaulę kaip strategijos, skirtos žiniai paskleisti, dalį.
