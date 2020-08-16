@@ -37,6 +37,8 @@ items:
 ---
 ### This video has been altered, but its objective was not to misinform. 
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
-This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
+
+This video was released by Extinction Rebellion Belgium, as part of their #TellTheTruthBelgium action. Artificial intelligence and machine learning were used in this video to replicate Premier Sophie Wilmès voice and speech likeness. Within 24 hours of the deep fake video being shared, there were over 100K views. 
+
+Extinction Rebellion Belgium has since publicised their actions, making clear that the video is a not real, and clearly referencing the scientific sources used to justify the speech. 
 “Culture jamming” or guerrilla communication is distinct from misinformation in that it seeks to reveal the parody or hoax as part of the strategy to expose the message.
