@@ -35,7 +35,6 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### The image has been altered.
+### Vaizdas buvo pakeistas.
 
-This image is the sub-product of the conspiracy theory that Bill Gates, through his foundation, seeks to control global human populations through vaccines. In 2020, the foundation began efforts in finding a vaccine to end the coronavirus pandemic. 
-As a result, images like these have begun to resurface. 
+Šis vaizdas yra sąmokslo teorijos, kad Bill'as Gates'as per savo fondą siekia vakcinomis kontroliuoti pasaulio gyventojus, tarpinis produktas. 2020 m. šis fondas ėmėsi veiksmų kurti vakcinai, kad sustabdytų koronaviruso pandemiją. Dėl to vėl pradėjo išplaukti tokie vaizdai.

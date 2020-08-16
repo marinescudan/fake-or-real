@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona1.jpg"
     question_title: ""
-    question_text: "A meme that suggests China released the coronavirus"
+    question_text: "Memas, teigiantis, kad Kinija paskleidė koronavirusą"
     explanation_title: ""
     stats_title: ""
     click_count: 0
@@ -39,14 +39,14 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/corona2.jpg"
     question_title: ""
-    question_text: "A news article that suggests blood plasma could help cure coronavirus"
+    question_text: "Naujienų straipsnis, teigiantis, kad kraujo plazma gali padėti išgydyti koronavirusą"
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
 
-### The news story on blood plasma is genuine.
+### Naujiena apie kraujo plazmą yra tikra. 
 
-Memes are effective carriers of misinformation, because they are seen as lighthearted and their humour is often given more importance than their meaning. Plus, they are highly shareable, which means they circulate faster.
+Memai yra veiksmingi klaidinančios informacijos nešėjai, nes jie vertinami kaip lengvas turinys, ir dažnai būna svarbesnis jų humoras, o ne prasmė. Be to, žmonės jais intensyviai dalijasi, o tai reiškia, kad jie cirkuliuoja greičiau. 
 
-The meme on the left implies that China was responsible for releasing the coronavirus, a theory that has not been backed up with evidence.
+“Memas kairėje užsimena, kad Kinija buvo atsakinga už koronaviruso išleidimą - tai įrodymais nepagrįsta teorija."
