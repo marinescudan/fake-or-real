@@ -14,8 +14,8 @@ keys:
     finish_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
     finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
-<p style="text-align: center;">
-## Ha sido breve, pero **especial**
+<h2 style="text-align: center;"> Ha sido breve, pero <b>especial</b></h2>
 
-Para más información, echa un vistazo al capítulo de Información Falsa en el Kit de Data Detox 
-[https://datadetoxkit.org/es/misinformation/steerclear](https://datadetoxkit.org/es/misinformation/steerclear)</p>
+<p style="text-align: center;"> Para más información, echa un vistazo al capítulo de Información Falsa en el Kit de Data Detox <a href="https://datadetoxkit.org/es/misinformation/steerclear" target="_blank"> https://datadetoxkit.org/es/misinformation/steerclear</a></p>
+
+

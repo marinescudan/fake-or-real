@@ -48,6 +48,6 @@ items:
 
 Aunque ambas, a primera vista, parecen auténticas, fíjate más de cerca en los URLS. El “.se” del enlace de la imagen de la izquierda es poco común y nos revela que no pertenece al sitio del New York Times. 
 
-La información falsa suele parecer verdadera, pero podemos darnos cuenta a través de elementos como el logotipo o la URL de la fuente, sobre todo si se trata de portales de noticias conocidos o te sabes el enlace del sitio. 
+La información falsa suele parecer verdadera, pero podemos darnos cuenta a través de elementos como el logotipo o la URL de la fuente, sobre todo si se trata de portales de noticias conocidos o te sabes el enlace del sitio.
 
 Además, en este caso, si ya te habías informado sobre el conflicto en Iraq, quizás ya te diste cuenta que el titular era falso.
