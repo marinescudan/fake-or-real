@@ -6,21 +6,21 @@ published: true
 project: "for"
 slug: "question"
 title: "Nancy Pelosi - 10"
-question_title: "Could this video be considered misinformation?"
+question_title: "Could this video be considered Ar šį vaizdo įrašą galima būtų vertinti kaip dezinformaciją??"
 question_subtitle: "Nuspręskite, ar šis elementas patikimas, ar ne"
 question_submit_message_heading: "Jūs pasirinkote"
 question_submit_message_correct: "Teisingas"
 question_submit_message_wrong: "Klaidingas"
-question_single_result_message_real: "It is misinformation"
+question_single_result_message_real: "It is Ar šį vaizdo įrašą galima būtų vertinti kaip dezinformaciją?"
 question_single_result_message_fake: "Tai yra dezinformacija"
 question_cta_go_explanation: "Patikrinkite"
 question_cta_help: "Pasirinkite vieną iš apačioje pateiktų variantų"
 question_cta_fake: "Taip"
 question_cta_real: "Ne"
-explanation_title: "Could this video be considered misinformation?"
+explanation_title: "Could this video be considered Ar šį vaizdo įrašą galima būtų vertinti kaip dezinformaciją??"
 explanation_subtitle: "Nuspręskite, ar šis elementas patikimas, ar ne"
 explanation_cta_go_stats: "See what other people thought"
-stats_title: "Could this video be considered misinformation?"
+stats_title: "Could this video be considered Ar šį vaizdo įrašą galima būtų vertinti kaip dezinformaciją??"
 stats_subtitle: ""
 stats_cta_go_again: "Kitas klausimas"
 stats_cta_go_finish: "Pradėti žaidimą iš naujo"
@@ -35,6 +35,6 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### This video can be considered misinformation.
+### This video can be considered Ar šį vaizdo įrašą galima būtų vertinti kaip dezinformaciją?.
 
 The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
