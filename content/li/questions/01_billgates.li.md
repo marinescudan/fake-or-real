@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/billgates.png"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/billgates.png"
     question_title: ""
-    question_text: ""
+    question_text: "Šiame paveikslėlyje pavaizduotas Billo ir Melindos Gateso fondo pastatas, kuriame sakoma: Visuotinio žmonių populiacijos mažinimo centras"
     explanation_title: ""
     stats_title: ""
     click_count: 0
