@@ -16,4 +16,6 @@ keys:
 ---
 <h2 style="text-align: center;"> Trumpai, bet <b>ypatingai</b></h2>
 
-<p style="text-align: center;"> Norėdami daugiau informacijos, paspauskite šią nuorodą Duomenų detoksikacijos rinkinio skyriuje apie klaidinančią informaciją <a href="https://datadetoxkit.org/li/misinformation/steerclear" target="_blank"> https://datadetoxkit.org/li/misinformation/steerclear</a></p
+<p style="text-align: center;"> FNorėdami daugiau informacijos, paspauskite šią nuorodą Duomenų detoksikacijos rinkinio skyriuje apie klaidinančią informaciją <a href="https://datadetoxkit.org/lt/misinformation/steerclear" target="_blank"> https://datadetoxkit.org/lt/misinformation/steerclear</a></p>
+
+

@@ -14,9 +14,8 @@ keys:
     finish_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
     finish_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
-<p style="text-align: center;">
-## Det var kort men **speciellt**. 
+<h2 style="text-align: center;"> Det var kort men <b>speciellt</b></h2>
 
-För mer information, kolla denna länk i avsnitet om desinformation i Data Detox kitet
+<p style="text-align: center;"> För mer information, kolla denna länk i avsnitet om desinformation i Data Detox kitet <a href="https://datadetoxkit.org/sv/misinformation/steerclear" target="_blank"> https://datadetoxkit.org/sv/misinformation/steerclear</a></p>
 
-[https://datadetoxkit.org/sw/misinformation/steerclear](https://datadetoxkit.org/sw/wellbeing/misinformation)</p>
+
