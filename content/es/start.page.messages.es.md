@@ -11,7 +11,7 @@ keys:
   start_welcome_title: "Te damos la bienvenida a"
   start_app_name: "¿VERDADERO O FALSO?"
   start_app_version: "Edición Información Falsa"
-  start_cta_go_question_: "¿Listo para jugar?"
+  start_cta_go_question_: "¿Todo listo para jugar?"
   start_image_left_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-8694.jpg"
   start_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
   start_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"

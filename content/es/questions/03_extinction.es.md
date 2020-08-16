@@ -13,7 +13,7 @@ question_submit_message_correct: "Correcto"
 question_submit_message_wrong: "Incorrecta"
 question_single_result_message_real: "It is not misinformation"
 question_single_result_message_fake: "Esta información es falsa"
-question_cta_go_explanation: "Compruebe"
+question_cta_go_explanation: "Comprobar"
 question_cta_help: "Escoge entre las siguientes opciones"
 question_cta_fake: "Sí"
 question_cta_real: "No"
@@ -35,7 +35,7 @@ items:
     stats_title: ""
     click_count: 0
 ---
-### Este video ha sido alterado, pero su objetivo no era informar mal. 
+### Este video ha sido alterado, pero su objetivo no era informar incorrectamente. 
 
 
 Este vídeo fue publicado por Extinction Rebellion Belgium, como parte de su acción #TellTheTruthBelgium. Se utilizaron técnicas de inteligencia artificial y aprendizaje automático en el vídeo para replicar la voz de la primera ministra Sophie Wilmès. A las 24 horas de compartir este vídeo ultra-falso, ya había recibido más de 100 mil vistos. Desde entonces, Extinction Rebellion Belgium ha difundido sus acciones, dejando en claro que el vídeo no es real y haciendo referencias explícitas a las fuentes científicas utilizadas para justificar el discurso. 
