@@ -8,7 +8,7 @@ published: true
 project: "for"
 page: "setup"
 keys:
-    setup_choose_language: "Establecer el idioma del concurso"
-    setup_start_quiz: "Comienza el test"
+    setup_choose_language: "Establecer el idioma del cuestionario"
+    setup_start_quiz: "Comienza el cuestionario"
 ---
 Setup text is not displayed in the app yet.
