@@ -30,12 +30,11 @@ items:
     explanation_media_url: "https://cdn.ttc.io/s/fake-or-real-app/train.png"
     stats_media_url: "https://cdn.ttc.io/s/fake-or-real-app/train.png"
     question_title: ""
-    question_text: "A tweet stating that a mall train was stolen during the Black Lives Matter protests in Minneapolis."
+    question_text: "'Twitter' žinutė, kurioje teigiama, kad per 'Black Lives Matter' protestus Mineapolyje buvo pavogtas prekybos centro traukinukas."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### The image in the tweet is real, but way in which it is presented is misleading.
+### „Twitter“ žinutės vaizdas yra tikras, bet jis klaidinančiai pristatytas.
 
-The real image shows a peaceful protest in Ferguson, Missouri, following the murder of Michael Brown on August 9, 2014. Posts like these skew protest narratives, often inciting rage. 
-These types of posts  are often shared on social media platforms, where truth and misinformation exists in parallel. 
+Tikrame vaizde matosi taikus protestas Fergiusone, Misūrio valstijoje, po Michael’io Brown’o nužudymo 2014 m. rugpjūčio 9 d. Tokios kaip ši žinutės iškreipia pasakojimus apie protestus, dažnai pakurstydamos įniršį. Tokio pobūdžio žinutėmis dažnai dalijamasi socialinių tinklų platformose, kur yra ir tiesos, ir klaidinančios informacijos.

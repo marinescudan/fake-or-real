@@ -30,15 +30,15 @@ items:
     explanation_media_url: "https://youtu.be/jIjKIXQHHwg"
     stats_media_url: "https://youtu.be/jIjKIXQHHwg"
     question_title: ""
-    question_text: "This video went viral among in the Netherlands on platforms such as TikTok and WhatsApp in March 2020 at the start of the COVID-19 pandemic in Europe, as evidence that grocery stores were being mobbed by shoppers stocking up on supplies."
+    question_text: "2020 m. kovo mėn., prasidėjus COVID-19 pandemijai Europoje, šis vaizdo įrašas tapo virusiniu Nyderlanduose, pavyzdžiui, 'TikTok' ir 'WhatsApp' platformose, kaip įrodymas, kad maisto prekių parduotuves puola grupės atsargas kaupiančių pirkėjų."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### The video would be considered misinformation.
+### Šis vaizdo įrašas būtų vertinamas kaip klaidinanti informacija.
 
-The WhatsApp video of people crowding a shop was shared among residents of Haarlem in the Netherlands. The video was then shared on TikTok and viewed more than four million times. 
+„WhatsApp“ vaizdo įrašu apie parduotuvėje besigrūdančius žmones tarpusavyje dalijosi Nyderlandų Harlemo miesto gyventojai. Tada juo pasidalijo „TikTok,“ kur jį peržiūrėjo daugiau nei keturis milijonus kartų. Jo rezultatas - paskleista panika užsimenant, kad maisto prekių parduotuvėse jau trūksta būtiniausių prekių. 
 
-Its effect was to spread panic by suggesting that grocery stores were running low on essential supplies. 
+Tačiau atidžiai pažiūrėję pamatysite, kad ši medžiaga visai ne iš Nyderlandų. Vaizdo kairėje esantis ženklas yra vokiečių, o ne olandų kalba. 
 
-Look closely, however, and you can see that this footage is not from the Netherlands at all. The sign to the left in the image is in German, not Dutch. Plus, after noticing the letters in the right of the image, investigators at Bellingcat, who debunked the video, searched for "FBI store" in German and found that FBI is a hairdressing chain in Germany. Not only that, but their analysis allowed them to determine that the video was actually taken in 2011, before a special sale on PCs and mobile phones at the store.
+Be to, pastebėję raides paveikslėlio dešinėje, „Bellingcat“ tyrėjai, kurie demaskavo vaizdo įrašą, vokiečių kalba ieškojo „FTB parduotuvės“ (angl. „FBI store") ir nustatė, kad Vokietijoje „FTB" yra kirpyklų tinklo pavadinimas. Be to, išanalizavę įrašą jie nustatė, kad jis iš tikrųjų nufilmuotas 2011 m., prieš ypatingą kompiuterių ir mobiliųjų telefonų išpardavimą šioje parduotuvėje.

@@ -36,10 +36,10 @@ items:
     click_count: 0
 ---
 
-### The images in the tweet are real, but the information presented is misleading.
+### „Twitter“ žinutės vaizdas yra tikras, bet jis klaidinančiai pristatytas.
 
-The images show canals in Burano, a quiet island in the Venetian Lagoon where swans were swimming. But swans have always swam there.
+Šiuose vaizduose matosi ramioje Venecijos įlankoje esančios Burano salos kanalai, kur plaukioja gulbės. Tačiau gulbės visada ten plaukiojo. 
 
-Many people believed that the images provided evidence of clearer waters in central Venice as a result of the shutdown in Italy during the COVID-19 pandemic, perhaps because it is a hopeful story and offered a positive angle during a difficult time. As the tweet became more popular and was shared by trusted organizations, it began to seem more authentic.
+Daug žmonių patikėjo, kad vaizdai įrodė, jog Venecijos centrinėje dalyje praskaidrėjo vanduo dėl Italijoje įvesto karantino COVID-19 pandemijos metu - gal todėl, kad tai viltinga istorija, atskleidusi teigiamą sunkmečio aspektą. Kadangi „Twitter“ žinutė išpopuliarėjo, ir ja pasidalijo patikimos organizacijos, ji ėmė atrodyti autentiškesė. 
 
-Even if the waters in the canals of Venice were indeed clearer due to reduced boat traffic, the information presented in this tweet is false.
+Net jei Venecijos kanalų vanduo iš tiesų nuskaidrėjo dėl sumažėjusio valčių eismo, šioje „Twitter“ žinutėje pateikta informacija yra melaginga.

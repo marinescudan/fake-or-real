@@ -35,10 +35,10 @@ items:
     stats_title: ""
     click_count: 0
 ---
-## This can be considered misninformation
+## Šią istoriją galima vertinti kaip klaidinančią informaciją!
 
-This campaign video was made by the opposing UK Conservative Party to show Labour politician Keir Starmer seemingly unable to answer a simple question about Brexit on a morning news programme.
+Šį kampanijos vaizdo įrašą sukūrė opozicinė JK Konservatorių partija, norėdama sudaryti įspūdį, kad Leiboristų politikas Keir'as Starmer'is negali atsakyti į paprastą klausimą apie „Brexit“ ryto žinių laidoje.
 
-In the actual interview Keir Stramer answered promptly; the video was edited misleadingly. Increasingly campaigns from all types of political parties are using “cheap fakes”, simple techniques like this one to misrepresent their opponents. 
+Tikrajame interviu Keir'as Stramer'is atsakė greitai, o vaizdo įrašas buvo suredaguotas taip, kad klaidintų. Visų rūšių politinės partijos vis daugiau kampanijų naudoja „pigias klastotes“ - tokius kaip šis paprastus metodus, kad klaidingai pavaizduotų savo oponentus. 
 
-On social media these campaign videos are often not checked,  and unlike with a newspaper or TV advert, there is rarely any penalty when they are found out.
+Socialiniuose tinkluose tokie kampanijų vaizdo įrašai dažnai netikrinami, o juos išaiškinus, kitaip nei su laikraščių ar televizijos reklamomis, už juos retai skiriamos sankcijos.

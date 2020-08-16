@@ -30,11 +30,13 @@ items:
     explanation_media_url: "https://youtu.be/uRM7NUMe2vM"
     stats_media_url: "https://youtu.be/uRM7NUMe2vM"
     question_title: ""
-    question_text: "A video of Nancy Pelosi, a US Democratic politician, was widely shared in 2019, in which Pelosi appeared to be stammering and stuttering during a speech."
+    question_text: "2019 m. buvo plačiai pasidalyta JAV demokratų politikės Nancy Pelosi vaizdo įrašu, kuriame atrodė, kad sakydama kalbą Pelosi mikčiojo ir užsikirsdavo."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This video can be considered Ar šį vaizdo įrašą galima būtų vertinti kaip dezinformaciją?.
+### Šis vaizdo įrašas būtų vertinamas kaip klaidinanti informacija
 
-The original video of Peolosi’s speech was deceptively edited and spliced together to make it seem like she was stuttering throughout a press conference. Videos like this, which are doctored using basic editing techniques – such as editing them or slowing them down to make someone seem as if they are slurring their words – are called "cheapfakes".
+Originalus Pelosi kalbos vaizdo įrašas buvo taip suredaguotas ir sumontuotas, kad susidarytų apgaulingas įspūdis, jog ji mikčioja spaudos konferencijos metu. 
+
+Tokie vaizdo įrašai, pakeisti naudojant paprasčiausius redagavimo metodus, pavyzdžiui, įrašus redaguojant ar sulėtinant, kad atrodytų, jog žmogus neaiškiai taria žodžius, vadinami „pigiomis klastotėmis" (angl. cheapfakes).

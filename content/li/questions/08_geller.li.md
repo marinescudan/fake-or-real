@@ -30,13 +30,13 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     stats_media_url: "https://www.youtube.com/watch?v=7GZEtb2C7p0"
     question_title: ""
-    question_text: "This video, showing men destroying a car with baseball bats, was posted on YouTube with a title that reads 'Angry immigrants attack a police car'."
+    question_text: "Šis vaizdo įrašas, kuriame matosi vyrai, daužantys automobilį su beisbolo lazdomis, pavadinimu 'Pikti imigrantai puola policijos automobilį,' buvo paskelbtas 'YouTube'."
     explanation_title: ""
     stats_title: ""
     click_count: 0
 ---
-### This story can be considered misinformation!
+### Šią istoriją galima vertinti kaip klaidinančią informaciją!
 
-The video was shared as evidence of so-called ‘migrant crime’ in Italy. But the video actually shows the filming of the 2015 Italian film ‘Mediterranea'. If you look closely, you can see members of the film crew holding up a microphone and a reflector.
+Vaizdo įrašu buvo pasidalinta kaip vadinamojo „migrantų nusikalstamumo“ Italijoje įrodymu. Tačiau vaizdo įraše iš tikrųjų matosi 2015 m. Italijos filmo „Mediterranea“ filmavimas. Atidžiai pažiūrėję galite pamatyti filmavimo komandos narius, laikančius mikrofoną ir reflektorių. 
 
-The video was posted by anti-immigrant bloggers around the world, and has since been debunked, but it illustrates how easy it is to take video footage and present it out of context with a different headline to lead viewers to believe something other than what is actually shown in the original video.
+Vaizdo įrašą paskelbė viso pasaulio prieš imigrantus nusiteikę tinklaraštininkai, ir nors vėliau jį demaskavo, jis iliustruoja, kaip lengva filmuotą medžiagą pateikti išimtą iš konteksto su kita antrašte, kad žiūrovai patikėtų ne tik tuo, kas faktiškai matosi originaliame vaizdo įraše.
