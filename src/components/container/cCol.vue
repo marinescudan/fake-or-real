@@ -19,6 +19,8 @@ export default {
   padding-left: calc( #{$gutter} / 2 )
   padding-right: calc( #{$gutter} / 2 )
   @include flex-col
+  @media all and (-ms-high-contrast:none)
+    min-height: 1px
 
 .c-col > *
   @include flex-col-item
