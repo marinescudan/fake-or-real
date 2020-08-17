@@ -1,4 +1,3 @@
-
 ---
 uuid: 172430f4-9fd5-4252-aa3d-e0b041c44e44
 locale: en
@@ -40,3 +39,4 @@ items:
 
 This image is the sub-product of the conspiracy theory that Bill Gates, through his foundation, seeks to control global human populations through vaccines. In 2020, the foundation began efforts in finding a vaccine to end the coronavirus pandemic. 
 As a result, images like these have begun to resurface. 
+
