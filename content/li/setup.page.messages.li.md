@@ -8,7 +8,7 @@ published: true
 project: "for"
 page: "setup"
 keys:
-    setup_choose_language: "Nustatyta Kalba"
-    setup_start_quiz: "Pradėti viktoriną"
+    setup_choose_language: "Pasirinkta kalba"
+    setup_start_quiz: "Pradėti testą"
 ---
 Setup text is not displayed in the app yet.

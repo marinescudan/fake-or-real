@@ -9,7 +9,7 @@ project: "for"
 page: "start"
 keys:
   start_welcome_title: "Maloniai pristatome leidimą 'Melagingos ar tikros?' "
-  start_app_name: "FAKE or REAL?"
+  start_app_name: "FAKE OR REAL?"
   start_app_version: "apie klaidinančią informaciją"
   start_cta_go_question_: "Pasiruošęs žaisti?"
   start_image_left_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-8694.jpg"
