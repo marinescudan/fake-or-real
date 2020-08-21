@@ -20,10 +20,7 @@ export default {
   padding-right: calc( #{$gutter} / 2 )
   @include flex-col
   @media all and (-ms-high-contrast:none)
-    min-height: 1px
-
-.c-col > *
-  @include flex-col-item
+    display: inline-block
 
 @for $i from 1 through 12
   .c-w-#{ $i }
