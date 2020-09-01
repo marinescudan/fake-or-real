@@ -39,4 +39,4 @@ items:
 
 Denna video släpptes av Extinction Rebellion Belgium, som en del av deras #TellTheTruthBelgium-kampanj. Artificiell intelligens och maskininlärning användes i den här videon för att efterlikna premiärminister Sophie Wilmès röst och tal. Inom 24 timmar efter att denna deepfake-video delades hade den över 100 000 visningar. 
 
-Extinction Rebellion Belgium har efter det publicerat beskrivning av hur de agerat, gjort det tydligt att videon inte är riktig och hänvisat till vetenskapliga källor som stödjer talet. 'Culture jamming' eller gerillakommunikation skiljer sig från desinformation då det handlar om att medvetet göra en ideologisk poäng.
+Extinction Rebellion Belgium har efter detta publicerat en beskrivning av hur de agerat och gjort det tydligt att videon inte är riktig och hänvisat till vetenskapliga källor som stödjer talet. 'Culture jamming' eller gerillakommunikation skiljer sig från desinformation då det handlar om att medvetet göra en ideologisk poäng.
