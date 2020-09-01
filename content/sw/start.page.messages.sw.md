@@ -16,6 +16,6 @@ keys:
   start_image_center_url: "https://cdn.ttc.io/s/fake-or-real-app/misinfo_logo.jpg"
   start_image_right_url: "https://cdn.ttc.io/s/fake-or-real-app/nikoline_nik_-7168.jpg"
 ---
-"Fake news" är mer än falsk information. Även termen "fake news" är missledande eftersom det i många fall kan vara sant innehåll -  exempelvis korrekt information, filmklipp eller bild - som tagits ur sin kontext. Termen desinformation används för att beskriva falskt eller missvisande innehåll som delas av personer som inte inser att det är falskt. 
+"Fake news" är mer än falsk information. Även termen "fake news" är missvisande eftersom det i många fall kan vara sant innehåll -  exempelvis korrekt information, filmklipp eller bild - som tagits ur sin kontext. Termen desinformation används för att beskriva falskt eller missvisande innehåll som delas av personer som inte inser att det är falskt. 
 
 Desinformation kan vara alltifrån roliga memes till manipulerade videor som sprids och bli virala, speciellt när de riktar sig till grupper som troligtvis tror på innehållet. Ibland placeras desinformation på webbsidor som liknar de stora kända tidningarnas för att vilseleda oss, och ibland kommer det direkt från politiker via sociala medier. I Fake or Real - Misinformation Edition kan du testa dina färdigheter när det gäller att upptäcka desinformation i dess olika skepnader.
