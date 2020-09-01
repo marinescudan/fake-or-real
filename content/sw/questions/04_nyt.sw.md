@@ -48,6 +48,6 @@ items:
 
 Även om båda omslagen vid första anblicken verkar vara riktiga, titta noga på de två webbadresserna. ".Se" -delen av URL: en i den vänstra bilden är ovanlig och berättar att detta inte är New York Times faktiska webbplats. 
 
-Desinformation görs ofta för att se äkta ut men kan upptäckas om du kan känna igen att logotypen eller webbadressen till nyhetsuttaget är misstänkt. 
+Desinformation görs ofta så att den ska se äkta ut kan upptäckas om du kan känna igen att logotypen eller webbadressen till nyhetsuttaget är misstänkt. 
 
 Dessa avvikelser är lättare att upptäcka om nyheterna är välkända eller om du redan känner till webbplatsens korrekta URL. Dessutom, om du känner till Irak-konflikten, kanske du märkte att rubriken var falsk.
