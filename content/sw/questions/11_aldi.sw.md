@@ -41,4 +41,4 @@ WhatsApp-videon som visar hur människor samlas i butiker för att bunkra, delad
 
 Den bidrog till att sprida panik över att vissa varor höll på att ta slut. Titta närmre och du kan se att videon inte alls är tagen i Nederländerna. Skylten till vänster är på tyska. 
 
-Personer från Bellingcat granskade och avsöljade videon genom att bland annat söka på "FBI store" på tyska, vilket visade sig vara en frisörkedja och inte en mataffär. Inte bara det, granskningen vsade också att videon var från 2011, filmad i samband med en rea på datorer och mobiltelefoner.
+Personer från Bellingcat granskade och avslöjade videon genom att bland annat söka på "FBI store" på tyska, vilket visade sig vara en frisörkedja och inte en mataffär. Inte bara det, granskningen vsade också att videon var från 2011, filmad i samband med en rea på datorer och mobiltelefoner.
