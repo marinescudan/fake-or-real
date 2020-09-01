@@ -37,4 +37,4 @@ items:
 ---
 ### Denna video kan betraktas som desinformation
 
-Den ursprungliga videon av Pelosis tal var kraftigt redigerad för att få det att verka som om hon stammade under presskonferensen. Videor som denna, där redigeringsteknik använts för att exempelvis ändra hastgheten och på så sätt få det att framstå som att någon sluddrar eller tappar bort sig, kallas för "cheapfakes".
+Den ursprungliga videon av Pelosis tal var kraftigt redigerad för att få det att verka som om hon stammade under presskonferensen. Videor som denna, där redigeringsteknik använts för att exempelvis ändra hastigheten och på så sätt få det att framstå som att någon sluddrar eller tappar bort sig, kallas för "cheapfakes".
