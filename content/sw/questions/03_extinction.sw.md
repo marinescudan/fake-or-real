@@ -30,7 +30,7 @@ items:
     explanation_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     stats_media_url: "https://www.youtube.com/watch?v=k_e2Akcu_bI"
     question_title: ""
-    question_text: "En video med Belgiens premiärminister Sophie Wilmès där hon uttalar att 'människors exploatering och förstörelse av den naturliga miljön' är direkt kopplad till de senaste globala epedemierna så som SARS, Ebola, Svininfluensan och Covid-19."
+    question_text: "En video med Belgiens premiärminister Sophie Wilmès där hon uttalar sig om att människors exploatering och förstörelse av den naturliga miljön' är direkt kopplad till de senaste globala epedemierna så som SARS, Ebola, Svininfluensan och Covid-19."
     explanation_title: ""
     stats_title: ""
     click_count: 0
