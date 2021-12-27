@@ -2,7 +2,7 @@
     <figure class="c-figure" @keydown.esc="expand(false)">
       <div class="media-container">
         <img class="media" :src="url_builder(src)" :alt="alt" :title="title" :style="figureStyle"/>
-        <button @click.stop="expand(true)" class="expand-btn" type="button" v-if="expandable">&nbsp;</button>
+        <button @click.stop="expand(true)" class="expand-btn" type="button" v-if="expandable && !expanded">&nbsp;</button>
       </div>
       <transition name="fade">
         <div class="media-modal" v-if="expanded" transition="expand" @click.stop="">
@@ -67,8 +67,13 @@ export default {
     right: calc(50% - 2.5rem)
     width: 5rem
     height: 5rem
+    background-size: 2.5rem 2.5rem
     background: rgba(255,255,255,0.5) url('~@/assets/img/icon-expand.png') center center no-repeat
-    background-size: 2.5rem 2.5rem  
+    @media all and (-ms-high-contrast:none)
+      background: #ffffff
+      background-image: url('~@/assets/img/icon-expand.png')
+      background-position:  center center
+      background-repeat: no-repeat
 
 .selected
   .media-container::before
